@@ -22,12 +22,19 @@ So that the new art IDs can be used. For each material design icon, an art ID is
 ```c++
    wxART_ICONNAME
 ```
-where `iconname` is the name of the Material Design icon. The same names are available under five different clients, each of them corresponds to a different dataset: 
+where `iconname` is the name of the icon. The same names are available under five different clients, each of them corresponds to a different dataset: 
+
+*** Material Design 
 - `wxART_CLIENT_MATERIAL_FILLED` for filled icons;
 - `wxART_CLIENT_MATERIAL_OUTLINE` for outlined icons;
 - `wxART_CLIENT_MATERIAL_ROUND` for round icons;
 - `wxART_CLIENT_MATERIAL_SHARP` for sharp icons;
 - `wxART_CLIENT_MATERIAL_TWOTONE` for two-tone icons.
+
+*** FontAwesome 6
+- `wxART_CLIENT_AWESOME_BRANDS` for brand logos;
+- `wxART_CLIENT_AWESOME_SOLID` for solid-style icons;
+- `wxART_CLIENT_AWESOME_REGULAR` for regular icons.
 
 # Colors
 
