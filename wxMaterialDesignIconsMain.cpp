@@ -61,11 +61,15 @@
 
 static void FillClients(wxChoice *choice)
 {
+    ART_CLIENT(wxART_CLIENT_AWESOME_BRANDS)
+    ART_CLIENT(wxART_CLIENT_AWESOME_SOLID)
+    ART_CLIENT(wxART_CLIENT_AWESOME_REGULAR)
     ART_CLIENT(wxART_CLIENT_MATERIAL_OUTLINED)
     ART_CLIENT(wxART_CLIENT_MATERIAL_ROUND)
     ART_CLIENT(wxART_CLIENT_MATERIAL_SHARP)
-    ART_CLIENT(wxART_CLIENT_MATERIAL_TWOTONE)
+    ART_CLIENT(wxART_CLIENT_MATERIAL_TWO_TONE)
     ART_CLIENT(wxART_CLIENT_MATERIAL_FILLED) // Last is same as OnInit
+
 }
 
 static void FillBitmaps(wxImageList *images, wxListCtrl *list,
@@ -77,7 +81,10 @@ static void FillBitmaps(wxImageList *images, wxListCtrl *list,
     if (client == wxART_CLIENT_MATERIAL_OUTLINED) ids = OutlinedMaterialArtIDs();
     if (client == wxART_CLIENT_MATERIAL_SHARP) ids = SharpMaterialArtIDs();
     if (client == wxART_CLIENT_MATERIAL_ROUND) ids = RoundMaterialArtIDs();
-    if (client == wxART_CLIENT_MATERIAL_TWOTONE) ids = TwoToneMaterialArtIDs();
+    if (client == wxART_CLIENT_MATERIAL_TWO_TONE) ids = TwoToneMaterialArtIDs();
+    if (client == wxART_CLIENT_AWESOME_BRANDS) ids = BrandsAwesomeArtIDs();
+    if (client == wxART_CLIENT_AWESOME_REGULAR) ids = RegularAwesomeArtIDs();
+    if (client == wxART_CLIENT_AWESOME_SOLID) ids = SolidAwesomeArtIDs();
 
     for (size_t avail=0; avail<ids.Count(); avail++) {
         wxBitmap bmp = wxArtProvider::GetBitmap(ids.Item(avail), client, size);

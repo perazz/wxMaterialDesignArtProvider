@@ -74,14 +74,20 @@
 		</Linker>
 		<Unit filename="../MaterialDesign/wxMaterialDesignArtProvider.cpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignArtProvider.h" />
+		<Unit filename="../MaterialDesign/wxMaterialDesignBrandsArt.cpp" />
+		<Unit filename="../MaterialDesign/wxMaterialDesignBrandsArt.hpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignFilledArt.cpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignFilledArt.hpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignOutlinedArt.cpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignOutlinedArt.hpp" />
+		<Unit filename="../MaterialDesign/wxMaterialDesignRegularArt.cpp" />
+		<Unit filename="../MaterialDesign/wxMaterialDesignRegularArt.hpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignRoundArt.cpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignRoundArt.hpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignSharpArt.cpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignSharpArt.hpp" />
+		<Unit filename="../MaterialDesign/wxMaterialDesignSolidArt.cpp" />
+		<Unit filename="../MaterialDesign/wxMaterialDesignSolidArt.hpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignTwoToneArt.cpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignTwoToneArt.hpp" />
 		<Unit filename="../wxMaterialDesignIconsApp.cpp" />

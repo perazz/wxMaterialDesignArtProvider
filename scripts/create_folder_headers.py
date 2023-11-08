@@ -9,13 +9,25 @@ def camel_case(s):
     res = string.capwords(s2).replace(" ", "")
     return res
 
-def create_svg_folder_header(base_path,folder,save_path):
+def macro_case(s):
+    s1 = s.replace(" ","_")
+    s2 = s1.replace("-","_")
+    res = s2.upper()
+    return res
+
+
+def create_svg_folder_header(base_path,folder,save_path,client_name):
 
     header_name = "wxMaterialDesign" + camel_case(folder) + "Art"
+
+    cliup = macro_case(client_name)
+    clicm = camel_case(client_name)
 
     fid = open(os.path.join(save_path,header_name+".hpp"),"w")
 
     safeguard = header_name.upper() + "_H"
+
+    print(safeguard)
 
     # Headers
     fid.write("#ifndef "+safeguard+"\n")
@@ -26,7 +38,7 @@ def create_svg_folder_header(base_path,folder,save_path):
     fid.write("#include <wx/artprov.h> \n\n")
     fid.write("#include <wx/colour.h> \n\n")
 
-    art_client = "wxART_CLIENT_MATERIAL_" + camel_case(folder).upper()
+    art_client = "wxART_CLIENT_" + cliup + "_" + macro_case(folder)
 
     # Define art client
     fid.write("// Define art client \n")
@@ -45,17 +57,17 @@ def create_svg_folder_header(base_path,folder,save_path):
         as_text.close()
 
         # Add literal to header
-        icon_name = Path(svg).stem
+        icon_name = macro_case(Path(svg).stem)
 
         fid.write("\n\n")
 
         # Define art ID if necessary
-        art_ID = "wxART_" + icon_name.upper()
+        art_ID = "wxART_" + icon_name
         fid.write("#ifndef " + art_ID + "\n")
         fid.write("#define " + art_ID + " wxART_MAKE_ART_ID(" + art_ID + ") \n")
         fid.write("#endif \n")
 
-        char_name = "SVG_MATERIAL" + camel_case(folder).upper() + "_" + icon_name.upper()
+        char_name = "SVG_" + cliup + "_" + macro_case(folder) + "_" + icon_name
 
         # Actual data
         fid.write("static constexpr const char *" + char_name + "= \n")
@@ -64,11 +76,11 @@ def create_svg_folder_header(base_path,folder,save_path):
 
     # Define prototype functions
     fid.write("\n\n// Function definitions \n")
-    fid.write("wxString " + camel_case(folder) + "MaterialArtSVGByID(const wxArtID& id);\n")
-    fid.write("wxString " + camel_case(folder) + "MaterialArtColorSVGByID(const wxArtID& id, const wxColour& color=wxNullColour);\n")
-    fid.write("wxArrayString " + camel_case(folder) + "MaterialArtIDs();\n")
-    fid.write("wxBitmap Create" + camel_case(folder) + "MaterialArtBitmapByID(const wxArtID& id, const wxSize& size, const wxColour& color=wxNullColour);\n")
-    fid.write("wxBitmapBundle Create" + camel_case(folder) + "MaterialArtBitmapBundleByID(const wxArtID& id, const wxSize& size, const wxColour& color=wxNullColour);\n")
+    fid.write("wxString " + camel_case(folder) + clicm + "ArtSVGByID(const wxArtID& id);\n")
+    fid.write("wxString " + camel_case(folder) + clicm + "ArtColorSVGByID(const wxArtID& id, const wxColour& color=wxNullColour);\n")
+    fid.write("wxArrayString " + camel_case(folder) + clicm + "ArtIDs();\n")
+    fid.write("wxBitmap Create" + camel_case(folder) + clicm + "ArtBitmapByID(const wxArtID& id, const wxSize& size, const wxColour& color=wxNullColour);\n")
+    fid.write("wxBitmapBundle Create" + camel_case(folder) + clicm + "ArtBitmapBundleByID(const wxArtID& id, const wxSize& size, const wxColour& color=wxNullColour);\n")
 
 
     fid.write("\n\n\n#endif // " + safeguard+"\n")
@@ -81,11 +93,11 @@ def create_svg_folder_header(base_path,folder,save_path):
 
     # 1) Return wxString containing the SVG
     fcpp.write("// Return SVG for the current ID as a string \n")
-    fcpp.write("wxString " + camel_case(folder) + "MaterialArtSVGByID(const wxArtID& id)\n{\n")
+    fcpp.write("wxString " + camel_case(folder) + clicm + "ArtSVGByID(const wxArtID& id)\n{\n")
     for svg in svg_files:
-        icon_name = Path(svg).stem
-        art_ID = "wxART_" + icon_name.upper()
-        char_name = "SVG_MATERIAL" + camel_case(folder).upper() + "_" + icon_name.upper()
+        icon_name = macro_case(Path(svg).stem)
+        art_ID = "wxART_" + icon_name
+        char_name = "SVG_" + cliup + "_" + macro_case(folder) + "_" + icon_name
 
         fcpp.write("  if (id == " + art_ID + ")  \n")
         fcpp.write("      return wxString(" + char_name + ");\n")
@@ -96,8 +108,8 @@ def create_svg_folder_header(base_path,folder,save_path):
 
     # 2) Return wxString containing the COLORED SVG
     fcpp.write("// Return SVG for the current ID as a string, with given color\n")
-    fcpp.write("wxString " + camel_case(folder) + "MaterialArtColorSVGByID(const wxArtID& id, const wxColour& color)\n{\n")
-    fcpp.write("wxString svg = " + camel_case(folder) + "MaterialArtSVGByID(id); \n")
+    fcpp.write("wxString " + camel_case(folder) + clicm + "ArtColorSVGByID(const wxArtID& id, const wxColour& color)\n{\n")
+    fcpp.write("wxString svg = " + camel_case(folder) + clicm + "ArtSVGByID(id); \n")
     fcpp.write("if (svg.IsEmpty() || (color==wxNullColour)) return svg; \n")
     fcpp.write("wxString temp; \n")
     fcpp.write("static constexpr const char NEW_PATH[7] = \"<path \";  \n")
@@ -125,13 +137,13 @@ def create_svg_folder_header(base_path,folder,save_path):
 
     # 2) Return a list of all IDs (as stirngs) contained in the current client
     fcpp.write("// Return list of all IDs present in the current client \n")
-    fcpp.write("wxArrayString " + camel_case(folder) + "MaterialArtIDs()\n{\n")
+    fcpp.write("wxArrayString " + camel_case(folder) + clicm + "ArtIDs()\n{\n")
     fcpp.write("    wxArrayString list; \n\n")
 
     for svg in svg_files:
-        icon_name = Path(svg).stem
-        art_ID = "wxART_" + icon_name.upper()
-        char_name = "SVG_MATERIAL" + camel_case(folder).upper() + "_" + icon_name.upper()
+        icon_name = macro_case(Path(svg).stem)
+        art_ID = "wxART_" + icon_name
+        char_name = "SVG_" + cliup + "_" + macro_case(folder) + "_" + icon_name
         fcpp.write("    list.Add(" + art_ID + "); \n")
 
     fcpp.write("    return list; \n")
@@ -139,9 +151,9 @@ def create_svg_folder_header(base_path,folder,save_path):
 
     # 3) Return bitmap, given the ID and size
     fcpp.write("// Return SVG for the current ID as a wxBitmap \n")
-    fcpp.write("wxBitmap Create" + camel_case(folder) + "MaterialArtBitmapByID(const wxArtID& id, const wxSize& size, const wxColour& color)\n{\n")
+    fcpp.write("wxBitmap Create" + camel_case(folder) + clicm + "ArtBitmapByID(const wxArtID& id, const wxSize& size, const wxColour& color)\n{\n")
     fcpp.write("  // Return SVG as a string \n")
-    fcpp.write("  wxString svg = " + camel_case(folder) + "MaterialArtColorSVGByID(id,color); \n")
+    fcpp.write("  wxString svg = " + camel_case(folder) + clicm + "ArtColorSVGByID(id,color); \n")
     fcpp.write("  if (svg.IsEmpty()) return wxNullBitmap; \n\n")
     fcpp.write("  // Create bundle and get bitmap from it \n")
     fcpp.write("  wxSize useSize = size==wxDefaultSize? wxSize(24,24) : size;\n")
@@ -155,10 +167,10 @@ def create_svg_folder_header(base_path,folder,save_path):
 
     # 3) Return bitmap bundle, given the ID
     fcpp.write("// Return SVG for the current ID as a wxBitmapBundle \n")
-    fcpp.write("wxBitmapBundle Create" + camel_case(folder) + "MaterialArtBitmapBundleByID(const wxArtID& id, const wxSize& size, const wxColour& color)\n{\n")
+    fcpp.write("wxBitmapBundle Create" + camel_case(folder) + clicm + "ArtBitmapBundleByID(const wxArtID& id, const wxSize& size, const wxColour& color)\n{\n")
     fcpp.write("  // Return SVG as a string \n")
     fcpp.write("  wxBitmapBundle bundle; \n")
-    fcpp.write("  wxString svg = " + camel_case(folder) + "MaterialArtColorSVGByID(id,color); \n")
+    fcpp.write("  wxString svg = " + camel_case(folder) + clicm + "ArtColorSVGByID(id,color); \n")
     fcpp.write("  if (svg.IsEmpty()) return bundle; \n\n")
     fcpp.write("  // Create bundle and get bitmap from it \n")
     fcpp.write("  wxSize useSize = size==wxDefaultSize? wxSize(24,24) : size;\n")
@@ -169,8 +181,14 @@ def create_svg_folder_header(base_path,folder,save_path):
     fcpp.close()
 
 
-create_svg_folder_header(os.path.join("..","svg"),"filled",os.path.join("..","MaterialDesign"))
-create_svg_folder_header(os.path.join("..","svg"),"outlined",os.path.join("..","MaterialDesign"))
-create_svg_folder_header(os.path.join("..","svg"),"round",os.path.join("..","MaterialDesign"))
-create_svg_folder_header(os.path.join("..","svg"),"sharp",os.path.join("..","MaterialDesign"))
-create_svg_folder_header(os.path.join("..","svg"),"two-tone",os.path.join("..","MaterialDesign"))
+
+storage = os.path.join("..","svg")
+create_svg_folder_header(os.path.join(storage,"MaterialDesign"),"filled",os.path.join("..","MaterialDesign"),"Material")
+create_svg_folder_header(os.path.join(storage,"MaterialDesign"),"outlined",os.path.join("..","MaterialDesign"),"Material")
+create_svg_folder_header(os.path.join(storage,"MaterialDesign"),"round",os.path.join("..","MaterialDesign"),"Material")
+create_svg_folder_header(os.path.join(storage,"MaterialDesign"),"sharp",os.path.join("..","MaterialDesign"),"Material")
+create_svg_folder_header(os.path.join(storage,"MaterialDesign"),"two-tone",os.path.join("..","MaterialDesign"),"Material")
+create_svg_folder_header(os.path.join(storage,"Font-Awesome-6"),"brands",os.path.join("..","MaterialDesign"),"Awesome")
+create_svg_folder_header(os.path.join(storage,"Font-Awesome-6"),"regular",os.path.join("..","MaterialDesign"),"Awesome")
+create_svg_folder_header(os.path.join(storage,"Font-Awesome-6"),"solid",os.path.join("..","MaterialDesign"),"Awesome")
+

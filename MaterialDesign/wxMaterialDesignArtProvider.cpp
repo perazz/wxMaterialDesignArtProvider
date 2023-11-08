@@ -21,8 +21,14 @@ wxBitmapBundle wxMaterialDesignArtProvider::CreateBitmapBundle(const wxArtID& id
         return CreateRoundMaterialArtBitmapBundleByID(id,size);
     if (client == wxART_CLIENT_MATERIAL_SHARP)
         return CreateSharpMaterialArtBitmapBundleByID(id,size);
-    if (client == wxART_CLIENT_MATERIAL_TWOTONE)
+    if (client == wxART_CLIENT_MATERIAL_TWO_TONE)
         return CreateTwoToneMaterialArtBitmapBundleByID(id,size);
+    if (client == wxART_CLIENT_AWESOME_BRANDS)
+        return CreateBrandsAwesomeArtBitmapBundleByID(id,size);
+    if (client == wxART_CLIENT_AWESOME_REGULAR)
+        return CreateRegularAwesomeArtBitmapBundleByID(id,size);
+    if (client == wxART_CLIENT_AWESOME_SOLID)
+        return CreateSolidAwesomeArtBitmapBundleByID(id,size);
 
     // Not implemented
     wxBitmapBundle bb;
@@ -53,8 +59,14 @@ wxBitmap wxMaterialDesignArtProvider::GetBitmap(const wxArtID& id,
         return CreateRoundMaterialArtBitmapByID(id,size, color);
     if (client == wxART_CLIENT_MATERIAL_SHARP)
         return CreateSharpMaterialArtBitmapByID(id,size, color);
-    if (client == wxART_CLIENT_MATERIAL_TWOTONE)
+    if (client == wxART_CLIENT_MATERIAL_TWO_TONE)
         return CreateTwoToneMaterialArtBitmapByID(id,size, color);
+    if (client == wxART_CLIENT_AWESOME_BRANDS)
+        return CreateBrandsAwesomeArtBitmapByID(id,size, color);
+    if (client == wxART_CLIENT_AWESOME_REGULAR)
+        return CreateRegularAwesomeArtBitmapByID(id,size, color);
+    if (client == wxART_CLIENT_AWESOME_SOLID)
+        return CreateSolidAwesomeArtBitmapByID(id,size, color);
 
     // Not implemented
     return wxNullBitmap;
@@ -86,7 +98,13 @@ bool wxMaterialDesignArtProvider::HasClient(const wxArtClient& client)
         return true;
     if (client == wxART_CLIENT_MATERIAL_SHARP)
         return true;
-    if (client == wxART_CLIENT_MATERIAL_TWOTONE)
+    if (client == wxART_CLIENT_MATERIAL_TWO_TONE)
+        return true;
+    if (client == wxART_CLIENT_AWESOME_BRANDS)
+        return true;
+    if (client == wxART_CLIENT_AWESOME_REGULAR)
+        return true;
+    if (client == wxART_CLIENT_AWESOME_SOLID)
         return true;
 
     // Not implemented

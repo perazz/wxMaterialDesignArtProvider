@@ -9215,3 +9215,129 @@
 	<wx/artprov.h>
 	<wx/colour.h>
 
+1699467741 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignartprovider.cpp
+	"wxMaterialDesignArtProvider.h"
+	<wx/artprov.h>
+	<wx/msgdlg.h>
+	<wx/bmpbndl.h>
+	<wx/log.h>
+	<wx/colour.h>
+
+1699467836 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignartprovider.h
+	<wx/artprov.h>
+	<wx/bitmap.h>
+	<wx/bmpbndl.h>
+	"wxMaterialDesignFilledArt.hpp"
+	"wxMaterialDesignOutlinedArt.hpp"
+	"wxMaterialDesignRoundArt.hpp"
+	"wxMaterialDesignSharpArt.hpp"
+	"wxMaterialDesignTwoToneArt.hpp"
+	"wxMaterialDesignBrandsArt.hpp"
+	"wxMaterialDesignRegularArt.hpp"
+	"wxMaterialDesignSolidArt.hpp"
+
+1699467682 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignfilledart.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699467682 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignoutlinedart.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699467682 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignroundart.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699467683 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignsharpart.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699467683 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesigntwotoneart.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699467683 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignbrandsart.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699467682 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignfilledart.cpp
+	"wxMaterialDesignFilledArt.hpp"
+
+1699467682 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignoutlinedart.cpp
+	"wxMaterialDesignOutlinedArt.hpp"
+
+1699467682 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignroundart.cpp
+	"wxMaterialDesignRoundArt.hpp"
+
+1699467683 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignsharpart.cpp
+	"wxMaterialDesignSharpArt.hpp"
+
+1699467683 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesigntwotoneart.cpp
+	"wxMaterialDesignTwoToneArt.hpp"
+
+1699448377 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\wxmaterialdesigniconsapp.cpp
+	"wx_pch.h"
+	"wxMaterialDesignIconsApp.h"
+	"wxMaterialDesignIconsMain.h"
+
+1699465805 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\wxmaterialdesigniconsapp.h
+	<wx/app.h>
+	"MaterialDesign/wxMaterialDesignArtProvider.h"
+
+1699456250 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\wxmaterialdesigniconsmain.h
+	<wx/wx.h>
+	<wx/artprov.h>
+	<wx/listctrl.h>
+	<wx/colordlg.h>
+	<wx/clrpicker.h>
+	"wxMaterialDesignIconsApp.h"
+
+1699467882 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\wxmaterialdesigniconsmain.cpp
+	"wx_pch.h"
+	"wxMaterialDesignIconsMain.h"
+	"wx/wxprec.h"
+	"wx/wx.h"
+	"wx/choice.h"
+	"wx/listctrl.h"
+	<wx/clrpicker.h>
+	<wx/arrstr.h>
+	"wx/sizer.h"
+	"wx/imaglist.h"
+	"wx/listctrl.h"
+	"null.xpm"
+
+1699255648 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\null.xpm
+
+1699467683 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignbrandsart.cpp
+	"wxMaterialDesignBrandsArt.hpp"
+
+1699467683 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignregularart.cpp
+	"wxMaterialDesignRegularArt.hpp"
+
+1699467683 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignregularart.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699467684 source:c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignsolidart.cpp
+	"wxMaterialDesignSolidArt.hpp"
+
+1699467684 c:\users\feder\onedrive\documents\github\wxmaterialdesignartprovider\materialdesign\wxmaterialdesignsolidart.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+

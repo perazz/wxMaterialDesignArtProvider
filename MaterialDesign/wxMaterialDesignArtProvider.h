@@ -9,6 +9,9 @@
 #include "wxMaterialDesignRoundArt.hpp"
 #include "wxMaterialDesignSharpArt.hpp"
 #include "wxMaterialDesignTwoToneArt.hpp"
+#include "wxMaterialDesignBrandsArt.hpp"
+#include "wxMaterialDesignRegularArt.hpp"
+#include "wxMaterialDesignSolidArt.hpp"
 
 class wxMaterialDesignArtProvider : public wxArtProvider
 {
@@ -37,10 +40,6 @@ protected:
                                     const wxArtClient& client,
                                     const wxSize& size,
                                     const wxColour& color=wxNullColour);
-
-  // Static Methods
-  //static wxBitmapBundle CreateFilledBitmapBundle(const wxArtID& id, const wxArtClient& client);
-  //static wxBitmap       CreateFilledBitmap      (const wxArtID& id, const wxArtClient& client);
 
 };
 
