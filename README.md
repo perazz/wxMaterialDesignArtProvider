@@ -45,7 +45,7 @@ The color is provided as a `wxColour` additional input to the standard APIs, and
 
 The attached project contains a sample icon browser, modelled on wxWidget's standard one, and can be used to navigate all art names and styles: 
 
-![Art browser example on Windows](https://github.com/perazz/wxMaterialDesignArtProvider/blob/main/assets/art_browser_windows.png?raw=true)
+![Art browser example on Windows](https://github.com/perazz/wxMaterialDesignArtProvider/blob/main/assets/art_browser_windows.PNG?raw=true)
 
 
 ### License
