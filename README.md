@@ -50,6 +50,7 @@ The attached project contains a sample icon browser, modelled on wxWidget's stan
 
 ![Art browser example on Windows](https://github.com/perazz/wxMaterialDesignArtProvider/blob/main/assets/art_browser_windows.PNG?raw=true)
 
+![Art browser example on MacOS](https://github.com/perazz/wxMaterialDesignArtProvider/blob/main/assets/art_browser_macos.PNG?raw=true)
 
 ### License
 This provider is released under the Apache 2.0 license, consistent with the Material Design icons
