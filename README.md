@@ -4,6 +4,9 @@ This project contains a custom Art Provider for the wxWidgets containing all Mat
 The original icons were taken from the [SVG Material Design](https://github.com/marella/material-design-icons) icons repository. 
 Generation of the wxWidgets core header files is fully automated, hopefully in the future it will be integrated with the CI for updates to the base repo.
 
+All SVG icons are hardcoded into headers such that no external files are needed to build the art provider class beyond those in `MaterialDesign/`. 
+So it should be relatively easy to add Material Design icon functionality to existing wxwidgets projects.
+
 # Building, Using
 
 A simple CodeBlocks project is provided to build the example on Windows (MSYS2) and MacOS (clang + homebrew). To add the `wxMaterialDesignArtProvider` class to your project, 
