@@ -29,12 +29,15 @@ where `iconname` is the name of the icon. The same names are available under fiv
 - `wxART_CLIENT_MATERIAL_OUTLINE` for outlined icons;
 - `wxART_CLIENT_MATERIAL_ROUND` for round icons;
 - `wxART_CLIENT_MATERIAL_SHARP` for sharp icons;
-- `wxART_CLIENT_MATERIAL_TWOTONE` for two-tone icons.
+- `wxART_CLIENT_MATERIAL_TWOTONE` for two-tone icons;
 
 *** FontAwesome 6
 - `wxART_CLIENT_AWESOME_BRANDS` for brand logos;
 - `wxART_CLIENT_AWESOME_SOLID` for solid-style icons;
-- `wxART_CLIENT_AWESOME_REGULAR` for regular icons.
+- `wxART_CLIENT_AWESOME_REGULAR` for regular icons;
+
+*** SimpleIcons
+- `wxART_CLIENT_SIMPLE_ICONS`.
 
 # Colors
 
@@ -61,7 +64,8 @@ The attached project contains a sample icon browser, modelled on wxWidget's stan
 
 ### License
 
-FontAwesome icons from the FontAwesome 6 SVG set are subject to the CC BY 4.0 License.
-Material Design icons are subject to the Apache 2.0 license.
+- FontAwesome icons from the FontAwesome 6 SVG set are subject to the CC BY 4.0 License.
+- Material Design icons are subject to the Apache 2.0 license.
+- SimpleIcons are subject to  the CC0 1.0 License.
 This provider is released under the Apache 2.0 license, consistent with the Material Design icons
 
