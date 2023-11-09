@@ -224,6 +224,9 @@ void wxArtBrowserDialog::SetArtClient(const wxArtClient& client)
 
     m_client = client;
 
+
+    sel = m_list->GetNextItem(-1, wxLIST_NEXT_ALL, wxLIST_STATE_FOCUSED);
+    if (sel < 0) sel = 0;
     const wxString *data = (const wxString*)m_list->GetItemData(sel);
     SetArtBitmap(*data, m_client, wxSize(16, 16), m_color->GetColour());
 }
