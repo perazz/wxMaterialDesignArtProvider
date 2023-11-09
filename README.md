@@ -1,7 +1,7 @@
 # Material Design icons Art Provider for wxWidgets
 
 This project contains a custom Art Provider for the wxWidgets containing all Material Design icons. 
-The original icons were taken from the [SVG Material Design](https://github.com/marella/material-design-icons) icons repository. 
+The original icons were taken from the [SVG Material Design](https://github.com/marella/material-design-icons) icons, the [SimpleIcons](https://github.com/simple-icons/simple-icons/tree/develop), the [FontAwesome 6.4](https://github.com/FortAwesome/Font-Awesome) repositories. 
 Generation of the wxWidgets core header files is fully automated, hopefully in the future it will be integrated with the CI for updates to the base repo.
 
 All SVG icons are hardcoded into headers such that no external files are needed to build the art provider class beyond those in `MaterialDesign/`. 
