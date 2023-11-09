@@ -215,18 +215,19 @@ void wxArtBrowserDialog::SetArtClient(const wxArtClient& client)
     long sel = m_list->GetNextItem(-1, wxLIST_NEXT_ALL, wxLIST_STATE_FOCUSED);
     if (sel < 0) sel = 0;
 
+    // Remove old list
     m_list->DeleteAllItems();
+
+    // Fill new list
     FillBitmaps(img, m_list, index, client, wxSize(16, 16));
     m_list->AssignImageList(img, wxIMAGE_LIST_SMALL);
     m_list->SetColumnWidth(0, wxLIST_AUTOSIZE);
 
-    m_list->SetItemState(sel, wxLIST_STATE_FOCUSED, wxLIST_STATE_FOCUSED);
-
-    m_client = client;
-
-
     sel = m_list->GetNextItem(-1, wxLIST_NEXT_ALL, wxLIST_STATE_FOCUSED);
     if (sel < 0) sel = 0;
+    m_list->SetItemState(sel, wxLIST_STATE_FOCUSED, wxLIST_STATE_FOCUSED);
+    m_client = client;
+
     const wxString *data = (const wxString*)m_list->GetItemData(sel);
     SetArtBitmap(*data, m_client, wxSize(16, 16), m_color->GetColour());
 }
