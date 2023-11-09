@@ -29,6 +29,8 @@ wxBitmapBundle wxMaterialDesignArtProvider::CreateBitmapBundle(const wxArtID& id
         return CreateRegularAwesomeArtBitmapBundleByID(id,size);
     if (client == wxART_CLIENT_AWESOME_SOLID)
         return CreateSolidAwesomeArtBitmapBundleByID(id,size);
+    if (client == wxART_CLIENT_SIMPLE_ICONS)
+        return CreateIconsSimpleArtBitmapBundleByID(id,size);
 
     // Not implemented
     wxBitmapBundle bb;
@@ -67,6 +69,8 @@ wxBitmap wxMaterialDesignArtProvider::GetBitmap(const wxArtID& id,
         return CreateRegularAwesomeArtBitmapByID(id,size, color);
     if (client == wxART_CLIENT_AWESOME_SOLID)
         return CreateSolidAwesomeArtBitmapByID(id,size, color);
+    if (client == wxART_CLIENT_SIMPLE_ICONS)
+        return CreateIconsSimpleArtBitmapByID(id,size);
 
     // Not implemented
     return wxNullBitmap;
@@ -105,6 +109,8 @@ bool wxMaterialDesignArtProvider::HasClient(const wxArtClient& client)
     if (client == wxART_CLIENT_AWESOME_REGULAR)
         return true;
     if (client == wxART_CLIENT_AWESOME_SOLID)
+        return true;
+    if (client == wxART_CLIENT_SIMPLE_ICONS)
         return true;
 
     // Not implemented

@@ -191,4 +191,5 @@ create_svg_folder_header(os.path.join(storage,"MaterialDesign"),"two-tone",os.pa
 create_svg_folder_header(os.path.join(storage,"Font-Awesome-6"),"brands",os.path.join("..","MaterialDesign"),"Awesome")
 create_svg_folder_header(os.path.join(storage,"Font-Awesome-6"),"regular",os.path.join("..","MaterialDesign"),"Awesome")
 create_svg_folder_header(os.path.join(storage,"Font-Awesome-6"),"solid",os.path.join("..","MaterialDesign"),"Awesome")
+create_svg_folder_header(os.path.join(storage,"SimpleIcons"),"icons",os.path.join("..","MaterialDesign"),"Simple")
 

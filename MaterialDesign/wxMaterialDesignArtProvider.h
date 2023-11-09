@@ -12,6 +12,7 @@
 #include "wxMaterialDesignBrandsArt.hpp"
 #include "wxMaterialDesignRegularArt.hpp"
 #include "wxMaterialDesignSolidArt.hpp"
+#include "wxMaterialDesignIconsArt.hpp"
 
 class wxMaterialDesignArtProvider : public wxArtProvider
 {

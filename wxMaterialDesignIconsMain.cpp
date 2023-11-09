@@ -61,6 +61,7 @@
 
 static void FillClients(wxChoice *choice)
 {
+    ART_CLIENT(wxART_CLIENT_SIMPLE_ICONS)
     ART_CLIENT(wxART_CLIENT_AWESOME_BRANDS)
     ART_CLIENT(wxART_CLIENT_AWESOME_SOLID)
     ART_CLIENT(wxART_CLIENT_AWESOME_REGULAR)
@@ -78,6 +79,7 @@ static void FillBitmaps(wxImageList *images, wxListCtrl *list,
 {
 
     wxArrayString ids = FilledMaterialArtIDs();
+    if (client == wxART_CLIENT_SIMPLE_ICONS) ids = IconsSimpleArtIDs();
     if (client == wxART_CLIENT_MATERIAL_OUTLINED) ids = OutlinedMaterialArtIDs();
     if (client == wxART_CLIENT_MATERIAL_SHARP) ids = SharpMaterialArtIDs();
     if (client == wxART_CLIENT_MATERIAL_ROUND) ids = RoundMaterialArtIDs();

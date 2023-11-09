@@ -9341,3 +9341,1874 @@
 	<wx/artprov.h>
 	<wx/colour.h>
 
+1699459392 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/wxMaterialDesignIconsApp.cpp
+	"wx_pch.h"
+	"wxMaterialDesignIconsApp.h"
+	"wxMaterialDesignIconsMain.h"
+
+1699459432 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/wxMaterialDesignIconsApp.h
+	<wx/app.h>
+	"MaterialDesign/wxMaterialDesignArtProvider.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/app.h
+	"wx/event.h"
+	"wx/eventfilter.h"
+	"wx/build.h"
+	"wx/cmdargs.h"
+	"wx/init.h"
+	"wx/intl.h"
+	"wx/log.h"
+	"wx/unix/app.h"
+	"wx/msw/app.h"
+	"wx/motif/app.h"
+	"wx/dfb/app.h"
+	"wx/gtk/app.h"
+	"wx/gtk1/app.h"
+	"wx/x11/app.h"
+	"wx/osx/app.h"
+	"wx/qt/app.h"
+	"wx/univ/theme.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/event.h
+	"wx/defs.h"
+	"wx/cpp.h"
+	"wx/object.h"
+	"wx/clntdata.h"
+	"wx/math.h"
+	"wx/gdicmn.h"
+	"wx/cursor.h"
+	"wx/mousestate.h"
+	"wx/dynarray.h"
+	"wx/thread.h"
+	"wx/tracker.h"
+	"wx/typeinfo.h"
+	"wx/any.h"
+	"wx/vector.h"
+	"wx/meta/convertible.h"
+	"wx/meta/removeref.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/defs.h
+	"wx/msw/winundef.h"
+	"wx/platform.h"
+	"wx/version.h"
+	"wx/dlimpexp.h"
+	<stddef.h>
+	"wx/types.h"
+	"wx/debug.h"
+	<unistd.h>
+	"wx/qt/defs.h"
+	"wx/features.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/platform.h
+	<unistd.h>
+	<TargetConditionals.h>
+	<Availability.h>
+	"wx/android/config_android.h"
+	"wx/compiler.h"
+	"wx/setup.h"
+	"wx/msw/libraries.h"
+	"wx/msw/gccpriv.h"
+	<TargetConditionals.h>
+	<Availability.h>
+	<Availability.h>
+	"wx/chkconf.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/compiler.h
+
+1683523891 /opt/homebrew/lib/wx/include/osx_cocoa-unicode-3.2/wx/setup.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/chkconf.h
+	"wx/msw/chkconf.h"
+	"wx/gtk/chkconf.h"
+	"wx/gtk/chkconf.h"
+	"wx/osx/chkconf.h"
+	"wx/dfb/chkconf.h"
+	"wx/motif/chkconf.h"
+	"wx/x11/chkconf.h"
+	"wx/android/chkconf.h"
+	"wx/unix/chkconf.h"
+	"wx/univ/chkconf.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/chkconf.h
+	"wx/osx/iphone/chkconf.h"
+	"wx/osx/cocoa/chkconf.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/cocoa/chkconf.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/unix/chkconf.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/version.h
+	"wx/cpp.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/cpp.h
+	"wx/compiler.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/dlimpexp.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/types.h
+	"wx/platform.h"
+	<sys/types.h>
+	<sys/types.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/debug.h
+	<assert.h>
+	<limits.h>
+	"wx/chartype.h"
+	"wx/cpp.h"
+	"wx/dlimpexp.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/chartype.h
+	"wx/types.h"
+	<sys/types.h>
+	<wchar.h>
+	<wcstr.h>
+	<stdlib.h>
+	<widec.h>
+	<stddef.h>
+	<string.h>
+	<ctype.h>
+	<tchar.h>
+	<ctype.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/features.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/object.h
+	"wx/memory.h"
+	"wx/xti.h"
+	"wx/rtti.h"
+	"wx/xti2.h"
+	"wx/msw/msvcrt.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/memory.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/msgout.h"
+	<stddef.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/string.h
+	"wx/defs.h"
+	<ctype.h>
+	<string.h>
+	<stdio.h>
+	<stdarg.h>
+	<limits.h>
+	<stdlib.h>
+	"wx/wxcrtbase.h"
+	"wx/strvararg.h"
+	"wx/buffer.h"
+	"wx/strconv.h"
+	"wx/stringimpl.h"
+	"wx/stringops.h"
+	"wx/unichar.h"
+	"wx/tls.h"
+	<functional>
+	"wx/iosfwrap.h"
+	"wx/crt.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/wxcrtbase.h
+	"wx/chartype.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<wctype.h>
+	<time.h>
+	<io.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/strvararg.h
+	"wx/platform.h"
+	"wx/cpp.h"
+	"wx/chartype.h"
+	"wx/strconv.h"
+	"wx/buffer.h"
+	"wx/unichar.h"
+	<type_traits>
+	<type_traits>
+	<tr1/type_traits>
+	"wx/stringimpl.h"
+	<string_view>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/strconv.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/buffer.h"
+	<stdlib.h>
+	"wx/fontenc.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/buffer.h
+	"wx/defs.h"
+	"wx/wxcrtbase.h"
+	<stdlib.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/fontenc.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/unichar.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/stringimpl.h"
+	<algorithm>
+	<utility>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/stringimpl.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/wxcrtbase.h"
+	<stdlib.h>
+	"wx/beforestd.h"
+	<string>
+	"wx/afterstd.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/beforestd.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/afterstd.h
+	"wx/msw/winundef.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/stringops.h
+	"wx/chartype.h"
+	"wx/stringimpl.h"
+	"wx/unichar.h"
+	"wx/buffer.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/tls.h
+	"wx/defs.h"
+	"wx/msw/tls.h"
+	"wx/unix/tls.h"
+	<stdlib.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/unix/tls.h
+	<pthread.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/iosfwrap.h
+	<iosfwd>
+	"wx/msw/winundef.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/crt.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/wxcrt.h"
+	"wx/wxcrtvararg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/wxcrt.h
+	"wx/wxcrtbase.h"
+	"wx/string.h"
+	<string.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/wxcrtvararg.h
+	"wx/wxcrt.h"
+	"wx/strvararg.h"
+	"wx/string.h"
+	<stdarg.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/msgout.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/strvararg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/xti.h
+	"wx/defs.h"
+	"wx/xtitypes.h"
+	"wx/xtihandler.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/xtitypes.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/hashmap.h"
+	"wx/arrstr.h"
+	"wx/flags.h"
+	"wx/intl.h"
+	"wx/log.h"
+	<typeinfo>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/hashmap.h
+	"wx/string.h"
+	"wx/wxcrt.h"
+	<unordered_map>
+	<tr1/unordered_map>
+	<ext/hash_map>
+	<hash_map>
+	<stddef.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/arrstr.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/dynarray.h"
+	<vector>
+	"wx/beforestd.h"
+	<iterator>
+	"wx/afterstd.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/dynarray.h
+	"wx/defs.h"
+	"wx/vector.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/vector.h
+	"wx/defs.h"
+	<vector>
+	<algorithm>
+	"wx/scopeguard.h"
+	"wx/meta/movable.h"
+	"wx/meta/if.h"
+	"wx/beforestd.h"
+	<iterator>
+	<new>
+	"wx/afterstd.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/scopeguard.h
+	"wx/defs.h"
+	"wx/except.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/except.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/meta/movable.h
+	"wx/meta/pod.h"
+	"wx/string.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/meta/pod.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/meta/if.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/flags.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/intl.h
+	"wx/defs.h"
+	"wx/localedefs.h"
+	"wx/string.h"
+	"wx/translation.h"
+	"wx/fontenc.h"
+	"wx/language.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/localedefs.h
+	"wx/string.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/translation.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/buffer.h"
+	"wx/language.h"
+	"wx/hashmap.h"
+	"wx/strconv.h"
+	"wx/scopedptr.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/language.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/scopedptr.h
+	"wx/defs.h"
+	"wx/checkeddelete.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/checkeddelete.h
+	"wx/cpp.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/log.h
+	"wx/defs.h"
+	"wx/cpp.h"
+	"wx/string.h"
+	"wx/strvararg.h"
+	"wx/arrstr.h"
+	<time.h>
+	"wx/dynarray.h"
+	"wx/hashmap.h"
+	"wx/msgout.h"
+	"wx/time.h"
+	"wx/thread.h"
+	"wx/iosfwrap.h"
+	"wx/generic/logg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/time.h
+	"wx/longlong.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/longlong.h
+	"wx/defs.h"
+	"wx/string.h"
+	<limits.h>
+	"wx/iosfwrap.h"
+	<limits>
+	"wx/strvararg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/thread.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/logg.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/xtihandler.h
+	"wx/defs.h"
+	"wx/xti.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/rtti.h
+	"wx/memory.h"
+	"wx/flags.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/xti2.h
+	"wx/xtiprop.h"
+	"wx/xtictor.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/xtiprop.h
+	"wx/defs.h"
+	"wx/xti.h"
+	"wx/any.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/any.h
+	"wx/defs.h"
+	<new>
+	"wx/string.h"
+	"wx/meta/if.h"
+	"wx/typeinfo.h"
+	"wx/list.h"
+	"wx/datetime.h"
+	"wx/variant.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/typeinfo.h
+	"wx/defs.h"
+	<typeinfo>
+	<string.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/list.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/string.h"
+	"wx/vector.h"
+	"wx/beforestd.h"
+	<algorithm>
+	<iterator>
+	<list>
+	"wx/afterstd.h"
+	<iterator>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/datetime.h
+	"wx/defs.h"
+	<time.h>
+	<limits.h>
+	"wx/longlong.h"
+	"wx/anystr.h"
+	"wx/dynarray.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/anystr.h
+	"wx/string.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/variant.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/string.h"
+	"wx/arrstr.h"
+	"wx/list.h"
+	"wx/cpp.h"
+	"wx/longlong.h"
+	"wx/datetime.h"
+	"wx/iosfwrap.h"
+	"wx/any.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/xtictor.h
+	"wx/defs.h"
+	"wx/xti.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/clntdata.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/hashmap.h"
+	"wx/object.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/math.h
+	"wx/defs.h"
+	<math.h>
+	<cmath>
+	<float.h>
+	<ieeefp.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/gdicmn.h
+	"wx/defs.h"
+	"wx/list.h"
+	"wx/string.h"
+	"wx/fontenc.h"
+	"wx/hashmap.h"
+	"wx/math.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/cursor.h
+	"wx/gdiobj.h"
+	"wx/gdicmn.h"
+	"wx/msw/gdiimage.h"
+	"wx/msw/cursor.h"
+	"wx/motif/cursor.h"
+	"wx/gtk/cursor.h"
+	"wx/gtk1/cursor.h"
+	"wx/x11/cursor.h"
+	"wx/dfb/cursor.h"
+	"wx/osx/cursor.h"
+	"wx/qt/cursor.h"
+	"wx/utils.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/gdiobj.h
+	"wx/object.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/cursor.h
+	"wx/bitmap.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/bitmap.h
+	"wx/string.h"
+	"wx/gdicmn.h"
+	"wx/colour.h"
+	"wx/image.h"
+	"wx/variant.h"
+	"wx/msw/bitmap.h"
+	"wx/x11/bitmap.h"
+	"wx/gtk/bitmap.h"
+	"wx/gtk1/bitmap.h"
+	"wx/x11/bitmap.h"
+	"wx/dfb/bitmap.h"
+	"wx/osx/bitmap.h"
+	"wx/qt/bitmap.h"
+	"wx/generic/mask.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/colour.h
+	"wx/defs.h"
+	"wx/gdiobj.h"
+	"wx/variant.h"
+	"wx/msw/colour.h"
+	"wx/motif/colour.h"
+	"wx/gtk/colour.h"
+	"wx/gtk1/colour.h"
+	"wx/generic/colour.h"
+	"wx/x11/colour.h"
+	"wx/osx/colour.h"
+	"wx/qt/colour.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/colour.h
+	"wx/osx/core/colour.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/core/colour.h
+	"wx/object.h"
+	"wx/string.h"
+	"wx/osx/core/cfref.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/core/cfref.h
+	<unistd.h>
+	<Availability.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/image.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/string.h"
+	"wx/gdicmn.h"
+	"wx/hashmap.h"
+	"wx/arrstr.h"
+	"wx/stream.h"
+	"wx/variant.h"
+	"wx/imagbmp.h"
+	"wx/imagpng.h"
+	"wx/imaggif.h"
+	"wx/imagpcx.h"
+	"wx/imagjpeg.h"
+	"wx/imagtga.h"
+	"wx/imagtiff.h"
+	"wx/imagpnm.h"
+	"wx/imagxpm.h"
+	"wx/imagiff.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/stream.h
+	"wx/defs.h"
+	<stdio.h>
+	"wx/object.h"
+	"wx/string.h"
+	"wx/filefn.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/filefn.h
+	"wx/list.h"
+	"wx/arrstr.h"
+	<time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<dirent.h>
+	<direct.h>
+	<dos.h>
+	<io.h>
+	<fcntl.h>
+	<sys/types.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imagbmp.h
+	"wx/image.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imagpng.h
+	"wx/defs.h"
+	"wx/image.h"
+	"wx/versioninfo.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/versioninfo.h
+	"wx/string.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imaggif.h
+	"wx/image.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imagpcx.h
+	"wx/image.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imagjpeg.h
+	"wx/defs.h"
+	"wx/image.h"
+	"wx/versioninfo.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imagtga.h
+	"wx/image.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imagtiff.h
+	"wx/defs.h"
+	"wx/image.h"
+	"wx/versioninfo.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imagpnm.h
+	"wx/image.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imagxpm.h
+	"wx/image.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imagiff.h
+	"wx/image.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/bitmap.h
+	"wx/palette.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/palette.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/gdiobj.h"
+	"wx/msw/palette.h"
+	"wx/x11/palette.h"
+	"wx/generic/paletteg.h"
+	"wx/osx/palette.h"
+	"wx/qt/palette.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/palette.h
+	"wx/gdiobj.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/utils.h
+	"wx/object.h"
+	"wx/list.h"
+	"wx/filefn.h"
+	"wx/hashmap.h"
+	"wx/versioninfo.h"
+	"wx/meta/implicitconversion.h"
+	"wx/gdicmn.h"
+	"wx/mousestate.h"
+	"wx/vector.h"
+	"wx/longlong.h"
+	"wx/platinfo.h"
+	<dirent.h>
+	<unistd.h>
+	<stdio.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/meta/implicitconversion.h
+	"wx/defs.h"
+	"wx/meta/if.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/mousestate.h
+	"wx/gdicmn.h"
+	"wx/kbdstate.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/kbdstate.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/platinfo.h
+	"wx/string.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/tracker.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/meta/convertible.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/meta/removeref.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/eventfilter.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/build.h
+	"wx/version.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/cmdargs.h
+	"wx/arrstr.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/init.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/msw/init.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/unix/app.h
+	<signal.h>
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/app.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/gdicmn.h"
+	"wx/event.h"
+
+1699555481 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignArtProvider.h
+	<wx/artprov.h>
+	<wx/bitmap.h>
+	<wx/bmpbndl.h>
+	"wxMaterialDesignFilledArt.hpp"
+	"wxMaterialDesignOutlinedArt.hpp"
+	"wxMaterialDesignRoundArt.hpp"
+	"wxMaterialDesignSharpArt.hpp"
+	"wxMaterialDesignTwoToneArt.hpp"
+	"wxMaterialDesignBrandsArt.hpp"
+	"wxMaterialDesignRegularArt.hpp"
+	"wxMaterialDesignSolidArt.hpp"
+	"wxMaterialDesignIconsArt.hpp"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/artprov.h
+	"wx/string.h"
+	"wx/bitmap.h"
+	"wx/icon.h"
+	"wx/iconbndl.h"
+	"wx/bmpbndl.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/icon.h
+	"wx/iconloc.h"
+	"wx/msw/icon.h"
+	"wx/motif/icon.h"
+	"wx/generic/icon.h"
+	"wx/generic/icon.h"
+	"wx/generic/icon.h"
+	"wx/generic/icon.h"
+	"wx/generic/icon.h"
+	"wx/generic/icon.h"
+	"wx/generic/icon.h"
+	"wx/variant.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/iconloc.h
+	"wx/string.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/icon.h
+	"wx/bitmap.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/iconbndl.h
+	"wx/gdiobj.h"
+	"wx/gdicmn.h"
+	"wx/icon.h"
+	"wx/dynarray.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/bmpbndl.h
+	"wx/bitmap.h"
+	"wx/object.h"
+	"wx/vector.h"
+
+1699555400 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignFilledArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699555400 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignOutlinedArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699555400 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignRoundArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699555400 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignSharpArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699555401 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignTwoToneArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699555401 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignBrandsArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699555401 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignRegularArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699555401 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignSolidArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699555401 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignIconsArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699459392 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/wxMaterialDesignIconsMain.h
+	<wx/wx.h>
+	<wx/artprov.h>
+	<wx/listctrl.h>
+	<wx/colordlg.h>
+	<wx/clrpicker.h>
+	"wxMaterialDesignIconsApp.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/wx.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/dynarray.h"
+	"wx/list.h"
+	"wx/hash.h"
+	"wx/string.h"
+	"wx/hashmap.h"
+	"wx/arrstr.h"
+	"wx/intl.h"
+	"wx/log.h"
+	"wx/event.h"
+	"wx/app.h"
+	"wx/utils.h"
+	"wx/stream.h"
+	"wx/memory.h"
+	"wx/math.h"
+	"wx/stopwatch.h"
+	"wx/timer.h"
+	"wx/module.h"
+	"wx/wxcrt.h"
+	"wx/wxcrtvararg.h"
+	"wx/window.h"
+	"wx/containr.h"
+	"wx/panel.h"
+	"wx/toplevel.h"
+	"wx/frame.h"
+	"wx/gdicmn.h"
+	"wx/gdiobj.h"
+	"wx/region.h"
+	"wx/bitmap.h"
+	"wx/bmpbndl.h"
+	"wx/image.h"
+	"wx/colour.h"
+	"wx/font.h"
+	"wx/dc.h"
+	"wx/dcclient.h"
+	"wx/dcmemory.h"
+	"wx/dcprint.h"
+	"wx/dcscreen.h"
+	"wx/button.h"
+	"wx/menuitem.h"
+	"wx/menu.h"
+	"wx/pen.h"
+	"wx/brush.h"
+	"wx/palette.h"
+	"wx/icon.h"
+	"wx/cursor.h"
+	"wx/dialog.h"
+	"wx/settings.h"
+	"wx/msgdlg.h"
+	"wx/dataobj.h"
+	"wx/control.h"
+	"wx/ctrlsub.h"
+	"wx/bmpbuttn.h"
+	"wx/checkbox.h"
+	"wx/checklst.h"
+	"wx/choice.h"
+	"wx/scrolbar.h"
+	"wx/stattext.h"
+	"wx/statbmp.h"
+	"wx/statbox.h"
+	"wx/listbox.h"
+	"wx/radiobox.h"
+	"wx/radiobut.h"
+	"wx/textctrl.h"
+	"wx/slider.h"
+	"wx/gauge.h"
+	"wx/scrolwin.h"
+	"wx/dirdlg.h"
+	"wx/toolbar.h"
+	"wx/combobox.h"
+	"wx/layout.h"
+	"wx/sizer.h"
+	"wx/statusbr.h"
+	"wx/choicdlg.h"
+	"wx/textdlg.h"
+	"wx/filedlg.h"
+	"wx/mdi.h"
+	"wx/validate.h"
+	"wx/valtext.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/hash.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/object.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/stopwatch.h
+	"wx/defs.h"
+	"wx/longlong.h"
+	"wx/time.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/timer.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/longlong.h"
+	"wx/event.h"
+	"wx/stopwatch.h"
+	"wx/utils.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/module.h
+	"wx/object.h"
+	"wx/vector.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/window.h
+	"wx/event.h"
+	"wx/list.h"
+	"wx/cursor.h"
+	"wx/font.h"
+	"wx/colour.h"
+	"wx/region.h"
+	"wx/utils.h"
+	"wx/intl.h"
+	"wx/validate.h"
+	"wx/windowid.h"
+	"wx/palette.h"
+	"wx/accel.h"
+	"wx/access.h"
+	"wx/msw/window.h"
+	"wx/motif/window.h"
+	"wx/gtk/window.h"
+	"wx/gtk1/window.h"
+	"wx/x11/window.h"
+	"wx/dfb/window.h"
+	"wx/osx/window.h"
+	"wx/qt/window.h"
+	"wx/univ/window.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/font.h
+	"wx/defs.h"
+	"wx/fontenc.h"
+	"wx/gdiobj.h"
+	"wx/gdicmn.h"
+	"wx/math.h"
+	"wx/msw/font.h"
+	"wx/motif/font.h"
+	"wx/gtk/font.h"
+	"wx/gtk1/font.h"
+	"wx/x11/font.h"
+	"wx/dfb/font.h"
+	"wx/osx/font.h"
+	"wx/qt/font.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/font.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/region.h
+	"wx/gdiobj.h"
+	"wx/gdicmn.h"
+	"wx/msw/region.h"
+	"wx/gtk/region.h"
+	"wx/gtk1/region.h"
+	"wx/x11/region.h"
+	"wx/dfb/region.h"
+	"wx/osx/region.h"
+	"wx/qt/region.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/region.h
+	"wx/osx/carbon/region.h"
+	"wx/generic/region.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/carbon/region.h
+	"wx/list.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/region.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/validate.h
+	"wx/defs.h"
+	"wx/event.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/windowid.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/accel.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/generic/accel.h"
+	"wx/msw/accel.h"
+	"wx/motif/accel.h"
+	"wx/gtk/accel.h"
+	"wx/gtk1/accel.h"
+	"wx/osx/accel.h"
+	"wx/qt/accel.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/accel.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/accel.h
+	"wx/string.h"
+	"wx/event.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/access.h
+	"wx/defs.h"
+	"wx/variant.h"
+	"wx/msw/ole/access.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/window.h
+	"wx/brush.h"
+	"wx/dc.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/brush.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/gdiobj.h"
+	"wx/gdicmn.h"
+	"wx/msw/brush.h"
+	"wx/x11/brush.h"
+	"wx/gtk/brush.h"
+	"wx/gtk1/brush.h"
+	"wx/dfb/brush.h"
+	"wx/osx/brush.h"
+	"wx/qt/brush.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/brush.h
+	"wx/gdicmn.h"
+	"wx/gdiobj.h"
+	"wx/bitmap.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/dc.h
+	"wx/object.h"
+	"wx/intl.h"
+	"wx/colour.h"
+	"wx/font.h"
+	"wx/bitmap.h"
+	"wx/brush.h"
+	"wx/pen.h"
+	"wx/palette.h"
+	"wx/dynarray.h"
+	"wx/math.h"
+	"wx/image.h"
+	"wx/region.h"
+	"wx/affinematrix2d.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/pen.h
+	"wx/gdiobj.h"
+	"wx/peninfobase.h"
+	"wx/msw/pen.h"
+	"wx/x11/pen.h"
+	"wx/gtk/pen.h"
+	"wx/gtk1/pen.h"
+	"wx/dfb/pen.h"
+	"wx/osx/pen.h"
+	"wx/qt/pen.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/peninfobase.h
+	"wx/bitmap.h"
+	"wx/colour.h"
+	"wx/gdicmn.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/pen.h
+	"wx/gdiobj.h"
+	"wx/colour.h"
+	"wx/bitmap.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/affinematrix2d.h
+	"wx/defs.h"
+	"wx/affinematrix2dbase.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/affinematrix2dbase.h
+	"wx/defs.h"
+	"wx/geometry.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/geometry.h
+	"wx/defs.h"
+	"wx/utils.h"
+	"wx/gdicmn.h"
+	"wx/math.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/containr.h
+	"wx/defs.h"
+	"wx/event.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/panel.h
+	"wx/window.h"
+	"wx/containr.h"
+	"wx/univ/panel.h"
+	"wx/msw/panel.h"
+	"wx/generic/panelg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/panelg.h
+	"wx/bitmap.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/toplevel.h
+	"wx/nonownedwnd.h"
+	"wx/iconbndl.h"
+	"wx/weakref.h"
+	"wx/msw/toplevel.h"
+	"wx/gtk/toplevel.h"
+	"wx/gtk1/toplevel.h"
+	"wx/x11/toplevel.h"
+	"wx/dfb/toplevel.h"
+	"wx/osx/toplevel.h"
+	"wx/motif/toplevel.h"
+	"wx/qt/toplevel.h"
+	"wx/univ/toplevel.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/nonownedwnd.h
+	"wx/window.h"
+	"wx/dfb/nonownedwnd.h"
+	"wx/gtk/nonownedwnd.h"
+	"wx/osx/nonownedwnd.h"
+	"wx/msw/nonownedwnd.h"
+	"wx/qt/nonownedwnd.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/nonownedwnd.h
+	"wx/window.h"
+	"wx/graphics.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/graphics.h
+	"wx/defs.h"
+	"wx/affinematrix2d.h"
+	"wx/geometry.h"
+	"wx/colour.h"
+	"wx/dynarray.h"
+	"wx/font.h"
+	"wx/image.h"
+	"wx/peninfobase.h"
+	"wx/vector.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/weakref.h
+	"wx/tracker.h"
+	"wx/meta/convertible.h"
+	"wx/meta/int2type.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/meta/int2type.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/toplevel.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/frame.h
+	"wx/toplevel.h"
+	"wx/statusbr.h"
+	"wx/univ/frame.h"
+	"wx/msw/frame.h"
+	"wx/gtk/frame.h"
+	"wx/gtk1/frame.h"
+	"wx/motif/frame.h"
+	"wx/osx/frame.h"
+	"wx/qt/frame.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/statusbr.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/list.h"
+	"wx/dynarray.h"
+	"wx/univ/statusbr.h"
+	"wx/msw/statusbar.h"
+	"wx/generic/statusbr.h"
+	"wx/osx/statusbr.h"
+	"wx/qt/statusbar.h"
+	"wx/generic/statusbr.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/control.h
+	"wx/defs.h"
+	"wx/window.h"
+	"wx/gdicmn.h"
+	"wx/univ/control.h"
+	"wx/msw/control.h"
+	"wx/motif/control.h"
+	"wx/gtk/control.h"
+	"wx/gtk1/control.h"
+	"wx/osx/control.h"
+	"wx/qt/control.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/control.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/statusbr.h
+	"wx/defs.h"
+	"wx/pen.h"
+	"wx/arrstr.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/statusbr.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/frame.h
+	"wx/toolbar.h"
+	"wx/accel.h"
+	"wx/icon.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/toolbar.h
+	"wx/defs.h"
+	"wx/tbarbase.h"
+	"wx/univ/toolbar.h"
+	"wx/msw/toolbar.h"
+	"wx/motif/toolbar.h"
+	"wx/gtk/toolbar.h"
+	"wx/gtk1/toolbar.h"
+	"wx/osx/toolbar.h"
+	"wx/qt/toolbar.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/tbarbase.h
+	"wx/defs.h"
+	"wx/bitmap.h"
+	"wx/bmpbndl.h"
+	"wx/list.h"
+	"wx/control.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/toolbar.h
+	"wx/tbarbase.h"
+	"wx/dynarray.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/dcclient.h
+	"wx/dc.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/dcmemory.h
+	"wx/dc.h"
+	"wx/bitmap.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/dcprint.h
+	"wx/defs.h"
+	"wx/dc.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/dcscreen.h
+	"wx/defs.h"
+	"wx/dc.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/button.h
+	"wx/defs.h"
+	"wx/anybutton.h"
+	"wx/univ/button.h"
+	"wx/msw/button.h"
+	"wx/motif/button.h"
+	"wx/gtk/button.h"
+	"wx/gtk1/button.h"
+	"wx/osx/button.h"
+	"wx/qt/button.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/anybutton.h
+	"wx/defs.h"
+	"wx/bmpbndl.h"
+	"wx/control.h"
+	"wx/univ/anybutton.h"
+	"wx/msw/anybutton.h"
+	"wx/gtk/anybutton.h"
+	"wx/osx/anybutton.h"
+	"wx/qt/anybutton.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/anybutton.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/button.h
+	"wx/control.h"
+	"wx/gdicmn.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/menuitem.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/bmpbndl.h"
+	"wx/windowid.h"
+	"wx/vector.h"
+	"wx/univ/menuitem.h"
+	"wx/msw/menuitem.h"
+	"wx/motif/menuitem.h"
+	"wx/gtk/menuitem.h"
+	"wx/gtk1/menuitem.h"
+	"wx/osx/menuitem.h"
+	"wx/qt/menuitem.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/menuitem.h
+	"wx/defs.h"
+	"wx/vector.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/menu.h
+	"wx/defs.h"
+	"wx/list.h"
+	"wx/window.h"
+	"wx/menuitem.h"
+	"wx/univ/menu.h"
+	"wx/msw/menu.h"
+	"wx/motif/menu.h"
+	"wx/gtk/menu.h"
+	"wx/gtk1/menu.h"
+	"wx/osx/menu.h"
+	"wx/qt/menu.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/menu.h
+	"wx/arrstr.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/dialog.h
+	"wx/toplevel.h"
+	"wx/containr.h"
+	"wx/sharedptr.h"
+	"wx/univ/dialog.h"
+	"wx/msw/dialog.h"
+	"wx/motif/dialog.h"
+	"wx/gtk/dialog.h"
+	"wx/gtk1/dialog.h"
+	"wx/osx/dialog.h"
+	"wx/qt/dialog.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/sharedptr.h
+	"wx/defs.h"
+	"wx/atomic.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/atomic.h
+	"wx/defs.h"
+	"wx/msw/wrapwin.h"
+	"libkern/OSAtomic.h"
+	<atomic.h>
+	"wx/thread.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/dialog.h
+	"wx/panel.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/settings.h
+	"wx/colour.h"
+	"wx/font.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/msgdlg.h
+	"wx/defs.h"
+	"wx/dialog.h"
+	"wx/stockitem.h"
+	"wx/generic/msgdlgg.h"
+	"wx/msw/msgdlg.h"
+	"wx/motif/msgdlg.h"
+	"wx/gtk/msgdlg.h"
+	"wx/osx/msgdlg.h"
+	"wx/qt/msgdlg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/stockitem.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/string.h"
+	"wx/accel.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/msgdlgg.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/msgdlg.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/dataobj.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/bitmap.h"
+	"wx/list.h"
+	"wx/arrstr.h"
+	"wx/msw/ole/dataform.h"
+	"wx/motif/dataform.h"
+	"wx/gtk/dataform.h"
+	"wx/gtk1/dataform.h"
+	"wx/x11/dataform.h"
+	"wx/osx/dataform.h"
+	"wx/qt/dataform.h"
+	"wx/msw/ole/dataobj.h"
+	"wx/motif/dataobj.h"
+	"wx/x11/dataobj.h"
+	"wx/gtk/dataobj.h"
+	"wx/gtk1/dataobj.h"
+	"wx/osx/dataobj.h"
+	"wx/qt/dataobj.h"
+	"wx/msw/ole/dataobj2.h"
+	"wx/gtk/dataobj2.h"
+	"wx/gtk1/dataobj2.h"
+	"wx/x11/dataobj2.h"
+	"wx/motif/dataobj2.h"
+	"wx/osx/dataobj2.h"
+	"wx/qt/dataobj2.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/dataform.h
+	"wx/osx/core/cfstring.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/core/cfstring.h
+	"wx/dlimpexp.h"
+	"wx/fontenc.h"
+	"wx/osx/core/cfref.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/dataobj.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/dataobj2.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/ctrlsub.h
+	"wx/defs.h"
+	"wx/arrstr.h"
+	"wx/control.h"
+	<vector>
+	"wx/msw/ctrlsub.h"
+	"wx/motif/ctrlsub.h"
+	"wx/qt/ctrlsub.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/bmpbuttn.h
+	"wx/defs.h"
+	"wx/button.h"
+	"wx/univ/bmpbuttn.h"
+	"wx/msw/bmpbuttn.h"
+	"wx/motif/bmpbuttn.h"
+	"wx/gtk/bmpbuttn.h"
+	"wx/gtk1/bmpbuttn.h"
+	"wx/osx/bmpbuttn.h"
+	"wx/qt/bmpbuttn.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/bmpbuttn.h
+	"wx/button.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/checkbox.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/univ/checkbox.h"
+	"wx/msw/checkbox.h"
+	"wx/motif/checkbox.h"
+	"wx/gtk/checkbox.h"
+	"wx/gtk1/checkbox.h"
+	"wx/osx/checkbox.h"
+	"wx/qt/checkbox.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/checkbox.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/checklst.h
+	"wx/defs.h"
+	"wx/listbox.h"
+	"wx/univ/checklst.h"
+	"wx/msw/checklst.h"
+	"wx/motif/checklst.h"
+	"wx/gtk/checklst.h"
+	"wx/gtk1/checklst.h"
+	"wx/osx/checklst.h"
+	"wx/qt/checklst.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/listbox.h
+	"wx/defs.h"
+	"wx/ctrlsub.h"
+	"wx/univ/listbox.h"
+	"wx/msw/listbox.h"
+	"wx/motif/listbox.h"
+	"wx/gtk/listbox.h"
+	"wx/gtk1/listbox.h"
+	"wx/osx/listbox.h"
+	"wx/qt/listbox.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/listbox.h
+	"wx/dynarray.h"
+	"wx/arrstr.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/checklst.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/choice.h
+	"wx/defs.h"
+	"wx/ctrlsub.h"
+	"wx/univ/choice.h"
+	"wx/msw/choice.h"
+	"wx/motif/choice.h"
+	"wx/gtk/choice.h"
+	"wx/gtk1/choice.h"
+	"wx/osx/choice.h"
+	"wx/qt/choice.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/choice.h
+	"wx/control.h"
+	"wx/dynarray.h"
+	"wx/arrstr.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/scrolbar.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/univ/scrolbar.h"
+	"wx/msw/scrolbar.h"
+	"wx/motif/scrolbar.h"
+	"wx/gtk/scrolbar.h"
+	"wx/gtk1/scrolbar.h"
+	"wx/osx/scrolbar.h"
+	"wx/qt/scrolbar.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/scrolbar.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/stattext.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/univ/stattext.h"
+	"wx/msw/stattext.h"
+	"wx/motif/stattext.h"
+	"wx/gtk/stattext.h"
+	"wx/gtk1/stattext.h"
+	"wx/osx/stattext.h"
+	"wx/qt/stattext.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/stattext.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/statbmp.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/bmpbndl.h"
+	"wx/icon.h"
+	"wx/univ/statbmp.h"
+	"wx/msw/statbmp.h"
+	"wx/motif/statbmp.h"
+	"wx/gtk/statbmp.h"
+	"wx/gtk1/statbmp.h"
+	"wx/osx/statbmp.h"
+	"wx/qt/statbmp.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/statbmp.h
+	"wx/statbmp.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/statbox.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/containr.h"
+	"wx/univ/statbox.h"
+	"wx/msw/statbox.h"
+	"wx/motif/statbox.h"
+	"wx/gtk/statbox.h"
+	"wx/gtk1/statbox.h"
+	"wx/osx/statbox.h"
+	"wx/qt/statbox.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/statbox.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/radiobox.h
+	"wx/defs.h"
+	"wx/ctrlsub.h"
+	"wx/dynarray.h"
+	"wx/univ/radiobox.h"
+	"wx/msw/radiobox.h"
+	"wx/motif/radiobox.h"
+	"wx/gtk/radiobox.h"
+	"wx/gtk1/radiobox.h"
+	"wx/osx/radiobox.h"
+	"wx/qt/radiobox.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/radiobox.h
+	"wx/containr.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/radiobut.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/checkbox.h"
+	"wx/univ/radiobut.h"
+	"wx/msw/radiobut.h"
+	"wx/motif/radiobut.h"
+	"wx/gtk/radiobut.h"
+	"wx/gtk1/radiobut.h"
+	"wx/osx/radiobut.h"
+	"wx/qt/radiobut.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/radiobut.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/textctrl.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/textentry.h"
+	"wx/dynarray.h"
+	"wx/gdicmn.h"
+	"wx/ioswrap.h"
+	"wx/x11/textctrl.h"
+	"wx/univ/textctrl.h"
+	"wx/msw/textctrl.h"
+	"wx/motif/textctrl.h"
+	"wx/gtk/textctrl.h"
+	"wx/gtk1/textctrl.h"
+	"wx/osx/textctrl.h"
+	"wx/qt/textctrl.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/textentry.h
+	"wx/filefn.h"
+	"wx/gdicmn.h"
+	"wx/gtk/textentry.h"
+	"wx/osx/textentry.h"
+	"wx/msw/textentry.h"
+	"wx/motif/textentry.h"
+	"wx/qt/textentry.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/textentry.h
+	"wx/control.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/ioswrap.h
+	"wx/beforestd.h"
+	<iostream>
+	"wx/afterstd.h"
+	"wx/msw/winundef.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/textctrl.h
+	"wx/control.h"
+	"wx/textctrl.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/slider.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/univ/slider.h"
+	"wx/msw/slider.h"
+	"wx/motif/slider.h"
+	"wx/gtk/slider.h"
+	"wx/gtk1/slider.h"
+	"wx/osx/slider.h"
+	"wx/qt/slider.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/slider.h
+	"wx/compositewin.h"
+	"wx/stattext.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/compositewin.h
+	"wx/window.h"
+	"wx/containr.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/gauge.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/univ/gauge.h"
+	"wx/msw/gauge.h"
+	"wx/motif/gauge.h"
+	"wx/gtk/gauge.h"
+	"wx/gtk1/gauge.h"
+	"wx/osx/gauge.h"
+	"wx/qt/gauge.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/gauge.h
+	"wx/control.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/scrolwin.h
+	"wx/control.h"
+	"wx/panel.h"
+	"wx/scrolbar.h"
+	"wx/gtk/scrolwin.h"
+	"wx/gtk1/scrolwin.h"
+	"wx/generic/scrolwin.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/scrolwin.h
+	"wx/recguard.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/recguard.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/dirdlg.h
+	"wx/defs.h"
+	"wx/dialog.h"
+	"wx/generic/dirdlgg.h"
+	"wx/generic/dirdlgg.h"
+	"wx/msw/dirdlg.h"
+	"wx/gtk/dirdlg.h"
+	"wx/generic/dirdlgg.h"
+	"wx/osx/dirdlg.h"
+	"wx/generic/dirdlgg.h"
+	"wx/qt/dirdlg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/dirdlgg.h
+	"wx/dialog.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/dirdlg.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/combobox.h
+	"wx/defs.h"
+	"wx/textctrl.h"
+	"wx/ctrlsub.h"
+	"wx/textentry.h"
+	"wx/univ/combobox.h"
+	"wx/msw/combobox.h"
+	"wx/motif/combobox.h"
+	"wx/gtk/combobox.h"
+	"wx/gtk1/combobox.h"
+	"wx/osx/combobox.h"
+	"wx/qt/combobox.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/combobox.h
+	"wx/containr.h"
+	"wx/choice.h"
+	"wx/textctrl.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/layout.h
+	"wx/object.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/sizer.h
+	"wx/defs.h"
+	"wx/window.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/choicdlg.h
+	"wx/defs.h"
+	"wx/generic/choicdgg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/choicdgg.h
+	"wx/dynarray.h"
+	"wx/dialog.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/textdlg.h
+	"wx/generic/textdlgg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/textdlgg.h
+	"wx/defs.h"
+	"wx/dialog.h"
+	"wx/valtext.h"
+	"wx/textctrl.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/valtext.h
+	"wx/defs.h"
+	"wx/validate.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/filedlg.h
+	"wx/defs.h"
+	"wx/dialog.h"
+	"wx/arrstr.h"
+	"wx/generic/filedlgg.h"
+	"wx/msw/filedlg.h"
+	"wx/motif/filedlg.h"
+	"wx/gtk/filedlg.h"
+	"wx/gtk1/filedlg.h"
+	"wx/osx/filedlg.h"
+	"wx/qt/filedlg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/filedlgg.h
+	"wx/listctrl.h"
+	"wx/datetime.h"
+	"wx/filefn.h"
+	"wx/artprov.h"
+	"wx/filedlg.h"
+	"wx/generic/filectrlg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/listctrl.h
+	"wx/defs.h"
+	"wx/listbase.h"
+	"wx/msw/listctrl.h"
+	"wx/qt/listctrl.h"
+	"wx/generic/listctrl.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/listbase.h
+	"wx/colour.h"
+	"wx/font.h"
+	"wx/gdicmn.h"
+	"wx/event.h"
+	"wx/control.h"
+	"wx/itemattr.h"
+	"wx/systhemectrl.h"
+	"wx/withimages.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/itemattr.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/systhemectrl.h
+	"wx/defs.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/withimages.h
+	"wx/defs.h"
+	"wx/bmpbndl.h"
+	"wx/icon.h"
+	"wx/imaglist.h"
+	"wx/vector.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/imaglist.h
+	"wx/defs.h"
+	"wx/msw/imaglist.h"
+	"wx/generic/imaglist.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/imaglist.h
+	"wx/bitmap.h"
+	"wx/gdicmn.h"
+	"wx/vector.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/listctrl.h
+	"wx/containr.h"
+	"wx/scrolwin.h"
+	"wx/textctrl.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/filectrlg.h
+	"wx/containr.h"
+	"wx/listctrl.h"
+	"wx/filectrl.h"
+	"wx/filename.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/filectrl.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/event.h"
+	"wx/gtk/filectrl.h"
+	"wx/generic/filectrlg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/filename.h
+	"wx/arrstr.h"
+	"wx/filefn.h"
+	"wx/datetime.h"
+	"wx/intl.h"
+	"wx/longlong.h"
+	"wx/file.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/file.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/filefn.h"
+	"wx/convauto.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/convauto.h
+	"wx/strconv.h"
+	"wx/fontenc.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/filedlg.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/mdi.h
+	"wx/defs.h"
+	"wx/frame.h"
+	"wx/menu.h"
+	"wx/generic/mdig.h"
+	"wx/msw/mdi.h"
+	"wx/gtk/mdi.h"
+	"wx/gtk1/mdi.h"
+	"wx/osx/mdi.h"
+	"wx/qt/mdi.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/mdi.h
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/colordlg.h
+	"wx/defs.h"
+	"wx/colourdata.h"
+	"wx/msw/colordlg.h"
+	"wx/osx/colordlg.h"
+	"wx/gtk/colordlg.h"
+	"wx/qt/colordlg.h"
+	"wx/generic/colrdlgg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/colourdata.h
+	"wx/colour.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/osx/colordlg.h
+	"wx/dialog.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/colrdlgg.h
+	"wx/gdicmn.h"
+	"wx/dialog.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/clrpicker.h
+	"wx/defs.h"
+	"wx/pickerbase.h"
+	"wx/gtk/clrpicker.h"
+	"wx/qt/clrpicker.h"
+	"wx/generic/clrpickerg.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/pickerbase.h
+	"wx/control.h"
+	"wx/sizer.h"
+	"wx/containr.h"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/generic/clrpickerg.h
+	"wx/button.h"
+	"wx/bmpbuttn.h"
+	"wx/colourdata.h"
+
+1699555525 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignArtProvider.cpp
+	"wxMaterialDesignArtProvider.h"
+	<wx/artprov.h>
+	<wx/msgdlg.h>
+	<wx/bmpbndl.h>
+	<wx/log.h>
+	<wx/colour.h>
+
+1699555401 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignBrandsArt.cpp
+	"wxMaterialDesignBrandsArt.hpp"
+
+1699555400 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignFilledArt.cpp
+	"wxMaterialDesignFilledArt.hpp"
+
+1699555401 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignIconsArt.cpp
+	"wxMaterialDesignIconsArt.hpp"
+
+1699555400 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignOutlinedArt.cpp
+	"wxMaterialDesignOutlinedArt.hpp"
+
+1699555401 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignRegularArt.cpp
+	"wxMaterialDesignRegularArt.hpp"
+
+1699555400 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignRoundArt.cpp
+	"wxMaterialDesignRoundArt.hpp"
+
+1699555400 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignSharpArt.cpp
+	"wxMaterialDesignSharpArt.hpp"
+
+1699555401 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignSolidArt.cpp
+	"wxMaterialDesignSolidArt.hpp"
+
+1699555401 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignTwoToneArt.cpp
+	"wxMaterialDesignTwoToneArt.hpp"
+
