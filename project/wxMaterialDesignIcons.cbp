@@ -78,6 +78,8 @@
 		<Unit filename="../MaterialDesign/wxMaterialDesignBrandsArt.hpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignFilledArt.cpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignFilledArt.hpp" />
+		<Unit filename="../MaterialDesign/wxMaterialDesignIconsArt.cpp" />
+		<Unit filename="../MaterialDesign/wxMaterialDesignIconsArt.hpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignOutlinedArt.cpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignOutlinedArt.hpp" />
 		<Unit filename="../MaterialDesign/wxMaterialDesignRegularArt.cpp" />
