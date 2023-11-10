@@ -144,7 +144,7 @@ wxArtBrowserDialog::wxArtBrowserDialog(wxWindow *parent)
 
     subsizer = new wxBoxSizer(wxHORIZONTAL);
 
-    m_list = new wxListCtrl(this, wxID_ANY, wxDefaultPosition, wxSize(250, 300),
+    m_list = new wxListCtrl(this, wxID_ANY, wxDefaultPosition, wxSize(400, 300),
                             wxLC_REPORT | wxSUNKEN_BORDER);
     m_list->AppendColumn("wxArtID");
     subsizer->Add(m_list, 0, wxEXPAND | wxRIGHT, 10);
