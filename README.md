@@ -1,7 +1,7 @@
 # Material Design icons Art Provider for wxWidgets
 
 This project contains a custom Art Provider for the wxWidgets containing all Material Design icons. 
-The original icons were taken from the [SVG Material Design](https://github.com/marella/material-design-icons) icons, the [SimpleIcons](https://github.com/simple-icons/simple-icons/tree/develop), the [FontAwesome 6.4](https://github.com/FortAwesome/Font-Awesome) repositories. 
+The original icons were taken from the [SVG Material Design](https://github.com/marella/material-design-icons) icons, the [SimpleIcons](https://github.com/simple-icons/simple-icons/tree/develop), the [FontAwesome 6.4](https://github.com/FortAwesome/Font-Awesome) and the [FluentUI icons](https://github.com/microsoft/fluentui-system-icons) repositories. 
 Generation of the wxWidgets core header files is fully automated, hopefully in the future it will be integrated with the CI for updates to the base repo.
 
 All SVG icons are hardcoded into headers such that no external files are needed to build the art provider class beyond those in `MaterialDesign/`. 
@@ -37,7 +37,11 @@ where `iconname` is the name of the icon. The same names are available under fiv
 - `wxART_CLIENT_AWESOME_REGULAR` for regular icons;
 
 *** SimpleIcons
-- `wxART_CLIENT_SIMPLE_ICONS`.
+- `wxART_CLIENT_SIMPLE_ICONS`;
+
+*** FluentUI
+- `wxART_CLIENT_FLUENTUI_REGULAR`
+- `wxART_CLUENT_FLUENTUI_FILLED`.
 
 # Colors
 
@@ -67,5 +71,6 @@ The attached project contains a sample icon browser, modelled on wxWidget's stan
 - FontAwesome icons from the FontAwesome 6 SVG set are subject to the CC BY 4.0 License.
 - Material Design icons are subject to the Apache 2.0 license.
 - SimpleIcons are subject to  the CC0 1.0 License.
-This provider is released under the Apache 2.0 license, consistent with the Material Design icons
+- FluentUI icons are subject to the MIT License.
+This provider is released under the Apache 2.0 license, that all dataset licenses should get along with.
 
