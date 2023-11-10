@@ -1,4 +1,4 @@
-#include "wxMaterialDesignArtProvider.h"
+#include "wxMaterialDesignArtProvider.hpp"
 #include <wx/artprov.h>
 #include <wx/msgdlg.h>
 #include <wx/bmpbndl.h>

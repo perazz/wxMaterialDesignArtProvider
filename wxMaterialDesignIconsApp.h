@@ -11,7 +11,7 @@
 #define WXMATERIALDESIGNICONSAPP_H
 
 #include <wx/app.h>
-#include "MaterialDesign/wxMaterialDesignArtProvider.h"
+#include "MaterialDesign/wxMaterialDesignArtProvider.hpp"
 
 class wxMaterialDesignIconsApp : public wxApp
 {
