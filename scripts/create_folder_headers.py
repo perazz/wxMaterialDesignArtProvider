@@ -18,14 +18,15 @@ def macro_case(s):
 
 def create_svg_folder_header(base_path,folder,save_path,client_name):
 
-    header_name = "wxMaterialDesign" + camel_case(folder) + "Art"
-
+    # Create all names
     cliup = macro_case(client_name)
     clicm = camel_case(client_name)
+    art_client = "wxART_CLIENT_" + cliup + "_" + macro_case(folder)
+    safeguard  = art_client.upper() + "_H"
 
+    header_name = "wx" + clicm + camel_case(folder) + "Art"
     fid = open(os.path.join(save_path,header_name+".hpp"),"w")
 
-    safeguard = header_name.upper() + "_H"
 
     print(safeguard)
 
@@ -34,11 +35,9 @@ def create_svg_folder_header(base_path,folder,save_path,client_name):
     fid.write("#define "+safeguard+"\n")
 
     fid.write("\n#include <wx/string.h> \n")
-    fid.write("#include <wx/arrstr.h> \n\n")
-    fid.write("#include <wx/artprov.h> \n\n")
-    fid.write("#include <wx/colour.h> \n\n")
-
-    art_client = "wxART_CLIENT_" + cliup + "_" + macro_case(folder)
+    fid.write("#include <wx/arrstr.h> \n")
+    fid.write("#include <wx/artprov.h> \n")
+    fid.write("#include <wx/colour.h> \n")
 
     # Define art client
     fid.write("// Define art client \n")
@@ -192,4 +191,6 @@ create_svg_folder_header(os.path.join(storage,"Font-Awesome-6"),"brands",os.path
 create_svg_folder_header(os.path.join(storage,"Font-Awesome-6"),"regular",os.path.join("..","MaterialDesign"),"Awesome")
 create_svg_folder_header(os.path.join(storage,"Font-Awesome-6"),"solid",os.path.join("..","MaterialDesign"),"Awesome")
 create_svg_folder_header(os.path.join(storage,"SimpleIcons"),"icons",os.path.join("..","MaterialDesign"),"Simple")
+create_svg_folder_header(os.path.join(storage,"FluentUI"),"regular",os.path.join("..","MaterialDesign"),"FluentUI")
+create_svg_folder_header(os.path.join(storage,"FluentUI"),"filled",os.path.join("..","MaterialDesign"),"FluentUI")
 

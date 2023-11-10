@@ -1,0 +1,7564 @@
+#include "wxFluentuiFilledArt.hpp" 
+
+// Return SVG for the current ID as a string 
+wxString FilledFluentuiArtSVGByID(const wxArtID& id)
+{
+  if (id == wxART_ACCESS_TIME)  
+      return wxString(SVG_FLUENTUI_FILLED_ACCESS_TIME);
+  if (id == wxART_ACCESSIBILITY)  
+      return wxString(SVG_FLUENTUI_FILLED_ACCESSIBILITY);
+  if (id == wxART_ACCESSIBILITY_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_ACCESSIBILITY_CHECKMARK);
+  if (id == wxART_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_ADD);
+  if (id == wxART_ADD_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ADD_CIRCLE);
+  if (id == wxART_ADD_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_ADD_SQUARE);
+  if (id == wxART_ADD_SQUARE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ADD_SQUARE_MULTIPLE);
+  if (id == wxART_ADD_SUBTRACT_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ADD_SUBTRACT_CIRCLE);
+  if (id == wxART_AIRPLANE)  
+      return wxString(SVG_FLUENTUI_FILLED_AIRPLANE);
+  if (id == wxART_AIRPLANE_LANDING)  
+      return wxString(SVG_FLUENTUI_FILLED_AIRPLANE_LANDING);
+  if (id == wxART_AIRPLANE_TAKE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_AIRPLANE_TAKE_OFF);
+  if (id == wxART_ALBUM)  
+      return wxString(SVG_FLUENTUI_FILLED_ALBUM);
+  if (id == wxART_ALBUM_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_ALBUM_ADD);
+  if (id == wxART_ALERT)  
+      return wxString(SVG_FLUENTUI_FILLED_ALERT);
+  if (id == wxART_ALERT_BADGE)  
+      return wxString(SVG_FLUENTUI_FILLED_ALERT_BADGE);
+  if (id == wxART_ALERT_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_ALERT_OFF);
+  if (id == wxART_ALERT_ON)  
+      return wxString(SVG_FLUENTUI_FILLED_ALERT_ON);
+  if (id == wxART_ALERT_SNOOZE)  
+      return wxString(SVG_FLUENTUI_FILLED_ALERT_SNOOZE);
+  if (id == wxART_ALERT_URGENT)  
+      return wxString(SVG_FLUENTUI_FILLED_ALERT_URGENT);
+  if (id == wxART_ALIGN_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_BOTTOM);
+  if (id == wxART_ALIGN_CENTER_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_CENTER_HORIZONTAL);
+  if (id == wxART_ALIGN_CENTER_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_CENTER_VERTICAL);
+  if (id == wxART_ALIGN_DISTRIBUTE_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_DISTRIBUTE_BOTTOM);
+  if (id == wxART_ALIGN_DISTRIBUTE_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_DISTRIBUTE_LEFT);
+  if (id == wxART_ALIGN_DISTRIBUTE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_DISTRIBUTE_RIGHT);
+  if (id == wxART_ALIGN_DISTRIBUTE_TOP)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_DISTRIBUTE_TOP);
+  if (id == wxART_ALIGN_END_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_END_HORIZONTAL);
+  if (id == wxART_ALIGN_END_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_END_VERTICAL);
+  if (id == wxART_ALIGN_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_LEFT);
+  if (id == wxART_ALIGN_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_RIGHT);
+  if (id == wxART_ALIGN_SPACE_AROUND_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_SPACE_AROUND_HORIZONTAL);
+  if (id == wxART_ALIGN_SPACE_AROUND_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_SPACE_AROUND_VERTICAL);
+  if (id == wxART_ALIGN_SPACE_BETWEEN_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_SPACE_BETWEEN_HORIZONTAL);
+  if (id == wxART_ALIGN_SPACE_BETWEEN_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_SPACE_BETWEEN_VERTICAL);
+  if (id == wxART_ALIGN_SPACE_EVENLY_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_SPACE_EVENLY_HORIZONTAL);
+  if (id == wxART_ALIGN_SPACE_EVENLY_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_SPACE_EVENLY_VERTICAL);
+  if (id == wxART_ALIGN_SPACE_FIT_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_SPACE_FIT_VERTICAL);
+  if (id == wxART_ALIGN_START_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_START_HORIZONTAL);
+  if (id == wxART_ALIGN_START_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_START_VERTICAL);
+  if (id == wxART_ALIGN_STRAIGHTEN)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_STRAIGHTEN);
+  if (id == wxART_ALIGN_STRETCH_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_STRETCH_HORIZONTAL);
+  if (id == wxART_ALIGN_STRETCH_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_STRETCH_VERTICAL);
+  if (id == wxART_ALIGN_TOP)  
+      return wxString(SVG_FLUENTUI_FILLED_ALIGN_TOP);
+  if (id == wxART_ANIMAL_CAT)  
+      return wxString(SVG_FLUENTUI_FILLED_ANIMAL_CAT);
+  if (id == wxART_ANIMAL_DOG)  
+      return wxString(SVG_FLUENTUI_FILLED_ANIMAL_DOG);
+  if (id == wxART_ANIMAL_RABBIT)  
+      return wxString(SVG_FLUENTUI_FILLED_ANIMAL_RABBIT);
+  if (id == wxART_ANIMAL_RABBIT_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_ANIMAL_RABBIT_OFF);
+  if (id == wxART_ANIMAL_TURTLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ANIMAL_TURTLE);
+  if (id == wxART_APP_FOLDER)  
+      return wxString(SVG_FLUENTUI_FILLED_APP_FOLDER);
+  if (id == wxART_APP_GENERIC)  
+      return wxString(SVG_FLUENTUI_FILLED_APP_GENERIC);
+  if (id == wxART_APP_RECENT)  
+      return wxString(SVG_FLUENTUI_FILLED_APP_RECENT);
+  if (id == wxART_APP_STORE)  
+      return wxString(SVG_FLUENTUI_FILLED_APP_STORE);
+  if (id == wxART_APP_TITLE)  
+      return wxString(SVG_FLUENTUI_FILLED_APP_TITLE);
+  if (id == wxART_APPROVALS_APP)  
+      return wxString(SVG_FLUENTUI_FILLED_APPROVALS_APP);
+  if (id == wxART_APPS)  
+      return wxString(SVG_FLUENTUI_FILLED_APPS);
+  if (id == wxART_APPS_ADD_IN)  
+      return wxString(SVG_FLUENTUI_FILLED_APPS_ADD_IN);
+  if (id == wxART_APPS_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_APPS_LIST);
+  if (id == wxART_APPS_LIST_DETAIL)  
+      return wxString(SVG_FLUENTUI_FILLED_APPS_LIST_DETAIL);
+  if (id == wxART_ARCHIVE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARCHIVE);
+  if (id == wxART_ARCHIVE_ARROW_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_ARCHIVE_ARROW_BACK);
+  if (id == wxART_ARCHIVE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARCHIVE_MULTIPLE);
+  if (id == wxART_ARCHIVE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_ARCHIVE_SETTINGS);
+  if (id == wxART_ARROW_AUTOFIT_CONTENT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_AUTOFIT_CONTENT);
+  if (id == wxART_ARROW_AUTOFIT_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_AUTOFIT_DOWN);
+  if (id == wxART_ARROW_AUTOFIT_HEIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_AUTOFIT_HEIGHT);
+  if (id == wxART_ARROW_AUTOFIT_HEIGHT_DOTTED)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_AUTOFIT_HEIGHT_DOTTED);
+  if (id == wxART_ARROW_AUTOFIT_HEIGHT_IN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_AUTOFIT_HEIGHT_IN);
+  if (id == wxART_ARROW_AUTOFIT_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_AUTOFIT_UP);
+  if (id == wxART_ARROW_AUTOFIT_WIDTH)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_AUTOFIT_WIDTH);
+  if (id == wxART_ARROW_AUTOFIT_WIDTH_DOTTED)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_AUTOFIT_WIDTH_DOTTED);
+  if (id == wxART_ARROW_BETWEEN_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_BETWEEN_DOWN);
+  if (id == wxART_ARROW_BETWEEN_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_BETWEEN_UP);
+  if (id == wxART_ARROW_BIDIRECTIONAL_LEFT_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_BIDIRECTIONAL_LEFT_RIGHT);
+  if (id == wxART_ARROW_BIDIRECTIONAL_UP_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_BIDIRECTIONAL_UP_DOWN);
+  if (id == wxART_ARROW_BOUNCE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_BOUNCE);
+  if (id == wxART_ARROW_CIRCLE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CIRCLE_DOWN);
+  if (id == wxART_ARROW_CIRCLE_DOWN_DOUBLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CIRCLE_DOWN_DOUBLE);
+  if (id == wxART_ARROW_CIRCLE_DOWN_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CIRCLE_DOWN_RIGHT);
+  if (id == wxART_ARROW_CIRCLE_DOWN_SPLIT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CIRCLE_DOWN_SPLIT);
+  if (id == wxART_ARROW_CIRCLE_DOWN_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CIRCLE_DOWN_UP);
+  if (id == wxART_ARROW_CIRCLE_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CIRCLE_LEFT);
+  if (id == wxART_ARROW_CIRCLE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CIRCLE_RIGHT);
+  if (id == wxART_ARROW_CIRCLE_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CIRCLE_UP);
+  if (id == wxART_ARROW_CIRCLE_UP_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CIRCLE_UP_LEFT);
+  if (id == wxART_ARROW_CIRCLE_UP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CIRCLE_UP_RIGHT);
+  if (id == wxART_ARROW_CLOCKWISE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CLOCKWISE);
+  if (id == wxART_ARROW_CLOCKWISE_DASHES)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CLOCKWISE_DASHES);
+  if (id == wxART_ARROW_COLLAPSE_ALL)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_COLLAPSE_ALL);
+  if (id == wxART_ARROW_COUNTERCLOCKWISE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_COUNTERCLOCKWISE);
+  if (id == wxART_ARROW_COUNTERCLOCKWISE_DASHES)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_COUNTERCLOCKWISE_DASHES);
+  if (id == wxART_ARROW_CURVE_DOWN_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CURVE_DOWN_LEFT);
+  if (id == wxART_ARROW_CURVE_DOWN_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CURVE_DOWN_RIGHT);
+  if (id == wxART_ARROW_CURVE_UP_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CURVE_UP_LEFT);
+  if (id == wxART_ARROW_CURVE_UP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_CURVE_UP_RIGHT);
+  if (id == wxART_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_DOWN);
+  if (id == wxART_ARROW_DOWN_EXCLAMATION)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_DOWN_EXCLAMATION);
+  if (id == wxART_ARROW_DOWN_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_DOWN_LEFT);
+  if (id == wxART_ARROW_DOWNLOAD)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_DOWNLOAD);
+  if (id == wxART_ARROW_DOWNLOAD_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_DOWNLOAD_OFF);
+  if (id == wxART_ARROW_EJECT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_EJECT);
+  if (id == wxART_ARROW_ENTER)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_ENTER);
+  if (id == wxART_ARROW_ENTER_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_ENTER_LEFT);
+  if (id == wxART_ARROW_ENTER_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_ENTER_UP);
+  if (id == wxART_ARROW_EXIT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_EXIT);
+  if (id == wxART_ARROW_EXPAND)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_EXPAND);
+  if (id == wxART_ARROW_EXPORT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_EXPORT);
+  if (id == wxART_ARROW_EXPORT_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_EXPORT_LTR);
+  if (id == wxART_ARROW_EXPORT_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_EXPORT_RTL);
+  if (id == wxART_ARROW_EXPORT_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_EXPORT_UP);
+  if (id == wxART_ARROW_FIT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_FIT);
+  if (id == wxART_ARROW_FIT_IN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_FIT_IN);
+  if (id == wxART_ARROW_FLOW_DIAGONAL_UP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_FLOW_DIAGONAL_UP_RIGHT);
+  if (id == wxART_ARROW_FLOW_UP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_FLOW_UP_RIGHT);
+  if (id == wxART_ARROW_FLOW_UP_RIGHT_RECTANGLE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_FLOW_UP_RIGHT_RECTANGLE_MULTIPLE);
+  if (id == wxART_ARROW_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_FORWARD);
+  if (id == wxART_ARROW_FORWARD_DOWN_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_FORWARD_DOWN_LIGHTNING);
+  if (id == wxART_ARROW_FORWARD_DOWN_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_FORWARD_DOWN_PERSON);
+  if (id == wxART_ARROW_HOOK_DOWN_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_HOOK_DOWN_LEFT);
+  if (id == wxART_ARROW_HOOK_DOWN_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_HOOK_DOWN_RIGHT);
+  if (id == wxART_ARROW_HOOK_UP_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_HOOK_UP_LEFT);
+  if (id == wxART_ARROW_HOOK_UP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_HOOK_UP_RIGHT);
+  if (id == wxART_ARROW_IMPORT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_IMPORT);
+  if (id == wxART_ARROW_JOIN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_JOIN);
+  if (id == wxART_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_LEFT);
+  if (id == wxART_ARROW_MAXIMIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_MAXIMIZE);
+  if (id == wxART_ARROW_MAXIMIZE_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_MAXIMIZE_VERTICAL);
+  if (id == wxART_ARROW_MINIMIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_MINIMIZE);
+  if (id == wxART_ARROW_MINIMIZE_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_MINIMIZE_VERTICAL);
+  if (id == wxART_ARROW_MOVE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_MOVE);
+  if (id == wxART_ARROW_MOVE_INWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_MOVE_INWARD);
+  if (id == wxART_ARROW_NEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_NEXT);
+  if (id == wxART_ARROW_OUTLINE_DOWN_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_OUTLINE_DOWN_LEFT);
+  if (id == wxART_ARROW_OUTLINE_UP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_OUTLINE_UP_RIGHT);
+  if (id == wxART_ARROW_PARAGRAPH)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_PARAGRAPH);
+  if (id == wxART_ARROW_PREVIOUS)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_PREVIOUS);
+  if (id == wxART_ARROW_REDO)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_REDO);
+  if (id == wxART_ARROW_REDO_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_REDO_TEMP_LTR);
+  if (id == wxART_ARROW_REDO_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_REDO_TEMP_RTL);
+  if (id == wxART_ARROW_REPEAT_1)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_REPEAT_1);
+  if (id == wxART_ARROW_REPEAT_ALL)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_REPEAT_ALL);
+  if (id == wxART_ARROW_REPEAT_ALL_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_REPEAT_ALL_OFF);
+  if (id == wxART_ARROW_REPLY)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_REPLY);
+  if (id == wxART_ARROW_REPLY_ALL)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_REPLY_ALL);
+  if (id == wxART_ARROW_REPLY_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_REPLY_DOWN);
+  if (id == wxART_ARROW_RESET)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_RESET);
+  if (id == wxART_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_RIGHT);
+  if (id == wxART_ARROW_ROTATE_CLOCKWISE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_ROTATE_CLOCKWISE);
+  if (id == wxART_ARROW_ROTATE_COUNTERCLOCKWISE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_ROTATE_COUNTERCLOCKWISE);
+  if (id == wxART_ARROW_ROUTING)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_ROUTING);
+  if (id == wxART_ARROW_ROUTING_RECTANGLE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_ROUTING_RECTANGLE_MULTIPLE);
+  if (id == wxART_ARROW_SHUFFLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SHUFFLE);
+  if (id == wxART_ARROW_SHUFFLE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SHUFFLE_OFF);
+  if (id == wxART_ARROW_SORT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SORT);
+  if (id == wxART_ARROW_SORT_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SORT_DOWN);
+  if (id == wxART_ARROW_SORT_DOWN_LINES)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SORT_DOWN_LINES);
+  if (id == wxART_ARROW_SORT_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SORT_UP);
+  if (id == wxART_ARROW_SPLIT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SPLIT);
+  if (id == wxART_ARROW_SPRINT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SPRINT);
+  if (id == wxART_ARROW_SQUARE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SQUARE_DOWN);
+  if (id == wxART_ARROW_SQUARE_UP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SQUARE_UP_RIGHT);
+  if (id == wxART_ARROW_STEP_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_STEP_BACK);
+  if (id == wxART_ARROW_STEP_IN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_STEP_IN);
+  if (id == wxART_ARROW_STEP_IN_DIAGONAL_DOWN_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_STEP_IN_DIAGONAL_DOWN_LEFT);
+  if (id == wxART_ARROW_STEP_IN_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_STEP_IN_LEFT);
+  if (id == wxART_ARROW_STEP_IN_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_STEP_IN_RIGHT);
+  if (id == wxART_ARROW_STEP_OUT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_STEP_OUT);
+  if (id == wxART_ARROW_STEP_OVER)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_STEP_OVER);
+  if (id == wxART_ARROW_SWAP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SWAP);
+  if (id == wxART_ARROW_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SYNC);
+  if (id == wxART_ARROW_SYNC_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SYNC_CHECKMARK);
+  if (id == wxART_ARROW_SYNC_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SYNC_CIRCLE);
+  if (id == wxART_ARROW_SYNC_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SYNC_DISMISS);
+  if (id == wxART_ARROW_SYNC_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_SYNC_OFF);
+  if (id == wxART_ARROW_TRENDING)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TRENDING);
+  if (id == wxART_ARROW_TRENDING_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TRENDING_CHECKMARK);
+  if (id == wxART_ARROW_TRENDING_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TRENDING_DOWN);
+  if (id == wxART_ARROW_TRENDING_LINES)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TRENDING_LINES);
+  if (id == wxART_ARROW_TRENDING_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TRENDING_SETTINGS);
+  if (id == wxART_ARROW_TRENDING_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TRENDING_SPARKLE);
+  if (id == wxART_ARROW_TRENDING_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TRENDING_TEXT);
+  if (id == wxART_ARROW_TRENDING_WRENCH)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TRENDING_WRENCH);
+  if (id == wxART_ARROW_TURN_BIDIRECTIONAL_DOWN_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_BIDIRECTIONAL_DOWN_RIGHT);
+  if (id == wxART_ARROW_TURN_DOWN_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_DOWN_LEFT);
+  if (id == wxART_ARROW_TURN_DOWN_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_DOWN_RIGHT);
+  if (id == wxART_ARROW_TURN_DOWN_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_DOWN_UP);
+  if (id == wxART_ARROW_TURN_LEFT_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_LEFT_DOWN);
+  if (id == wxART_ARROW_TURN_LEFT_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_LEFT_RIGHT);
+  if (id == wxART_ARROW_TURN_LEFT_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_LEFT_UP);
+  if (id == wxART_ARROW_TURN_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_RIGHT);
+  if (id == wxART_ARROW_TURN_RIGHT_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_RIGHT_DOWN);
+  if (id == wxART_ARROW_TURN_RIGHT_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_RIGHT_LEFT);
+  if (id == wxART_ARROW_TURN_RIGHT_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_RIGHT_UP);
+  if (id == wxART_ARROW_TURN_UP_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_UP_DOWN);
+  if (id == wxART_ARROW_TURN_UP_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_TURN_UP_LEFT);
+  if (id == wxART_ARROW_UNDO)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_UNDO);
+  if (id == wxART_ARROW_UNDO_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_UNDO_TEMP_LTR);
+  if (id == wxART_ARROW_UNDO_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_UNDO_TEMP_RTL);
+  if (id == wxART_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_UP);
+  if (id == wxART_ARROW_UP_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_UP_LEFT);
+  if (id == wxART_ARROW_UP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_UP_RIGHT);
+  if (id == wxART_ARROW_UP_RIGHT_DASHES)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_UP_RIGHT_DASHES);
+  if (id == wxART_ARROW_UP_SQUARE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_UP_SQUARE_SETTINGS);
+  if (id == wxART_ARROW_UPLOAD)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_UPLOAD);
+  if (id == wxART_ARROW_WRAP)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_WRAP);
+  if (id == wxART_ARROW_WRAP_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROW_WRAP_OFF);
+  if (id == wxART_ARROWS_BIDIRECTIONAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ARROWS_BIDIRECTIONAL);
+  if (id == wxART_ATTACH)  
+      return wxString(SVG_FLUENTUI_FILLED_ATTACH);
+  if (id == wxART_ATTACH_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ATTACH_ARROW_RIGHT);
+  if (id == wxART_ATTACH_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_ATTACH_TEXT);
+  if (id == wxART_AUTOSUM)  
+      return wxString(SVG_FLUENTUI_FILLED_AUTOSUM);
+  if (id == wxART_AUTO_FIT_HEIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_AUTO_FIT_HEIGHT);
+  if (id == wxART_AUTO_FIT_WIDTH)  
+      return wxString(SVG_FLUENTUI_FILLED_AUTO_FIT_WIDTH);
+  if (id == wxART_AUTOCORRECT)  
+      return wxString(SVG_FLUENTUI_FILLED_AUTOCORRECT);
+  if (id == wxART_BACKPACK)  
+      return wxString(SVG_FLUENTUI_FILLED_BACKPACK);
+  if (id == wxART_BACKPACK_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_BACKPACK_ADD);
+  if (id == wxART_BACKSPACE)  
+      return wxString(SVG_FLUENTUI_FILLED_BACKSPACE);
+  if (id == wxART_BADGE)  
+      return wxString(SVG_FLUENTUI_FILLED_BADGE);
+  if (id == wxART_BALLOON)  
+      return wxString(SVG_FLUENTUI_FILLED_BALLOON);
+  if (id == wxART_BARCODE_SCANNER)  
+      return wxString(SVG_FLUENTUI_FILLED_BARCODE_SCANNER);
+  if (id == wxART_BATTERY_0)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_0);
+  if (id == wxART_BATTERY_1)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_1);
+  if (id == wxART_BATTERY_10)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_10);
+  if (id == wxART_BATTERY_2)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_2);
+  if (id == wxART_BATTERY_3)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_3);
+  if (id == wxART_BATTERY_4)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_4);
+  if (id == wxART_BATTERY_5)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_5);
+  if (id == wxART_BATTERY_6)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_6);
+  if (id == wxART_BATTERY_7)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_7);
+  if (id == wxART_BATTERY_8)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_8);
+  if (id == wxART_BATTERY_9)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_9);
+  if (id == wxART_BATTERY_CHARGE)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_CHARGE);
+  if (id == wxART_BATTERY_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_CHECKMARK);
+  if (id == wxART_BATTERY_SAVER)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_SAVER);
+  if (id == wxART_BATTERY_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_BATTERY_WARNING);
+  if (id == wxART_BEACH)  
+      return wxString(SVG_FLUENTUI_FILLED_BEACH);
+  if (id == wxART_BEAKER)  
+      return wxString(SVG_FLUENTUI_FILLED_BEAKER);
+  if (id == wxART_BEAKER_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_BEAKER_ADD);
+  if (id == wxART_BEAKER_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_BEAKER_DISMISS);
+  if (id == wxART_BEAKER_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_BEAKER_EDIT);
+  if (id == wxART_BEAKER_EMPTY)  
+      return wxString(SVG_FLUENTUI_FILLED_BEAKER_EMPTY);
+  if (id == wxART_BEAKER_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_BEAKER_OFF);
+  if (id == wxART_BEAKER_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_BEAKER_SETTINGS);
+  if (id == wxART_BED)  
+      return wxString(SVG_FLUENTUI_FILLED_BED);
+  if (id == wxART_BEZIER_CURVE_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_BEZIER_CURVE_SQUARE);
+  if (id == wxART_BIN_FULL)  
+      return wxString(SVG_FLUENTUI_FILLED_BIN_FULL);
+  if (id == wxART_BIN_RECYCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BIN_RECYCLE);
+  if (id == wxART_BIN_RECYCLE_FULL)  
+      return wxString(SVG_FLUENTUI_FILLED_BIN_RECYCLE_FULL);
+  if (id == wxART_BINDER_TRIANGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BINDER_TRIANGLE);
+  if (id == wxART_BLUETOOTH)  
+      return wxString(SVG_FLUENTUI_FILLED_BLUETOOTH);
+  if (id == wxART_BLUETOOTH_CONNECTED)  
+      return wxString(SVG_FLUENTUI_FILLED_BLUETOOTH_CONNECTED);
+  if (id == wxART_BLUETOOTH_DISABLED)  
+      return wxString(SVG_FLUENTUI_FILLED_BLUETOOTH_DISABLED);
+  if (id == wxART_BLUETOOTH_SEARCHING)  
+      return wxString(SVG_FLUENTUI_FILLED_BLUETOOTH_SEARCHING);
+  if (id == wxART_BLUR)  
+      return wxString(SVG_FLUENTUI_FILLED_BLUR);
+  if (id == wxART_BOARD)  
+      return wxString(SVG_FLUENTUI_FILLED_BOARD);
+  if (id == wxART_BOARD_GAMES)  
+      return wxString(SVG_FLUENTUI_FILLED_BOARD_GAMES);
+  if (id == wxART_BOARD_HEART)  
+      return wxString(SVG_FLUENTUI_FILLED_BOARD_HEART);
+  if (id == wxART_BOARD_SPLIT)  
+      return wxString(SVG_FLUENTUI_FILLED_BOARD_SPLIT);
+  if (id == wxART_BOOK)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK);
+  if (id == wxART_BOOK_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_ADD);
+  if (id == wxART_BOOK_ARROW_CLOCKWISE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_ARROW_CLOCKWISE);
+  if (id == wxART_BOOK_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_CLOCK);
+  if (id == wxART_BOOK_COINS)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_COINS);
+  if (id == wxART_BOOK_COMPASS)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_COMPASS);
+  if (id == wxART_BOOK_CONTACTS)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_CONTACTS);
+  if (id == wxART_BOOK_DATABASE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_DATABASE);
+  if (id == wxART_BOOK_DEFAULT)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_DEFAULT);
+  if (id == wxART_BOOK_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_DISMISS);
+  if (id == wxART_BOOK_EXCLAMATION_MARK)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_EXCLAMATION_MARK);
+  if (id == wxART_BOOK_GLOBE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_GLOBE);
+  if (id == wxART_BOOK_INFORMATION)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_INFORMATION);
+  if (id == wxART_BOOK_LETTER)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_LETTER);
+  if (id == wxART_BOOK_NUMBER)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_NUMBER);
+  if (id == wxART_BOOK_OPEN)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_OPEN);
+  if (id == wxART_BOOK_OPEN_GLOBE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_OPEN_GLOBE);
+  if (id == wxART_BOOK_OPEN_MICROPHONE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_OPEN_MICROPHONE);
+  if (id == wxART_BOOK_PULSE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_PULSE);
+  if (id == wxART_BOOK_QUESTION_MARK)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_QUESTION_MARK);
+  if (id == wxART_BOOK_QUESTION_MARK_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_QUESTION_MARK_RTL);
+  if (id == wxART_BOOK_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_SEARCH);
+  if (id == wxART_BOOK_STAR)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_STAR);
+  if (id == wxART_BOOK_TEMPLATE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_TEMPLATE);
+  if (id == wxART_BOOK_THETA)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_THETA);
+  if (id == wxART_BOOK_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOK_TOOLBOX);
+  if (id == wxART_BOOKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOKMARK);
+  if (id == wxART_BOOKMARK_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOKMARK_ADD);
+  if (id == wxART_BOOKMARK_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOKMARK_MULTIPLE);
+  if (id == wxART_BOOKMARK_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOKMARK_OFF);
+  if (id == wxART_BOOKMARK_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_BOOKMARK_SEARCH);
+  if (id == wxART_BORDER_ALL)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_ALL);
+  if (id == wxART_BORDER_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_BOTTOM);
+  if (id == wxART_BORDER_BOTTOM_DOUBLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_BOTTOM_DOUBLE);
+  if (id == wxART_BORDER_BOTTOM_THICK)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_BOTTOM_THICK);
+  if (id == wxART_BORDER_INSIDE)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_INSIDE);
+  if (id == wxART_BORDER_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_LEFT);
+  if (id == wxART_BORDER_LEFT_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_LEFT_RIGHT);
+  if (id == wxART_BORDER_NONE)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_NONE);
+  if (id == wxART_BORDER_OUTSIDE)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_OUTSIDE);
+  if (id == wxART_BORDER_OUTSIDE_THICK)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_OUTSIDE_THICK);
+  if (id == wxART_BORDER_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_RIGHT);
+  if (id == wxART_BORDER_TOP)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_TOP);
+  if (id == wxART_BORDER_TOP_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_TOP_BOTTOM);
+  if (id == wxART_BORDER_TOP_BOTTOM_DOUBLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_TOP_BOTTOM_DOUBLE);
+  if (id == wxART_BORDER_TOP_BOTTOM_THICK)  
+      return wxString(SVG_FLUENTUI_FILLED_BORDER_TOP_BOTTOM_THICK);
+  if (id == wxART_BOT)  
+      return wxString(SVG_FLUENTUI_FILLED_BOT);
+  if (id == wxART_BOT_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_BOT_ADD);
+  if (id == wxART_BOT_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOT_SPARKLE);
+  if (id == wxART_BOW_TIE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOW_TIE);
+  if (id == wxART_BOWL_CHOPSTICKS)  
+      return wxString(SVG_FLUENTUI_FILLED_BOWL_CHOPSTICKS);
+  if (id == wxART_BOWL_SALAD)  
+      return wxString(SVG_FLUENTUI_FILLED_BOWL_SALAD);
+  if (id == wxART_BOX)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX);
+  if (id == wxART_BOX_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_ARROW_LEFT);
+  if (id == wxART_BOX_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_ARROW_UP);
+  if (id == wxART_BOX_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_CHECKMARK);
+  if (id == wxART_BOX_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_DISMISS);
+  if (id == wxART_BOX_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_EDIT);
+  if (id == wxART_BOX_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_MULTIPLE);
+  if (id == wxART_BOX_MULTIPLE_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_MULTIPLE_ARROW_LEFT);
+  if (id == wxART_BOX_MULTIPLE_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_MULTIPLE_ARROW_RIGHT);
+  if (id == wxART_BOX_MULTIPLE_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_MULTIPLE_CHECKMARK);
+  if (id == wxART_BOX_MULTIPLE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_MULTIPLE_SEARCH);
+  if (id == wxART_BOX_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_SEARCH);
+  if (id == wxART_BOX_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_BOX_TOOLBOX);
+  if (id == wxART_BRACES)  
+      return wxString(SVG_FLUENTUI_FILLED_BRACES);
+  if (id == wxART_BRACES_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_BRACES_CHECKMARK);
+  if (id == wxART_BRACES_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_BRACES_DISMISS);
+  if (id == wxART_BRACES_VARIABLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BRACES_VARIABLE);
+  if (id == wxART_BRAIN_CIRCUIT)  
+      return wxString(SVG_FLUENTUI_FILLED_BRAIN_CIRCUIT);
+  if (id == wxART_BRANCH)  
+      return wxString(SVG_FLUENTUI_FILLED_BRANCH);
+  if (id == wxART_BRANCH_COMPARE)  
+      return wxString(SVG_FLUENTUI_FILLED_BRANCH_COMPARE);
+  if (id == wxART_BRANCH_FORK)  
+      return wxString(SVG_FLUENTUI_FILLED_BRANCH_FORK);
+  if (id == wxART_BRANCH_FORK_HINT)  
+      return wxString(SVG_FLUENTUI_FILLED_BRANCH_FORK_HINT);
+  if (id == wxART_BRANCH_FORK_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_BRANCH_FORK_LINK);
+  if (id == wxART_BRANCH_REQUEST)  
+      return wxString(SVG_FLUENTUI_FILLED_BRANCH_REQUEST);
+  if (id == wxART_BREAKOUT_ROOM)  
+      return wxString(SVG_FLUENTUI_FILLED_BREAKOUT_ROOM);
+  if (id == wxART_BRIEFCASE)  
+      return wxString(SVG_FLUENTUI_FILLED_BRIEFCASE);
+  if (id == wxART_BRIEFCASE_MEDICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_BRIEFCASE_MEDICAL);
+  if (id == wxART_BRIEFCASE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_BRIEFCASE_OFF);
+  if (id == wxART_BRIEFCASE_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_BRIEFCASE_PERSON);
+  if (id == wxART_BRIEFCASE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_BRIEFCASE_SEARCH);
+  if (id == wxART_BRIGHTNESS_HIGH)  
+      return wxString(SVG_FLUENTUI_FILLED_BRIGHTNESS_HIGH);
+  if (id == wxART_BRIGHTNESS_LOW)  
+      return wxString(SVG_FLUENTUI_FILLED_BRIGHTNESS_LOW);
+  if (id == wxART_BROAD_ACTIVITY_FEED)  
+      return wxString(SVG_FLUENTUI_FILLED_BROAD_ACTIVITY_FEED);
+  if (id == wxART_BROOM)  
+      return wxString(SVG_FLUENTUI_FILLED_BROOM);
+  if (id == wxART_BUBBLE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BUBBLE_MULTIPLE);
+  if (id == wxART_BUG)  
+      return wxString(SVG_FLUENTUI_FILLED_BUG);
+  if (id == wxART_BUG_ARROW_COUNTERCLOCKWISE)  
+      return wxString(SVG_FLUENTUI_FILLED_BUG_ARROW_COUNTERCLOCKWISE);
+  if (id == wxART_BUG_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_BUG_PROHIBITED);
+  if (id == wxART_BUILDING)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING);
+  if (id == wxART_BUILDING_BANK)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_BANK);
+  if (id == wxART_BUILDING_BANK_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_BANK_LINK);
+  if (id == wxART_BUILDING_BANK_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_BANK_TOOLBOX);
+  if (id == wxART_BUILDING_CLOUD)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_CLOUD);
+  if (id == wxART_BUILDING_DESKTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_DESKTOP);
+  if (id == wxART_BUILDING_FACTORY)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_FACTORY);
+  if (id == wxART_BUILDING_GOVERNMENT)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_GOVERNMENT);
+  if (id == wxART_BUILDING_GOVERNMENT_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_GOVERNMENT_SEARCH);
+  if (id == wxART_BUILDING_HOME)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_HOME);
+  if (id == wxART_BUILDING_LIGHTHOUSE)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_LIGHTHOUSE);
+  if (id == wxART_BUILDING_MOSQUE)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_MOSQUE);
+  if (id == wxART_BUILDING_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_MULTIPLE);
+  if (id == wxART_BUILDING_PEOPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_PEOPLE);
+  if (id == wxART_BUILDING_RETAIL)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_RETAIL);
+  if (id == wxART_BUILDING_RETAIL_MONEY)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_RETAIL_MONEY);
+  if (id == wxART_BUILDING_RETAIL_MORE)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_RETAIL_MORE);
+  if (id == wxART_BUILDING_RETAIL_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_RETAIL_SHIELD);
+  if (id == wxART_BUILDING_RETAIL_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_RETAIL_TOOLBOX);
+  if (id == wxART_BUILDING_SHOP)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_SHOP);
+  if (id == wxART_BUILDING_SKYSCRAPER)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_SKYSCRAPER);
+  if (id == wxART_BUILDING_TOWNHOUSE)  
+      return wxString(SVG_FLUENTUI_FILLED_BUILDING_TOWNHOUSE);
+  if (id == wxART_BUTTON)  
+      return wxString(SVG_FLUENTUI_FILLED_BUTTON);
+  if (id == wxART_CD)  
+      return wxString(SVG_FLUENTUI_FILLED_CD);
+  if (id == wxART_CALCULATOR)  
+      return wxString(SVG_FLUENTUI_FILLED_CALCULATOR);
+  if (id == wxART_CALCULATOR_ARROW_CLOCKWISE)  
+      return wxString(SVG_FLUENTUI_FILLED_CALCULATOR_ARROW_CLOCKWISE);
+  if (id == wxART_CALCULATOR_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CALCULATOR_MULTIPLE);
+  if (id == wxART_CALENDAR)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR);
+  if (id == wxART_CALENDAR_3_DAY)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_3_DAY);
+  if (id == wxART_CALENDAR_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_ADD);
+  if (id == wxART_CALENDAR_AGENDA)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_AGENDA);
+  if (id == wxART_CALENDAR_ARROW_COUNTERCLOCKWISE)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_ARROW_COUNTERCLOCKWISE);
+  if (id == wxART_CALENDAR_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_ARROW_DOWN);
+  if (id == wxART_CALENDAR_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_ARROW_RIGHT);
+  if (id == wxART_CALENDAR_ASSISTANT)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_ASSISTANT);
+  if (id == wxART_CALENDAR_CANCEL)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_CANCEL);
+  if (id == wxART_CALENDAR_CHAT)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_CHAT);
+  if (id == wxART_CALENDAR_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_CHECKMARK);
+  if (id == wxART_CALENDAR_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_CLOCK);
+  if (id == wxART_CALENDAR_DATA_BAR)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_DATA_BAR);
+  if (id == wxART_CALENDAR_DATE)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_DATE);
+  if (id == wxART_CALENDAR_DAY)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_DAY);
+  if (id == wxART_CALENDAR_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_EDIT);
+  if (id == wxART_CALENDAR_EMPTY)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_EMPTY);
+  if (id == wxART_CALENDAR_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_ERROR);
+  if (id == wxART_CALENDAR_EYE)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_EYE);
+  if (id == wxART_CALENDAR_INFO)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_INFO);
+  if (id == wxART_CALENDAR_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_LTR);
+  if (id == wxART_CALENDAR_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_LOCK);
+  if (id == wxART_CALENDAR_MAIL)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_MAIL);
+  if (id == wxART_CALENDAR_MENTION)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_MENTION);
+  if (id == wxART_CALENDAR_MONTH)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_MONTH);
+  if (id == wxART_CALENDAR_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_MULTIPLE);
+  if (id == wxART_CALENDAR_PATTERN)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_PATTERN);
+  if (id == wxART_CALENDAR_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_PERSON);
+  if (id == wxART_CALENDAR_PHONE)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_PHONE);
+  if (id == wxART_CALENDAR_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_PLAY);
+  if (id == wxART_CALENDAR_QUESTION_MARK)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_QUESTION_MARK);
+  if (id == wxART_CALENDAR_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_RTL);
+  if (id == wxART_CALENDAR_RECORD)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_RECORD);
+  if (id == wxART_CALENDAR_REPLY)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_REPLY);
+  if (id == wxART_CALENDAR_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_SEARCH);
+  if (id == wxART_CALENDAR_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_SETTINGS);
+  if (id == wxART_CALENDAR_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_SHIELD);
+  if (id == wxART_CALENDAR_STAR)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_STAR);
+  if (id == wxART_CALENDAR_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_SYNC);
+  if (id == wxART_CALENDAR_TODAY)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_TODAY);
+  if (id == wxART_CALENDAR_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_TOOLBOX);
+  if (id == wxART_CALENDAR_WEEK_NUMBERS)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_WEEK_NUMBERS);
+  if (id == wxART_CALENDAR_WEEK_START)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_WEEK_START);
+  if (id == wxART_CALENDAR_WORK_WEEK)  
+      return wxString(SVG_FLUENTUI_FILLED_CALENDAR_WORK_WEEK);
+  if (id == wxART_CALL)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL);
+  if (id == wxART_CALL_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_ADD);
+  if (id == wxART_CALL_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_CHECKMARK);
+  if (id == wxART_CALL_CONNECTING)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_CONNECTING);
+  if (id == wxART_CALL_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_DISMISS);
+  if (id == wxART_CALL_END)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_END);
+  if (id == wxART_CALL_EXCLAMATION)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_EXCLAMATION);
+  if (id == wxART_CALL_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_FORWARD);
+  if (id == wxART_CALL_INBOUND)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_INBOUND);
+  if (id == wxART_CALL_MISSED)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_MISSED);
+  if (id == wxART_CALL_OUTBOUND)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_OUTBOUND);
+  if (id == wxART_CALL_PARK)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_PARK);
+  if (id == wxART_CALL_PAUSE)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_PAUSE);
+  if (id == wxART_CALL_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_PROHIBITED);
+  if (id == wxART_CALL_TRANSFER)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_TRANSFER);
+  if (id == wxART_CALL_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_CALL_WARNING);
+  if (id == wxART_CALLIGRAPHY_PEN)  
+      return wxString(SVG_FLUENTUI_FILLED_CALLIGRAPHY_PEN);
+  if (id == wxART_CALLIGRAPHY_PEN_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_CALLIGRAPHY_PEN_CHECKMARK);
+  if (id == wxART_CALLIGRAPHY_PEN_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_CALLIGRAPHY_PEN_ERROR);
+  if (id == wxART_CALLIGRAPHY_PEN_QUESTION_MARK)  
+      return wxString(SVG_FLUENTUI_FILLED_CALLIGRAPHY_PEN_QUESTION_MARK);
+  if (id == wxART_CAMERA)  
+      return wxString(SVG_FLUENTUI_FILLED_CAMERA);
+  if (id == wxART_CAMERA_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_CAMERA_ADD);
+  if (id == wxART_CAMERA_DOME)  
+      return wxString(SVG_FLUENTUI_FILLED_CAMERA_DOME);
+  if (id == wxART_CAMERA_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_CAMERA_EDIT);
+  if (id == wxART_CAMERA_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_CAMERA_OFF);
+  if (id == wxART_CAMERA_SPARKLES)  
+      return wxString(SVG_FLUENTUI_FILLED_CAMERA_SPARKLES);
+  if (id == wxART_CAMERA_SWITCH)  
+      return wxString(SVG_FLUENTUI_FILLED_CAMERA_SWITCH);
+  if (id == wxART_CARD_UI)  
+      return wxString(SVG_FLUENTUI_FILLED_CARD_UI);
+  if (id == wxART_CARET_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_CARET_DOWN);
+  if (id == wxART_CARET_DOWN_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_CARET_DOWN_RIGHT);
+  if (id == wxART_CARET_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_CARET_LEFT);
+  if (id == wxART_CARET_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_CARET_RIGHT);
+  if (id == wxART_CARET_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_CARET_UP);
+  if (id == wxART_CART)  
+      return wxString(SVG_FLUENTUI_FILLED_CART);
+  if (id == wxART_CAST)  
+      return wxString(SVG_FLUENTUI_FILLED_CAST);
+  if (id == wxART_CAST_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CAST_MULTIPLE);
+  if (id == wxART_CATCH_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_CATCH_UP);
+  if (id == wxART_CELLULAR_3G)  
+      return wxString(SVG_FLUENTUI_FILLED_CELLULAR_3G);
+  if (id == wxART_CELLULAR_4G)  
+      return wxString(SVG_FLUENTUI_FILLED_CELLULAR_4G);
+  if (id == wxART_CELLULAR_5G)  
+      return wxString(SVG_FLUENTUI_FILLED_CELLULAR_5G);
+  if (id == wxART_CELLULAR_DATA_1)  
+      return wxString(SVG_FLUENTUI_FILLED_CELLULAR_DATA_1);
+  if (id == wxART_CELLULAR_DATA_2)  
+      return wxString(SVG_FLUENTUI_FILLED_CELLULAR_DATA_2);
+  if (id == wxART_CELLULAR_DATA_3)  
+      return wxString(SVG_FLUENTUI_FILLED_CELLULAR_DATA_3);
+  if (id == wxART_CELLULAR_DATA_4)  
+      return wxString(SVG_FLUENTUI_FILLED_CELLULAR_DATA_4);
+  if (id == wxART_CELLULAR_DATA_5)  
+      return wxString(SVG_FLUENTUI_FILLED_CELLULAR_DATA_5);
+  if (id == wxART_CELLULAR_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_CELLULAR_OFF);
+  if (id == wxART_CELLULAR_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_CELLULAR_WARNING);
+  if (id == wxART_CENTER_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_CENTER_HORIZONTAL);
+  if (id == wxART_CENTER_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_CENTER_VERTICAL);
+  if (id == wxART_CERTIFICATE)  
+      return wxString(SVG_FLUENTUI_FILLED_CERTIFICATE);
+  if (id == wxART_CHANNEL)  
+      return wxString(SVG_FLUENTUI_FILLED_CHANNEL);
+  if (id == wxART_CHANNEL_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_CHANNEL_ADD);
+  if (id == wxART_CHANNEL_ALERT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHANNEL_ALERT);
+  if (id == wxART_CHANNEL_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHANNEL_ARROW_LEFT);
+  if (id == wxART_CHANNEL_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_CHANNEL_DISMISS);
+  if (id == wxART_CHANNEL_SHARE)  
+      return wxString(SVG_FLUENTUI_FILLED_CHANNEL_SHARE);
+  if (id == wxART_CHANNEL_SUBTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHANNEL_SUBTRACT);
+  if (id == wxART_CHART_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CHART_MULTIPLE);
+  if (id == wxART_CHART_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_CHART_PERSON);
+  if (id == wxART_CHAT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT);
+  if (id == wxART_CHAT_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_ADD);
+  if (id == wxART_CHAT_ARROW_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_ARROW_BACK);
+  if (id == wxART_CHAT_ARROW_DOUBLE_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_ARROW_DOUBLE_BACK);
+  if (id == wxART_CHAT_BUBBLES_QUESTION)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_BUBBLES_QUESTION);
+  if (id == wxART_CHAT_CURSOR)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_CURSOR);
+  if (id == wxART_CHAT_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_DISMISS);
+  if (id == wxART_CHAT_EMPTY)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_EMPTY);
+  if (id == wxART_CHAT_HELP)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_HELP);
+  if (id == wxART_CHAT_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_LOCK);
+  if (id == wxART_CHAT_MAIL)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_MAIL);
+  if (id == wxART_CHAT_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_MULTIPLE);
+  if (id == wxART_CHAT_MULTIPLE_HEART)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_MULTIPLE_HEART);
+  if (id == wxART_CHAT_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_OFF);
+  if (id == wxART_CHAT_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_SETTINGS);
+  if (id == wxART_CHAT_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_SPARKLE);
+  if (id == wxART_CHAT_VIDEO)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_VIDEO);
+  if (id == wxART_CHAT_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_CHAT_WARNING);
+  if (id == wxART_CHECK)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECK);
+  if (id == wxART_CHECKBOX_1)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKBOX_1);
+  if (id == wxART_CHECKBOX_2)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKBOX_2);
+  if (id == wxART_CHECKBOX_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKBOX_ARROW_RIGHT);
+  if (id == wxART_CHECKBOX_CHECKED)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKBOX_CHECKED);
+  if (id == wxART_CHECKBOX_CHECKED_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKBOX_CHECKED_SYNC);
+  if (id == wxART_CHECKBOX_INDETERMINATE)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKBOX_INDETERMINATE);
+  if (id == wxART_CHECKBOX_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKBOX_PERSON);
+  if (id == wxART_CHECKBOX_UNCHECKED)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKBOX_UNCHECKED);
+  if (id == wxART_CHECKBOX_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKBOX_WARNING);
+  if (id == wxART_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKMARK);
+  if (id == wxART_CHECKMARK_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKMARK_CIRCLE);
+  if (id == wxART_CHECKMARK_CIRCLE_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKMARK_CIRCLE_SQUARE);
+  if (id == wxART_CHECKMARK_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKMARK_LOCK);
+  if (id == wxART_CHECKMARK_NOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKMARK_NOTE);
+  if (id == wxART_CHECKMARK_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKMARK_SQUARE);
+  if (id == wxART_CHECKMARK_STARBURST)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKMARK_STARBURST);
+  if (id == wxART_CHECKMARK_UNDERLINE_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CHECKMARK_UNDERLINE_CIRCLE);
+  if (id == wxART_CHESS)  
+      return wxString(SVG_FLUENTUI_FILLED_CHESS);
+  if (id == wxART_CHEVRON_CIRCLE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_CIRCLE_DOWN);
+  if (id == wxART_CHEVRON_CIRCLE_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_CIRCLE_LEFT);
+  if (id == wxART_CHEVRON_CIRCLE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_CIRCLE_RIGHT);
+  if (id == wxART_CHEVRON_CIRCLE_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_CIRCLE_UP);
+  if (id == wxART_CHEVRON_DOUBLE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_DOUBLE_DOWN);
+  if (id == wxART_CHEVRON_DOUBLE_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_DOUBLE_LEFT);
+  if (id == wxART_CHEVRON_DOUBLE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_DOUBLE_RIGHT);
+  if (id == wxART_CHEVRON_DOUBLE_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_DOUBLE_UP);
+  if (id == wxART_CHEVRON_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_DOWN);
+  if (id == wxART_CHEVRON_DOWN_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_DOWN_UP);
+  if (id == wxART_CHEVRON_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_LEFT);
+  if (id == wxART_CHEVRON_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_RIGHT);
+  if (id == wxART_CHEVRON_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_UP);
+  if (id == wxART_CHEVRON_UP_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_CHEVRON_UP_DOWN);
+  if (id == wxART_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE);
+  if (id == wxART_CIRCLE_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE_EDIT);
+  if (id == wxART_CIRCLE_ERASER)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE_ERASER);
+  if (id == wxART_CIRCLE_HALF_FILL)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE_HALF_FILL);
+  if (id == wxART_CIRCLE_HINT)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE_HINT);
+  if (id == wxART_CIRCLE_HINT_HALF_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE_HINT_HALF_VERTICAL);
+  if (id == wxART_CIRCLE_IMAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE_IMAGE);
+  if (id == wxART_CIRCLE_LINE)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE_LINE);
+  if (id == wxART_CIRCLE_MULTIPLE_SUBTRACT_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE_MULTIPLE_SUBTRACT_CHECKMARK);
+  if (id == wxART_CIRCLE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE_OFF);
+  if (id == wxART_CIRCLE_SMALL)  
+      return wxString(SVG_FLUENTUI_FILLED_CIRCLE_SMALL);
+  if (id == wxART_CITY)  
+      return wxString(SVG_FLUENTUI_FILLED_CITY);
+  if (id == wxART_CLASS)  
+      return wxString(SVG_FLUENTUI_FILLED_CLASS);
+  if (id == wxART_CLASSIFICATION)  
+      return wxString(SVG_FLUENTUI_FILLED_CLASSIFICATION);
+  if (id == wxART_CLEAR_FORMATTING)  
+      return wxString(SVG_FLUENTUI_FILLED_CLEAR_FORMATTING);
+  if (id == wxART_CLIPBOARD)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD);
+  if (id == wxART_CLIPBOARD_3_DAY)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_3_DAY);
+  if (id == wxART_CLIPBOARD_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_ARROW_RIGHT);
+  if (id == wxART_CLIPBOARD_BULLET_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_BULLET_LIST);
+  if (id == wxART_CLIPBOARD_BULLET_LIST_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_BULLET_LIST_LTR);
+  if (id == wxART_CLIPBOARD_BULLET_LIST_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_BULLET_LIST_RTL);
+  if (id == wxART_CLIPBOARD_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_CHECKMARK);
+  if (id == wxART_CLIPBOARD_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_CLOCK);
+  if (id == wxART_CLIPBOARD_CODE)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_CODE);
+  if (id == wxART_CLIPBOARD_DATA_BAR)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_DATA_BAR);
+  if (id == wxART_CLIPBOARD_DAY)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_DAY);
+  if (id == wxART_CLIPBOARD_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_EDIT);
+  if (id == wxART_CLIPBOARD_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_ERROR);
+  if (id == wxART_CLIPBOARD_HEART)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_HEART);
+  if (id == wxART_CLIPBOARD_IMAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_IMAGE);
+  if (id == wxART_CLIPBOARD_LETTER)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_LETTER);
+  if (id == wxART_CLIPBOARD_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_LINK);
+  if (id == wxART_CLIPBOARD_MATH_FORMULA)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_MATH_FORMULA);
+  if (id == wxART_CLIPBOARD_MONTH)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_MONTH);
+  if (id == wxART_CLIPBOARD_MORE)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_MORE);
+  if (id == wxART_CLIPBOARD_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_MULTIPLE);
+  if (id == wxART_CLIPBOARD_NOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_NOTE);
+  if (id == wxART_CLIPBOARD_NUMBER_123)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_NUMBER_123);
+  if (id == wxART_CLIPBOARD_PASTE)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_PASTE);
+  if (id == wxART_CLIPBOARD_PULSE)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_PULSE);
+  if (id == wxART_CLIPBOARD_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_SEARCH);
+  if (id == wxART_CLIPBOARD_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_SETTINGS);
+  if (id == wxART_CLIPBOARD_TASK)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_TASK);
+  if (id == wxART_CLIPBOARD_TASK_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_TASK_ADD);
+  if (id == wxART_CLIPBOARD_TASK_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_TASK_LIST);
+  if (id == wxART_CLIPBOARD_TASK_LIST_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_TASK_LIST_LTR);
+  if (id == wxART_CLIPBOARD_TASK_LIST_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_TASK_LIST_RTL);
+  if (id == wxART_CLIPBOARD_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_TEXT);
+  if (id == wxART_CLIPBOARD_TEXT_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_TEXT_EDIT);
+  if (id == wxART_CLIPBOARD_TEXT_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_TEXT_LTR);
+  if (id == wxART_CLIPBOARD_TEXT_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_CLIPBOARD_TEXT_RTL);
+  if (id == wxART_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOCK);
+  if (id == wxART_CLOCK_ALARM)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOCK_ALARM);
+  if (id == wxART_CLOCK_ARROW_DOWNLOAD)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOCK_ARROW_DOWNLOAD);
+  if (id == wxART_CLOCK_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOCK_DISMISS);
+  if (id == wxART_CLOCK_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOCK_LOCK);
+  if (id == wxART_CLOCK_PAUSE)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOCK_PAUSE);
+  if (id == wxART_CLOCK_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOCK_TOOLBOX);
+  if (id == wxART_CLOSED_CAPTION)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOSED_CAPTION);
+  if (id == wxART_CLOSED_CAPTION_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOSED_CAPTION_OFF);
+  if (id == wxART_CLOUD)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD);
+  if (id == wxART_CLOUD_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_ADD);
+  if (id == wxART_CLOUD_ARCHIVE)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_ARCHIVE);
+  if (id == wxART_CLOUD_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_ARROW_DOWN);
+  if (id == wxART_CLOUD_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_ARROW_UP);
+  if (id == wxART_CLOUD_BIDIRECTIONAL)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_BIDIRECTIONAL);
+  if (id == wxART_CLOUD_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_CHECKMARK);
+  if (id == wxART_CLOUD_DATABASE)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_DATABASE);
+  if (id == wxART_CLOUD_DESKTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_DESKTOP);
+  if (id == wxART_CLOUD_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_DISMISS);
+  if (id == wxART_CLOUD_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_EDIT);
+  if (id == wxART_CLOUD_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_ERROR);
+  if (id == wxART_CLOUD_FLOW)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_FLOW);
+  if (id == wxART_CLOUD_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_LINK);
+  if (id == wxART_CLOUD_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_OFF);
+  if (id == wxART_CLOUD_SWAP)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_SWAP);
+  if (id == wxART_CLOUD_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_SYNC);
+  if (id == wxART_CLOUD_WORDS)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOUD_WORDS);
+  if (id == wxART_CLOVER)  
+      return wxString(SVG_FLUENTUI_FILLED_CLOVER);
+  if (id == wxART_CODE)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE);
+  if (id == wxART_CODE_BLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_BLOCK);
+  if (id == wxART_CODE_CS)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_CS);
+  if (id == wxART_CODE_CS_RECTANGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_CS_RECTANGLE);
+  if (id == wxART_CODE_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_CIRCLE);
+  if (id == wxART_CODE_FS)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_FS);
+  if (id == wxART_CODE_FS_RECTANGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_FS_RECTANGLE);
+  if (id == wxART_CODE_JS)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_JS);
+  if (id == wxART_CODE_JS_RECTANGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_JS_RECTANGLE);
+  if (id == wxART_CODE_PY)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_PY);
+  if (id == wxART_CODE_PY_RECTANGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_PY_RECTANGLE);
+  if (id == wxART_CODE_RB)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_RB);
+  if (id == wxART_CODE_RB_RECTANGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_RB_RECTANGLE);
+  if (id == wxART_CODE_TS)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_TS);
+  if (id == wxART_CODE_TS_RECTANGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_TS_RECTANGLE);
+  if (id == wxART_CODE_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_TEXT);
+  if (id == wxART_CODE_TEXT_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_TEXT_EDIT);
+  if (id == wxART_CODE_TEXT_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_TEXT_OFF);
+  if (id == wxART_CODE_VB)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_VB);
+  if (id == wxART_CODE_VB_RECTANGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CODE_VB_RECTANGLE);
+  if (id == wxART_COLLECTIONS)  
+      return wxString(SVG_FLUENTUI_FILLED_COLLECTIONS);
+  if (id == wxART_COLLECTIONS_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_COLLECTIONS_ADD);
+  if (id == wxART_COLOR)  
+      return wxString(SVG_FLUENTUI_FILLED_COLOR);
+  if (id == wxART_COLOR_BACKGROUND)  
+      return wxString(SVG_FLUENTUI_FILLED_COLOR_BACKGROUND);
+  if (id == wxART_COLOR_FILL)  
+      return wxString(SVG_FLUENTUI_FILLED_COLOR_FILL);
+  if (id == wxART_COLOR_LINE)  
+      return wxString(SVG_FLUENTUI_FILLED_COLOR_LINE);
+  if (id == wxART_COLUMN)  
+      return wxString(SVG_FLUENTUI_FILLED_COLUMN);
+  if (id == wxART_COLUMN_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_COLUMN_ARROW_RIGHT);
+  if (id == wxART_COLUMN_DOUBLE_COMPARE)  
+      return wxString(SVG_FLUENTUI_FILLED_COLUMN_DOUBLE_COMPARE);
+  if (id == wxART_COLUMN_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_COLUMN_EDIT);
+  if (id == wxART_COLUMN_SINGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_COLUMN_SINGLE);
+  if (id == wxART_COLUMN_SINGLE_COMPARE)  
+      return wxString(SVG_FLUENTUI_FILLED_COLUMN_SINGLE_COMPARE);
+  if (id == wxART_COLUMN_TRIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_COLUMN_TRIPLE);
+  if (id == wxART_COLUMN_TRIPLE_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_COLUMN_TRIPLE_EDIT);
+  if (id == wxART_COMMA)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMA);
+  if (id == wxART_COMMENT)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT);
+  if (id == wxART_COMMENT_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_ADD);
+  if (id == wxART_COMMENT_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_ARROW_LEFT);
+  if (id == wxART_COMMENT_ARROW_LEFT_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_ARROW_LEFT_TEMP_LTR);
+  if (id == wxART_COMMENT_ARROW_LEFT_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_ARROW_LEFT_TEMP_RTL);
+  if (id == wxART_COMMENT_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_ARROW_RIGHT);
+  if (id == wxART_COMMENT_ARROW_RIGHT_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_ARROW_RIGHT_TEMP_LTR);
+  if (id == wxART_COMMENT_ARROW_RIGHT_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_ARROW_RIGHT_TEMP_RTL);
+  if (id == wxART_COMMENT_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_CHECKMARK);
+  if (id == wxART_COMMENT_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_DISMISS);
+  if (id == wxART_COMMENT_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_EDIT);
+  if (id == wxART_COMMENT_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_ERROR);
+  if (id == wxART_COMMENT_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_LIGHTNING);
+  if (id == wxART_COMMENT_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_LINK);
+  if (id == wxART_COMMENT_MENTION)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_MENTION);
+  if (id == wxART_COMMENT_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_MULTIPLE);
+  if (id == wxART_COMMENT_MULTIPLE_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_MULTIPLE_CHECKMARK);
+  if (id == wxART_COMMENT_MULTIPLE_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_MULTIPLE_LINK);
+  if (id == wxART_COMMENT_NOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_NOTE);
+  if (id == wxART_COMMENT_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMENT_OFF);
+  if (id == wxART_COMMUNICATION)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMUNICATION);
+  if (id == wxART_COMMUNICATION_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMUNICATION_PERSON);
+  if (id == wxART_COMMUNICATION_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_COMMUNICATION_SHIELD);
+  if (id == wxART_COMPASS_NORTHWEST)  
+      return wxString(SVG_FLUENTUI_FILLED_COMPASS_NORTHWEST);
+  if (id == wxART_COMPONENT_2_DOUBLE_TAP_SWIPE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_COMPONENT_2_DOUBLE_TAP_SWIPE_DOWN);
+  if (id == wxART_COMPONENT_2_DOUBLE_TAP_SWIPE_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_COMPONENT_2_DOUBLE_TAP_SWIPE_UP);
+  if (id == wxART_COMPOSE)  
+      return wxString(SVG_FLUENTUI_FILLED_COMPOSE);
+  if (id == wxART_CONE)  
+      return wxString(SVG_FLUENTUI_FILLED_CONE);
+  if (id == wxART_CONFERENCE_ROOM)  
+      return wxString(SVG_FLUENTUI_FILLED_CONFERENCE_ROOM);
+  if (id == wxART_CONNECTED)  
+      return wxString(SVG_FLUENTUI_FILLED_CONNECTED);
+  if (id == wxART_CONNECTOR)  
+      return wxString(SVG_FLUENTUI_FILLED_CONNECTOR);
+  if (id == wxART_CONTACT_CARD)  
+      return wxString(SVG_FLUENTUI_FILLED_CONTACT_CARD);
+  if (id == wxART_CONTACT_CARD_GROUP)  
+      return wxString(SVG_FLUENTUI_FILLED_CONTACT_CARD_GROUP);
+  if (id == wxART_CONTACT_CARD_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_CONTACT_CARD_LINK);
+  if (id == wxART_CONTACT_CARD_RIBBON)  
+      return wxString(SVG_FLUENTUI_FILLED_CONTACT_CARD_RIBBON);
+  if (id == wxART_CONTENT_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_CONTENT_SETTINGS);
+  if (id == wxART_CONTENT_VIEW)  
+      return wxString(SVG_FLUENTUI_FILLED_CONTENT_VIEW);
+  if (id == wxART_CONTENT_VIEW_GALLERY)  
+      return wxString(SVG_FLUENTUI_FILLED_CONTENT_VIEW_GALLERY);
+  if (id == wxART_CONTENT_VIEW_GALLERY_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_CONTENT_VIEW_GALLERY_LIGHTNING);
+  if (id == wxART_CONTRACT_DOWN_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_CONTRACT_DOWN_LEFT);
+  if (id == wxART_CONTROL_BUTTON)  
+      return wxString(SVG_FLUENTUI_FILLED_CONTROL_BUTTON);
+  if (id == wxART_CONVERT_RANGE)  
+      return wxString(SVG_FLUENTUI_FILLED_CONVERT_RANGE);
+  if (id == wxART_COOKIES)  
+      return wxString(SVG_FLUENTUI_FILLED_COOKIES);
+  if (id == wxART_COPY)  
+      return wxString(SVG_FLUENTUI_FILLED_COPY);
+  if (id == wxART_COPY_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_COPY_ADD);
+  if (id == wxART_COPY_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_COPY_ARROW_RIGHT);
+  if (id == wxART_COPY_SELECT)  
+      return wxString(SVG_FLUENTUI_FILLED_COPY_SELECT);
+  if (id == wxART_COUCH)  
+      return wxString(SVG_FLUENTUI_FILLED_COUCH);
+  if (id == wxART_CREDIT_CARD_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_CREDIT_CARD_CLOCK);
+  if (id == wxART_CREDIT_CARD_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_CREDIT_CARD_PERSON);
+  if (id == wxART_CREDIT_CARD_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_CREDIT_CARD_TOOLBOX);
+  if (id == wxART_CROP)  
+      return wxString(SVG_FLUENTUI_FILLED_CROP);
+  if (id == wxART_CROP_INTERIM)  
+      return wxString(SVG_FLUENTUI_FILLED_CROP_INTERIM);
+  if (id == wxART_CROP_INTERIM_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_CROP_INTERIM_OFF);
+  if (id == wxART_CROP_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CROP_SPARKLE);
+  if (id == wxART_CROWN)  
+      return wxString(SVG_FLUENTUI_FILLED_CROWN);
+  if (id == wxART_CROWN_SUBTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_CROWN_SUBTRACT);
+  if (id == wxART_CUBE)  
+      return wxString(SVG_FLUENTUI_FILLED_CUBE);
+  if (id == wxART_CUBE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_CUBE_ADD);
+  if (id == wxART_CUBE_ARROW_CURVE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_CUBE_ARROW_CURVE_DOWN);
+  if (id == wxART_CUBE_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_CUBE_LINK);
+  if (id == wxART_CUBE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_CUBE_MULTIPLE);
+  if (id == wxART_CUBE_QUICK)  
+      return wxString(SVG_FLUENTUI_FILLED_CUBE_QUICK);
+  if (id == wxART_CUBE_ROTATE)  
+      return wxString(SVG_FLUENTUI_FILLED_CUBE_ROTATE);
+  if (id == wxART_CUBE_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_CUBE_SYNC);
+  if (id == wxART_CUBE_TREE)  
+      return wxString(SVG_FLUENTUI_FILLED_CUBE_TREE);
+  if (id == wxART_CURRENCY_DOLLAR_EURO)  
+      return wxString(SVG_FLUENTUI_FILLED_CURRENCY_DOLLAR_EURO);
+  if (id == wxART_CURRENCY_DOLLAR_RUPEE)  
+      return wxString(SVG_FLUENTUI_FILLED_CURRENCY_DOLLAR_RUPEE);
+  if (id == wxART_CURSOR)  
+      return wxString(SVG_FLUENTUI_FILLED_CURSOR);
+  if (id == wxART_CURSOR_CLICK)  
+      return wxString(SVG_FLUENTUI_FILLED_CURSOR_CLICK);
+  if (id == wxART_CURSOR_HOVER)  
+      return wxString(SVG_FLUENTUI_FILLED_CURSOR_HOVER);
+  if (id == wxART_CURSOR_HOVER_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_CURSOR_HOVER_OFF);
+  if (id == wxART_CURSOR_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_CURSOR_PROHIBITED);
+  if (id == wxART_CUT)  
+      return wxString(SVG_FLUENTUI_FILLED_CUT);
+  if (id == wxART_DARK_THEME)  
+      return wxString(SVG_FLUENTUI_FILLED_DARK_THEME);
+  if (id == wxART_DATA_AREA)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_AREA);
+  if (id == wxART_DATA_BAR_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_BAR_HORIZONTAL);
+  if (id == wxART_DATA_BAR_HORIZONTAL_DESCENDING)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_BAR_HORIZONTAL_DESCENDING);
+  if (id == wxART_DATA_BAR_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_BAR_VERTICAL);
+  if (id == wxART_DATA_BAR_VERTICAL_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_BAR_VERTICAL_ADD);
+  if (id == wxART_DATA_BAR_VERTICAL_ASCENDING)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_BAR_VERTICAL_ASCENDING);
+  if (id == wxART_DATA_BAR_VERTICAL_STAR)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_BAR_VERTICAL_STAR);
+  if (id == wxART_DATA_FUNNEL)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_FUNNEL);
+  if (id == wxART_DATA_HISTOGRAM)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_HISTOGRAM);
+  if (id == wxART_DATA_LINE)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_LINE);
+  if (id == wxART_DATA_PIE)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_PIE);
+  if (id == wxART_DATA_SCATTER)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_SCATTER);
+  if (id == wxART_DATA_SUNBURST)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_SUNBURST);
+  if (id == wxART_DATA_TREEMAP)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_TREEMAP);
+  if (id == wxART_DATA_TRENDING)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_TRENDING);
+  if (id == wxART_DATA_USAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_USAGE);
+  if (id == wxART_DATA_USAGE_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_USAGE_EDIT);
+  if (id == wxART_DATA_USAGE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_USAGE_SETTINGS);
+  if (id == wxART_DATA_USAGE_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_USAGE_TOOLBOX);
+  if (id == wxART_DATA_WATERFALL)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_WATERFALL);
+  if (id == wxART_DATA_WHISKER)  
+      return wxString(SVG_FLUENTUI_FILLED_DATA_WHISKER);
+  if (id == wxART_DATABASE)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE);
+  if (id == wxART_DATABASE_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_ARROW_DOWN);
+  if (id == wxART_DATABASE_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_ARROW_RIGHT);
+  if (id == wxART_DATABASE_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_ARROW_UP);
+  if (id == wxART_DATABASE_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_LIGHTNING);
+  if (id == wxART_DATABASE_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_LINK);
+  if (id == wxART_DATABASE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_MULTIPLE);
+  if (id == wxART_DATABASE_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_PERSON);
+  if (id == wxART_DATABASE_PLUG_CONNECTED)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_PLUG_CONNECTED);
+  if (id == wxART_DATABASE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_SEARCH);
+  if (id == wxART_DATABASE_STACK)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_STACK);
+  if (id == wxART_DATABASE_SWITCH)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_SWITCH);
+  if (id == wxART_DATABASE_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_WARNING);
+  if (id == wxART_DATABASE_WINDOW)  
+      return wxString(SVG_FLUENTUI_FILLED_DATABASE_WINDOW);
+  if (id == wxART_DECIMAL_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_DECIMAL_ARROW_LEFT);
+  if (id == wxART_DECIMAL_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_DECIMAL_ARROW_RIGHT);
+  if (id == wxART_DELETE)  
+      return wxString(SVG_FLUENTUI_FILLED_DELETE);
+  if (id == wxART_DELETE_ARROW_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_DELETE_ARROW_BACK);
+  if (id == wxART_DELETE_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_DELETE_DISMISS);
+  if (id == wxART_DELETE_LINES)  
+      return wxString(SVG_FLUENTUI_FILLED_DELETE_LINES);
+  if (id == wxART_DELETE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_DELETE_OFF);
+  if (id == wxART_DENTIST)  
+      return wxString(SVG_FLUENTUI_FILLED_DENTIST);
+  if (id == wxART_DESIGN_IDEAS)  
+      return wxString(SVG_FLUENTUI_FILLED_DESIGN_IDEAS);
+  if (id == wxART_DESK)  
+      return wxString(SVG_FLUENTUI_FILLED_DESK);
+  if (id == wxART_DESKTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP);
+  if (id == wxART_DESKTOP_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_ARROW_DOWN);
+  if (id == wxART_DESKTOP_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_ARROW_RIGHT);
+  if (id == wxART_DESKTOP_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_CHECKMARK);
+  if (id == wxART_DESKTOP_CURSOR)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_CURSOR);
+  if (id == wxART_DESKTOP_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_EDIT);
+  if (id == wxART_DESKTOP_FLOW)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_FLOW);
+  if (id == wxART_DESKTOP_KEYBOARD)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_KEYBOARD);
+  if (id == wxART_DESKTOP_MAC)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_MAC);
+  if (id == wxART_DESKTOP_PULSE)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_PULSE);
+  if (id == wxART_DESKTOP_SIGNAL)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_SIGNAL);
+  if (id == wxART_DESKTOP_SPEAKER)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_SPEAKER);
+  if (id == wxART_DESKTOP_SPEAKER_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_SPEAKER_OFF);
+  if (id == wxART_DESKTOP_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_SYNC);
+  if (id == wxART_DESKTOP_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_TOOLBOX);
+  if (id == wxART_DESKTOP_TOWER)  
+      return wxString(SVG_FLUENTUI_FILLED_DESKTOP_TOWER);
+  if (id == wxART_DEVELOPER_BOARD)  
+      return wxString(SVG_FLUENTUI_FILLED_DEVELOPER_BOARD);
+  if (id == wxART_DEVELOPER_BOARD_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_DEVELOPER_BOARD_LIGHTNING);
+  if (id == wxART_DEVELOPER_BOARD_LIGHTNING_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_DEVELOPER_BOARD_LIGHTNING_TOOLBOX);
+  if (id == wxART_DEVELOPER_BOARD_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_DEVELOPER_BOARD_SEARCH);
+  if (id == wxART_DEVICE_EQ)  
+      return wxString(SVG_FLUENTUI_FILLED_DEVICE_EQ);
+  if (id == wxART_DEVICE_MEETING_ROOM)  
+      return wxString(SVG_FLUENTUI_FILLED_DEVICE_MEETING_ROOM);
+  if (id == wxART_DEVICE_MEETING_ROOM_REMOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_DEVICE_MEETING_ROOM_REMOTE);
+  if (id == wxART_DIAGRAM)  
+      return wxString(SVG_FLUENTUI_FILLED_DIAGRAM);
+  if (id == wxART_DIALPAD)  
+      return wxString(SVG_FLUENTUI_FILLED_DIALPAD);
+  if (id == wxART_DIALPAD_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_DIALPAD_OFF);
+  if (id == wxART_DIALPAD_QUESTION_MARK)  
+      return wxString(SVG_FLUENTUI_FILLED_DIALPAD_QUESTION_MARK);
+  if (id == wxART_DIAMOND)  
+      return wxString(SVG_FLUENTUI_FILLED_DIAMOND);
+  if (id == wxART_DIRECTIONS)  
+      return wxString(SVG_FLUENTUI_FILLED_DIRECTIONS);
+  if (id == wxART_DISHWASHER)  
+      return wxString(SVG_FLUENTUI_FILLED_DISHWASHER);
+  if (id == wxART_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_DISMISS);
+  if (id == wxART_DISMISS_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DISMISS_CIRCLE);
+  if (id == wxART_DISMISS_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_DISMISS_SQUARE);
+  if (id == wxART_DISMISS_SQUARE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DISMISS_SQUARE_MULTIPLE);
+  if (id == wxART_DIVERSITY)  
+      return wxString(SVG_FLUENTUI_FILLED_DIVERSITY);
+  if (id == wxART_DIVIDER_SHORT)  
+      return wxString(SVG_FLUENTUI_FILLED_DIVIDER_SHORT);
+  if (id == wxART_DIVIDER_TALL)  
+      return wxString(SVG_FLUENTUI_FILLED_DIVIDER_TALL);
+  if (id == wxART_DOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCK);
+  if (id == wxART_DOCK_ROW)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCK_ROW);
+  if (id == wxART_DOCTOR)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCTOR);
+  if (id == wxART_DOCUMENT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT);
+  if (id == wxART_DOCUMENT_100)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_100);
+  if (id == wxART_DOCUMENT_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ADD);
+  if (id == wxART_DOCUMENT_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ARROW_DOWN);
+  if (id == wxART_DOCUMENT_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ARROW_LEFT);
+  if (id == wxART_DOCUMENT_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ARROW_RIGHT);
+  if (id == wxART_DOCUMENT_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ARROW_UP);
+  if (id == wxART_DOCUMENT_BORDER)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_BORDER);
+  if (id == wxART_DOCUMENT_BORDER_PRINT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_BORDER_PRINT);
+  if (id == wxART_DOCUMENT_BRIEFCASE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_BRIEFCASE);
+  if (id == wxART_DOCUMENT_BULLET_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_BULLET_LIST);
+  if (id == wxART_DOCUMENT_BULLET_LIST_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_BULLET_LIST_ARROW_LEFT);
+  if (id == wxART_DOCUMENT_BULLET_LIST_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_BULLET_LIST_CLOCK);
+  if (id == wxART_DOCUMENT_BULLET_LIST_CUBE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_BULLET_LIST_CUBE);
+  if (id == wxART_DOCUMENT_BULLET_LIST_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_BULLET_LIST_MULTIPLE);
+  if (id == wxART_DOCUMENT_BULLET_LIST_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_BULLET_LIST_OFF);
+  if (id == wxART_DOCUMENT_CS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_CS);
+  if (id == wxART_DOCUMENT_CSS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_CSS);
+  if (id == wxART_DOCUMENT_CATCH_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_CATCH_UP);
+  if (id == wxART_DOCUMENT_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_CHECKMARK);
+  if (id == wxART_DOCUMENT_CHEVRON_DOUBLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_CHEVRON_DOUBLE);
+  if (id == wxART_DOCUMENT_CONTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_CONTRACT);
+  if (id == wxART_DOCUMENT_COPY)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_COPY);
+  if (id == wxART_DOCUMENT_CUBE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_CUBE);
+  if (id == wxART_DOCUMENT_DATA)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_DATA);
+  if (id == wxART_DOCUMENT_DATA_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_DATA_LINK);
+  if (id == wxART_DOCUMENT_DATABASE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_DATABASE);
+  if (id == wxART_DOCUMENT_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_DISMISS);
+  if (id == wxART_DOCUMENT_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_EDIT);
+  if (id == wxART_DOCUMENT_ENDNOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ENDNOTE);
+  if (id == wxART_DOCUMENT_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ERROR);
+  if (id == wxART_DOCUMENT_FS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_FS);
+  if (id == wxART_DOCUMENT_FIT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_FIT);
+  if (id == wxART_DOCUMENT_FLOWCHART)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_FLOWCHART);
+  if (id == wxART_DOCUMENT_FOLDER)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_FOLDER);
+  if (id == wxART_DOCUMENT_FOOTER)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_FOOTER);
+  if (id == wxART_DOCUMENT_FOOTER_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_FOOTER_DISMISS);
+  if (id == wxART_DOCUMENT_HEADER)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_HEADER);
+  if (id == wxART_DOCUMENT_HEADER_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_HEADER_ARROW_DOWN);
+  if (id == wxART_DOCUMENT_HEADER_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_HEADER_DISMISS);
+  if (id == wxART_DOCUMENT_HEADER_FOOTER)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_HEADER_FOOTER);
+  if (id == wxART_DOCUMENT_HEART)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_HEART);
+  if (id == wxART_DOCUMENT_HEART_PULSE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_HEART_PULSE);
+  if (id == wxART_DOCUMENT_IMAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_IMAGE);
+  if (id == wxART_DOCUMENT_JAVA)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_JAVA);
+  if (id == wxART_DOCUMENT_JS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_JS);
+  if (id == wxART_DOCUMENT_JAVASCRIPT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_JAVASCRIPT);
+  if (id == wxART_DOCUMENT_KEY)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_KEY);
+  if (id == wxART_DOCUMENT_LANDSCAPE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_LANDSCAPE);
+  if (id == wxART_DOCUMENT_LANDSCAPE_DATA)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_LANDSCAPE_DATA);
+  if (id == wxART_DOCUMENT_LANDSCAPE_SPLIT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_LANDSCAPE_SPLIT);
+  if (id == wxART_DOCUMENT_LANDSCAPE_SPLIT_HINT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_LANDSCAPE_SPLIT_HINT);
+  if (id == wxART_DOCUMENT_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_LIGHTNING);
+  if (id == wxART_DOCUMENT_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_LINK);
+  if (id == wxART_DOCUMENT_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_LOCK);
+  if (id == wxART_DOCUMENT_MARGINS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_MARGINS);
+  if (id == wxART_DOCUMENT_MENTION)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_MENTION);
+  if (id == wxART_DOCUMENT_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_MULTIPLE);
+  if (id == wxART_DOCUMENT_MULTIPLE_PERCENT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_MULTIPLE_PERCENT);
+  if (id == wxART_DOCUMENT_MULTIPLE_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_MULTIPLE_PROHIBITED);
+  if (id == wxART_DOCUMENT_MULTIPLE_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_MULTIPLE_SYNC);
+  if (id == wxART_DOCUMENT_NUMBER_1)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_NUMBER_1);
+  if (id == wxART_DOCUMENT_ONE_PAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ONE_PAGE);
+  if (id == wxART_DOCUMENT_ONE_PAGE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ONE_PAGE_ADD);
+  if (id == wxART_DOCUMENT_ONE_PAGE_BEAKER)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ONE_PAGE_BEAKER);
+  if (id == wxART_DOCUMENT_ONE_PAGE_COLUMNS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ONE_PAGE_COLUMNS);
+  if (id == wxART_DOCUMENT_ONE_PAGE_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ONE_PAGE_LINK);
+  if (id == wxART_DOCUMENT_ONE_PAGE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ONE_PAGE_MULTIPLE);
+  if (id == wxART_DOCUMENT_ONE_PAGE_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_ONE_PAGE_SPARKLE);
+  if (id == wxART_DOCUMENT_PDF)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PDF);
+  if (id == wxART_DOCUMENT_PY)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PY);
+  if (id == wxART_DOCUMENT_PAGE_BOTTOM_CENTER)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PAGE_BOTTOM_CENTER);
+  if (id == wxART_DOCUMENT_PAGE_BOTTOM_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PAGE_BOTTOM_LEFT);
+  if (id == wxART_DOCUMENT_PAGE_BOTTOM_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PAGE_BOTTOM_RIGHT);
+  if (id == wxART_DOCUMENT_PAGE_BREAK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PAGE_BREAK);
+  if (id == wxART_DOCUMENT_PAGE_NUMBER)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PAGE_NUMBER);
+  if (id == wxART_DOCUMENT_PAGE_TOP_CENTER)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PAGE_TOP_CENTER);
+  if (id == wxART_DOCUMENT_PAGE_TOP_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PAGE_TOP_LEFT);
+  if (id == wxART_DOCUMENT_PAGE_TOP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PAGE_TOP_RIGHT);
+  if (id == wxART_DOCUMENT_PERCENT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PERCENT);
+  if (id == wxART_DOCUMENT_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PERSON);
+  if (id == wxART_DOCUMENT_PILL)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PILL);
+  if (id == wxART_DOCUMENT_PRINT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PRINT);
+  if (id == wxART_DOCUMENT_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_PROHIBITED);
+  if (id == wxART_DOCUMENT_QUESTION_MARK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_QUESTION_MARK);
+  if (id == wxART_DOCUMENT_QUEUE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_QUEUE);
+  if (id == wxART_DOCUMENT_QUEUE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_QUEUE_ADD);
+  if (id == wxART_DOCUMENT_QUEUE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_QUEUE_MULTIPLE);
+  if (id == wxART_DOCUMENT_RB)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_RB);
+  if (id == wxART_DOCUMENT_RIBBON)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_RIBBON);
+  if (id == wxART_DOCUMENT_SASS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_SASS);
+  if (id == wxART_DOCUMENT_SAVE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_SAVE);
+  if (id == wxART_DOCUMENT_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_SEARCH);
+  if (id == wxART_DOCUMENT_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_SETTINGS);
+  if (id == wxART_DOCUMENT_SPLIT_HINT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_SPLIT_HINT);
+  if (id == wxART_DOCUMENT_SPLIT_HINT_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_SPLIT_HINT_OFF);
+  if (id == wxART_DOCUMENT_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_SYNC);
+  if (id == wxART_DOCUMENT_TS)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TS);
+  if (id == wxART_DOCUMENT_TABLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TABLE);
+  if (id == wxART_DOCUMENT_TABLE_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TABLE_ARROW_RIGHT);
+  if (id == wxART_DOCUMENT_TABLE_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TABLE_CHECKMARK);
+  if (id == wxART_DOCUMENT_TABLE_CUBE)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TABLE_CUBE);
+  if (id == wxART_DOCUMENT_TABLE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TABLE_SEARCH);
+  if (id == wxART_DOCUMENT_TABLE_TRUCK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TABLE_TRUCK);
+  if (id == wxART_DOCUMENT_TARGET)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TARGET);
+  if (id == wxART_DOCUMENT_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TEXT);
+  if (id == wxART_DOCUMENT_TEXT_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TEXT_CLOCK);
+  if (id == wxART_DOCUMENT_TEXT_EXTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TEXT_EXTRACT);
+  if (id == wxART_DOCUMENT_TEXT_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TEXT_LINK);
+  if (id == wxART_DOCUMENT_TEXT_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TEXT_TOOLBOX);
+  if (id == wxART_DOCUMENT_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_TOOLBOX);
+  if (id == wxART_DOCUMENT_VB)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_VB);
+  if (id == wxART_DOCUMENT_WIDTH)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_WIDTH);
+  if (id == wxART_DOCUMENT_YML)  
+      return wxString(SVG_FLUENTUI_FILLED_DOCUMENT_YML);
+  if (id == wxART_DOOR)  
+      return wxString(SVG_FLUENTUI_FILLED_DOOR);
+  if (id == wxART_DOOR_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOOR_ARROW_LEFT);
+  if (id == wxART_DOOR_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_DOOR_ARROW_RIGHT);
+  if (id == wxART_DOOR_TAG)  
+      return wxString(SVG_FLUENTUI_FILLED_DOOR_TAG);
+  if (id == wxART_DOUBLE_SWIPE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_DOUBLE_SWIPE_DOWN);
+  if (id == wxART_DOUBLE_SWIPE_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_DOUBLE_SWIPE_UP);
+  if (id == wxART_DOUBLE_TAP_SWIPE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_DOUBLE_TAP_SWIPE_DOWN);
+  if (id == wxART_DOUBLE_TAP_SWIPE_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_DOUBLE_TAP_SWIPE_UP);
+  if (id == wxART_DRAFTS)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAFTS);
+  if (id == wxART_DRAG)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAG);
+  if (id == wxART_DRAW_IMAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAW_IMAGE);
+  if (id == wxART_DRAW_SHAPE)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAW_SHAPE);
+  if (id == wxART_DRAW_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAW_TEXT);
+  if (id == wxART_DRAWER)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAWER);
+  if (id == wxART_DRAWER_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAWER_ADD);
+  if (id == wxART_DRAWER_ARROW_DOWNLOAD)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAWER_ARROW_DOWNLOAD);
+  if (id == wxART_DRAWER_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAWER_DISMISS);
+  if (id == wxART_DRAWER_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAWER_PLAY);
+  if (id == wxART_DRAWER_SUBTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_DRAWER_SUBTRACT);
+  if (id == wxART_DRINK_BEER)  
+      return wxString(SVG_FLUENTUI_FILLED_DRINK_BEER);
+  if (id == wxART_DRINK_BOTTLE)  
+      return wxString(SVG_FLUENTUI_FILLED_DRINK_BOTTLE);
+  if (id == wxART_DRINK_BOTTLE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_DRINK_BOTTLE_OFF);
+  if (id == wxART_DRINK_COFFEE)  
+      return wxString(SVG_FLUENTUI_FILLED_DRINK_COFFEE);
+  if (id == wxART_DRINK_MARGARITA)  
+      return wxString(SVG_FLUENTUI_FILLED_DRINK_MARGARITA);
+  if (id == wxART_DRINK_TO_GO)  
+      return wxString(SVG_FLUENTUI_FILLED_DRINK_TO_GO);
+  if (id == wxART_DRINK_WINE)  
+      return wxString(SVG_FLUENTUI_FILLED_DRINK_WINE);
+  if (id == wxART_DRIVE_TRAIN)  
+      return wxString(SVG_FLUENTUI_FILLED_DRIVE_TRAIN);
+  if (id == wxART_DROP)  
+      return wxString(SVG_FLUENTUI_FILLED_DROP);
+  if (id == wxART_DUAL_SCREEN)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN);
+  if (id == wxART_DUAL_SCREEN_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_ADD);
+  if (id == wxART_DUAL_SCREEN_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_ARROW_RIGHT);
+  if (id == wxART_DUAL_SCREEN_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_ARROW_UP);
+  if (id == wxART_DUAL_SCREEN_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_CLOCK);
+  if (id == wxART_DUAL_SCREEN_CLOSED_ALERT)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_CLOSED_ALERT);
+  if (id == wxART_DUAL_SCREEN_DESKTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_DESKTOP);
+  if (id == wxART_DUAL_SCREEN_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_DISMISS);
+  if (id == wxART_DUAL_SCREEN_GROUP)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_GROUP);
+  if (id == wxART_DUAL_SCREEN_HEADER)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_HEADER);
+  if (id == wxART_DUAL_SCREEN_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_LOCK);
+  if (id == wxART_DUAL_SCREEN_MIRROR)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_MIRROR);
+  if (id == wxART_DUAL_SCREEN_PAGINATION)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_PAGINATION);
+  if (id == wxART_DUAL_SCREEN_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_SETTINGS);
+  if (id == wxART_DUAL_SCREEN_SPAN)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_SPAN);
+  if (id == wxART_DUAL_SCREEN_SPEAKER)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_SPEAKER);
+  if (id == wxART_DUAL_SCREEN_STATUS_BAR)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_STATUS_BAR);
+  if (id == wxART_DUAL_SCREEN_TABLET)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_TABLET);
+  if (id == wxART_DUAL_SCREEN_UPDATE)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_UPDATE);
+  if (id == wxART_DUAL_SCREEN_VERTICAL_SCROLL)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_VERTICAL_SCROLL);
+  if (id == wxART_DUAL_SCREEN_VIBRATE)  
+      return wxString(SVG_FLUENTUI_FILLED_DUAL_SCREEN_VIBRATE);
+  if (id == wxART_DUMBBELL)  
+      return wxString(SVG_FLUENTUI_FILLED_DUMBBELL);
+  if (id == wxART_DUST)  
+      return wxString(SVG_FLUENTUI_FILLED_DUST);
+  if (id == wxART_EARTH)  
+      return wxString(SVG_FLUENTUI_FILLED_EARTH);
+  if (id == wxART_EARTH_LEAF)  
+      return wxString(SVG_FLUENTUI_FILLED_EARTH_LEAF);
+  if (id == wxART_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_EDIT);
+  if (id == wxART_EDIT_ARROW_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_EDIT_ARROW_BACK);
+  if (id == wxART_EDIT_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_EDIT_OFF);
+  if (id == wxART_EDIT_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_EDIT_PROHIBITED);
+  if (id == wxART_EDIT_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_EDIT_SETTINGS);
+  if (id == wxART_ELEVATOR)  
+      return wxString(SVG_FLUENTUI_FILLED_ELEVATOR);
+  if (id == wxART_EMOJI)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI);
+  if (id == wxART_EMOJI_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_ADD);
+  if (id == wxART_EMOJI_ANGRY)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_ANGRY);
+  if (id == wxART_EMOJI_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_EDIT);
+  if (id == wxART_EMOJI_HAND)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_HAND);
+  if (id == wxART_EMOJI_HINT)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_HINT);
+  if (id == wxART_EMOJI_LAUGH)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_LAUGH);
+  if (id == wxART_EMOJI_MEH)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_MEH);
+  if (id == wxART_EMOJI_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_MULTIPLE);
+  if (id == wxART_EMOJI_SAD)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_SAD);
+  if (id == wxART_EMOJI_SAD_SLIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_SAD_SLIGHT);
+  if (id == wxART_EMOJI_SMILE_SLIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_SMILE_SLIGHT);
+  if (id == wxART_EMOJI_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_SPARKLE);
+  if (id == wxART_EMOJI_SURPRISE)  
+      return wxString(SVG_FLUENTUI_FILLED_EMOJI_SURPRISE);
+  if (id == wxART_ENGINE)  
+      return wxString(SVG_FLUENTUI_FILLED_ENGINE);
+  if (id == wxART_EQUAL_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_EQUAL_CIRCLE);
+  if (id == wxART_EQUAL_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_EQUAL_OFF);
+  if (id == wxART_ERASER)  
+      return wxString(SVG_FLUENTUI_FILLED_ERASER);
+  if (id == wxART_ERASER_MEDIUM)  
+      return wxString(SVG_FLUENTUI_FILLED_ERASER_MEDIUM);
+  if (id == wxART_ERASER_SEGMENT)  
+      return wxString(SVG_FLUENTUI_FILLED_ERASER_SEGMENT);
+  if (id == wxART_ERASER_SMALL)  
+      return wxString(SVG_FLUENTUI_FILLED_ERASER_SMALL);
+  if (id == wxART_ERASER_TOOL)  
+      return wxString(SVG_FLUENTUI_FILLED_ERASER_TOOL);
+  if (id == wxART_ERROR_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ERROR_CIRCLE);
+  if (id == wxART_ERROR_CIRCLE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_ERROR_CIRCLE_SETTINGS);
+  if (id == wxART_EXPAND_UP_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_EXPAND_UP_LEFT);
+  if (id == wxART_EXPAND_UP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_EXPAND_UP_RIGHT);
+  if (id == wxART_EXTENDED_DOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_EXTENDED_DOCK);
+  if (id == wxART_EYE)  
+      return wxString(SVG_FLUENTUI_FILLED_EYE);
+  if (id == wxART_EYE_LINES)  
+      return wxString(SVG_FLUENTUI_FILLED_EYE_LINES);
+  if (id == wxART_EYE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_EYE_OFF);
+  if (id == wxART_EYE_TRACKING)  
+      return wxString(SVG_FLUENTUI_FILLED_EYE_TRACKING);
+  if (id == wxART_EYE_TRACKING_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_EYE_TRACKING_OFF);
+  if (id == wxART_EYEDROPPER)  
+      return wxString(SVG_FLUENTUI_FILLED_EYEDROPPER);
+  if (id == wxART_EYEDROPPER_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_EYEDROPPER_OFF);
+  if (id == wxART_FPS_120)  
+      return wxString(SVG_FLUENTUI_FILLED_FPS_120);
+  if (id == wxART_FPS_240)  
+      return wxString(SVG_FLUENTUI_FILLED_FPS_240);
+  if (id == wxART_FPS_30)  
+      return wxString(SVG_FLUENTUI_FILLED_FPS_30);
+  if (id == wxART_FPS_60)  
+      return wxString(SVG_FLUENTUI_FILLED_FPS_60);
+  if (id == wxART_FPS_960)  
+      return wxString(SVG_FLUENTUI_FILLED_FPS_960);
+  if (id == wxART_F_STOP)  
+      return wxString(SVG_FLUENTUI_FILLED_F_STOP);
+  if (id == wxART_FAST_ACCELERATION)  
+      return wxString(SVG_FLUENTUI_FILLED_FAST_ACCELERATION);
+  if (id == wxART_FAST_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_FAST_FORWARD);
+  if (id == wxART_FAX)  
+      return wxString(SVG_FLUENTUI_FILLED_FAX);
+  if (id == wxART_FEED)  
+      return wxString(SVG_FLUENTUI_FILLED_FEED);
+  if (id == wxART_FILMSTRIP)  
+      return wxString(SVG_FLUENTUI_FILLED_FILMSTRIP);
+  if (id == wxART_FILMSTRIP_IMAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_FILMSTRIP_IMAGE);
+  if (id == wxART_FILMSTRIP_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_FILMSTRIP_OFF);
+  if (id == wxART_FILMSTRIP_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_FILMSTRIP_PLAY);
+  if (id == wxART_FILMSTRIP_SPLIT)  
+      return wxString(SVG_FLUENTUI_FILLED_FILMSTRIP_SPLIT);
+  if (id == wxART_FILTER)  
+      return wxString(SVG_FLUENTUI_FILLED_FILTER);
+  if (id == wxART_FILTER_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_FILTER_ADD);
+  if (id == wxART_FILTER_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_FILTER_DISMISS);
+  if (id == wxART_FILTER_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_FILTER_SYNC);
+  if (id == wxART_FINGERPRINT)  
+      return wxString(SVG_FLUENTUI_FILLED_FINGERPRINT);
+  if (id == wxART_FIRE)  
+      return wxString(SVG_FLUENTUI_FILLED_FIRE);
+  if (id == wxART_FIREPLACE)  
+      return wxString(SVG_FLUENTUI_FILLED_FIREPLACE);
+  if (id == wxART_FIXED_WIDTH)  
+      return wxString(SVG_FLUENTUI_FILLED_FIXED_WIDTH);
+  if (id == wxART_FLAG)  
+      return wxString(SVG_FLUENTUI_FILLED_FLAG);
+  if (id == wxART_FLAG_CHECKERED)  
+      return wxString(SVG_FLUENTUI_FILLED_FLAG_CHECKERED);
+  if (id == wxART_FLAG_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_FLAG_CLOCK);
+  if (id == wxART_FLAG_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_FLAG_OFF);
+  if (id == wxART_FLAG_PRIDE)  
+      return wxString(SVG_FLUENTUI_FILLED_FLAG_PRIDE);
+  if (id == wxART_FLAG_PRIDE_INTERSEX_INCLUSIVE_PROGRESS)  
+      return wxString(SVG_FLUENTUI_FILLED_FLAG_PRIDE_INTERSEX_INCLUSIVE_PROGRESS);
+  if (id == wxART_FLAG_PRIDE_PHILADELPHIA)  
+      return wxString(SVG_FLUENTUI_FILLED_FLAG_PRIDE_PHILADELPHIA);
+  if (id == wxART_FLAG_PRIDE_PROGRESS)  
+      return wxString(SVG_FLUENTUI_FILLED_FLAG_PRIDE_PROGRESS);
+  if (id == wxART_FLASH)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASH);
+  if (id == wxART_FLASH_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASH_ADD);
+  if (id == wxART_FLASH_AUTO)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASH_AUTO);
+  if (id == wxART_FLASH_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASH_CHECKMARK);
+  if (id == wxART_FLASH_FLOW)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASH_FLOW);
+  if (id == wxART_FLASH_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASH_OFF);
+  if (id == wxART_FLASH_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASH_PLAY);
+  if (id == wxART_FLASH_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASH_SETTINGS);
+  if (id == wxART_FLASH_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASH_SPARKLE);
+  if (id == wxART_FLASHLIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASHLIGHT);
+  if (id == wxART_FLASHLIGHT_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_FLASHLIGHT_OFF);
+  if (id == wxART_FLIP_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_FLIP_HORIZONTAL);
+  if (id == wxART_FLIP_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_FLIP_VERTICAL);
+  if (id == wxART_FLOW)  
+      return wxString(SVG_FLUENTUI_FILLED_FLOW);
+  if (id == wxART_FLOWCHART)  
+      return wxString(SVG_FLUENTUI_FILLED_FLOWCHART);
+  if (id == wxART_FLOWCHART_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_FLOWCHART_CIRCLE);
+  if (id == wxART_FLUENT)  
+      return wxString(SVG_FLUENTUI_FILLED_FLUENT);
+  if (id == wxART_FLUID)  
+      return wxString(SVG_FLUENTUI_FILLED_FLUID);
+  if (id == wxART_FOLDER)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER);
+  if (id == wxART_FOLDER_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_ADD);
+  if (id == wxART_FOLDER_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_ARROW_LEFT);
+  if (id == wxART_FOLDER_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_ARROW_RIGHT);
+  if (id == wxART_FOLDER_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_ARROW_UP);
+  if (id == wxART_FOLDER_BRIEFCASE)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_BRIEFCASE);
+  if (id == wxART_FOLDER_GLOBE)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_GLOBE);
+  if (id == wxART_FOLDER_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_LIGHTNING);
+  if (id == wxART_FOLDER_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_LINK);
+  if (id == wxART_FOLDER_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_LIST);
+  if (id == wxART_FOLDER_MAIL)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_MAIL);
+  if (id == wxART_FOLDER_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_MULTIPLE);
+  if (id == wxART_FOLDER_OPEN)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_OPEN);
+  if (id == wxART_FOLDER_OPEN_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_OPEN_VERTICAL);
+  if (id == wxART_FOLDER_PEOPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_PEOPLE);
+  if (id == wxART_FOLDER_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_PERSON);
+  if (id == wxART_FOLDER_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_PROHIBITED);
+  if (id == wxART_FOLDER_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_SEARCH);
+  if (id == wxART_FOLDER_SWAP)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_SWAP);
+  if (id == wxART_FOLDER_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_SYNC);
+  if (id == wxART_FOLDER_ZIP)  
+      return wxString(SVG_FLUENTUI_FILLED_FOLDER_ZIP);
+  if (id == wxART_FONT_DECREASE)  
+      return wxString(SVG_FLUENTUI_FILLED_FONT_DECREASE);
+  if (id == wxART_FONT_INCREASE)  
+      return wxString(SVG_FLUENTUI_FILLED_FONT_INCREASE);
+  if (id == wxART_FONT_SPACE_TRACKING_IN)  
+      return wxString(SVG_FLUENTUI_FILLED_FONT_SPACE_TRACKING_IN);
+  if (id == wxART_FONT_SPACE_TRACKING_OUT)  
+      return wxString(SVG_FLUENTUI_FILLED_FONT_SPACE_TRACKING_OUT);
+  if (id == wxART_FOOD)  
+      return wxString(SVG_FLUENTUI_FILLED_FOOD);
+  if (id == wxART_FOOD_APPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_FOOD_APPLE);
+  if (id == wxART_FOOD_CAKE)  
+      return wxString(SVG_FLUENTUI_FILLED_FOOD_CAKE);
+  if (id == wxART_FOOD_CARROT)  
+      return wxString(SVG_FLUENTUI_FILLED_FOOD_CARROT);
+  if (id == wxART_FOOD_CHICKEN_LEG)  
+      return wxString(SVG_FLUENTUI_FILLED_FOOD_CHICKEN_LEG);
+  if (id == wxART_FOOD_EGG)  
+      return wxString(SVG_FLUENTUI_FILLED_FOOD_EGG);
+  if (id == wxART_FOOD_FISH)  
+      return wxString(SVG_FLUENTUI_FILLED_FOOD_FISH);
+  if (id == wxART_FOOD_GRAINS)  
+      return wxString(SVG_FLUENTUI_FILLED_FOOD_GRAINS);
+  if (id == wxART_FOOD_PIZZA)  
+      return wxString(SVG_FLUENTUI_FILLED_FOOD_PIZZA);
+  if (id == wxART_FOOD_TOAST)  
+      return wxString(SVG_FLUENTUI_FILLED_FOOD_TOAST);
+  if (id == wxART_FORM)  
+      return wxString(SVG_FLUENTUI_FILLED_FORM);
+  if (id == wxART_FORM_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_FORM_MULTIPLE);
+  if (id == wxART_FORM_NEW)  
+      return wxString(SVG_FLUENTUI_FILLED_FORM_NEW);
+  if (id == wxART_FRAME)  
+      return wxString(SVG_FLUENTUI_FILLED_FRAME);
+  if (id == wxART_FULL_SCREEN_MAXIMIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_FULL_SCREEN_MAXIMIZE);
+  if (id == wxART_FULL_SCREEN_MINIMIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_FULL_SCREEN_MINIMIZE);
+  if (id == wxART_GIF)  
+      return wxString(SVG_FLUENTUI_FILLED_GIF);
+  if (id == wxART_GAMES)  
+      return wxString(SVG_FLUENTUI_FILLED_GAMES);
+  if (id == wxART_GANTT_CHART)  
+      return wxString(SVG_FLUENTUI_FILLED_GANTT_CHART);
+  if (id == wxART_GAS)  
+      return wxString(SVG_FLUENTUI_FILLED_GAS);
+  if (id == wxART_GAS_PUMP)  
+      return wxString(SVG_FLUENTUI_FILLED_GAS_PUMP);
+  if (id == wxART_GATHER)  
+      return wxString(SVG_FLUENTUI_FILLED_GATHER);
+  if (id == wxART_GAUGE)  
+      return wxString(SVG_FLUENTUI_FILLED_GAUGE);
+  if (id == wxART_GAUGE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_GAUGE_ADD);
+  if (id == wxART_GAVEL)  
+      return wxString(SVG_FLUENTUI_FILLED_GAVEL);
+  if (id == wxART_GAVEL_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_GAVEL_PROHIBITED);
+  if (id == wxART_GESTURE)  
+      return wxString(SVG_FLUENTUI_FILLED_GESTURE);
+  if (id == wxART_GIFT)  
+      return wxString(SVG_FLUENTUI_FILLED_GIFT);
+  if (id == wxART_GIFT_CARD)  
+      return wxString(SVG_FLUENTUI_FILLED_GIFT_CARD);
+  if (id == wxART_GIFT_CARD_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_GIFT_CARD_ADD);
+  if (id == wxART_GIFT_CARD_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_GIFT_CARD_ARROW_RIGHT);
+  if (id == wxART_GIFT_CARD_MONEY)  
+      return wxString(SVG_FLUENTUI_FILLED_GIFT_CARD_MONEY);
+  if (id == wxART_GIFT_CARD_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_GIFT_CARD_MULTIPLE);
+  if (id == wxART_GIFT_OPEN)  
+      return wxString(SVG_FLUENTUI_FILLED_GIFT_OPEN);
+  if (id == wxART_GLANCE)  
+      return wxString(SVG_FLUENTUI_FILLED_GLANCE);
+  if (id == wxART_GLANCE_DEFAULT)  
+      return wxString(SVG_FLUENTUI_FILLED_GLANCE_DEFAULT);
+  if (id == wxART_GLANCE_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_GLANCE_HORIZONTAL);
+  if (id == wxART_GLANCE_HORIZONTAL_SPARKLES)  
+      return wxString(SVG_FLUENTUI_FILLED_GLANCE_HORIZONTAL_SPARKLES);
+  if (id == wxART_GLASSES)  
+      return wxString(SVG_FLUENTUI_FILLED_GLASSES);
+  if (id == wxART_GLASSES_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_GLASSES_OFF);
+  if (id == wxART_GLOBE)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE);
+  if (id == wxART_GLOBE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_ADD);
+  if (id == wxART_GLOBE_ARROW_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_ARROW_FORWARD);
+  if (id == wxART_GLOBE_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_CLOCK);
+  if (id == wxART_GLOBE_DESKTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_DESKTOP);
+  if (id == wxART_GLOBE_LOCATION)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_LOCATION);
+  if (id == wxART_GLOBE_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_PERSON);
+  if (id == wxART_GLOBE_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_PROHIBITED);
+  if (id == wxART_GLOBE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_SEARCH);
+  if (id == wxART_GLOBE_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_SHIELD);
+  if (id == wxART_GLOBE_STAR)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_STAR);
+  if (id == wxART_GLOBE_SURFACE)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_SURFACE);
+  if (id == wxART_GLOBE_VIDEO)  
+      return wxString(SVG_FLUENTUI_FILLED_GLOBE_VIDEO);
+  if (id == wxART_GRID)  
+      return wxString(SVG_FLUENTUI_FILLED_GRID);
+  if (id == wxART_GRID_CIRCLES)  
+      return wxString(SVG_FLUENTUI_FILLED_GRID_CIRCLES);
+  if (id == wxART_GRID_DOTS)  
+      return wxString(SVG_FLUENTUI_FILLED_GRID_DOTS);
+  if (id == wxART_GRID_KANBAN)  
+      return wxString(SVG_FLUENTUI_FILLED_GRID_KANBAN);
+  if (id == wxART_GROUP)  
+      return wxString(SVG_FLUENTUI_FILLED_GROUP);
+  if (id == wxART_GROUP_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_GROUP_DISMISS);
+  if (id == wxART_GROUP_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_GROUP_LIST);
+  if (id == wxART_GROUP_RETURN)  
+      return wxString(SVG_FLUENTUI_FILLED_GROUP_RETURN);
+  if (id == wxART_GUARDIAN)  
+      return wxString(SVG_FLUENTUI_FILLED_GUARDIAN);
+  if (id == wxART_GUEST)  
+      return wxString(SVG_FLUENTUI_FILLED_GUEST);
+  if (id == wxART_GUEST_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_GUEST_ADD);
+  if (id == wxART_GUITAR)  
+      return wxString(SVG_FLUENTUI_FILLED_GUITAR);
+  if (id == wxART_HD)  
+      return wxString(SVG_FLUENTUI_FILLED_HD);
+  if (id == wxART_HDR)  
+      return wxString(SVG_FLUENTUI_FILLED_HDR);
+  if (id == wxART_HDR_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_HDR_OFF);
+  if (id == wxART_HAND_DRAW)  
+      return wxString(SVG_FLUENTUI_FILLED_HAND_DRAW);
+  if (id == wxART_HAND_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_HAND_LEFT);
+  if (id == wxART_HAND_LEFT_CHAT)  
+      return wxString(SVG_FLUENTUI_FILLED_HAND_LEFT_CHAT);
+  if (id == wxART_HAND_OPEN_HEART)  
+      return wxString(SVG_FLUENTUI_FILLED_HAND_OPEN_HEART);
+  if (id == wxART_HAND_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_HAND_RIGHT);
+  if (id == wxART_HAND_RIGHT_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_HAND_RIGHT_OFF);
+  if (id == wxART_HAND_WAVE)  
+      return wxString(SVG_FLUENTUI_FILLED_HAND_WAVE);
+  if (id == wxART_HANDSHAKE)  
+      return wxString(SVG_FLUENTUI_FILLED_HANDSHAKE);
+  if (id == wxART_HARD_DRIVE)  
+      return wxString(SVG_FLUENTUI_FILLED_HARD_DRIVE);
+  if (id == wxART_HARD_DRIVE_CALL)  
+      return wxString(SVG_FLUENTUI_FILLED_HARD_DRIVE_CALL);
+  if (id == wxART_HAT_GRADUATION)  
+      return wxString(SVG_FLUENTUI_FILLED_HAT_GRADUATION);
+  if (id == wxART_HAT_GRADUATION_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_HAT_GRADUATION_ADD);
+  if (id == wxART_HAT_GRADUATION_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_HAT_GRADUATION_SPARKLE);
+  if (id == wxART_HEADPHONES)  
+      return wxString(SVG_FLUENTUI_FILLED_HEADPHONES);
+  if (id == wxART_HEADPHONES_SOUND_WAVE)  
+      return wxString(SVG_FLUENTUI_FILLED_HEADPHONES_SOUND_WAVE);
+  if (id == wxART_HEADSET)  
+      return wxString(SVG_FLUENTUI_FILLED_HEADSET);
+  if (id == wxART_HEADSET_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_HEADSET_ADD);
+  if (id == wxART_HEADSET_VR)  
+      return wxString(SVG_FLUENTUI_FILLED_HEADSET_VR);
+  if (id == wxART_HEART)  
+      return wxString(SVG_FLUENTUI_FILLED_HEART);
+  if (id == wxART_HEART_BROKEN)  
+      return wxString(SVG_FLUENTUI_FILLED_HEART_BROKEN);
+  if (id == wxART_HEART_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_HEART_CIRCLE);
+  if (id == wxART_HEART_CIRCLE_HINT)  
+      return wxString(SVG_FLUENTUI_FILLED_HEART_CIRCLE_HINT);
+  if (id == wxART_HEART_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_HEART_OFF);
+  if (id == wxART_HEART_PULSE)  
+      return wxString(SVG_FLUENTUI_FILLED_HEART_PULSE);
+  if (id == wxART_HEART_PULSE_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_HEART_PULSE_CHECKMARK);
+  if (id == wxART_HEART_PULSE_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_HEART_PULSE_ERROR);
+  if (id == wxART_HEART_PULSE_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_HEART_PULSE_WARNING);
+  if (id == wxART_HEXAGON)  
+      return wxString(SVG_FLUENTUI_FILLED_HEXAGON);
+  if (id == wxART_HEXAGON_THREE)  
+      return wxString(SVG_FLUENTUI_FILLED_HEXAGON_THREE);
+  if (id == wxART_HIGHLIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_HIGHLIGHT);
+  if (id == wxART_HIGHLIGHT_ACCENT)  
+      return wxString(SVG_FLUENTUI_FILLED_HIGHLIGHT_ACCENT);
+  if (id == wxART_HIGHLIGHT_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_HIGHLIGHT_LINK);
+  if (id == wxART_HISTORY)  
+      return wxString(SVG_FLUENTUI_FILLED_HISTORY);
+  if (id == wxART_HISTORY_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_HISTORY_DISMISS);
+  if (id == wxART_HOME)  
+      return wxString(SVG_FLUENTUI_FILLED_HOME);
+  if (id == wxART_HOME_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_HOME_ADD);
+  if (id == wxART_HOME_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_HOME_CHECKMARK);
+  if (id == wxART_HOME_DATABASE)  
+      return wxString(SVG_FLUENTUI_FILLED_HOME_DATABASE);
+  if (id == wxART_HOME_HEART)  
+      return wxString(SVG_FLUENTUI_FILLED_HOME_HEART);
+  if (id == wxART_HOME_MORE)  
+      return wxString(SVG_FLUENTUI_FILLED_HOME_MORE);
+  if (id == wxART_HOME_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_HOME_PERSON);
+  if (id == wxART_HOME_SPLIT)  
+      return wxString(SVG_FLUENTUI_FILLED_HOME_SPLIT);
+  if (id == wxART_HOURGLASS)  
+      return wxString(SVG_FLUENTUI_FILLED_HOURGLASS);
+  if (id == wxART_HOURGLASS_HALF)  
+      return wxString(SVG_FLUENTUI_FILLED_HOURGLASS_HALF);
+  if (id == wxART_HOURGLASS_ONE_QUARTER)  
+      return wxString(SVG_FLUENTUI_FILLED_HOURGLASS_ONE_QUARTER);
+  if (id == wxART_HOURGLASS_THREE_QUARTER)  
+      return wxString(SVG_FLUENTUI_FILLED_HOURGLASS_THREE_QUARTER);
+  if (id == wxART_ICONS)  
+      return wxString(SVG_FLUENTUI_FILLED_ICONS);
+  if (id == wxART_IMAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE);
+  if (id == wxART_IMAGE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_ADD);
+  if (id == wxART_IMAGE_ALT_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_ALT_TEXT);
+  if (id == wxART_IMAGE_ARROW_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_ARROW_BACK);
+  if (id == wxART_IMAGE_ARROW_COUNTERCLOCKWISE)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_ARROW_COUNTERCLOCKWISE);
+  if (id == wxART_IMAGE_ARROW_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_ARROW_FORWARD);
+  if (id == wxART_IMAGE_BORDER)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_BORDER);
+  if (id == wxART_IMAGE_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_CIRCLE);
+  if (id == wxART_IMAGE_COPY)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_COPY);
+  if (id == wxART_IMAGE_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_EDIT);
+  if (id == wxART_IMAGE_GLOBE)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_GLOBE);
+  if (id == wxART_IMAGE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_MULTIPLE);
+  if (id == wxART_IMAGE_MULTIPLE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_MULTIPLE_OFF);
+  if (id == wxART_IMAGE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_OFF);
+  if (id == wxART_IMAGE_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_PROHIBITED);
+  if (id == wxART_IMAGE_REFLECTION)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_REFLECTION);
+  if (id == wxART_IMAGE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_SEARCH);
+  if (id == wxART_IMAGE_SHADOW)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_SHADOW);
+  if (id == wxART_IMAGE_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_SPARKLE);
+  if (id == wxART_IMAGE_STACK)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_STACK);
+  if (id == wxART_IMAGE_TABLE)  
+      return wxString(SVG_FLUENTUI_FILLED_IMAGE_TABLE);
+  if (id == wxART_IMMERSIVE_READER)  
+      return wxString(SVG_FLUENTUI_FILLED_IMMERSIVE_READER);
+  if (id == wxART_IMPORTANT)  
+      return wxString(SVG_FLUENTUI_FILLED_IMPORTANT);
+  if (id == wxART_INPRIVATE_ACCOUNT)  
+      return wxString(SVG_FLUENTUI_FILLED_INPRIVATE_ACCOUNT);
+  if (id == wxART_INCOGNITO)  
+      return wxString(SVG_FLUENTUI_FILLED_INCOGNITO);
+  if (id == wxART_INFO)  
+      return wxString(SVG_FLUENTUI_FILLED_INFO);
+  if (id == wxART_INFO_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_INFO_SHIELD);
+  if (id == wxART_INK_STROKE)  
+      return wxString(SVG_FLUENTUI_FILLED_INK_STROKE);
+  if (id == wxART_INK_STROKE_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_INK_STROKE_ARROW_DOWN);
+  if (id == wxART_INK_STROKE_ARROW_UP_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_INK_STROKE_ARROW_UP_DOWN);
+  if (id == wxART_INKING_TOOL)  
+      return wxString(SVG_FLUENTUI_FILLED_INKING_TOOL);
+  if (id == wxART_INKING_TOOL_ACCENT)  
+      return wxString(SVG_FLUENTUI_FILLED_INKING_TOOL_ACCENT);
+  if (id == wxART_INSERT)  
+      return wxString(SVG_FLUENTUI_FILLED_INSERT);
+  if (id == wxART_IOT)  
+      return wxString(SVG_FLUENTUI_FILLED_IOT);
+  if (id == wxART_IOT_ALERT)  
+      return wxString(SVG_FLUENTUI_FILLED_IOT_ALERT);
+  if (id == wxART_JAVASCRIPT)  
+      return wxString(SVG_FLUENTUI_FILLED_JAVASCRIPT);
+  if (id == wxART_JOYSTICK)  
+      return wxString(SVG_FLUENTUI_FILLED_JOYSTICK);
+  if (id == wxART_KEY)  
+      return wxString(SVG_FLUENTUI_FILLED_KEY);
+  if (id == wxART_KEY_COMMAND)  
+      return wxString(SVG_FLUENTUI_FILLED_KEY_COMMAND);
+  if (id == wxART_KEY_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_KEY_MULTIPLE);
+  if (id == wxART_KEY_RESET)  
+      return wxString(SVG_FLUENTUI_FILLED_KEY_RESET);
+  if (id == wxART_KEYBOARD)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD);
+  if (id == wxART_KEYBOARD_123)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD_123);
+  if (id == wxART_KEYBOARD_DOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD_DOCK);
+  if (id == wxART_KEYBOARD_LAYOUT_FLOAT)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD_LAYOUT_FLOAT);
+  if (id == wxART_KEYBOARD_LAYOUT_ONE_HANDED_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD_LAYOUT_ONE_HANDED_LEFT);
+  if (id == wxART_KEYBOARD_LAYOUT_RESIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD_LAYOUT_RESIZE);
+  if (id == wxART_KEYBOARD_LAYOUT_SPLIT)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD_LAYOUT_SPLIT);
+  if (id == wxART_KEYBOARD_MOUSE)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD_MOUSE);
+  if (id == wxART_KEYBOARD_SHIFT)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD_SHIFT);
+  if (id == wxART_KEYBOARD_SHIFT_UPPERCASE)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD_SHIFT_UPPERCASE);
+  if (id == wxART_KEYBOARD_TAB)  
+      return wxString(SVG_FLUENTUI_FILLED_KEYBOARD_TAB);
+  if (id == wxART_KIOSK)  
+      return wxString(SVG_FLUENTUI_FILLED_KIOSK);
+  if (id == wxART_LAPTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_LAPTOP);
+  if (id == wxART_LAPTOP_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_LAPTOP_DISMISS);
+  if (id == wxART_LAPTOP_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_LAPTOP_MULTIPLE);
+  if (id == wxART_LAPTOP_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_LAPTOP_SHIELD);
+  if (id == wxART_LASER_TOOL)  
+      return wxString(SVG_FLUENTUI_FILLED_LASER_TOOL);
+  if (id == wxART_LASSO)  
+      return wxString(SVG_FLUENTUI_FILLED_LASSO);
+  if (id == wxART_LAUNCHER_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_LAUNCHER_SETTINGS);
+  if (id == wxART_LAYER)  
+      return wxString(SVG_FLUENTUI_FILLED_LAYER);
+  if (id == wxART_LAYER_DIAGONAL)  
+      return wxString(SVG_FLUENTUI_FILLED_LAYER_DIAGONAL);
+  if (id == wxART_LAYER_DIAGONAL_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_LAYER_DIAGONAL_ADD);
+  if (id == wxART_LAYER_DIAGONAL_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_LAYER_DIAGONAL_PERSON);
+  if (id == wxART_LEAF_ONE)  
+      return wxString(SVG_FLUENTUI_FILLED_LEAF_ONE);
+  if (id == wxART_LEAF_THREE)  
+      return wxString(SVG_FLUENTUI_FILLED_LEAF_THREE);
+  if (id == wxART_LEAF_TWO)  
+      return wxString(SVG_FLUENTUI_FILLED_LEAF_TWO);
+  if (id == wxART_LEARNING_APP)  
+      return wxString(SVG_FLUENTUI_FILLED_LEARNING_APP);
+  if (id == wxART_LIBRARY)  
+      return wxString(SVG_FLUENTUI_FILLED_LIBRARY);
+  if (id == wxART_LIGHTBULB)  
+      return wxString(SVG_FLUENTUI_FILLED_LIGHTBULB);
+  if (id == wxART_LIGHTBULB_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_LIGHTBULB_CHECKMARK);
+  if (id == wxART_LIGHTBULB_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_LIGHTBULB_CIRCLE);
+  if (id == wxART_LIGHTBULB_FILAMENT)  
+      return wxString(SVG_FLUENTUI_FILLED_LIGHTBULB_FILAMENT);
+  if (id == wxART_LIGHTBULB_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_LIGHTBULB_PERSON);
+  if (id == wxART_LIKERT)  
+      return wxString(SVG_FLUENTUI_FILLED_LIKERT);
+  if (id == wxART_LINE)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE);
+  if (id == wxART_LINE_DASHES)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_DASHES);
+  if (id == wxART_LINE_HORIZONTAL_1)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_HORIZONTAL_1);
+  if (id == wxART_LINE_HORIZONTAL_1_DASHES)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_HORIZONTAL_1_DASHES);
+  if (id == wxART_LINE_HORIZONTAL_2_DASHES_SOLID)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_HORIZONTAL_2_DASHES_SOLID);
+  if (id == wxART_LINE_HORIZONTAL_3)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_HORIZONTAL_3);
+  if (id == wxART_LINE_HORIZONTAL_4)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_HORIZONTAL_4);
+  if (id == wxART_LINE_HORIZONTAL_4_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_HORIZONTAL_4_SEARCH);
+  if (id == wxART_LINE_HORIZONTAL_5)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_HORIZONTAL_5);
+  if (id == wxART_LINE_HORIZONTAL_5_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_HORIZONTAL_5_ERROR);
+  if (id == wxART_LINE_STYLE)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_STYLE);
+  if (id == wxART_LINE_THICKNESS)  
+      return wxString(SVG_FLUENTUI_FILLED_LINE_THICKNESS);
+  if (id == wxART_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_LINK);
+  if (id == wxART_LINK_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_LINK_ADD);
+  if (id == wxART_LINK_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_LINK_DISMISS);
+  if (id == wxART_LINK_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_LINK_EDIT);
+  if (id == wxART_LINK_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_LINK_MULTIPLE);
+  if (id == wxART_LINK_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_LINK_PERSON);
+  if (id == wxART_LINK_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_LINK_SETTINGS);
+  if (id == wxART_LINK_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_LINK_SQUARE);
+  if (id == wxART_LINK_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_LINK_TOOLBOX);
+  if (id == wxART_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_LIST);
+  if (id == wxART_LIST_BAR)  
+      return wxString(SVG_FLUENTUI_FILLED_LIST_BAR);
+  if (id == wxART_LIST_BAR_TREE)  
+      return wxString(SVG_FLUENTUI_FILLED_LIST_BAR_TREE);
+  if (id == wxART_LIST_BAR_TREE_OFFSET)  
+      return wxString(SVG_FLUENTUI_FILLED_LIST_BAR_TREE_OFFSET);
+  if (id == wxART_LIST_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_LIST_RTL);
+  if (id == wxART_LIVE)  
+      return wxString(SVG_FLUENTUI_FILLED_LIVE);
+  if (id == wxART_LIVE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_LIVE_OFF);
+  if (id == wxART_LOCAL_LANGUAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCAL_LANGUAGE);
+  if (id == wxART_LOCATION)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION);
+  if (id == wxART_LOCATION_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_ADD);
+  if (id == wxART_LOCATION_ADD_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_ADD_LEFT);
+  if (id == wxART_LOCATION_ADD_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_ADD_RIGHT);
+  if (id == wxART_LOCATION_ADD_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_ADD_UP);
+  if (id == wxART_LOCATION_ARROW)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_ARROW);
+  if (id == wxART_LOCATION_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_ARROW_LEFT);
+  if (id == wxART_LOCATION_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_ARROW_RIGHT);
+  if (id == wxART_LOCATION_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_ARROW_UP);
+  if (id == wxART_LOCATION_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_DISMISS);
+  if (id == wxART_LOCATION_LIVE)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_LIVE);
+  if (id == wxART_LOCATION_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCATION_OFF);
+  if (id == wxART_LOCK_CLOSED)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCK_CLOSED);
+  if (id == wxART_LOCK_CLOSED_KEY)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCK_CLOSED_KEY);
+  if (id == wxART_LOCK_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCK_MULTIPLE);
+  if (id == wxART_LOCK_OPEN)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCK_OPEN);
+  if (id == wxART_LOCK_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_LOCK_SHIELD);
+  if (id == wxART_LOTTERY)  
+      return wxString(SVG_FLUENTUI_FILLED_LOTTERY);
+  if (id == wxART_LUGGAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_LUGGAGE);
+  if (id == wxART_MAIL)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL);
+  if (id == wxART_MAIL_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_ADD);
+  if (id == wxART_MAIL_ALERT)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_ALERT);
+  if (id == wxART_MAIL_ALL_READ)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_ALL_READ);
+  if (id == wxART_MAIL_ALL_UNREAD)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_ALL_UNREAD);
+  if (id == wxART_MAIL_ARROW_DOUBLE_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_ARROW_DOUBLE_BACK);
+  if (id == wxART_MAIL_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_ARROW_DOWN);
+  if (id == wxART_MAIL_ARROW_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_ARROW_FORWARD);
+  if (id == wxART_MAIL_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_ARROW_UP);
+  if (id == wxART_MAIL_ATTACH)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_ATTACH);
+  if (id == wxART_MAIL_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_CHECKMARK);
+  if (id == wxART_MAIL_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_CLOCK);
+  if (id == wxART_MAIL_COPY)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_COPY);
+  if (id == wxART_MAIL_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_DISMISS);
+  if (id == wxART_MAIL_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_EDIT);
+  if (id == wxART_MAIL_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_ERROR);
+  if (id == wxART_MAIL_INBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_INBOX);
+  if (id == wxART_MAIL_INBOX_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_INBOX_ADD);
+  if (id == wxART_MAIL_INBOX_ALL)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_INBOX_ALL);
+  if (id == wxART_MAIL_INBOX_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_INBOX_ARROW_DOWN);
+  if (id == wxART_MAIL_INBOX_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_INBOX_ARROW_RIGHT);
+  if (id == wxART_MAIL_INBOX_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_INBOX_ARROW_UP);
+  if (id == wxART_MAIL_INBOX_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_INBOX_CHECKMARK);
+  if (id == wxART_MAIL_INBOX_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_INBOX_DISMISS);
+  if (id == wxART_MAIL_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_LINK);
+  if (id == wxART_MAIL_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_LIST);
+  if (id == wxART_MAIL_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_MULTIPLE);
+  if (id == wxART_MAIL_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_OFF);
+  if (id == wxART_MAIL_OPEN_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_OPEN_PERSON);
+  if (id == wxART_MAIL_PAUSE)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_PAUSE);
+  if (id == wxART_MAIL_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_PROHIBITED);
+  if (id == wxART_MAIL_READ)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_READ);
+  if (id == wxART_MAIL_READ_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_READ_MULTIPLE);
+  if (id == wxART_MAIL_REWIND)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_REWIND);
+  if (id == wxART_MAIL_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_SETTINGS);
+  if (id == wxART_MAIL_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_SHIELD);
+  if (id == wxART_MAIL_TEMPLATE)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_TEMPLATE);
+  if (id == wxART_MAIL_UNREAD)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_UNREAD);
+  if (id == wxART_MAIL_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_MAIL_WARNING);
+  if (id == wxART_MAP)  
+      return wxString(SVG_FLUENTUI_FILLED_MAP);
+  if (id == wxART_MAP_DRIVE)  
+      return wxString(SVG_FLUENTUI_FILLED_MAP_DRIVE);
+  if (id == wxART_MARKDOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_MARKDOWN);
+  if (id == wxART_MATCH_APP_LAYOUT)  
+      return wxString(SVG_FLUENTUI_FILLED_MATCH_APP_LAYOUT);
+  if (id == wxART_MATH_FORMAT_LINEAR)  
+      return wxString(SVG_FLUENTUI_FILLED_MATH_FORMAT_LINEAR);
+  if (id == wxART_MATH_FORMAT_PROFESSIONAL)  
+      return wxString(SVG_FLUENTUI_FILLED_MATH_FORMAT_PROFESSIONAL);
+  if (id == wxART_MATH_FORMULA)  
+      return wxString(SVG_FLUENTUI_FILLED_MATH_FORMULA);
+  if (id == wxART_MATH_SYMBOLS)  
+      return wxString(SVG_FLUENTUI_FILLED_MATH_SYMBOLS);
+  if (id == wxART_MAXIMIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_MAXIMIZE);
+  if (id == wxART_MEET_NOW)  
+      return wxString(SVG_FLUENTUI_FILLED_MEET_NOW);
+  if (id == wxART_MEGAPHONE)  
+      return wxString(SVG_FLUENTUI_FILLED_MEGAPHONE);
+  if (id == wxART_MEGAPHONE_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_MEGAPHONE_CIRCLE);
+  if (id == wxART_MEGAPHONE_LOUD)  
+      return wxString(SVG_FLUENTUI_FILLED_MEGAPHONE_LOUD);
+  if (id == wxART_MEGAPHONE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_MEGAPHONE_OFF);
+  if (id == wxART_MEMORY)  
+      return wxString(SVG_FLUENTUI_FILLED_MEMORY);
+  if (id == wxART_MENTION)  
+      return wxString(SVG_FLUENTUI_FILLED_MENTION);
+  if (id == wxART_MENTION_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_MENTION_ARROW_DOWN);
+  if (id == wxART_MENTION_BRACKETS)  
+      return wxString(SVG_FLUENTUI_FILLED_MENTION_BRACKETS);
+  if (id == wxART_MERGE)  
+      return wxString(SVG_FLUENTUI_FILLED_MERGE);
+  if (id == wxART_MIC)  
+      return wxString(SVG_FLUENTUI_FILLED_MIC);
+  if (id == wxART_MIC_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_MIC_OFF);
+  if (id == wxART_MIC_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_MIC_PROHIBITED);
+  if (id == wxART_MIC_PULSE)  
+      return wxString(SVG_FLUENTUI_FILLED_MIC_PULSE);
+  if (id == wxART_MIC_PULSE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_MIC_PULSE_OFF);
+  if (id == wxART_MIC_RECORD)  
+      return wxString(SVG_FLUENTUI_FILLED_MIC_RECORD);
+  if (id == wxART_MIC_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_MIC_SETTINGS);
+  if (id == wxART_MIC_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_MIC_SPARKLE);
+  if (id == wxART_MIC_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_MIC_SYNC);
+  if (id == wxART_MICROSCOPE)  
+      return wxString(SVG_FLUENTUI_FILLED_MICROSCOPE);
+  if (id == wxART_MIDI)  
+      return wxString(SVG_FLUENTUI_FILLED_MIDI);
+  if (id == wxART_MOBILE_OPTIMIZED)  
+      return wxString(SVG_FLUENTUI_FILLED_MOBILE_OPTIMIZED);
+  if (id == wxART_MOLD)  
+      return wxString(SVG_FLUENTUI_FILLED_MOLD);
+  if (id == wxART_MOLECULE)  
+      return wxString(SVG_FLUENTUI_FILLED_MOLECULE);
+  if (id == wxART_MONEY)  
+      return wxString(SVG_FLUENTUI_FILLED_MONEY);
+  if (id == wxART_MONEY_CALCULATOR)  
+      return wxString(SVG_FLUENTUI_FILLED_MONEY_CALCULATOR);
+  if (id == wxART_MONEY_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_MONEY_DISMISS);
+  if (id == wxART_MONEY_HAND)  
+      return wxString(SVG_FLUENTUI_FILLED_MONEY_HAND);
+  if (id == wxART_MONEY_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_MONEY_OFF);
+  if (id == wxART_MONEY_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_MONEY_SETTINGS);
+  if (id == wxART_MORE_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_MORE_CIRCLE);
+  if (id == wxART_MORE_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_MORE_HORIZONTAL);
+  if (id == wxART_MORE_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_MORE_VERTICAL);
+  if (id == wxART_MOUNTAIN_LOCATION_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_MOUNTAIN_LOCATION_BOTTOM);
+  if (id == wxART_MOUNTAIN_LOCATION_TOP)  
+      return wxString(SVG_FLUENTUI_FILLED_MOUNTAIN_LOCATION_TOP);
+  if (id == wxART_MOUNTAIN_TRAIL)  
+      return wxString(SVG_FLUENTUI_FILLED_MOUNTAIN_TRAIL);
+  if (id == wxART_MOVIES_AND_TV)  
+      return wxString(SVG_FLUENTUI_FILLED_MOVIES_AND_TV);
+  if (id == wxART_MULTIPLIER_1_2X)  
+      return wxString(SVG_FLUENTUI_FILLED_MULTIPLIER_1_2X);
+  if (id == wxART_MULTIPLIER_1_5X)  
+      return wxString(SVG_FLUENTUI_FILLED_MULTIPLIER_1_5X);
+  if (id == wxART_MULTIPLIER_1_8X)  
+      return wxString(SVG_FLUENTUI_FILLED_MULTIPLIER_1_8X);
+  if (id == wxART_MULTIPLIER_1X)  
+      return wxString(SVG_FLUENTUI_FILLED_MULTIPLIER_1X);
+  if (id == wxART_MULTIPLIER_2X)  
+      return wxString(SVG_FLUENTUI_FILLED_MULTIPLIER_2X);
+  if (id == wxART_MULTIPLIER__5X)  
+      return wxString(SVG_FLUENTUI_FILLED_MULTIPLIER__5X);
+  if (id == wxART_MULTISELECT_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_MULTISELECT_LTR);
+  if (id == wxART_MULTISELECT_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_MULTISELECT_RTL);
+  if (id == wxART_MUSIC_NOTE_1)  
+      return wxString(SVG_FLUENTUI_FILLED_MUSIC_NOTE_1);
+  if (id == wxART_MUSIC_NOTE_2)  
+      return wxString(SVG_FLUENTUI_FILLED_MUSIC_NOTE_2);
+  if (id == wxART_MUSIC_NOTE_2_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_MUSIC_NOTE_2_PLAY);
+  if (id == wxART_MUSIC_NOTE_OFF_1)  
+      return wxString(SVG_FLUENTUI_FILLED_MUSIC_NOTE_OFF_1);
+  if (id == wxART_MUSIC_NOTE_OFF_2)  
+      return wxString(SVG_FLUENTUI_FILLED_MUSIC_NOTE_OFF_2);
+  if (id == wxART_MY_LOCATION)  
+      return wxString(SVG_FLUENTUI_FILLED_MY_LOCATION);
+  if (id == wxART_NAVIGATION)  
+      return wxString(SVG_FLUENTUI_FILLED_NAVIGATION);
+  if (id == wxART_NAVIGATION_LOCATION_TARGET)  
+      return wxString(SVG_FLUENTUI_FILLED_NAVIGATION_LOCATION_TARGET);
+  if (id == wxART_NAVIGATION_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_NAVIGATION_PLAY);
+  if (id == wxART_NAVIGATION_UNREAD)  
+      return wxString(SVG_FLUENTUI_FILLED_NAVIGATION_UNREAD);
+  if (id == wxART_NETWORK_ADAPTER)  
+      return wxString(SVG_FLUENTUI_FILLED_NETWORK_ADAPTER);
+  if (id == wxART_NETWORK_CHECK)  
+      return wxString(SVG_FLUENTUI_FILLED_NETWORK_CHECK);
+  if (id == wxART_NEW)  
+      return wxString(SVG_FLUENTUI_FILLED_NEW);
+  if (id == wxART_NEWS)  
+      return wxString(SVG_FLUENTUI_FILLED_NEWS);
+  if (id == wxART_NEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_NEXT);
+  if (id == wxART_NEXT_FRAME)  
+      return wxString(SVG_FLUENTUI_FILLED_NEXT_FRAME);
+  if (id == wxART_NOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTE);
+  if (id == wxART_NOTE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTE_ADD);
+  if (id == wxART_NOTE_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTE_EDIT);
+  if (id == wxART_NOTE_PIN)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTE_PIN);
+  if (id == wxART_NOTEBOOK)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK);
+  if (id == wxART_NOTEBOOK_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK_ADD);
+  if (id == wxART_NOTEBOOK_ARROW_CURVE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK_ARROW_CURVE_DOWN);
+  if (id == wxART_NOTEBOOK_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK_ERROR);
+  if (id == wxART_NOTEBOOK_EYE)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK_EYE);
+  if (id == wxART_NOTEBOOK_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK_LIGHTNING);
+  if (id == wxART_NOTEBOOK_QUESTION_MARK)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK_QUESTION_MARK);
+  if (id == wxART_NOTEBOOK_SECTION)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK_SECTION);
+  if (id == wxART_NOTEBOOK_SECTION_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK_SECTION_ARROW_RIGHT);
+  if (id == wxART_NOTEBOOK_SUBSECTION)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK_SUBSECTION);
+  if (id == wxART_NOTEBOOK_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEBOOK_SYNC);
+  if (id == wxART_NOTEPAD)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEPAD);
+  if (id == wxART_NOTEPAD_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEPAD_EDIT);
+  if (id == wxART_NOTEPAD_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_NOTEPAD_PERSON);
+  if (id == wxART_NUMBER_CIRCLE_0)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_CIRCLE_0);
+  if (id == wxART_NUMBER_CIRCLE_1)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_CIRCLE_1);
+  if (id == wxART_NUMBER_CIRCLE_2)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_CIRCLE_2);
+  if (id == wxART_NUMBER_CIRCLE_3)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_CIRCLE_3);
+  if (id == wxART_NUMBER_CIRCLE_4)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_CIRCLE_4);
+  if (id == wxART_NUMBER_CIRCLE_5)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_CIRCLE_5);
+  if (id == wxART_NUMBER_CIRCLE_6)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_CIRCLE_6);
+  if (id == wxART_NUMBER_CIRCLE_7)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_CIRCLE_7);
+  if (id == wxART_NUMBER_CIRCLE_8)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_CIRCLE_8);
+  if (id == wxART_NUMBER_CIRCLE_9)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_CIRCLE_9);
+  if (id == wxART_NUMBER_ROW)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_ROW);
+  if (id == wxART_NUMBER_SYMBOL)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_SYMBOL);
+  if (id == wxART_NUMBER_SYMBOL_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_SYMBOL_DISMISS);
+  if (id == wxART_NUMBER_SYMBOL_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_NUMBER_SYMBOL_SQUARE);
+  if (id == wxART_OPEN)  
+      return wxString(SVG_FLUENTUI_FILLED_OPEN);
+  if (id == wxART_OPEN_FOLDER)  
+      return wxString(SVG_FLUENTUI_FILLED_OPEN_FOLDER);
+  if (id == wxART_OPEN_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_OPEN_OFF);
+  if (id == wxART_OPTIONS)  
+      return wxString(SVG_FLUENTUI_FILLED_OPTIONS);
+  if (id == wxART_ORGANIZATION)  
+      return wxString(SVG_FLUENTUI_FILLED_ORGANIZATION);
+  if (id == wxART_ORGANIZATION_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_ORGANIZATION_HORIZONTAL);
+  if (id == wxART_ORIENTATION)  
+      return wxString(SVG_FLUENTUI_FILLED_ORIENTATION);
+  if (id == wxART_OVAL)  
+      return wxString(SVG_FLUENTUI_FILLED_OVAL);
+  if (id == wxART_OVEN)  
+      return wxString(SVG_FLUENTUI_FILLED_OVEN);
+  if (id == wxART_PADDING_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_PADDING_DOWN);
+  if (id == wxART_PADDING_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_PADDING_LEFT);
+  if (id == wxART_PADDING_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_PADDING_RIGHT);
+  if (id == wxART_PADDING_TOP)  
+      return wxString(SVG_FLUENTUI_FILLED_PADDING_TOP);
+  if (id == wxART_PAGE_FIT)  
+      return wxString(SVG_FLUENTUI_FILLED_PAGE_FIT);
+  if (id == wxART_PAINT_BRUSH)  
+      return wxString(SVG_FLUENTUI_FILLED_PAINT_BRUSH);
+  if (id == wxART_PAINT_BRUSH_ARROW_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_PAINT_BRUSH_ARROW_DOWN);
+  if (id == wxART_PAINT_BRUSH_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_PAINT_BRUSH_ARROW_UP);
+  if (id == wxART_PAINT_BUCKET)  
+      return wxString(SVG_FLUENTUI_FILLED_PAINT_BUCKET);
+  if (id == wxART_PAIR)  
+      return wxString(SVG_FLUENTUI_FILLED_PAIR);
+  if (id == wxART_PANEL_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_BOTTOM);
+  if (id == wxART_PANEL_BOTTOM_CONTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_BOTTOM_CONTRACT);
+  if (id == wxART_PANEL_BOTTOM_EXPAND)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_BOTTOM_EXPAND);
+  if (id == wxART_PANEL_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT);
+  if (id == wxART_PANEL_LEFT_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_ADD);
+  if (id == wxART_PANEL_LEFT_CONTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_CONTRACT);
+  if (id == wxART_PANEL_LEFT_EXPAND)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_EXPAND);
+  if (id == wxART_PANEL_LEFT_FOCUS_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_FOCUS_RIGHT);
+  if (id == wxART_PANEL_LEFT_HEADER)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_HEADER);
+  if (id == wxART_PANEL_LEFT_HEADER_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_HEADER_ADD);
+  if (id == wxART_PANEL_LEFT_HEADER_KEY)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_HEADER_KEY);
+  if (id == wxART_PANEL_LEFT_KEY)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_KEY);
+  if (id == wxART_PANEL_LEFT_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_TEXT);
+  if (id == wxART_PANEL_LEFT_TEXT_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_TEXT_ADD);
+  if (id == wxART_PANEL_LEFT_TEXT_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_LEFT_TEXT_DISMISS);
+  if (id == wxART_PANEL_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_RIGHT);
+  if (id == wxART_PANEL_RIGHT_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_RIGHT_ADD);
+  if (id == wxART_PANEL_RIGHT_CONTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_RIGHT_CONTRACT);
+  if (id == wxART_PANEL_RIGHT_CURSOR)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_RIGHT_CURSOR);
+  if (id == wxART_PANEL_RIGHT_EXPAND)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_RIGHT_EXPAND);
+  if (id == wxART_PANEL_RIGHT_GALLERY)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_RIGHT_GALLERY);
+  if (id == wxART_PANEL_SEPARATE_WINDOW)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_SEPARATE_WINDOW);
+  if (id == wxART_PANEL_TOP_CONTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_TOP_CONTRACT);
+  if (id == wxART_PANEL_TOP_EXPAND)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_TOP_EXPAND);
+  if (id == wxART_PANEL_TOP_GALLERY)  
+      return wxString(SVG_FLUENTUI_FILLED_PANEL_TOP_GALLERY);
+  if (id == wxART_PASSWORD)  
+      return wxString(SVG_FLUENTUI_FILLED_PASSWORD);
+  if (id == wxART_PATCH)  
+      return wxString(SVG_FLUENTUI_FILLED_PATCH);
+  if (id == wxART_PATIENT)  
+      return wxString(SVG_FLUENTUI_FILLED_PATIENT);
+  if (id == wxART_PAUSE)  
+      return wxString(SVG_FLUENTUI_FILLED_PAUSE);
+  if (id == wxART_PAUSE_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_PAUSE_CIRCLE);
+  if (id == wxART_PAUSE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_PAUSE_OFF);
+  if (id == wxART_PAUSE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_PAUSE_SETTINGS);
+  if (id == wxART_PAYMENT)  
+      return wxString(SVG_FLUENTUI_FILLED_PAYMENT);
+  if (id == wxART_PEN)  
+      return wxString(SVG_FLUENTUI_FILLED_PEN);
+  if (id == wxART_PEN_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_PEN_DISMISS);
+  if (id == wxART_PEN_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_PEN_OFF);
+  if (id == wxART_PEN_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_PEN_PROHIBITED);
+  if (id == wxART_PEN_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_PEN_SPARKLE);
+  if (id == wxART_PENTAGON)  
+      return wxString(SVG_FLUENTUI_FILLED_PENTAGON);
+  if (id == wxART_PEOPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE);
+  if (id == wxART_PEOPLE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_ADD);
+  if (id == wxART_PEOPLE_AUDIENCE)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_AUDIENCE);
+  if (id == wxART_PEOPLE_CALL)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_CALL);
+  if (id == wxART_PEOPLE_CHAT)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_CHAT);
+  if (id == wxART_PEOPLE_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_CHECKMARK);
+  if (id == wxART_PEOPLE_COMMUNITY)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_COMMUNITY);
+  if (id == wxART_PEOPLE_COMMUNITY_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_COMMUNITY_ADD);
+  if (id == wxART_PEOPLE_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_EDIT);
+  if (id == wxART_PEOPLE_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_ERROR);
+  if (id == wxART_PEOPLE_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_LIST);
+  if (id == wxART_PEOPLE_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_LOCK);
+  if (id == wxART_PEOPLE_MONEY)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_MONEY);
+  if (id == wxART_PEOPLE_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_PROHIBITED);
+  if (id == wxART_PEOPLE_QUEUE)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_QUEUE);
+  if (id == wxART_PEOPLE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_SEARCH);
+  if (id == wxART_PEOPLE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_SETTINGS);
+  if (id == wxART_PEOPLE_STAR)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_STAR);
+  if (id == wxART_PEOPLE_SWAP)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_SWAP);
+  if (id == wxART_PEOPLE_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_SYNC);
+  if (id == wxART_PEOPLE_TEAM)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_TEAM);
+  if (id == wxART_PEOPLE_TEAM_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_TEAM_ADD);
+  if (id == wxART_PEOPLE_TEAM_DELETE)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_TEAM_DELETE);
+  if (id == wxART_PEOPLE_TEAM_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_TEAM_TOOLBOX);
+  if (id == wxART_PEOPLE_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_PEOPLE_TOOLBOX);
+  if (id == wxART_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON);
+  if (id == wxART_PERSON_5)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_5);
+  if (id == wxART_PERSON_6)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_6);
+  if (id == wxART_PERSON_ACCOUNTS)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_ACCOUNTS);
+  if (id == wxART_PERSON_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_ADD);
+  if (id == wxART_PERSON_ALERT)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_ALERT);
+  if (id == wxART_PERSON_ARROW_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_ARROW_BACK);
+  if (id == wxART_PERSON_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_ARROW_LEFT);
+  if (id == wxART_PERSON_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_ARROW_RIGHT);
+  if (id == wxART_PERSON_AVAILABLE)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_AVAILABLE);
+  if (id == wxART_PERSON_BOARD)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_BOARD);
+  if (id == wxART_PERSON_CALL)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_CALL);
+  if (id == wxART_PERSON_CHAT)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_CHAT);
+  if (id == wxART_PERSON_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_CIRCLE);
+  if (id == wxART_PERSON_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_CLOCK);
+  if (id == wxART_PERSON_DELETE)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_DELETE);
+  if (id == wxART_PERSON_DESKTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_DESKTOP);
+  if (id == wxART_PERSON_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_EDIT);
+  if (id == wxART_PERSON_FEEDBACK)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_FEEDBACK);
+  if (id == wxART_PERSON_HEART)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_HEART);
+  if (id == wxART_PERSON_INFO)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_INFO);
+  if (id == wxART_PERSON_KEY)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_KEY);
+  if (id == wxART_PERSON_LIGHTBULB)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_LIGHTBULB);
+  if (id == wxART_PERSON_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_LIGHTNING);
+  if (id == wxART_PERSON_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_LINK);
+  if (id == wxART_PERSON_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_LOCK);
+  if (id == wxART_PERSON_MAIL)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_MAIL);
+  if (id == wxART_PERSON_MONEY)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_MONEY);
+  if (id == wxART_PERSON_NOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_NOTE);
+  if (id == wxART_PERSON_PHONE)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_PHONE);
+  if (id == wxART_PERSON_PILL)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_PILL);
+  if (id == wxART_PERSON_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_PROHIBITED);
+  if (id == wxART_PERSON_QUESTION_MARK)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_QUESTION_MARK);
+  if (id == wxART_PERSON_RIBBON)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_RIBBON);
+  if (id == wxART_PERSON_RUNNING)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_RUNNING);
+  if (id == wxART_PERSON_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_SEARCH);
+  if (id == wxART_PERSON_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_SETTINGS);
+  if (id == wxART_PERSON_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_SQUARE);
+  if (id == wxART_PERSON_STANDING)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_STANDING);
+  if (id == wxART_PERSON_STAR)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_STAR);
+  if (id == wxART_PERSON_STARBURST)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_STARBURST);
+  if (id == wxART_PERSON_SUBTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_SUBTRACT);
+  if (id == wxART_PERSON_SUPPORT)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_SUPPORT);
+  if (id == wxART_PERSON_SWAP)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_SWAP);
+  if (id == wxART_PERSON_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_SYNC);
+  if (id == wxART_PERSON_TAG)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_TAG);
+  if (id == wxART_PERSON_VOICE)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_VOICE);
+  if (id == wxART_PERSON_WALKING)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_WALKING);
+  if (id == wxART_PERSON_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_WARNING);
+  if (id == wxART_PERSON_WRENCH)  
+      return wxString(SVG_FLUENTUI_FILLED_PERSON_WRENCH);
+  if (id == wxART_PHONE)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE);
+  if (id == wxART_PHONE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_ADD);
+  if (id == wxART_PHONE_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_ARROW_RIGHT);
+  if (id == wxART_PHONE_BRIEFCASE)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_BRIEFCASE);
+  if (id == wxART_PHONE_CHAT)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_CHAT);
+  if (id == wxART_PHONE_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_CHECKMARK);
+  if (id == wxART_PHONE_DESKTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_DESKTOP);
+  if (id == wxART_PHONE_DESKTOP_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_DESKTOP_ADD);
+  if (id == wxART_PHONE_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_DISMISS);
+  if (id == wxART_PHONE_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_EDIT);
+  if (id == wxART_PHONE_ERASER)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_ERASER);
+  if (id == wxART_PHONE_KEY)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_KEY);
+  if (id == wxART_PHONE_LAPTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_LAPTOP);
+  if (id == wxART_PHONE_LINK_SETUP)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_LINK_SETUP);
+  if (id == wxART_PHONE_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_LOCK);
+  if (id == wxART_PHONE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_MULTIPLE);
+  if (id == wxART_PHONE_MULTIPLE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_MULTIPLE_SETTINGS);
+  if (id == wxART_PHONE_PAGE_HEADER)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_PAGE_HEADER);
+  if (id == wxART_PHONE_PAGINATION)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_PAGINATION);
+  if (id == wxART_PHONE_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_PERSON);
+  if (id == wxART_PHONE_SCREEN_TIME)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_SCREEN_TIME);
+  if (id == wxART_PHONE_SHAKE)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_SHAKE);
+  if (id == wxART_PHONE_SPAN_IN)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_SPAN_IN);
+  if (id == wxART_PHONE_SPAN_OUT)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_SPAN_OUT);
+  if (id == wxART_PHONE_SPEAKER)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_SPEAKER);
+  if (id == wxART_PHONE_STATUS_BAR)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_STATUS_BAR);
+  if (id == wxART_PHONE_SUBTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_SUBTRACT);
+  if (id == wxART_PHONE_TABLET)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_TABLET);
+  if (id == wxART_PHONE_UPDATE)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_UPDATE);
+  if (id == wxART_PHONE_UPDATE_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_UPDATE_CHECKMARK);
+  if (id == wxART_PHONE_VERTICAL_SCROLL)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_VERTICAL_SCROLL);
+  if (id == wxART_PHONE_VIBRATE)  
+      return wxString(SVG_FLUENTUI_FILLED_PHONE_VIBRATE);
+  if (id == wxART_PHOTO_FILTER)  
+      return wxString(SVG_FLUENTUI_FILLED_PHOTO_FILTER);
+  if (id == wxART_PI)  
+      return wxString(SVG_FLUENTUI_FILLED_PI);
+  if (id == wxART_PICTURE_IN_PICTURE)  
+      return wxString(SVG_FLUENTUI_FILLED_PICTURE_IN_PICTURE);
+  if (id == wxART_PICTURE_IN_PICTURE_ENTER)  
+      return wxString(SVG_FLUENTUI_FILLED_PICTURE_IN_PICTURE_ENTER);
+  if (id == wxART_PICTURE_IN_PICTURE_EXIT)  
+      return wxString(SVG_FLUENTUI_FILLED_PICTURE_IN_PICTURE_EXIT);
+  if (id == wxART_PILL)  
+      return wxString(SVG_FLUENTUI_FILLED_PILL);
+  if (id == wxART_PIN)  
+      return wxString(SVG_FLUENTUI_FILLED_PIN);
+  if (id == wxART_PIN_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_PIN_OFF);
+  if (id == wxART_PIPELINE)  
+      return wxString(SVG_FLUENTUI_FILLED_PIPELINE);
+  if (id == wxART_PIPELINE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PIPELINE_ADD);
+  if (id == wxART_PIPELINE_ARROW_CURVE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_PIPELINE_ARROW_CURVE_DOWN);
+  if (id == wxART_PIPELINE_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_PIPELINE_PLAY);
+  if (id == wxART_PIVOT)  
+      return wxString(SVG_FLUENTUI_FILLED_PIVOT);
+  if (id == wxART_PLANT_GRASS)  
+      return wxString(SVG_FLUENTUI_FILLED_PLANT_GRASS);
+  if (id == wxART_PLANT_RAGWEED)  
+      return wxString(SVG_FLUENTUI_FILLED_PLANT_RAGWEED);
+  if (id == wxART_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_PLAY);
+  if (id == wxART_PLAY_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_PLAY_CIRCLE);
+  if (id == wxART_PLAY_CIRCLE_HINT)  
+      return wxString(SVG_FLUENTUI_FILLED_PLAY_CIRCLE_HINT);
+  if (id == wxART_PLAY_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_PLAY_MULTIPLE);
+  if (id == wxART_PLAY_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_PLAY_SETTINGS);
+  if (id == wxART_PLAYING_CARDS)  
+      return wxString(SVG_FLUENTUI_FILLED_PLAYING_CARDS);
+  if (id == wxART_PLUG_CONNECTED)  
+      return wxString(SVG_FLUENTUI_FILLED_PLUG_CONNECTED);
+  if (id == wxART_PLUG_CONNECTED_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PLUG_CONNECTED_ADD);
+  if (id == wxART_PLUG_CONNECTED_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_PLUG_CONNECTED_CHECKMARK);
+  if (id == wxART_PLUG_CONNECTED_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_PLUG_CONNECTED_SETTINGS);
+  if (id == wxART_PLUG_DISCONNECTED)  
+      return wxString(SVG_FLUENTUI_FILLED_PLUG_DISCONNECTED);
+  if (id == wxART_POINT_SCAN)  
+      return wxString(SVG_FLUENTUI_FILLED_POINT_SCAN);
+  if (id == wxART_POLL)  
+      return wxString(SVG_FLUENTUI_FILLED_POLL);
+  if (id == wxART_POLL_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_POLL_HORIZONTAL);
+  if (id == wxART_PORT_HDMI)  
+      return wxString(SVG_FLUENTUI_FILLED_PORT_HDMI);
+  if (id == wxART_PORT_MICRO_USB)  
+      return wxString(SVG_FLUENTUI_FILLED_PORT_MICRO_USB);
+  if (id == wxART_PORT_USB_A)  
+      return wxString(SVG_FLUENTUI_FILLED_PORT_USB_A);
+  if (id == wxART_PORT_USB_C)  
+      return wxString(SVG_FLUENTUI_FILLED_PORT_USB_C);
+  if (id == wxART_POSITION_BACKWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_POSITION_BACKWARD);
+  if (id == wxART_POSITION_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_POSITION_FORWARD);
+  if (id == wxART_POSITION_TO_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_POSITION_TO_BACK);
+  if (id == wxART_POSITION_TO_FRONT)  
+      return wxString(SVG_FLUENTUI_FILLED_POSITION_TO_FRONT);
+  if (id == wxART_POWER)  
+      return wxString(SVG_FLUENTUI_FILLED_POWER);
+  if (id == wxART_PREDICTIONS)  
+      return wxString(SVG_FLUENTUI_FILLED_PREDICTIONS);
+  if (id == wxART_PREMIUM)  
+      return wxString(SVG_FLUENTUI_FILLED_PREMIUM);
+  if (id == wxART_PREMIUM_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_PREMIUM_PERSON);
+  if (id == wxART_PRESENCE_AVAILABLE)  
+      return wxString(SVG_FLUENTUI_FILLED_PRESENCE_AVAILABLE);
+  if (id == wxART_PRESENCE_AWAY)  
+      return wxString(SVG_FLUENTUI_FILLED_PRESENCE_AWAY);
+  if (id == wxART_PRESENCE_BUSY)  
+      return wxString(SVG_FLUENTUI_FILLED_PRESENCE_BUSY);
+  if (id == wxART_PRESENCE_DND)  
+      return wxString(SVG_FLUENTUI_FILLED_PRESENCE_DND);
+  if (id == wxART_PRESENTER)  
+      return wxString(SVG_FLUENTUI_FILLED_PRESENTER);
+  if (id == wxART_PRESENTER_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_PRESENTER_OFF);
+  if (id == wxART_PREVIEW_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_PREVIEW_LINK);
+  if (id == wxART_PREVIOUS)  
+      return wxString(SVG_FLUENTUI_FILLED_PREVIOUS);
+  if (id == wxART_PREVIOUS_FRAME)  
+      return wxString(SVG_FLUENTUI_FILLED_PREVIOUS_FRAME);
+  if (id == wxART_PRINT)  
+      return wxString(SVG_FLUENTUI_FILLED_PRINT);
+  if (id == wxART_PRINT_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_PRINT_ADD);
+  if (id == wxART_PRODUCTION)  
+      return wxString(SVG_FLUENTUI_FILLED_PRODUCTION);
+  if (id == wxART_PRODUCTION_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_PRODUCTION_CHECKMARK);
+  if (id == wxART_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_PROHIBITED);
+  if (id == wxART_PROHIBITED_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_PROHIBITED_MULTIPLE);
+  if (id == wxART_PROHIBITED_NOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_PROHIBITED_NOTE);
+  if (id == wxART_PROJECTION_SCREEN)  
+      return wxString(SVG_FLUENTUI_FILLED_PROJECTION_SCREEN);
+  if (id == wxART_PROJECTION_SCREEN_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_PROJECTION_SCREEN_DISMISS);
+  if (id == wxART_PROJECTION_SCREEN_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_PROJECTION_SCREEN_TEXT);
+  if (id == wxART_PROTOCOL_HANDLER)  
+      return wxString(SVG_FLUENTUI_FILLED_PROTOCOL_HANDLER);
+  if (id == wxART_PULSE)  
+      return wxString(SVG_FLUENTUI_FILLED_PULSE);
+  if (id == wxART_PULSE_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_PULSE_SQUARE);
+  if (id == wxART_PUZZLE_CUBE)  
+      return wxString(SVG_FLUENTUI_FILLED_PUZZLE_CUBE);
+  if (id == wxART_PUZZLE_CUBE_PIECE)  
+      return wxString(SVG_FLUENTUI_FILLED_PUZZLE_CUBE_PIECE);
+  if (id == wxART_PUZZLE_PIECE_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_PUZZLE_PIECE_SHIELD);
+  if (id == wxART_PUZZLE_PIECE)  
+      return wxString(SVG_FLUENTUI_FILLED_PUZZLE_PIECE);
+  if (id == wxART_QR_CODE)  
+      return wxString(SVG_FLUENTUI_FILLED_QR_CODE);
+  if (id == wxART_QUESTION)  
+      return wxString(SVG_FLUENTUI_FILLED_QUESTION);
+  if (id == wxART_QUESTION_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_QUESTION_CIRCLE);
+  if (id == wxART_QUIZ_NEW)  
+      return wxString(SVG_FLUENTUI_FILLED_QUIZ_NEW);
+  if (id == wxART_RAM)  
+      return wxString(SVG_FLUENTUI_FILLED_RAM);
+  if (id == wxART_RSS)  
+      return wxString(SVG_FLUENTUI_FILLED_RSS);
+  if (id == wxART_RADAR)  
+      return wxString(SVG_FLUENTUI_FILLED_RADAR);
+  if (id == wxART_RADAR_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_RADAR_CHECKMARK);
+  if (id == wxART_RADAR_RECTANGLE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_RADAR_RECTANGLE_MULTIPLE);
+  if (id == wxART_RADIO_BUTTON)  
+      return wxString(SVG_FLUENTUI_FILLED_RADIO_BUTTON);
+  if (id == wxART_RADIO_BUTTON_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_RADIO_BUTTON_OFF);
+  if (id == wxART_RATING_MATURE)  
+      return wxString(SVG_FLUENTUI_FILLED_RATING_MATURE);
+  if (id == wxART_RATIO_ONE_TO_ONE)  
+      return wxString(SVG_FLUENTUI_FILLED_RATIO_ONE_TO_ONE);
+  if (id == wxART_RE_ORDER)  
+      return wxString(SVG_FLUENTUI_FILLED_RE_ORDER);
+  if (id == wxART_RE_ORDER_DOTS_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_RE_ORDER_DOTS_HORIZONTAL);
+  if (id == wxART_RE_ORDER_DOTS_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_RE_ORDER_DOTS_VERTICAL);
+  if (id == wxART_READ_ALOUD)  
+      return wxString(SVG_FLUENTUI_FILLED_READ_ALOUD);
+  if (id == wxART_READING_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_READING_LIST);
+  if (id == wxART_READING_LIST_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_READING_LIST_ADD);
+  if (id == wxART_READING_MODE_MOBILE)  
+      return wxString(SVG_FLUENTUI_FILLED_READING_MODE_MOBILE);
+  if (id == wxART_REAL_ESTATE)  
+      return wxString(SVG_FLUENTUI_FILLED_REAL_ESTATE);
+  if (id == wxART_RECEIPT)  
+      return wxString(SVG_FLUENTUI_FILLED_RECEIPT);
+  if (id == wxART_RECEIPT_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_RECEIPT_ADD);
+  if (id == wxART_RECEIPT_BAG)  
+      return wxString(SVG_FLUENTUI_FILLED_RECEIPT_BAG);
+  if (id == wxART_RECEIPT_CUBE)  
+      return wxString(SVG_FLUENTUI_FILLED_RECEIPT_CUBE);
+  if (id == wxART_RECEIPT_MONEY)  
+      return wxString(SVG_FLUENTUI_FILLED_RECEIPT_MONEY);
+  if (id == wxART_RECEIPT_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_RECEIPT_PLAY);
+  if (id == wxART_RECEIPT_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_RECEIPT_SEARCH);
+  if (id == wxART_RECEIPT_SPARKLES)  
+      return wxString(SVG_FLUENTUI_FILLED_RECEIPT_SPARKLES);
+  if (id == wxART_RECORD)  
+      return wxString(SVG_FLUENTUI_FILLED_RECORD);
+  if (id == wxART_RECORD_STOP)  
+      return wxString(SVG_FLUENTUI_FILLED_RECORD_STOP);
+  if (id == wxART_RECTANGLE_LANDSCAPE)  
+      return wxString(SVG_FLUENTUI_FILLED_RECTANGLE_LANDSCAPE);
+  if (id == wxART_RECTANGLE_LANDSCAPE_HINT_COPY)  
+      return wxString(SVG_FLUENTUI_FILLED_RECTANGLE_LANDSCAPE_HINT_COPY);
+  if (id == wxART_RECTANGLE_LANDSCAPE_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_RECTANGLE_LANDSCAPE_SPARKLE);
+  if (id == wxART_RECTANGLE_PORTRAIT_LOCATION_TARGET)  
+      return wxString(SVG_FLUENTUI_FILLED_RECTANGLE_PORTRAIT_LOCATION_TARGET);
+  if (id == wxART_RECYCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_RECYCLE);
+  if (id == wxART_REMIX_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_REMIX_ADD);
+  if (id == wxART_REMOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_REMOTE);
+  if (id == wxART_RENAME)  
+      return wxString(SVG_FLUENTUI_FILLED_RENAME);
+  if (id == wxART_REORDER)  
+      return wxString(SVG_FLUENTUI_FILLED_REORDER);
+  if (id == wxART_REPLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_REPLAY);
+  if (id == wxART_RESIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_RESIZE);
+  if (id == wxART_RESIZE_IMAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_RESIZE_IMAGE);
+  if (id == wxART_RESIZE_LARGE)  
+      return wxString(SVG_FLUENTUI_FILLED_RESIZE_LARGE);
+  if (id == wxART_RESIZE_SMALL)  
+      return wxString(SVG_FLUENTUI_FILLED_RESIZE_SMALL);
+  if (id == wxART_RESIZE_TABLE)  
+      return wxString(SVG_FLUENTUI_FILLED_RESIZE_TABLE);
+  if (id == wxART_RESIZE_VIDEO)  
+      return wxString(SVG_FLUENTUI_FILLED_RESIZE_VIDEO);
+  if (id == wxART_REWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_REWARD);
+  if (id == wxART_REWIND)  
+      return wxString(SVG_FLUENTUI_FILLED_REWIND);
+  if (id == wxART_RHOMBUS)  
+      return wxString(SVG_FLUENTUI_FILLED_RHOMBUS);
+  if (id == wxART_RIBBON)  
+      return wxString(SVG_FLUENTUI_FILLED_RIBBON);
+  if (id == wxART_RIBBON_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_RIBBON_ADD);
+  if (id == wxART_RIBBON_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_RIBBON_OFF);
+  if (id == wxART_RIBBON_STAR)  
+      return wxString(SVG_FLUENTUI_FILLED_RIBBON_STAR);
+  if (id == wxART_ROAD_CONE)  
+      return wxString(SVG_FLUENTUI_FILLED_ROAD_CONE);
+  if (id == wxART_ROCKET)  
+      return wxString(SVG_FLUENTUI_FILLED_ROCKET);
+  if (id == wxART_ROTATE_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_ROTATE_LEFT);
+  if (id == wxART_ROTATE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_ROTATE_RIGHT);
+  if (id == wxART_ROUTER)  
+      return wxString(SVG_FLUENTUI_FILLED_ROUTER);
+  if (id == wxART_ROW_TRIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_ROW_TRIPLE);
+  if (id == wxART_RULER)  
+      return wxString(SVG_FLUENTUI_FILLED_RULER);
+  if (id == wxART_RUN)  
+      return wxString(SVG_FLUENTUI_FILLED_RUN);
+  if (id == wxART_SIM)  
+      return wxString(SVG_FLUENTUI_FILLED_SIM);
+  if (id == wxART_SANITIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_SANITIZE);
+  if (id == wxART_SAVE)  
+      return wxString(SVG_FLUENTUI_FILLED_SAVE);
+  if (id == wxART_SAVE_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_SAVE_ARROW_RIGHT);
+  if (id == wxART_SAVE_COPY)  
+      return wxString(SVG_FLUENTUI_FILLED_SAVE_COPY);
+  if (id == wxART_SAVE_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_SAVE_EDIT);
+  if (id == wxART_SAVE_IMAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_SAVE_IMAGE);
+  if (id == wxART_SAVE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SAVE_MULTIPLE);
+  if (id == wxART_SAVE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_SAVE_SEARCH);
+  if (id == wxART_SAVE_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_SAVE_SYNC);
+  if (id == wxART_SAVINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_SAVINGS);
+  if (id == wxART_SCALE_FILL)  
+      return wxString(SVG_FLUENTUI_FILLED_SCALE_FILL);
+  if (id == wxART_SCALE_FIT)  
+      return wxString(SVG_FLUENTUI_FILLED_SCALE_FIT);
+  if (id == wxART_SCALES)  
+      return wxString(SVG_FLUENTUI_FILLED_SCALES);
+  if (id == wxART_SCAN)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN);
+  if (id == wxART_SCAN_CAMERA)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_CAMERA);
+  if (id == wxART_SCAN_DASH)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_DASH);
+  if (id == wxART_SCAN_OBJECT)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_OBJECT);
+  if (id == wxART_SCAN_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_PERSON);
+  if (id == wxART_SCAN_QR_CODE)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_QR_CODE);
+  if (id == wxART_SCAN_TABLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_TABLE);
+  if (id == wxART_SCAN_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_TEXT);
+  if (id == wxART_SCAN_THUMB_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_THUMB_UP);
+  if (id == wxART_SCAN_THUMB_UP_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_THUMB_UP_OFF);
+  if (id == wxART_SCAN_TYPE)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_TYPE);
+  if (id == wxART_SCAN_TYPE_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_TYPE_CHECKMARK);
+  if (id == wxART_SCAN_TYPE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_SCAN_TYPE_OFF);
+  if (id == wxART_SCRATCHPAD)  
+      return wxString(SVG_FLUENTUI_FILLED_SCRATCHPAD);
+  if (id == wxART_SCREEN_CUT)  
+      return wxString(SVG_FLUENTUI_FILLED_SCREEN_CUT);
+  if (id == wxART_SCREEN_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_SCREEN_PERSON);
+  if (id == wxART_SCREEN_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_SCREEN_SEARCH);
+  if (id == wxART_SCREENSHOT)  
+      return wxString(SVG_FLUENTUI_FILLED_SCREENSHOT);
+  if (id == wxART_SCREENSHOT_RECORD)  
+      return wxString(SVG_FLUENTUI_FILLED_SCREENSHOT_RECORD);
+  if (id == wxART_SCRIPT)  
+      return wxString(SVG_FLUENTUI_FILLED_SCRIPT);
+  if (id == wxART_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_SEARCH);
+  if (id == wxART_SEARCH_INFO)  
+      return wxString(SVG_FLUENTUI_FILLED_SEARCH_INFO);
+  if (id == wxART_SEARCH_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_SEARCH_SETTINGS);
+  if (id == wxART_SEARCH_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_SEARCH_SHIELD);
+  if (id == wxART_SEARCH_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_SEARCH_SQUARE);
+  if (id == wxART_SEARCH_VISUAL)  
+      return wxString(SVG_FLUENTUI_FILLED_SEARCH_VISUAL);
+  if (id == wxART_SELECT_ALL_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_SELECT_ALL_OFF);
+  if (id == wxART_SELECT_ALL_ON)  
+      return wxString(SVG_FLUENTUI_FILLED_SELECT_ALL_ON);
+  if (id == wxART_SELECT_OBJECT)  
+      return wxString(SVG_FLUENTUI_FILLED_SELECT_OBJECT);
+  if (id == wxART_SELECT_OBJECT_SKEW)  
+      return wxString(SVG_FLUENTUI_FILLED_SELECT_OBJECT_SKEW);
+  if (id == wxART_SELECT_OBJECT_SKEW_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_SELECT_OBJECT_SKEW_DISMISS);
+  if (id == wxART_SELECT_OBJECT_SKEW_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_SELECT_OBJECT_SKEW_EDIT);
+  if (id == wxART_SEND)  
+      return wxString(SVG_FLUENTUI_FILLED_SEND);
+  if (id == wxART_SEND_BEAKER)  
+      return wxString(SVG_FLUENTUI_FILLED_SEND_BEAKER);
+  if (id == wxART_SEND_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_SEND_CLOCK);
+  if (id == wxART_SEND_COPY)  
+      return wxString(SVG_FLUENTUI_FILLED_SEND_COPY);
+  if (id == wxART_SERIAL_PORT)  
+      return wxString(SVG_FLUENTUI_FILLED_SERIAL_PORT);
+  if (id == wxART_SERVER)  
+      return wxString(SVG_FLUENTUI_FILLED_SERVER);
+  if (id == wxART_SERVER_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_SERVER_LINK);
+  if (id == wxART_SERVER_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SERVER_MULTIPLE);
+  if (id == wxART_SERVER_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_SERVER_PLAY);
+  if (id == wxART_SERVER_SURFACE)  
+      return wxString(SVG_FLUENTUI_FILLED_SERVER_SURFACE);
+  if (id == wxART_SERVER_SURFACE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SERVER_SURFACE_MULTIPLE);
+  if (id == wxART_SERVICE_BELL)  
+      return wxString(SVG_FLUENTUI_FILLED_SERVICE_BELL);
+  if (id == wxART_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_SETTINGS);
+  if (id == wxART_SETTINGS_CHAT)  
+      return wxString(SVG_FLUENTUI_FILLED_SETTINGS_CHAT);
+  if (id == wxART_SETTINGS_COG_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SETTINGS_COG_MULTIPLE);
+  if (id == wxART_SHAPE_EXCLUDE)  
+      return wxString(SVG_FLUENTUI_FILLED_SHAPE_EXCLUDE);
+  if (id == wxART_SHAPE_INTERSECT)  
+      return wxString(SVG_FLUENTUI_FILLED_SHAPE_INTERSECT);
+  if (id == wxART_SHAPE_ORGANIC)  
+      return wxString(SVG_FLUENTUI_FILLED_SHAPE_ORGANIC);
+  if (id == wxART_SHAPE_SUBTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_SHAPE_SUBTRACT);
+  if (id == wxART_SHAPE_UNION)  
+      return wxString(SVG_FLUENTUI_FILLED_SHAPE_UNION);
+  if (id == wxART_SHAPES)  
+      return wxString(SVG_FLUENTUI_FILLED_SHAPES);
+  if (id == wxART_SHARE)  
+      return wxString(SVG_FLUENTUI_FILLED_SHARE);
+  if (id == wxART_SHARE_ANDROID)  
+      return wxString(SVG_FLUENTUI_FILLED_SHARE_ANDROID);
+  if (id == wxART_SHARE_CLOSE_TRAY)  
+      return wxString(SVG_FLUENTUI_FILLED_SHARE_CLOSE_TRAY);
+  if (id == wxART_SHARE_SCREEN_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_SHARE_SCREEN_PERSON);
+  if (id == wxART_SHARE_SCREEN_PERSON_OVERLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_SHARE_SCREEN_PERSON_OVERLAY);
+  if (id == wxART_SHARE_SCREEN_PERSON_OVERLAY_INSIDE)  
+      return wxString(SVG_FLUENTUI_FILLED_SHARE_SCREEN_PERSON_OVERLAY_INSIDE);
+  if (id == wxART_SHARE_SCREEN_PERSON_P)  
+      return wxString(SVG_FLUENTUI_FILLED_SHARE_SCREEN_PERSON_P);
+  if (id == wxART_SHARE_SCREEN_START)  
+      return wxString(SVG_FLUENTUI_FILLED_SHARE_SCREEN_START);
+  if (id == wxART_SHARE_SCREEN_STOP)  
+      return wxString(SVG_FLUENTUI_FILLED_SHARE_SCREEN_STOP);
+  if (id == wxART_SHARE_IOS)  
+      return wxString(SVG_FLUENTUI_FILLED_SHARE_IOS);
+  if (id == wxART_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD);
+  if (id == wxART_SHIELD_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_ADD);
+  if (id == wxART_SHIELD_BADGE)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_BADGE);
+  if (id == wxART_SHIELD_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_CHECKMARK);
+  if (id == wxART_SHIELD_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_DISMISS);
+  if (id == wxART_SHIELD_DISMISS_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_DISMISS_SHIELD);
+  if (id == wxART_SHIELD_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_ERROR);
+  if (id == wxART_SHIELD_GLOBE)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_GLOBE);
+  if (id == wxART_SHIELD_KEYHOLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_KEYHOLE);
+  if (id == wxART_SHIELD_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_LOCK);
+  if (id == wxART_SHIELD_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_PERSON);
+  if (id == wxART_SHIELD_PERSON_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_PERSON_ADD);
+  if (id == wxART_SHIELD_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_PROHIBITED);
+  if (id == wxART_SHIELD_QUESTION)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_QUESTION);
+  if (id == wxART_SHIELD_TASK)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIELD_TASK);
+  if (id == wxART_SHIFTS)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS);
+  if (id == wxART_SHIFTS_30_MINUTES)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS_30_MINUTES);
+  if (id == wxART_SHIFTS_ACTIVITY)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS_ACTIVITY);
+  if (id == wxART_SHIFTS_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS_ADD);
+  if (id == wxART_SHIFTS_AVAILABILITY)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS_AVAILABILITY);
+  if (id == wxART_SHIFTS_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS_CHECKMARK);
+  if (id == wxART_SHIFTS_DAY)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS_DAY);
+  if (id == wxART_SHIFTS_OPEN)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS_OPEN);
+  if (id == wxART_SHIFTS_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS_PROHIBITED);
+  if (id == wxART_SHIFTS_QUESTION_MARK)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS_QUESTION_MARK);
+  if (id == wxART_SHIFTS_TEAM)  
+      return wxString(SVG_FLUENTUI_FILLED_SHIFTS_TEAM);
+  if (id == wxART_SHOPPING_BAG)  
+      return wxString(SVG_FLUENTUI_FILLED_SHOPPING_BAG);
+  if (id == wxART_SHOPPING_BAG_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_SHOPPING_BAG_ARROW_LEFT);
+  if (id == wxART_SHOPPING_BAG_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_SHOPPING_BAG_DISMISS);
+  if (id == wxART_SHOPPING_BAG_PAUSE)  
+      return wxString(SVG_FLUENTUI_FILLED_SHOPPING_BAG_PAUSE);
+  if (id == wxART_SHOPPING_BAG_PERCENT)  
+      return wxString(SVG_FLUENTUI_FILLED_SHOPPING_BAG_PERCENT);
+  if (id == wxART_SHOPPING_BAG_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_SHOPPING_BAG_PLAY);
+  if (id == wxART_SHOPPING_BAG_TAG)  
+      return wxString(SVG_FLUENTUI_FILLED_SHOPPING_BAG_TAG);
+  if (id == wxART_SHORTPICK)  
+      return wxString(SVG_FLUENTUI_FILLED_SHORTPICK);
+  if (id == wxART_SHOWERHEAD)  
+      return wxString(SVG_FLUENTUI_FILLED_SHOWERHEAD);
+  if (id == wxART_SIDEBAR_SEARCH_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_SIDEBAR_SEARCH_LTR);
+  if (id == wxART_SIDEBAR_SEARCH_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_SIDEBAR_SEARCH_RTL);
+  if (id == wxART_SIGN_OUT)  
+      return wxString(SVG_FLUENTUI_FILLED_SIGN_OUT);
+  if (id == wxART_SIGNATURE)  
+      return wxString(SVG_FLUENTUI_FILLED_SIGNATURE);
+  if (id == wxART_SKIP_BACK_10)  
+      return wxString(SVG_FLUENTUI_FILLED_SKIP_BACK_10);
+  if (id == wxART_SKIP_FORWARD_10)  
+      return wxString(SVG_FLUENTUI_FILLED_SKIP_FORWARD_10);
+  if (id == wxART_SKIP_FORWARD_30)  
+      return wxString(SVG_FLUENTUI_FILLED_SKIP_FORWARD_30);
+  if (id == wxART_SKIP_FORWARD_TAB)  
+      return wxString(SVG_FLUENTUI_FILLED_SKIP_FORWARD_TAB);
+  if (id == wxART_SLASH_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_SLASH_FORWARD);
+  if (id == wxART_SLEEP)  
+      return wxString(SVG_FLUENTUI_FILLED_SLEEP);
+  if (id == wxART_SLIDE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_ADD);
+  if (id == wxART_SLIDE_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_ARROW_RIGHT);
+  if (id == wxART_SLIDE_CONTENT)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_CONTENT);
+  if (id == wxART_SLIDE_ERASER)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_ERASER);
+  if (id == wxART_SLIDE_GRID)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_GRID);
+  if (id == wxART_SLIDE_HIDE)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_HIDE);
+  if (id == wxART_SLIDE_LAYOUT)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_LAYOUT);
+  if (id == wxART_SLIDE_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_LINK);
+  if (id == wxART_SLIDE_MICROPHONE)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_MICROPHONE);
+  if (id == wxART_SLIDE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_MULTIPLE);
+  if (id == wxART_SLIDE_MULTIPLE_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_MULTIPLE_ARROW_RIGHT);
+  if (id == wxART_SLIDE_MULTIPLE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_MULTIPLE_SEARCH);
+  if (id == wxART_SLIDE_RECORD)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_RECORD);
+  if (id == wxART_SLIDE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_SEARCH);
+  if (id == wxART_SLIDE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_SETTINGS);
+  if (id == wxART_SLIDE_SIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_SIZE);
+  if (id == wxART_SLIDE_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_TEXT);
+  if (id == wxART_SLIDE_TEXT_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_TEXT_EDIT);
+  if (id == wxART_SLIDE_TEXT_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_TEXT_MULTIPLE);
+  if (id == wxART_SLIDE_TEXT_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_TEXT_PERSON);
+  if (id == wxART_SLIDE_TEXT_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_TEXT_SPARKLE);
+  if (id == wxART_SLIDE_TRANSITION)  
+      return wxString(SVG_FLUENTUI_FILLED_SLIDE_TRANSITION);
+  if (id == wxART_SMARTWATCH)  
+      return wxString(SVG_FLUENTUI_FILLED_SMARTWATCH);
+  if (id == wxART_SMARTWATCH_DOT)  
+      return wxString(SVG_FLUENTUI_FILLED_SMARTWATCH_DOT);
+  if (id == wxART_SNOOZE)  
+      return wxString(SVG_FLUENTUI_FILLED_SNOOZE);
+  if (id == wxART_SOUND_SOURCE)  
+      return wxString(SVG_FLUENTUI_FILLED_SOUND_SOURCE);
+  if (id == wxART_SOUND_WAVE_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SOUND_WAVE_CIRCLE);
+  if (id == wxART_SPACE_3D)  
+      return wxString(SVG_FLUENTUI_FILLED_SPACE_3D);
+  if (id == wxART_SPACEBAR)  
+      return wxString(SVG_FLUENTUI_FILLED_SPACEBAR);
+  if (id == wxART_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SPARKLE);
+  if (id == wxART_SPARKLE_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SPARKLE_CIRCLE);
+  if (id == wxART_SPEAKER_0)  
+      return wxString(SVG_FLUENTUI_FILLED_SPEAKER_0);
+  if (id == wxART_SPEAKER_1)  
+      return wxString(SVG_FLUENTUI_FILLED_SPEAKER_1);
+  if (id == wxART_SPEAKER_2)  
+      return wxString(SVG_FLUENTUI_FILLED_SPEAKER_2);
+  if (id == wxART_SPEAKER_BLUETOOTH)  
+      return wxString(SVG_FLUENTUI_FILLED_SPEAKER_BLUETOOTH);
+  if (id == wxART_SPEAKER_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_SPEAKER_EDIT);
+  if (id == wxART_SPEAKER_MUTE)  
+      return wxString(SVG_FLUENTUI_FILLED_SPEAKER_MUTE);
+  if (id == wxART_SPEAKER_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_SPEAKER_OFF);
+  if (id == wxART_SPEAKER_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_SPEAKER_SETTINGS);
+  if (id == wxART_SPEAKER_USB)  
+      return wxString(SVG_FLUENTUI_FILLED_SPEAKER_USB);
+  if (id == wxART_SPINNER_IOS)  
+      return wxString(SVG_FLUENTUI_FILLED_SPINNER_IOS);
+  if (id == wxART_SPLIT_HINT)  
+      return wxString(SVG_FLUENTUI_FILLED_SPLIT_HINT);
+  if (id == wxART_SPLIT_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_SPLIT_HORIZONTAL);
+  if (id == wxART_SPLIT_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_SPLIT_VERTICAL);
+  if (id == wxART_SPORT)  
+      return wxString(SVG_FLUENTUI_FILLED_SPORT);
+  if (id == wxART_SPORT_AMERICAN_FOOTBALL)  
+      return wxString(SVG_FLUENTUI_FILLED_SPORT_AMERICAN_FOOTBALL);
+  if (id == wxART_SPORT_BASEBALL)  
+      return wxString(SVG_FLUENTUI_FILLED_SPORT_BASEBALL);
+  if (id == wxART_SPORT_BASKETBALL)  
+      return wxString(SVG_FLUENTUI_FILLED_SPORT_BASKETBALL);
+  if (id == wxART_SPORT_HOCKEY)  
+      return wxString(SVG_FLUENTUI_FILLED_SPORT_HOCKEY);
+  if (id == wxART_SPORT_SOCCER)  
+      return wxString(SVG_FLUENTUI_FILLED_SPORT_SOCCER);
+  if (id == wxART_SPRAY_CAN)  
+      return wxString(SVG_FLUENTUI_FILLED_SPRAY_CAN);
+  if (id == wxART_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE);
+  if (id == wxART_SQUARE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_ADD);
+  if (id == wxART_SQUARE_ARROW_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_ARROW_FORWARD);
+  if (id == wxART_SQUARE_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_DISMISS);
+  if (id == wxART_SQUARE_ERASER)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_ERASER);
+  if (id == wxART_SQUARE_HINT)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_HINT);
+  if (id == wxART_SQUARE_HINT_APPS)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_HINT_APPS);
+  if (id == wxART_SQUARE_HINT_ARROW_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_HINT_ARROW_BACK);
+  if (id == wxART_SQUARE_HINT_HEXAGON)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_HINT_HEXAGON);
+  if (id == wxART_SQUARE_HINT_SPARKLES)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_HINT_SPARKLES);
+  if (id == wxART_SQUARE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_MULTIPLE);
+  if (id == wxART_SQUARE_SHADOW)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARE_SHADOW);
+  if (id == wxART_SQUARES_NESTED)  
+      return wxString(SVG_FLUENTUI_FILLED_SQUARES_NESTED);
+  if (id == wxART_STACK)  
+      return wxString(SVG_FLUENTUI_FILLED_STACK);
+  if (id == wxART_STACK_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_STACK_ADD);
+  if (id == wxART_STACK_ARROW_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_STACK_ARROW_FORWARD);
+  if (id == wxART_STACK_STAR)  
+      return wxString(SVG_FLUENTUI_FILLED_STACK_STAR);
+  if (id == wxART_STACK_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_STACK_VERTICAL);
+  if (id == wxART_STAR)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR);
+  if (id == wxART_STAR_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_ADD);
+  if (id == wxART_STAR_ARROW_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_ARROW_BACK);
+  if (id == wxART_STAR_ARROW_RIGHT_END)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_ARROW_RIGHT_END);
+  if (id == wxART_STAR_ARROW_RIGHT_START)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_ARROW_RIGHT_START);
+  if (id == wxART_STAR_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_CHECKMARK);
+  if (id == wxART_STAR_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_DISMISS);
+  if (id == wxART_STAR_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_EDIT);
+  if (id == wxART_STAR_EMPHASIS)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_EMPHASIS);
+  if (id == wxART_STAR_HALF)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_HALF);
+  if (id == wxART_STAR_LINE_HORIZONTAL_3)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_LINE_HORIZONTAL_3);
+  if (id == wxART_STAR_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_OFF);
+  if (id == wxART_STAR_ONE_QUARTER)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_ONE_QUARTER);
+  if (id == wxART_STAR_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_PROHIBITED);
+  if (id == wxART_STAR_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_SETTINGS);
+  if (id == wxART_STAR_THREE_QUARTER)  
+      return wxString(SVG_FLUENTUI_FILLED_STAR_THREE_QUARTER);
+  if (id == wxART_STATUS)  
+      return wxString(SVG_FLUENTUI_FILLED_STATUS);
+  if (id == wxART_STEP)  
+      return wxString(SVG_FLUENTUI_FILLED_STEP);
+  if (id == wxART_STEPS)  
+      return wxString(SVG_FLUENTUI_FILLED_STEPS);
+  if (id == wxART_STETHOSCOPE)  
+      return wxString(SVG_FLUENTUI_FILLED_STETHOSCOPE);
+  if (id == wxART_STICKER)  
+      return wxString(SVG_FLUENTUI_FILLED_STICKER);
+  if (id == wxART_STICKER_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_STICKER_ADD);
+  if (id == wxART_STOP)  
+      return wxString(SVG_FLUENTUI_FILLED_STOP);
+  if (id == wxART_STORAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_STORAGE);
+  if (id == wxART_STORE_MICROSOFT)  
+      return wxString(SVG_FLUENTUI_FILLED_STORE_MICROSOFT);
+  if (id == wxART_STREAM)  
+      return wxString(SVG_FLUENTUI_FILLED_STREAM);
+  if (id == wxART_STREAM_INPUT)  
+      return wxString(SVG_FLUENTUI_FILLED_STREAM_INPUT);
+  if (id == wxART_STREAM_INPUT_OUTPUT)  
+      return wxString(SVG_FLUENTUI_FILLED_STREAM_INPUT_OUTPUT);
+  if (id == wxART_STREAM_OUTPUT)  
+      return wxString(SVG_FLUENTUI_FILLED_STREAM_OUTPUT);
+  if (id == wxART_STYLE_GUIDE)  
+      return wxString(SVG_FLUENTUI_FILLED_STYLE_GUIDE);
+  if (id == wxART_SUB_GRID)  
+      return wxString(SVG_FLUENTUI_FILLED_SUB_GRID);
+  if (id == wxART_SUBTITLES)  
+      return wxString(SVG_FLUENTUI_FILLED_SUBTITLES);
+  if (id == wxART_SUBTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_SUBTRACT);
+  if (id == wxART_SUBTRACT_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SUBTRACT_CIRCLE);
+  if (id == wxART_SUBTRACT_CIRCLE_ARROW_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_SUBTRACT_CIRCLE_ARROW_BACK);
+  if (id == wxART_SUBTRACT_CIRCLE_ARROW_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_SUBTRACT_CIRCLE_ARROW_FORWARD);
+  if (id == wxART_SUBTRACT_PARENTHESES)  
+      return wxString(SVG_FLUENTUI_FILLED_SUBTRACT_PARENTHESES);
+  if (id == wxART_SUBTRACT_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_SUBTRACT_SQUARE);
+  if (id == wxART_SUBTRACT_SQUARE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_SUBTRACT_SQUARE_MULTIPLE);
+  if (id == wxART_SURFACE_EARBUDS)  
+      return wxString(SVG_FLUENTUI_FILLED_SURFACE_EARBUDS);
+  if (id == wxART_SURFACE_HUB)  
+      return wxString(SVG_FLUENTUI_FILLED_SURFACE_HUB);
+  if (id == wxART_SWIMMING_POOL)  
+      return wxString(SVG_FLUENTUI_FILLED_SWIMMING_POOL);
+  if (id == wxART_SWIPE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_SWIPE_DOWN);
+  if (id == wxART_SWIPE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_SWIPE_RIGHT);
+  if (id == wxART_SWIPE_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_SWIPE_UP);
+  if (id == wxART_SYMBOLS)  
+      return wxString(SVG_FLUENTUI_FILLED_SYMBOLS);
+  if (id == wxART_SYNC_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_SYNC_OFF);
+  if (id == wxART_SYRINGE)  
+      return wxString(SVG_FLUENTUI_FILLED_SYRINGE);
+  if (id == wxART_SYSTEM)  
+      return wxString(SVG_FLUENTUI_FILLED_SYSTEM);
+  if (id == wxART_TV)  
+      return wxString(SVG_FLUENTUI_FILLED_TV);
+  if (id == wxART_TV_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TV_ARROW_RIGHT);
+  if (id == wxART_TV_USB)  
+      return wxString(SVG_FLUENTUI_FILLED_TV_USB);
+  if (id == wxART_TAB)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB);
+  if (id == wxART_TAB_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_ADD);
+  if (id == wxART_TAB_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_ARROW_LEFT);
+  if (id == wxART_TAB_DESKTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP);
+  if (id == wxART_TAB_DESKTOP_ARROW_CLOCKWISE)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_ARROW_CLOCKWISE);
+  if (id == wxART_TAB_DESKTOP_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_ARROW_LEFT);
+  if (id == wxART_TAB_DESKTOP_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_BOTTOM);
+  if (id == wxART_TAB_DESKTOP_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_CLOCK);
+  if (id == wxART_TAB_DESKTOP_COPY)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_COPY);
+  if (id == wxART_TAB_DESKTOP_IMAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_IMAGE);
+  if (id == wxART_TAB_DESKTOP_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_LINK);
+  if (id == wxART_TAB_DESKTOP_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_MULTIPLE);
+  if (id == wxART_TAB_DESKTOP_MULTIPLE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_MULTIPLE_ADD);
+  if (id == wxART_TAB_DESKTOP_MULTIPLE_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_MULTIPLE_BOTTOM);
+  if (id == wxART_TAB_DESKTOP_NEW_PAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_DESKTOP_NEW_PAGE);
+  if (id == wxART_TAB_INPRIVATE_ACCOUNT)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_INPRIVATE_ACCOUNT);
+  if (id == wxART_TAB_IN_PRIVATE)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_IN_PRIVATE);
+  if (id == wxART_TAB_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_PROHIBITED);
+  if (id == wxART_TAB_SHIELD_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_TAB_SHIELD_DISMISS);
+  if (id == wxART_TABLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE);
+  if (id == wxART_TABLE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_ADD);
+  if (id == wxART_TABLE_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_ARROW_UP);
+  if (id == wxART_TABLE_BOTTOM_ROW)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_BOTTOM_ROW);
+  if (id == wxART_TABLE_CALCULATOR)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_CALCULATOR);
+  if (id == wxART_TABLE_CELL_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_CELL_EDIT);
+  if (id == wxART_TABLE_CELLS_MERGE)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_CELLS_MERGE);
+  if (id == wxART_TABLE_CELLS_SPLIT)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_CELLS_SPLIT);
+  if (id == wxART_TABLE_CHECKER)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_CHECKER);
+  if (id == wxART_TABLE_COLUMN_TOP_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_COLUMN_TOP_BOTTOM);
+  if (id == wxART_TABLE_COPY)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_COPY);
+  if (id == wxART_TABLE_DEFAULT)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_DEFAULT);
+  if (id == wxART_TABLE_DELETE_COLUMN)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_DELETE_COLUMN);
+  if (id == wxART_TABLE_DELETE_ROW)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_DELETE_ROW);
+  if (id == wxART_TABLE_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_DISMISS);
+  if (id == wxART_TABLE_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_EDIT);
+  if (id == wxART_TABLE_FREEZE_COLUMN)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_FREEZE_COLUMN);
+  if (id == wxART_TABLE_FREEZE_COLUMN_AND_ROW)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_FREEZE_COLUMN_AND_ROW);
+  if (id == wxART_TABLE_FREEZE_COLUMN_AND_ROW_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_FREEZE_COLUMN_AND_ROW_TEMP_LTR);
+  if (id == wxART_TABLE_FREEZE_COLUMN_AND_ROW_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_FREEZE_COLUMN_AND_ROW_TEMP_RTL);
+  if (id == wxART_TABLE_FREEZE_COLUMN_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_FREEZE_COLUMN_TEMP_LTR);
+  if (id == wxART_TABLE_FREEZE_COLUMN_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_FREEZE_COLUMN_TEMP_RTL);
+  if (id == wxART_TABLE_FREEZE_ROW)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_FREEZE_ROW);
+  if (id == wxART_TABLE_IMAGE)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_IMAGE);
+  if (id == wxART_TABLE_INSERT_COLUMN)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_INSERT_COLUMN);
+  if (id == wxART_TABLE_INSERT_ROW)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_INSERT_ROW);
+  if (id == wxART_TABLE_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_LIGHTNING);
+  if (id == wxART_TABLE_LINK)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_LINK);
+  if (id == wxART_TABLE_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_LOCK);
+  if (id == wxART_TABLE_MOVE_ABOVE)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_MOVE_ABOVE);
+  if (id == wxART_TABLE_MOVE_BELOW)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_MOVE_BELOW);
+  if (id == wxART_TABLE_MOVE_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_MOVE_LEFT);
+  if (id == wxART_TABLE_MOVE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_MOVE_RIGHT);
+  if (id == wxART_TABLE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_MULTIPLE);
+  if (id == wxART_TABLE_OFFSET)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_OFFSET);
+  if (id == wxART_TABLE_OFFSET_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_OFFSET_ADD);
+  if (id == wxART_TABLE_OFFSET_LESS_THAN_OR_EQUAL_TO)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_OFFSET_LESS_THAN_OR_EQUAL_TO);
+  if (id == wxART_TABLE_OFFSET_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_OFFSET_SETTINGS);
+  if (id == wxART_TABLE_RESIZE_COLUMN)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_RESIZE_COLUMN);
+  if (id == wxART_TABLE_RESIZE_ROW)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_RESIZE_ROW);
+  if (id == wxART_TABLE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_SEARCH);
+  if (id == wxART_TABLE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_SETTINGS);
+  if (id == wxART_TABLE_SIMPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_SIMPLE);
+  if (id == wxART_TABLE_SIMPLE_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_SIMPLE_CHECKMARK);
+  if (id == wxART_TABLE_SIMPLE_EXCLUDE)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_SIMPLE_EXCLUDE);
+  if (id == wxART_TABLE_SIMPLE_INCLUDE)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_SIMPLE_INCLUDE);
+  if (id == wxART_TABLE_SIMPLE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_SIMPLE_MULTIPLE);
+  if (id == wxART_TABLE_SPLIT)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_SPLIT);
+  if (id == wxART_TABLE_STACK_ABOVE)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_STACK_ABOVE);
+  if (id == wxART_TABLE_STACK_BELOW)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_STACK_BELOW);
+  if (id == wxART_TABLE_STACK_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_STACK_LEFT);
+  if (id == wxART_TABLE_STACK_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_STACK_RIGHT);
+  if (id == wxART_TABLE_SWITCH)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLE_SWITCH);
+  if (id == wxART_TABLET)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLET);
+  if (id == wxART_TABLET_LAPTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLET_LAPTOP);
+  if (id == wxART_TABLET_SPEAKER)  
+      return wxString(SVG_FLUENTUI_FILLED_TABLET_SPEAKER);
+  if (id == wxART_TABS)  
+      return wxString(SVG_FLUENTUI_FILLED_TABS);
+  if (id == wxART_TAG)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG);
+  if (id == wxART_TAG_CIRCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG_CIRCLE);
+  if (id == wxART_TAG_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG_DISMISS);
+  if (id == wxART_TAG_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG_ERROR);
+  if (id == wxART_TAG_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG_LOCK);
+  if (id == wxART_TAG_LOCK_ACCENT)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG_LOCK_ACCENT);
+  if (id == wxART_TAG_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG_MULTIPLE);
+  if (id == wxART_TAG_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG_OFF);
+  if (id == wxART_TAG_QUESTION_MARK)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG_QUESTION_MARK);
+  if (id == wxART_TAG_RESET)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG_RESET);
+  if (id == wxART_TAG_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_TAG_SEARCH);
+  if (id == wxART_TAP_DOUBLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TAP_DOUBLE);
+  if (id == wxART_TAP_SINGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TAP_SINGLE);
+  if (id == wxART_TARGET)  
+      return wxString(SVG_FLUENTUI_FILLED_TARGET);
+  if (id == wxART_TARGET_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_TARGET_ADD);
+  if (id == wxART_TARGET_ARROW)  
+      return wxString(SVG_FLUENTUI_FILLED_TARGET_ARROW);
+  if (id == wxART_TARGET_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_TARGET_DISMISS);
+  if (id == wxART_TARGET_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_TARGET_EDIT);
+  if (id == wxART_TASK_LIST_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_TASK_LIST_ADD);
+  if (id == wxART_TASK_LIST_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TASK_LIST_LTR);
+  if (id == wxART_TASK_LIST_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TASK_LIST_RTL);
+  if (id == wxART_TASK_LIST_SQUARE_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_TASK_LIST_SQUARE_ADD);
+  if (id == wxART_TASK_LIST_SQUARE_DATABASE)  
+      return wxString(SVG_FLUENTUI_FILLED_TASK_LIST_SQUARE_DATABASE);
+  if (id == wxART_TASK_LIST_SQUARE_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TASK_LIST_SQUARE_LTR);
+  if (id == wxART_TASK_LIST_SQUARE_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_TASK_LIST_SQUARE_PERSON);
+  if (id == wxART_TASK_LIST_SQUARE_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TASK_LIST_SQUARE_RTL);
+  if (id == wxART_TASK_LIST_SQUARE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_TASK_LIST_SQUARE_SETTINGS);
+  if (id == wxART_TASKS_APP)  
+      return wxString(SVG_FLUENTUI_FILLED_TASKS_APP);
+  if (id == wxART_TEARDROP_BOTTOM_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEARDROP_BOTTOM_RIGHT);
+  if (id == wxART_TEDDY)  
+      return wxString(SVG_FLUENTUI_FILLED_TEDDY);
+  if (id == wxART_TEMPERATURE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEMPERATURE);
+  if (id == wxART_TENT)  
+      return wxString(SVG_FLUENTUI_FILLED_TENT);
+  if (id == wxART_TETRIS_APP)  
+      return wxString(SVG_FLUENTUI_FILLED_TETRIS_APP);
+  if (id == wxART_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT);
+  if (id == wxART_TEXTBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX);
+  if (id == wxART_TEXTBOX_ALIGN_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_BOTTOM);
+  if (id == wxART_TEXTBOX_ALIGN_BOTTOM_CENTER)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_BOTTOM_CENTER);
+  if (id == wxART_TEXTBOX_ALIGN_BOTTOM_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_BOTTOM_LEFT);
+  if (id == wxART_TEXTBOX_ALIGN_BOTTOM_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_BOTTOM_RIGHT);
+  if (id == wxART_TEXTBOX_ALIGN_BOTTOM_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_BOTTOM_ROTATE_90);
+  if (id == wxART_TEXTBOX_ALIGN_CENTER)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_CENTER);
+  if (id == wxART_TEXTBOX_ALIGN_MIDDLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_MIDDLE);
+  if (id == wxART_TEXTBOX_ALIGN_MIDDLE_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_MIDDLE_LEFT);
+  if (id == wxART_TEXTBOX_ALIGN_MIDDLE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_MIDDLE_RIGHT);
+  if (id == wxART_TEXTBOX_ALIGN_MIDDLE_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_MIDDLE_ROTATE_90);
+  if (id == wxART_TEXTBOX_ALIGN_TOP)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_TOP);
+  if (id == wxART_TEXTBOX_ALIGN_TOP_CENTER)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_TOP_CENTER);
+  if (id == wxART_TEXTBOX_ALIGN_TOP_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_TOP_LEFT);
+  if (id == wxART_TEXTBOX_ALIGN_TOP_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_TOP_RIGHT);
+  if (id == wxART_TEXTBOX_ALIGN_TOP_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ALIGN_TOP_ROTATE_90);
+  if (id == wxART_TEXTBOX_MORE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_MORE);
+  if (id == wxART_TEXTBOX_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_ROTATE_90);
+  if (id == wxART_TEXTBOX_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXTBOX_SETTINGS);
+  if (id == wxART_TEXT_ABC_UNDERLINE_DOUBLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ABC_UNDERLINE_DOUBLE);
+  if (id == wxART_TEXT_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ADD);
+  if (id == wxART_TEXT_ADD_SPACE_AFTER)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ADD_SPACE_AFTER);
+  if (id == wxART_TEXT_ADD_SPACE_BEFORE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ADD_SPACE_BEFORE);
+  if (id == wxART_TEXT_ADD_T)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ADD_T);
+  if (id == wxART_TEXT_ALIGN_CENTER)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_CENTER);
+  if (id == wxART_TEXT_ALIGN_CENTER_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_CENTER_ROTATE_270);
+  if (id == wxART_TEXT_ALIGN_CENTER_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_CENTER_ROTATE_90);
+  if (id == wxART_TEXT_ALIGN_DISTRIBUTED)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_DISTRIBUTED);
+  if (id == wxART_TEXT_ALIGN_DISTRIBUTED_EVENLY)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_DISTRIBUTED_EVENLY);
+  if (id == wxART_TEXT_ALIGN_DISTRIBUTED_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_DISTRIBUTED_VERTICAL);
+  if (id == wxART_TEXT_ALIGN_JUSTIFY)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_JUSTIFY);
+  if (id == wxART_TEXT_ALIGN_JUSTIFY_LOW)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_JUSTIFY_LOW);
+  if (id == wxART_TEXT_ALIGN_JUSTIFY_LOW_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_JUSTIFY_LOW_90);
+  if (id == wxART_TEXT_ALIGN_JUSTIFY_LOW_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_JUSTIFY_LOW_ROTATE_270);
+  if (id == wxART_TEXT_ALIGN_JUSTIFY_LOW_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_JUSTIFY_LOW_ROTATE_90);
+  if (id == wxART_TEXT_ALIGN_JUSTIFY_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_JUSTIFY_ROTATE_270);
+  if (id == wxART_TEXT_ALIGN_JUSTIFY_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_JUSTIFY_ROTATE_90);
+  if (id == wxART_TEXT_ALIGN_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_LEFT);
+  if (id == wxART_TEXT_ALIGN_LEFT_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_LEFT_ROTATE_270);
+  if (id == wxART_TEXT_ALIGN_LEFT_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_LEFT_ROTATE_90);
+  if (id == wxART_TEXT_ALIGN_LEFT_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_LEFT_TEMP_LTR);
+  if (id == wxART_TEXT_ALIGN_LEFT_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_LEFT_TEMP_RTL);
+  if (id == wxART_TEXT_ALIGN_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_RIGHT);
+  if (id == wxART_TEXT_ALIGN_RIGHT_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_RIGHT_ROTATE_270);
+  if (id == wxART_TEXT_ALIGN_RIGHT_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ALIGN_RIGHT_ROTATE_90);
+  if (id == wxART_TEXT_ASTERISK)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ASTERISK);
+  if (id == wxART_TEXT_BASELINE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BASELINE);
+  if (id == wxART_TEXT_BOLD)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BOLD);
+  if (id == wxART_TEXT_BOX_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BOX_SETTINGS);
+  if (id == wxART_TEXT_BULLET_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST);
+  if (id == wxART_TEXT_BULLET_LIST_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_270);
+  if (id == wxART_TEXT_BULLET_LIST_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_90);
+  if (id == wxART_TEXT_BULLET_LIST_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_ADD);
+  if (id == wxART_TEXT_BULLET_LIST_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_CHECKMARK);
+  if (id == wxART_TEXT_BULLET_LIST_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_DISMISS);
+  if (id == wxART_TEXT_BULLET_LIST_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_LTR);
+  if (id == wxART_TEXT_BULLET_LIST_LTR_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_LTR_90);
+  if (id == wxART_TEXT_BULLET_LIST_LTR_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_LTR_ROTATE_270);
+  if (id == wxART_TEXT_BULLET_LIST_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_RTL);
+  if (id == wxART_TEXT_BULLET_LIST_RTL_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_RTL_90);
+  if (id == wxART_TEXT_BULLET_LIST_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_SQUARE);
+  if (id == wxART_TEXT_BULLET_LIST_SQUARE_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_SQUARE_CLOCK);
+  if (id == wxART_TEXT_BULLET_LIST_SQUARE_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_SQUARE_EDIT);
+  if (id == wxART_TEXT_BULLET_LIST_SQUARE_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_SQUARE_PERSON);
+  if (id == wxART_TEXT_BULLET_LIST_SQUARE_SEARCH)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_SQUARE_SEARCH);
+  if (id == wxART_TEXT_BULLET_LIST_SQUARE_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_SQUARE_SETTINGS);
+  if (id == wxART_TEXT_BULLET_LIST_SQUARE_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_SQUARE_SHIELD);
+  if (id == wxART_TEXT_BULLET_LIST_SQUARE_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_SQUARE_SPARKLE);
+  if (id == wxART_TEXT_BULLET_LIST_SQUARE_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_SQUARE_TOOLBOX);
+  if (id == wxART_TEXT_BULLET_LIST_SQUARE_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_SQUARE_WARNING);
+  if (id == wxART_TEXT_BULLET_LIST_TREE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_BULLET_LIST_TREE);
+  if (id == wxART_TEXT_CASE_LOWERCASE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_CASE_LOWERCASE);
+  if (id == wxART_TEXT_CASE_TITLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_CASE_TITLE);
+  if (id == wxART_TEXT_CASE_UPPERCASE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_CASE_UPPERCASE);
+  if (id == wxART_TEXT_CHANGE_CASE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_CHANGE_CASE);
+  if (id == wxART_TEXT_CLEAR_FORMATTING)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_CLEAR_FORMATTING);
+  if (id == wxART_TEXT_COLLAPSE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLLAPSE);
+  if (id == wxART_TEXT_COLOR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLOR);
+  if (id == wxART_TEXT_COLOR_ACCENT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLOR_ACCENT);
+  if (id == wxART_TEXT_COLUMN_ONE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLUMN_ONE);
+  if (id == wxART_TEXT_COLUMN_ONE_NARROW)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLUMN_ONE_NARROW);
+  if (id == wxART_TEXT_COLUMN_ONE_SEMI_NARROW)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLUMN_ONE_SEMI_NARROW);
+  if (id == wxART_TEXT_COLUMN_ONE_WIDE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLUMN_ONE_WIDE);
+  if (id == wxART_TEXT_COLUMN_ONE_WIDE_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLUMN_ONE_WIDE_LIGHTNING);
+  if (id == wxART_TEXT_COLUMN_THREE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLUMN_THREE);
+  if (id == wxART_TEXT_COLUMN_TWO)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLUMN_TWO);
+  if (id == wxART_TEXT_COLUMN_TWO_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLUMN_TWO_LEFT);
+  if (id == wxART_TEXT_COLUMN_TWO_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLUMN_TWO_RIGHT);
+  if (id == wxART_TEXT_COLUMN_WIDE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_COLUMN_WIDE);
+  if (id == wxART_TEXT_CONTINUOUS)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_CONTINUOUS);
+  if (id == wxART_TEXT_DENSITY)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DENSITY);
+  if (id == wxART_TEXT_DESCRIPTION)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DESCRIPTION);
+  if (id == wxART_TEXT_DESCRIPTION_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DESCRIPTION_LTR);
+  if (id == wxART_TEXT_DESCRIPTION_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DESCRIPTION_RTL);
+  if (id == wxART_TEXT_DIRECTION_HORIZONTAL_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_HORIZONTAL_LTR);
+  if (id == wxART_TEXT_DIRECTION_HORIZONTAL_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_HORIZONTAL_LEFT);
+  if (id == wxART_TEXT_DIRECTION_HORIZONTAL_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_HORIZONTAL_RTL);
+  if (id == wxART_TEXT_DIRECTION_HORIZONTAL_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_HORIZONTAL_RIGHT);
+  if (id == wxART_TEXT_DIRECTION_ROTATE_270_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_ROTATE_270_RIGHT);
+  if (id == wxART_TEXT_DIRECTION_ROTATE_315_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_ROTATE_315_RIGHT);
+  if (id == wxART_TEXT_DIRECTION_ROTATE_45_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_ROTATE_45_RIGHT);
+  if (id == wxART_TEXT_DIRECTION_ROTATE_90_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_ROTATE_90_LTR);
+  if (id == wxART_TEXT_DIRECTION_ROTATE_90_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_ROTATE_90_LEFT);
+  if (id == wxART_TEXT_DIRECTION_ROTATE_90_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_ROTATE_90_RTL);
+  if (id == wxART_TEXT_DIRECTION_ROTATE_90_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_ROTATE_90_RIGHT);
+  if (id == wxART_TEXT_DIRECTION_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_DIRECTION_VERTICAL);
+  if (id == wxART_TEXT_EDIT_STYLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_EDIT_STYLE);
+  if (id == wxART_TEXT_EFFECTS)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_EFFECTS);
+  if (id == wxART_TEXT_EXPAND)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_EXPAND);
+  if (id == wxART_TEXT_FIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_FIELD);
+  if (id == wxART_TEXT_FIRST_LINE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_FIRST_LINE);
+  if (id == wxART_TEXT_FIRST_LINE_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_FIRST_LINE_TEMP_LTR);
+  if (id == wxART_TEXT_FIRST_LINE_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_FIRST_LINE_TEMP_RTL);
+  if (id == wxART_TEXT_FONT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_FONT);
+  if (id == wxART_TEXT_FONT_INFO)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_FONT_INFO);
+  if (id == wxART_TEXT_FONT_SIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_FONT_SIZE);
+  if (id == wxART_TEXT_FOOTNOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_FOOTNOTE);
+  if (id == wxART_TEXT_GRAMMAR_ARROW_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_ARROW_LEFT);
+  if (id == wxART_TEXT_GRAMMAR_ARROW_LEFT_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_ARROW_LEFT_TEMP_LTR);
+  if (id == wxART_TEXT_GRAMMAR_ARROW_LEFT_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_ARROW_LEFT_TEMP_RTL);
+  if (id == wxART_TEXT_GRAMMAR_ARROW_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_ARROW_RIGHT);
+  if (id == wxART_TEXT_GRAMMAR_ARROW_RIGHT_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_ARROW_RIGHT_TEMP_LTR);
+  if (id == wxART_TEXT_GRAMMAR_ARROW_RIGHT_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_ARROW_RIGHT_TEMP_RTL);
+  if (id == wxART_TEXT_GRAMMAR_CHECKMARK)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_CHECKMARK);
+  if (id == wxART_TEXT_GRAMMAR_DISMISS)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_DISMISS);
+  if (id == wxART_TEXT_GRAMMAR_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_ERROR);
+  if (id == wxART_TEXT_GRAMMAR_LIGHTNING)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_LIGHTNING);
+  if (id == wxART_TEXT_GRAMMAR_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_SETTINGS);
+  if (id == wxART_TEXT_GRAMMAR_WAND)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_GRAMMAR_WAND);
+  if (id == wxART_TEXT_HANGING)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HANGING);
+  if (id == wxART_TEXT_HANGING_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HANGING_TEMP_LTR);
+  if (id == wxART_TEXT_HANGING_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HANGING_TEMP_RTL);
+  if (id == wxART_TEXT_HEADER_1)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HEADER_1);
+  if (id == wxART_TEXT_HEADER_1_LINES)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HEADER_1_LINES);
+  if (id == wxART_TEXT_HEADER_1_LINES_CARET)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HEADER_1_LINES_CARET);
+  if (id == wxART_TEXT_HEADER_2)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HEADER_2);
+  if (id == wxART_TEXT_HEADER_2_LINES)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HEADER_2_LINES);
+  if (id == wxART_TEXT_HEADER_2_LINES_CARET)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HEADER_2_LINES_CARET);
+  if (id == wxART_TEXT_HEADER_3)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HEADER_3);
+  if (id == wxART_TEXT_HEADER_3_LINES)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HEADER_3_LINES);
+  if (id == wxART_TEXT_HEADER_3_LINES_CARET)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_HEADER_3_LINES_CARET);
+  if (id == wxART_TEXT_INDENT_DECREASE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_DECREASE);
+  if (id == wxART_TEXT_INDENT_DECREASE_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_DECREASE_LTR);
+  if (id == wxART_TEXT_INDENT_DECREASE_LTR_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_DECREASE_LTR_90);
+  if (id == wxART_TEXT_INDENT_DECREASE_LTR_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_DECREASE_LTR_ROTATE_270);
+  if (id == wxART_TEXT_INDENT_DECREASE_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_DECREASE_RTL);
+  if (id == wxART_TEXT_INDENT_DECREASE_RTL_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_DECREASE_RTL_90);
+  if (id == wxART_TEXT_INDENT_DECREASE_RTL_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_DECREASE_RTL_ROTATE_270);
+  if (id == wxART_TEXT_INDENT_DECREASE_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_DECREASE_ROTATE_270);
+  if (id == wxART_TEXT_INDENT_DECREASE_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_DECREASE_ROTATE_90);
+  if (id == wxART_TEXT_INDENT_INCREASE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_INCREASE);
+  if (id == wxART_TEXT_INDENT_INCREASE_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_INCREASE_LTR);
+  if (id == wxART_TEXT_INDENT_INCREASE_LTR_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_INCREASE_LTR_90);
+  if (id == wxART_TEXT_INDENT_INCREASE_LTR_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_INCREASE_LTR_ROTATE_270);
+  if (id == wxART_TEXT_INDENT_INCREASE_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_INCREASE_RTL);
+  if (id == wxART_TEXT_INDENT_INCREASE_RTL_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_INCREASE_RTL_90);
+  if (id == wxART_TEXT_INDENT_INCREASE_RTL_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_INCREASE_RTL_ROTATE_270);
+  if (id == wxART_TEXT_INDENT_INCREASE_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_INCREASE_ROTATE_270);
+  if (id == wxART_TEXT_INDENT_INCREASE_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_INDENT_INCREASE_ROTATE_90);
+  if (id == wxART_TEXT_ITALIC)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_ITALIC);
+  if (id == wxART_TEXT_LINE_SPACING)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_LINE_SPACING);
+  if (id == wxART_TEXT_MORE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_MORE);
+  if (id == wxART_TEXT_NUMBER_FORMAT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_NUMBER_FORMAT);
+  if (id == wxART_TEXT_NUMBER_LIST_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_NUMBER_LIST_LTR);
+  if (id == wxART_TEXT_NUMBER_LIST_LTR_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_NUMBER_LIST_LTR_90);
+  if (id == wxART_TEXT_NUMBER_LIST_LTR_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_NUMBER_LIST_LTR_ROTATE_270);
+  if (id == wxART_TEXT_NUMBER_LIST_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_NUMBER_LIST_RTL);
+  if (id == wxART_TEXT_NUMBER_LIST_RTL_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_NUMBER_LIST_RTL_90);
+  if (id == wxART_TEXT_NUMBER_LIST_RTL_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_NUMBER_LIST_RTL_ROTATE_270);
+  if (id == wxART_TEXT_NUMBER_LIST_ROTATE_270)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_NUMBER_LIST_ROTATE_270);
+  if (id == wxART_TEXT_NUMBER_LIST_ROTATE_90)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_NUMBER_LIST_ROTATE_90);
+  if (id == wxART_TEXT_PARAGRAPH)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_PARAGRAPH);
+  if (id == wxART_TEXT_PARAGRAPH_DIRECTION)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_PARAGRAPH_DIRECTION);
+  if (id == wxART_TEXT_PARAGRAPH_DIRECTION_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_PARAGRAPH_DIRECTION_LEFT);
+  if (id == wxART_TEXT_PARAGRAPH_DIRECTION_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_PARAGRAPH_DIRECTION_RIGHT);
+  if (id == wxART_TEXT_PARAGRAPH_TEMP_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_PARAGRAPH_TEMP_LTR);
+  if (id == wxART_TEXT_PARAGRAPH_TEMP_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_PARAGRAPH_TEMP_RTL);
+  if (id == wxART_TEXT_PERIOD_ASTERISK)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_PERIOD_ASTERISK);
+  if (id == wxART_TEXT_POSITION_BEHIND)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_POSITION_BEHIND);
+  if (id == wxART_TEXT_POSITION_FRONT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_POSITION_FRONT);
+  if (id == wxART_TEXT_POSITION_LINE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_POSITION_LINE);
+  if (id == wxART_TEXT_POSITION_SQUARE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_POSITION_SQUARE);
+  if (id == wxART_TEXT_POSITION_SQUARE_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_POSITION_SQUARE_LEFT);
+  if (id == wxART_TEXT_POSITION_SQUARE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_POSITION_SQUARE_RIGHT);
+  if (id == wxART_TEXT_POSITION_THROUGH)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_POSITION_THROUGH);
+  if (id == wxART_TEXT_POSITION_TIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_POSITION_TIGHT);
+  if (id == wxART_TEXT_POSITION_TOP_BOTTOM)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_POSITION_TOP_BOTTOM);
+  if (id == wxART_TEXT_PROOFING_TOOLS)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_PROOFING_TOOLS);
+  if (id == wxART_TEXT_QUOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_QUOTE);
+  if (id == wxART_TEXT_SORT_ASCENDING)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_SORT_ASCENDING);
+  if (id == wxART_TEXT_SORT_DESCENDING)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_SORT_DESCENDING);
+  if (id == wxART_TEXT_STRIKETHROUGH)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_STRIKETHROUGH);
+  if (id == wxART_TEXT_SUBSCRIPT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_SUBSCRIPT);
+  if (id == wxART_TEXT_SUPERSCRIPT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_SUPERSCRIPT);
+  if (id == wxART_TEXT_T)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_T);
+  if (id == wxART_TEXT_T_TAG)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_T_TAG);
+  if (id == wxART_TEXT_UNDERLINE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_UNDERLINE);
+  if (id == wxART_TEXT_UNDERLINE_CHARACTER_U)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_UNDERLINE_CHARACTER_U);
+  if (id == wxART_TEXT_UNDERLINE_DOUBLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_UNDERLINE_DOUBLE);
+  if (id == wxART_TEXT_WHOLE_WORD)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_WHOLE_WORD);
+  if (id == wxART_TEXT_WORD_COUNT)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_WORD_COUNT);
+  if (id == wxART_TEXT_WRAP)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_WRAP);
+  if (id == wxART_TEXT_WRAP_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_TEXT_WRAP_OFF);
+  if (id == wxART_THINKING)  
+      return wxString(SVG_FLUENTUI_FILLED_THINKING);
+  if (id == wxART_THUMB_DISLIKE)  
+      return wxString(SVG_FLUENTUI_FILLED_THUMB_DISLIKE);
+  if (id == wxART_THUMB_LIKE)  
+      return wxString(SVG_FLUENTUI_FILLED_THUMB_LIKE);
+  if (id == wxART_THUMB_LIKE_DISLIKE)  
+      return wxString(SVG_FLUENTUI_FILLED_THUMB_LIKE_DISLIKE);
+  if (id == wxART_TICKET_DIAGONAL)  
+      return wxString(SVG_FLUENTUI_FILLED_TICKET_DIAGONAL);
+  if (id == wxART_TICKET_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_TICKET_HORIZONTAL);
+  if (id == wxART_TIME_AND_WEATHER)  
+      return wxString(SVG_FLUENTUI_FILLED_TIME_AND_WEATHER);
+  if (id == wxART_TIME_PICKER)  
+      return wxString(SVG_FLUENTUI_FILLED_TIME_PICKER);
+  if (id == wxART_TIMELINE)  
+      return wxString(SVG_FLUENTUI_FILLED_TIMELINE);
+  if (id == wxART_TIMER)  
+      return wxString(SVG_FLUENTUI_FILLED_TIMER);
+  if (id == wxART_TIMER_10)  
+      return wxString(SVG_FLUENTUI_FILLED_TIMER_10);
+  if (id == wxART_TIMER_2)  
+      return wxString(SVG_FLUENTUI_FILLED_TIMER_2);
+  if (id == wxART_TIMER_3)  
+      return wxString(SVG_FLUENTUI_FILLED_TIMER_3);
+  if (id == wxART_TIMER_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_TIMER_OFF);
+  if (id == wxART_TOGGLE_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TOGGLE_LEFT);
+  if (id == wxART_TOGGLE_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TOGGLE_MULTIPLE);
+  if (id == wxART_TOGGLE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TOGGLE_RIGHT);
+  if (id == wxART_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_TOOLBOX);
+  if (id == wxART_TOOLTIP_QUOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_TOOLTIP_QUOTE);
+  if (id == wxART_TOP_SPEED)  
+      return wxString(SVG_FLUENTUI_FILLED_TOP_SPEED);
+  if (id == wxART_TRANSLATE)  
+      return wxString(SVG_FLUENTUI_FILLED_TRANSLATE);
+  if (id == wxART_TRANSLATE_AUTO)  
+      return wxString(SVG_FLUENTUI_FILLED_TRANSLATE_AUTO);
+  if (id == wxART_TRANSLATE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_TRANSLATE_OFF);
+  if (id == wxART_TRANSMISSION)  
+      return wxString(SVG_FLUENTUI_FILLED_TRANSMISSION);
+  if (id == wxART_TRAY_ITEM_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_TRAY_ITEM_ADD);
+  if (id == wxART_TRAY_ITEM_REMOVE)  
+      return wxString(SVG_FLUENTUI_FILLED_TRAY_ITEM_REMOVE);
+  if (id == wxART_TREE_DECIDUOUS)  
+      return wxString(SVG_FLUENTUI_FILLED_TREE_DECIDUOUS);
+  if (id == wxART_TREE_EVERGREEN)  
+      return wxString(SVG_FLUENTUI_FILLED_TREE_EVERGREEN);
+  if (id == wxART_TRIANGLE)  
+      return wxString(SVG_FLUENTUI_FILLED_TRIANGLE);
+  if (id == wxART_TRIANGLE_DOWN)  
+      return wxString(SVG_FLUENTUI_FILLED_TRIANGLE_DOWN);
+  if (id == wxART_TRIANGLE_LEFT)  
+      return wxString(SVG_FLUENTUI_FILLED_TRIANGLE_LEFT);
+  if (id == wxART_TRIANGLE_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_TRIANGLE_RIGHT);
+  if (id == wxART_TRIANGLE_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_TRIANGLE_UP);
+  if (id == wxART_TROPHY)  
+      return wxString(SVG_FLUENTUI_FILLED_TROPHY);
+  if (id == wxART_TROPHY_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_TROPHY_LOCK);
+  if (id == wxART_TROPHY_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_TROPHY_OFF);
+  if (id == wxART_USB_PLUG)  
+      return wxString(SVG_FLUENTUI_FILLED_USB_PLUG);
+  if (id == wxART_UMBRELLA)  
+      return wxString(SVG_FLUENTUI_FILLED_UMBRELLA);
+  if (id == wxART_UNINSTALL_APP)  
+      return wxString(SVG_FLUENTUI_FILLED_UNINSTALL_APP);
+  if (id == wxART_USB_STICK)  
+      return wxString(SVG_FLUENTUI_FILLED_USB_STICK);
+  if (id == wxART_VAULT)  
+      return wxString(SVG_FLUENTUI_FILLED_VAULT);
+  if (id == wxART_VEHICLE_BICYCLE)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_BICYCLE);
+  if (id == wxART_VEHICLE_BUS)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_BUS);
+  if (id == wxART_VEHICLE_CAB)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_CAB);
+  if (id == wxART_VEHICLE_CABLE_CAR)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_CABLE_CAR);
+  if (id == wxART_VEHICLE_CAR)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_CAR);
+  if (id == wxART_VEHICLE_CAR_COLLISION)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_CAR_COLLISION);
+  if (id == wxART_VEHICLE_CAR_PARKING)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_CAR_PARKING);
+  if (id == wxART_VEHICLE_CAR_PROFILE)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_CAR_PROFILE);
+  if (id == wxART_VEHICLE_CAR_PROFILE_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_CAR_PROFILE_LTR);
+  if (id == wxART_VEHICLE_CAR_PROFILE_LTR_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_CAR_PROFILE_LTR_CLOCK);
+  if (id == wxART_VEHICLE_CAR_PROFILE_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_CAR_PROFILE_RTL);
+  if (id == wxART_VEHICLE_SHIP)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_SHIP);
+  if (id == wxART_VEHICLE_SUBWAY)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_SUBWAY);
+  if (id == wxART_VEHICLE_SUBWAY_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_SUBWAY_CLOCK);
+  if (id == wxART_VEHICLE_TRUCK)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_TRUCK);
+  if (id == wxART_VEHICLE_TRUCK_BAG)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_TRUCK_BAG);
+  if (id == wxART_VEHICLE_TRUCK_CUBE)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_TRUCK_CUBE);
+  if (id == wxART_VEHICLE_TRUCK_PROFILE)  
+      return wxString(SVG_FLUENTUI_FILLED_VEHICLE_TRUCK_PROFILE);
+  if (id == wxART_VIDEO)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO);
+  if (id == wxART_VIDEO_360)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_360);
+  if (id == wxART_VIDEO_360_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_360_OFF);
+  if (id == wxART_VIDEO_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_ADD);
+  if (id == wxART_VIDEO_BACKGROUND_EFFECT)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_BACKGROUND_EFFECT);
+  if (id == wxART_VIDEO_BACKGROUND_EFFECT_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_BACKGROUND_EFFECT_HORIZONTAL);
+  if (id == wxART_VIDEO_CHAT)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_CHAT);
+  if (id == wxART_VIDEO_CLIP)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_CLIP);
+  if (id == wxART_VIDEO_CLIP_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_CLIP_MULTIPLE);
+  if (id == wxART_VIDEO_CLIP_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_CLIP_OFF);
+  if (id == wxART_VIDEO_CLIP_OPTIMIZE)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_CLIP_OPTIMIZE);
+  if (id == wxART_VIDEO_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_OFF);
+  if (id == wxART_VIDEO_PEOPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PEOPLE);
+  if (id == wxART_VIDEO_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PERSON);
+  if (id == wxART_VIDEO_PERSON_CALL)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PERSON_CALL);
+  if (id == wxART_VIDEO_PERSON_CLOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PERSON_CLOCK);
+  if (id == wxART_VIDEO_PERSON_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PERSON_OFF);
+  if (id == wxART_VIDEO_PERSON_PULSE)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PERSON_PULSE);
+  if (id == wxART_VIDEO_PERSON_SPARKLE)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PERSON_SPARKLE);
+  if (id == wxART_VIDEO_PERSON_SPARKLE_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PERSON_SPARKLE_OFF);
+  if (id == wxART_VIDEO_PERSON_STAR)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PERSON_STAR);
+  if (id == wxART_VIDEO_PERSON_STAR_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PERSON_STAR_OFF);
+  if (id == wxART_VIDEO_PLAY_PAUSE)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PLAY_PAUSE);
+  if (id == wxART_VIDEO_PROHIBITED)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_PROHIBITED);
+  if (id == wxART_VIDEO_RECORDING)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_RECORDING);
+  if (id == wxART_VIDEO_SECURITY)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_SECURITY);
+  if (id == wxART_VIDEO_SWITCH)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_SWITCH);
+  if (id == wxART_VIDEO_SYNC)  
+      return wxString(SVG_FLUENTUI_FILLED_VIDEO_SYNC);
+  if (id == wxART_VIEW_DESKTOP)  
+      return wxString(SVG_FLUENTUI_FILLED_VIEW_DESKTOP);
+  if (id == wxART_VIEW_DESKTOP_MOBILE)  
+      return wxString(SVG_FLUENTUI_FILLED_VIEW_DESKTOP_MOBILE);
+  if (id == wxART_VIRTUAL_NETWORK)  
+      return wxString(SVG_FLUENTUI_FILLED_VIRTUAL_NETWORK);
+  if (id == wxART_VIRTUAL_NETWORK_TOOLBOX)  
+      return wxString(SVG_FLUENTUI_FILLED_VIRTUAL_NETWORK_TOOLBOX);
+  if (id == wxART_VOICEMAIL)  
+      return wxString(SVG_FLUENTUI_FILLED_VOICEMAIL);
+  if (id == wxART_VOICEMAIL_ARROW_BACK)  
+      return wxString(SVG_FLUENTUI_FILLED_VOICEMAIL_ARROW_BACK);
+  if (id == wxART_VOICEMAIL_ARROW_FORWARD)  
+      return wxString(SVG_FLUENTUI_FILLED_VOICEMAIL_ARROW_FORWARD);
+  if (id == wxART_VOICEMAIL_ARROW_SUBTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_VOICEMAIL_ARROW_SUBTRACT);
+  if (id == wxART_VOICEMAIL_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_VOICEMAIL_SHIELD);
+  if (id == wxART_VOICEMAIL_SUBTRACT)  
+      return wxString(SVG_FLUENTUI_FILLED_VOICEMAIL_SUBTRACT);
+  if (id == wxART_VOTE)  
+      return wxString(SVG_FLUENTUI_FILLED_VOTE);
+  if (id == wxART_WALKIE_TALKIE)  
+      return wxString(SVG_FLUENTUI_FILLED_WALKIE_TALKIE);
+  if (id == wxART_WALLET)  
+      return wxString(SVG_FLUENTUI_FILLED_WALLET);
+  if (id == wxART_WALLET_CREDIT_CARD)  
+      return wxString(SVG_FLUENTUI_FILLED_WALLET_CREDIT_CARD);
+  if (id == wxART_WALLPAPER)  
+      return wxString(SVG_FLUENTUI_FILLED_WALLPAPER);
+  if (id == wxART_WAND)  
+      return wxString(SVG_FLUENTUI_FILLED_WAND);
+  if (id == wxART_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_WARNING);
+  if (id == wxART_WARNING_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_WARNING_SHIELD);
+  if (id == wxART_WASHER)  
+      return wxString(SVG_FLUENTUI_FILLED_WASHER);
+  if (id == wxART_WATER)  
+      return wxString(SVG_FLUENTUI_FILLED_WATER);
+  if (id == wxART_WEATHER_BLOWING_SNOW)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_BLOWING_SNOW);
+  if (id == wxART_WEATHER_CLOUDY)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_CLOUDY);
+  if (id == wxART_WEATHER_DRIZZLE)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_DRIZZLE);
+  if (id == wxART_WEATHER_DUSTSTORM)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_DUSTSTORM);
+  if (id == wxART_WEATHER_FOG)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_FOG);
+  if (id == wxART_WEATHER_HAIL_DAY)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_HAIL_DAY);
+  if (id == wxART_WEATHER_HAIL_NIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_HAIL_NIGHT);
+  if (id == wxART_WEATHER_HAZE)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_HAZE);
+  if (id == wxART_WEATHER_MOON)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_MOON);
+  if (id == wxART_WEATHER_MOON_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_MOON_OFF);
+  if (id == wxART_WEATHER_PARTLY_CLOUDY_DAY)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_PARTLY_CLOUDY_DAY);
+  if (id == wxART_WEATHER_PARTLY_CLOUDY_NIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_PARTLY_CLOUDY_NIGHT);
+  if (id == wxART_WEATHER_RAIN)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_RAIN);
+  if (id == wxART_WEATHER_RAIN_SHOWERS_DAY)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_RAIN_SHOWERS_DAY);
+  if (id == wxART_WEATHER_RAIN_SHOWERS_NIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_RAIN_SHOWERS_NIGHT);
+  if (id == wxART_WEATHER_RAIN_SNOW)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_RAIN_SNOW);
+  if (id == wxART_WEATHER_SNOW)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_SNOW);
+  if (id == wxART_WEATHER_SNOW_SHOWER_DAY)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_SNOW_SHOWER_DAY);
+  if (id == wxART_WEATHER_SNOW_SHOWER_NIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_SNOW_SHOWER_NIGHT);
+  if (id == wxART_WEATHER_SNOWFLAKE)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_SNOWFLAKE);
+  if (id == wxART_WEATHER_SQUALLS)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_SQUALLS);
+  if (id == wxART_WEATHER_SUNNY)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_SUNNY);
+  if (id == wxART_WEATHER_SUNNY_HIGH)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_SUNNY_HIGH);
+  if (id == wxART_WEATHER_SUNNY_LOW)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_SUNNY_LOW);
+  if (id == wxART_WEATHER_THUNDERSTORM)  
+      return wxString(SVG_FLUENTUI_FILLED_WEATHER_THUNDERSTORM);
+  if (id == wxART_WEB_ASSET)  
+      return wxString(SVG_FLUENTUI_FILLED_WEB_ASSET);
+  if (id == wxART_WHITEBOARD)  
+      return wxString(SVG_FLUENTUI_FILLED_WHITEBOARD);
+  if (id == wxART_WIFI_1)  
+      return wxString(SVG_FLUENTUI_FILLED_WIFI_1);
+  if (id == wxART_WIFI_2)  
+      return wxString(SVG_FLUENTUI_FILLED_WIFI_2);
+  if (id == wxART_WIFI_3)  
+      return wxString(SVG_FLUENTUI_FILLED_WIFI_3);
+  if (id == wxART_WIFI_4)  
+      return wxString(SVG_FLUENTUI_FILLED_WIFI_4);
+  if (id == wxART_WIFI_LOCK)  
+      return wxString(SVG_FLUENTUI_FILLED_WIFI_LOCK);
+  if (id == wxART_WIFI_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_WIFI_OFF);
+  if (id == wxART_WIFI_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_WIFI_SETTINGS);
+  if (id == wxART_WIFI_WARNING)  
+      return wxString(SVG_FLUENTUI_FILLED_WIFI_WARNING);
+  if (id == wxART_WINDOW)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW);
+  if (id == wxART_WINDOW_AD)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_AD);
+  if (id == wxART_WINDOW_AD_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_AD_OFF);
+  if (id == wxART_WINDOW_AD_PERSON)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_AD_PERSON);
+  if (id == wxART_WINDOW_APPS)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_APPS);
+  if (id == wxART_WINDOW_ARROW_UP)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_ARROW_UP);
+  if (id == wxART_WINDOW_BULLET_LIST)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_BULLET_LIST);
+  if (id == wxART_WINDOW_BULLET_LIST_ADD)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_BULLET_LIST_ADD);
+  if (id == wxART_WINDOW_CONSOLE)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_CONSOLE);
+  if (id == wxART_WINDOW_DATABASE)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_DATABASE);
+  if (id == wxART_WINDOW_DEV_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_DEV_EDIT);
+  if (id == wxART_WINDOW_DEV_TOOLS)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_DEV_TOOLS);
+  if (id == wxART_WINDOW_EDIT)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_EDIT);
+  if (id == wxART_WINDOW_HEADER_HORIZONTAL)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_HEADER_HORIZONTAL);
+  if (id == wxART_WINDOW_HEADER_HORIZONTAL_OFF)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_HEADER_HORIZONTAL_OFF);
+  if (id == wxART_WINDOW_HEADER_VERTICAL)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_HEADER_VERTICAL);
+  if (id == wxART_WINDOW_INPRIVATE)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_INPRIVATE);
+  if (id == wxART_WINDOW_INPRIVATE_ACCOUNT)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_INPRIVATE_ACCOUNT);
+  if (id == wxART_WINDOW_LOCATION_TARGET)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_LOCATION_TARGET);
+  if (id == wxART_WINDOW_MULTIPLE)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_MULTIPLE);
+  if (id == wxART_WINDOW_MULTIPLE_SWAP)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_MULTIPLE_SWAP);
+  if (id == wxART_WINDOW_NEW)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_NEW);
+  if (id == wxART_WINDOW_PLAY)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_PLAY);
+  if (id == wxART_WINDOW_SETTINGS)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_SETTINGS);
+  if (id == wxART_WINDOW_SHIELD)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_SHIELD);
+  if (id == wxART_WINDOW_TEXT)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_TEXT);
+  if (id == wxART_WINDOW_WRENCH)  
+      return wxString(SVG_FLUENTUI_FILLED_WINDOW_WRENCH);
+  if (id == wxART_WRENCH)  
+      return wxString(SVG_FLUENTUI_FILLED_WRENCH);
+  if (id == wxART_WRENCH_SCREWDRIVER)  
+      return wxString(SVG_FLUENTUI_FILLED_WRENCH_SCREWDRIVER);
+  if (id == wxART_XBOX_CONSOLE)  
+      return wxString(SVG_FLUENTUI_FILLED_XBOX_CONSOLE);
+  if (id == wxART_XBOX_CONTROLLER)  
+      return wxString(SVG_FLUENTUI_FILLED_XBOX_CONTROLLER);
+  if (id == wxART_XBOX_CONTROLLER_ERROR)  
+      return wxString(SVG_FLUENTUI_FILLED_XBOX_CONTROLLER_ERROR);
+  if (id == wxART_XRAY)  
+      return wxString(SVG_FLUENTUI_FILLED_XRAY);
+  if (id == wxART_ZOOM_FIT)  
+      return wxString(SVG_FLUENTUI_FILLED_ZOOM_FIT);
+  if (id == wxART_ZOOM_IN)  
+      return wxString(SVG_FLUENTUI_FILLED_ZOOM_IN);
+  if (id == wxART_ZOOM_OUT)  
+      return wxString(SVG_FLUENTUI_FILLED_ZOOM_OUT);
+  if (id == wxART_IOS_ARROW)  
+      return wxString(SVG_FLUENTUI_FILLED_IOS_ARROW);
+  if (id == wxART_IOS_ARROW_LTR)  
+      return wxString(SVG_FLUENTUI_FILLED_IOS_ARROW_LTR);
+  if (id == wxART_IOS_ARROW_RTL)  
+      return wxString(SVG_FLUENTUI_FILLED_IOS_ARROW_RTL);
+  if (id == wxART_IOS_CHEVRON_RIGHT)  
+      return wxString(SVG_FLUENTUI_FILLED_IOS_CHEVRON_RIGHT);
+
+
+// Any IDs not implemented here will return a null string 
+return wxString(); 
+}
+
+
+// Return SVG for the current ID as a string, with given color
+wxString FilledFluentuiArtColorSVGByID(const wxArtID& id, const wxColour& color)
+{
+wxString svg = FilledFluentuiArtSVGByID(id); 
+if (svg.IsEmpty() || (color==wxNullColour)) return svg; 
+wxString temp; 
+static constexpr const char NEW_PATH[7] = "<path ";  
+static constexpr const size_t NPSIZE = 7;  
+// Set color to the first path  
+int ifirst = svg.Find(NEW_PATH);  
+int npaths = 0;  
+wxString tmp;  
+while (!(ifirst==wxNOT_FOUND)) {  
+   npaths++;  
+   // Add color to the current fill  
+   tmp.append(svg.substr(0,(size_t)ifirst+NPSIZE-1)  
+              + "fill=\""  
+              + color.GetAsString(wxC2S_HTML_SYNTAX)  
+              + "\" ");  
+   svg = svg.substr((size_t)ifirst+NPSIZE-1,svg.Length()-NPSIZE-1-ifirst);  
+   // Find another path  
+   ifirst = svg.Find(NEW_PATH);  
+}  
+tmp.append(svg);  
+svg = tmp;  
+return svg; 
+}
+
+
+// Return list of all IDs present in the current client 
+wxArrayString FilledFluentuiArtIDs()
+{
+    wxArrayString list; 
+
+    list.Add(wxART_ACCESS_TIME); 
+    list.Add(wxART_ACCESSIBILITY); 
+    list.Add(wxART_ACCESSIBILITY_CHECKMARK); 
+    list.Add(wxART_ADD); 
+    list.Add(wxART_ADD_CIRCLE); 
+    list.Add(wxART_ADD_SQUARE); 
+    list.Add(wxART_ADD_SQUARE_MULTIPLE); 
+    list.Add(wxART_ADD_SUBTRACT_CIRCLE); 
+    list.Add(wxART_AIRPLANE); 
+    list.Add(wxART_AIRPLANE_LANDING); 
+    list.Add(wxART_AIRPLANE_TAKE_OFF); 
+    list.Add(wxART_ALBUM); 
+    list.Add(wxART_ALBUM_ADD); 
+    list.Add(wxART_ALERT); 
+    list.Add(wxART_ALERT_BADGE); 
+    list.Add(wxART_ALERT_OFF); 
+    list.Add(wxART_ALERT_ON); 
+    list.Add(wxART_ALERT_SNOOZE); 
+    list.Add(wxART_ALERT_URGENT); 
+    list.Add(wxART_ALIGN_BOTTOM); 
+    list.Add(wxART_ALIGN_CENTER_HORIZONTAL); 
+    list.Add(wxART_ALIGN_CENTER_VERTICAL); 
+    list.Add(wxART_ALIGN_DISTRIBUTE_BOTTOM); 
+    list.Add(wxART_ALIGN_DISTRIBUTE_LEFT); 
+    list.Add(wxART_ALIGN_DISTRIBUTE_RIGHT); 
+    list.Add(wxART_ALIGN_DISTRIBUTE_TOP); 
+    list.Add(wxART_ALIGN_END_HORIZONTAL); 
+    list.Add(wxART_ALIGN_END_VERTICAL); 
+    list.Add(wxART_ALIGN_LEFT); 
+    list.Add(wxART_ALIGN_RIGHT); 
+    list.Add(wxART_ALIGN_SPACE_AROUND_HORIZONTAL); 
+    list.Add(wxART_ALIGN_SPACE_AROUND_VERTICAL); 
+    list.Add(wxART_ALIGN_SPACE_BETWEEN_HORIZONTAL); 
+    list.Add(wxART_ALIGN_SPACE_BETWEEN_VERTICAL); 
+    list.Add(wxART_ALIGN_SPACE_EVENLY_HORIZONTAL); 
+    list.Add(wxART_ALIGN_SPACE_EVENLY_VERTICAL); 
+    list.Add(wxART_ALIGN_SPACE_FIT_VERTICAL); 
+    list.Add(wxART_ALIGN_START_HORIZONTAL); 
+    list.Add(wxART_ALIGN_START_VERTICAL); 
+    list.Add(wxART_ALIGN_STRAIGHTEN); 
+    list.Add(wxART_ALIGN_STRETCH_HORIZONTAL); 
+    list.Add(wxART_ALIGN_STRETCH_VERTICAL); 
+    list.Add(wxART_ALIGN_TOP); 
+    list.Add(wxART_ANIMAL_CAT); 
+    list.Add(wxART_ANIMAL_DOG); 
+    list.Add(wxART_ANIMAL_RABBIT); 
+    list.Add(wxART_ANIMAL_RABBIT_OFF); 
+    list.Add(wxART_ANIMAL_TURTLE); 
+    list.Add(wxART_APP_FOLDER); 
+    list.Add(wxART_APP_GENERIC); 
+    list.Add(wxART_APP_RECENT); 
+    list.Add(wxART_APP_STORE); 
+    list.Add(wxART_APP_TITLE); 
+    list.Add(wxART_APPROVALS_APP); 
+    list.Add(wxART_APPS); 
+    list.Add(wxART_APPS_ADD_IN); 
+    list.Add(wxART_APPS_LIST); 
+    list.Add(wxART_APPS_LIST_DETAIL); 
+    list.Add(wxART_ARCHIVE); 
+    list.Add(wxART_ARCHIVE_ARROW_BACK); 
+    list.Add(wxART_ARCHIVE_MULTIPLE); 
+    list.Add(wxART_ARCHIVE_SETTINGS); 
+    list.Add(wxART_ARROW_AUTOFIT_CONTENT); 
+    list.Add(wxART_ARROW_AUTOFIT_DOWN); 
+    list.Add(wxART_ARROW_AUTOFIT_HEIGHT); 
+    list.Add(wxART_ARROW_AUTOFIT_HEIGHT_DOTTED); 
+    list.Add(wxART_ARROW_AUTOFIT_HEIGHT_IN); 
+    list.Add(wxART_ARROW_AUTOFIT_UP); 
+    list.Add(wxART_ARROW_AUTOFIT_WIDTH); 
+    list.Add(wxART_ARROW_AUTOFIT_WIDTH_DOTTED); 
+    list.Add(wxART_ARROW_BETWEEN_DOWN); 
+    list.Add(wxART_ARROW_BETWEEN_UP); 
+    list.Add(wxART_ARROW_BIDIRECTIONAL_LEFT_RIGHT); 
+    list.Add(wxART_ARROW_BIDIRECTIONAL_UP_DOWN); 
+    list.Add(wxART_ARROW_BOUNCE); 
+    list.Add(wxART_ARROW_CIRCLE_DOWN); 
+    list.Add(wxART_ARROW_CIRCLE_DOWN_DOUBLE); 
+    list.Add(wxART_ARROW_CIRCLE_DOWN_RIGHT); 
+    list.Add(wxART_ARROW_CIRCLE_DOWN_SPLIT); 
+    list.Add(wxART_ARROW_CIRCLE_DOWN_UP); 
+    list.Add(wxART_ARROW_CIRCLE_LEFT); 
+    list.Add(wxART_ARROW_CIRCLE_RIGHT); 
+    list.Add(wxART_ARROW_CIRCLE_UP); 
+    list.Add(wxART_ARROW_CIRCLE_UP_LEFT); 
+    list.Add(wxART_ARROW_CIRCLE_UP_RIGHT); 
+    list.Add(wxART_ARROW_CLOCKWISE); 
+    list.Add(wxART_ARROW_CLOCKWISE_DASHES); 
+    list.Add(wxART_ARROW_COLLAPSE_ALL); 
+    list.Add(wxART_ARROW_COUNTERCLOCKWISE); 
+    list.Add(wxART_ARROW_COUNTERCLOCKWISE_DASHES); 
+    list.Add(wxART_ARROW_CURVE_DOWN_LEFT); 
+    list.Add(wxART_ARROW_CURVE_DOWN_RIGHT); 
+    list.Add(wxART_ARROW_CURVE_UP_LEFT); 
+    list.Add(wxART_ARROW_CURVE_UP_RIGHT); 
+    list.Add(wxART_ARROW_DOWN); 
+    list.Add(wxART_ARROW_DOWN_EXCLAMATION); 
+    list.Add(wxART_ARROW_DOWN_LEFT); 
+    list.Add(wxART_ARROW_DOWNLOAD); 
+    list.Add(wxART_ARROW_DOWNLOAD_OFF); 
+    list.Add(wxART_ARROW_EJECT); 
+    list.Add(wxART_ARROW_ENTER); 
+    list.Add(wxART_ARROW_ENTER_LEFT); 
+    list.Add(wxART_ARROW_ENTER_UP); 
+    list.Add(wxART_ARROW_EXIT); 
+    list.Add(wxART_ARROW_EXPAND); 
+    list.Add(wxART_ARROW_EXPORT); 
+    list.Add(wxART_ARROW_EXPORT_LTR); 
+    list.Add(wxART_ARROW_EXPORT_RTL); 
+    list.Add(wxART_ARROW_EXPORT_UP); 
+    list.Add(wxART_ARROW_FIT); 
+    list.Add(wxART_ARROW_FIT_IN); 
+    list.Add(wxART_ARROW_FLOW_DIAGONAL_UP_RIGHT); 
+    list.Add(wxART_ARROW_FLOW_UP_RIGHT); 
+    list.Add(wxART_ARROW_FLOW_UP_RIGHT_RECTANGLE_MULTIPLE); 
+    list.Add(wxART_ARROW_FORWARD); 
+    list.Add(wxART_ARROW_FORWARD_DOWN_LIGHTNING); 
+    list.Add(wxART_ARROW_FORWARD_DOWN_PERSON); 
+    list.Add(wxART_ARROW_HOOK_DOWN_LEFT); 
+    list.Add(wxART_ARROW_HOOK_DOWN_RIGHT); 
+    list.Add(wxART_ARROW_HOOK_UP_LEFT); 
+    list.Add(wxART_ARROW_HOOK_UP_RIGHT); 
+    list.Add(wxART_ARROW_IMPORT); 
+    list.Add(wxART_ARROW_JOIN); 
+    list.Add(wxART_ARROW_LEFT); 
+    list.Add(wxART_ARROW_MAXIMIZE); 
+    list.Add(wxART_ARROW_MAXIMIZE_VERTICAL); 
+    list.Add(wxART_ARROW_MINIMIZE); 
+    list.Add(wxART_ARROW_MINIMIZE_VERTICAL); 
+    list.Add(wxART_ARROW_MOVE); 
+    list.Add(wxART_ARROW_MOVE_INWARD); 
+    list.Add(wxART_ARROW_NEXT); 
+    list.Add(wxART_ARROW_OUTLINE_DOWN_LEFT); 
+    list.Add(wxART_ARROW_OUTLINE_UP_RIGHT); 
+    list.Add(wxART_ARROW_PARAGRAPH); 
+    list.Add(wxART_ARROW_PREVIOUS); 
+    list.Add(wxART_ARROW_REDO); 
+    list.Add(wxART_ARROW_REDO_TEMP_LTR); 
+    list.Add(wxART_ARROW_REDO_TEMP_RTL); 
+    list.Add(wxART_ARROW_REPEAT_1); 
+    list.Add(wxART_ARROW_REPEAT_ALL); 
+    list.Add(wxART_ARROW_REPEAT_ALL_OFF); 
+    list.Add(wxART_ARROW_REPLY); 
+    list.Add(wxART_ARROW_REPLY_ALL); 
+    list.Add(wxART_ARROW_REPLY_DOWN); 
+    list.Add(wxART_ARROW_RESET); 
+    list.Add(wxART_ARROW_RIGHT); 
+    list.Add(wxART_ARROW_ROTATE_CLOCKWISE); 
+    list.Add(wxART_ARROW_ROTATE_COUNTERCLOCKWISE); 
+    list.Add(wxART_ARROW_ROUTING); 
+    list.Add(wxART_ARROW_ROUTING_RECTANGLE_MULTIPLE); 
+    list.Add(wxART_ARROW_SHUFFLE); 
+    list.Add(wxART_ARROW_SHUFFLE_OFF); 
+    list.Add(wxART_ARROW_SORT); 
+    list.Add(wxART_ARROW_SORT_DOWN); 
+    list.Add(wxART_ARROW_SORT_DOWN_LINES); 
+    list.Add(wxART_ARROW_SORT_UP); 
+    list.Add(wxART_ARROW_SPLIT); 
+    list.Add(wxART_ARROW_SPRINT); 
+    list.Add(wxART_ARROW_SQUARE_DOWN); 
+    list.Add(wxART_ARROW_SQUARE_UP_RIGHT); 
+    list.Add(wxART_ARROW_STEP_BACK); 
+    list.Add(wxART_ARROW_STEP_IN); 
+    list.Add(wxART_ARROW_STEP_IN_DIAGONAL_DOWN_LEFT); 
+    list.Add(wxART_ARROW_STEP_IN_LEFT); 
+    list.Add(wxART_ARROW_STEP_IN_RIGHT); 
+    list.Add(wxART_ARROW_STEP_OUT); 
+    list.Add(wxART_ARROW_STEP_OVER); 
+    list.Add(wxART_ARROW_SWAP); 
+    list.Add(wxART_ARROW_SYNC); 
+    list.Add(wxART_ARROW_SYNC_CHECKMARK); 
+    list.Add(wxART_ARROW_SYNC_CIRCLE); 
+    list.Add(wxART_ARROW_SYNC_DISMISS); 
+    list.Add(wxART_ARROW_SYNC_OFF); 
+    list.Add(wxART_ARROW_TRENDING); 
+    list.Add(wxART_ARROW_TRENDING_CHECKMARK); 
+    list.Add(wxART_ARROW_TRENDING_DOWN); 
+    list.Add(wxART_ARROW_TRENDING_LINES); 
+    list.Add(wxART_ARROW_TRENDING_SETTINGS); 
+    list.Add(wxART_ARROW_TRENDING_SPARKLE); 
+    list.Add(wxART_ARROW_TRENDING_TEXT); 
+    list.Add(wxART_ARROW_TRENDING_WRENCH); 
+    list.Add(wxART_ARROW_TURN_BIDIRECTIONAL_DOWN_RIGHT); 
+    list.Add(wxART_ARROW_TURN_DOWN_LEFT); 
+    list.Add(wxART_ARROW_TURN_DOWN_RIGHT); 
+    list.Add(wxART_ARROW_TURN_DOWN_UP); 
+    list.Add(wxART_ARROW_TURN_LEFT_DOWN); 
+    list.Add(wxART_ARROW_TURN_LEFT_RIGHT); 
+    list.Add(wxART_ARROW_TURN_LEFT_UP); 
+    list.Add(wxART_ARROW_TURN_RIGHT); 
+    list.Add(wxART_ARROW_TURN_RIGHT_DOWN); 
+    list.Add(wxART_ARROW_TURN_RIGHT_LEFT); 
+    list.Add(wxART_ARROW_TURN_RIGHT_UP); 
+    list.Add(wxART_ARROW_TURN_UP_DOWN); 
+    list.Add(wxART_ARROW_TURN_UP_LEFT); 
+    list.Add(wxART_ARROW_UNDO); 
+    list.Add(wxART_ARROW_UNDO_TEMP_LTR); 
+    list.Add(wxART_ARROW_UNDO_TEMP_RTL); 
+    list.Add(wxART_ARROW_UP); 
+    list.Add(wxART_ARROW_UP_LEFT); 
+    list.Add(wxART_ARROW_UP_RIGHT); 
+    list.Add(wxART_ARROW_UP_RIGHT_DASHES); 
+    list.Add(wxART_ARROW_UP_SQUARE_SETTINGS); 
+    list.Add(wxART_ARROW_UPLOAD); 
+    list.Add(wxART_ARROW_WRAP); 
+    list.Add(wxART_ARROW_WRAP_OFF); 
+    list.Add(wxART_ARROWS_BIDIRECTIONAL); 
+    list.Add(wxART_ATTACH); 
+    list.Add(wxART_ATTACH_ARROW_RIGHT); 
+    list.Add(wxART_ATTACH_TEXT); 
+    list.Add(wxART_AUTOSUM); 
+    list.Add(wxART_AUTO_FIT_HEIGHT); 
+    list.Add(wxART_AUTO_FIT_WIDTH); 
+    list.Add(wxART_AUTOCORRECT); 
+    list.Add(wxART_BACKPACK); 
+    list.Add(wxART_BACKPACK_ADD); 
+    list.Add(wxART_BACKSPACE); 
+    list.Add(wxART_BADGE); 
+    list.Add(wxART_BALLOON); 
+    list.Add(wxART_BARCODE_SCANNER); 
+    list.Add(wxART_BATTERY_0); 
+    list.Add(wxART_BATTERY_1); 
+    list.Add(wxART_BATTERY_10); 
+    list.Add(wxART_BATTERY_2); 
+    list.Add(wxART_BATTERY_3); 
+    list.Add(wxART_BATTERY_4); 
+    list.Add(wxART_BATTERY_5); 
+    list.Add(wxART_BATTERY_6); 
+    list.Add(wxART_BATTERY_7); 
+    list.Add(wxART_BATTERY_8); 
+    list.Add(wxART_BATTERY_9); 
+    list.Add(wxART_BATTERY_CHARGE); 
+    list.Add(wxART_BATTERY_CHECKMARK); 
+    list.Add(wxART_BATTERY_SAVER); 
+    list.Add(wxART_BATTERY_WARNING); 
+    list.Add(wxART_BEACH); 
+    list.Add(wxART_BEAKER); 
+    list.Add(wxART_BEAKER_ADD); 
+    list.Add(wxART_BEAKER_DISMISS); 
+    list.Add(wxART_BEAKER_EDIT); 
+    list.Add(wxART_BEAKER_EMPTY); 
+    list.Add(wxART_BEAKER_OFF); 
+    list.Add(wxART_BEAKER_SETTINGS); 
+    list.Add(wxART_BED); 
+    list.Add(wxART_BEZIER_CURVE_SQUARE); 
+    list.Add(wxART_BIN_FULL); 
+    list.Add(wxART_BIN_RECYCLE); 
+    list.Add(wxART_BIN_RECYCLE_FULL); 
+    list.Add(wxART_BINDER_TRIANGLE); 
+    list.Add(wxART_BLUETOOTH); 
+    list.Add(wxART_BLUETOOTH_CONNECTED); 
+    list.Add(wxART_BLUETOOTH_DISABLED); 
+    list.Add(wxART_BLUETOOTH_SEARCHING); 
+    list.Add(wxART_BLUR); 
+    list.Add(wxART_BOARD); 
+    list.Add(wxART_BOARD_GAMES); 
+    list.Add(wxART_BOARD_HEART); 
+    list.Add(wxART_BOARD_SPLIT); 
+    list.Add(wxART_BOOK); 
+    list.Add(wxART_BOOK_ADD); 
+    list.Add(wxART_BOOK_ARROW_CLOCKWISE); 
+    list.Add(wxART_BOOK_CLOCK); 
+    list.Add(wxART_BOOK_COINS); 
+    list.Add(wxART_BOOK_COMPASS); 
+    list.Add(wxART_BOOK_CONTACTS); 
+    list.Add(wxART_BOOK_DATABASE); 
+    list.Add(wxART_BOOK_DEFAULT); 
+    list.Add(wxART_BOOK_DISMISS); 
+    list.Add(wxART_BOOK_EXCLAMATION_MARK); 
+    list.Add(wxART_BOOK_GLOBE); 
+    list.Add(wxART_BOOK_INFORMATION); 
+    list.Add(wxART_BOOK_LETTER); 
+    list.Add(wxART_BOOK_NUMBER); 
+    list.Add(wxART_BOOK_OPEN); 
+    list.Add(wxART_BOOK_OPEN_GLOBE); 
+    list.Add(wxART_BOOK_OPEN_MICROPHONE); 
+    list.Add(wxART_BOOK_PULSE); 
+    list.Add(wxART_BOOK_QUESTION_MARK); 
+    list.Add(wxART_BOOK_QUESTION_MARK_RTL); 
+    list.Add(wxART_BOOK_SEARCH); 
+    list.Add(wxART_BOOK_STAR); 
+    list.Add(wxART_BOOK_TEMPLATE); 
+    list.Add(wxART_BOOK_THETA); 
+    list.Add(wxART_BOOK_TOOLBOX); 
+    list.Add(wxART_BOOKMARK); 
+    list.Add(wxART_BOOKMARK_ADD); 
+    list.Add(wxART_BOOKMARK_MULTIPLE); 
+    list.Add(wxART_BOOKMARK_OFF); 
+    list.Add(wxART_BOOKMARK_SEARCH); 
+    list.Add(wxART_BORDER_ALL); 
+    list.Add(wxART_BORDER_BOTTOM); 
+    list.Add(wxART_BORDER_BOTTOM_DOUBLE); 
+    list.Add(wxART_BORDER_BOTTOM_THICK); 
+    list.Add(wxART_BORDER_INSIDE); 
+    list.Add(wxART_BORDER_LEFT); 
+    list.Add(wxART_BORDER_LEFT_RIGHT); 
+    list.Add(wxART_BORDER_NONE); 
+    list.Add(wxART_BORDER_OUTSIDE); 
+    list.Add(wxART_BORDER_OUTSIDE_THICK); 
+    list.Add(wxART_BORDER_RIGHT); 
+    list.Add(wxART_BORDER_TOP); 
+    list.Add(wxART_BORDER_TOP_BOTTOM); 
+    list.Add(wxART_BORDER_TOP_BOTTOM_DOUBLE); 
+    list.Add(wxART_BORDER_TOP_BOTTOM_THICK); 
+    list.Add(wxART_BOT); 
+    list.Add(wxART_BOT_ADD); 
+    list.Add(wxART_BOT_SPARKLE); 
+    list.Add(wxART_BOW_TIE); 
+    list.Add(wxART_BOWL_CHOPSTICKS); 
+    list.Add(wxART_BOWL_SALAD); 
+    list.Add(wxART_BOX); 
+    list.Add(wxART_BOX_ARROW_LEFT); 
+    list.Add(wxART_BOX_ARROW_UP); 
+    list.Add(wxART_BOX_CHECKMARK); 
+    list.Add(wxART_BOX_DISMISS); 
+    list.Add(wxART_BOX_EDIT); 
+    list.Add(wxART_BOX_MULTIPLE); 
+    list.Add(wxART_BOX_MULTIPLE_ARROW_LEFT); 
+    list.Add(wxART_BOX_MULTIPLE_ARROW_RIGHT); 
+    list.Add(wxART_BOX_MULTIPLE_CHECKMARK); 
+    list.Add(wxART_BOX_MULTIPLE_SEARCH); 
+    list.Add(wxART_BOX_SEARCH); 
+    list.Add(wxART_BOX_TOOLBOX); 
+    list.Add(wxART_BRACES); 
+    list.Add(wxART_BRACES_CHECKMARK); 
+    list.Add(wxART_BRACES_DISMISS); 
+    list.Add(wxART_BRACES_VARIABLE); 
+    list.Add(wxART_BRAIN_CIRCUIT); 
+    list.Add(wxART_BRANCH); 
+    list.Add(wxART_BRANCH_COMPARE); 
+    list.Add(wxART_BRANCH_FORK); 
+    list.Add(wxART_BRANCH_FORK_HINT); 
+    list.Add(wxART_BRANCH_FORK_LINK); 
+    list.Add(wxART_BRANCH_REQUEST); 
+    list.Add(wxART_BREAKOUT_ROOM); 
+    list.Add(wxART_BRIEFCASE); 
+    list.Add(wxART_BRIEFCASE_MEDICAL); 
+    list.Add(wxART_BRIEFCASE_OFF); 
+    list.Add(wxART_BRIEFCASE_PERSON); 
+    list.Add(wxART_BRIEFCASE_SEARCH); 
+    list.Add(wxART_BRIGHTNESS_HIGH); 
+    list.Add(wxART_BRIGHTNESS_LOW); 
+    list.Add(wxART_BROAD_ACTIVITY_FEED); 
+    list.Add(wxART_BROOM); 
+    list.Add(wxART_BUBBLE_MULTIPLE); 
+    list.Add(wxART_BUG); 
+    list.Add(wxART_BUG_ARROW_COUNTERCLOCKWISE); 
+    list.Add(wxART_BUG_PROHIBITED); 
+    list.Add(wxART_BUILDING); 
+    list.Add(wxART_BUILDING_BANK); 
+    list.Add(wxART_BUILDING_BANK_LINK); 
+    list.Add(wxART_BUILDING_BANK_TOOLBOX); 
+    list.Add(wxART_BUILDING_CLOUD); 
+    list.Add(wxART_BUILDING_DESKTOP); 
+    list.Add(wxART_BUILDING_FACTORY); 
+    list.Add(wxART_BUILDING_GOVERNMENT); 
+    list.Add(wxART_BUILDING_GOVERNMENT_SEARCH); 
+    list.Add(wxART_BUILDING_HOME); 
+    list.Add(wxART_BUILDING_LIGHTHOUSE); 
+    list.Add(wxART_BUILDING_MOSQUE); 
+    list.Add(wxART_BUILDING_MULTIPLE); 
+    list.Add(wxART_BUILDING_PEOPLE); 
+    list.Add(wxART_BUILDING_RETAIL); 
+    list.Add(wxART_BUILDING_RETAIL_MONEY); 
+    list.Add(wxART_BUILDING_RETAIL_MORE); 
+    list.Add(wxART_BUILDING_RETAIL_SHIELD); 
+    list.Add(wxART_BUILDING_RETAIL_TOOLBOX); 
+    list.Add(wxART_BUILDING_SHOP); 
+    list.Add(wxART_BUILDING_SKYSCRAPER); 
+    list.Add(wxART_BUILDING_TOWNHOUSE); 
+    list.Add(wxART_BUTTON); 
+    list.Add(wxART_CD); 
+    list.Add(wxART_CALCULATOR); 
+    list.Add(wxART_CALCULATOR_ARROW_CLOCKWISE); 
+    list.Add(wxART_CALCULATOR_MULTIPLE); 
+    list.Add(wxART_CALENDAR); 
+    list.Add(wxART_CALENDAR_3_DAY); 
+    list.Add(wxART_CALENDAR_ADD); 
+    list.Add(wxART_CALENDAR_AGENDA); 
+    list.Add(wxART_CALENDAR_ARROW_COUNTERCLOCKWISE); 
+    list.Add(wxART_CALENDAR_ARROW_DOWN); 
+    list.Add(wxART_CALENDAR_ARROW_RIGHT); 
+    list.Add(wxART_CALENDAR_ASSISTANT); 
+    list.Add(wxART_CALENDAR_CANCEL); 
+    list.Add(wxART_CALENDAR_CHAT); 
+    list.Add(wxART_CALENDAR_CHECKMARK); 
+    list.Add(wxART_CALENDAR_CLOCK); 
+    list.Add(wxART_CALENDAR_DATA_BAR); 
+    list.Add(wxART_CALENDAR_DATE); 
+    list.Add(wxART_CALENDAR_DAY); 
+    list.Add(wxART_CALENDAR_EDIT); 
+    list.Add(wxART_CALENDAR_EMPTY); 
+    list.Add(wxART_CALENDAR_ERROR); 
+    list.Add(wxART_CALENDAR_EYE); 
+    list.Add(wxART_CALENDAR_INFO); 
+    list.Add(wxART_CALENDAR_LTR); 
+    list.Add(wxART_CALENDAR_LOCK); 
+    list.Add(wxART_CALENDAR_MAIL); 
+    list.Add(wxART_CALENDAR_MENTION); 
+    list.Add(wxART_CALENDAR_MONTH); 
+    list.Add(wxART_CALENDAR_MULTIPLE); 
+    list.Add(wxART_CALENDAR_PATTERN); 
+    list.Add(wxART_CALENDAR_PERSON); 
+    list.Add(wxART_CALENDAR_PHONE); 
+    list.Add(wxART_CALENDAR_PLAY); 
+    list.Add(wxART_CALENDAR_QUESTION_MARK); 
+    list.Add(wxART_CALENDAR_RTL); 
+    list.Add(wxART_CALENDAR_RECORD); 
+    list.Add(wxART_CALENDAR_REPLY); 
+    list.Add(wxART_CALENDAR_SEARCH); 
+    list.Add(wxART_CALENDAR_SETTINGS); 
+    list.Add(wxART_CALENDAR_SHIELD); 
+    list.Add(wxART_CALENDAR_STAR); 
+    list.Add(wxART_CALENDAR_SYNC); 
+    list.Add(wxART_CALENDAR_TODAY); 
+    list.Add(wxART_CALENDAR_TOOLBOX); 
+    list.Add(wxART_CALENDAR_WEEK_NUMBERS); 
+    list.Add(wxART_CALENDAR_WEEK_START); 
+    list.Add(wxART_CALENDAR_WORK_WEEK); 
+    list.Add(wxART_CALL); 
+    list.Add(wxART_CALL_ADD); 
+    list.Add(wxART_CALL_CHECKMARK); 
+    list.Add(wxART_CALL_CONNECTING); 
+    list.Add(wxART_CALL_DISMISS); 
+    list.Add(wxART_CALL_END); 
+    list.Add(wxART_CALL_EXCLAMATION); 
+    list.Add(wxART_CALL_FORWARD); 
+    list.Add(wxART_CALL_INBOUND); 
+    list.Add(wxART_CALL_MISSED); 
+    list.Add(wxART_CALL_OUTBOUND); 
+    list.Add(wxART_CALL_PARK); 
+    list.Add(wxART_CALL_PAUSE); 
+    list.Add(wxART_CALL_PROHIBITED); 
+    list.Add(wxART_CALL_TRANSFER); 
+    list.Add(wxART_CALL_WARNING); 
+    list.Add(wxART_CALLIGRAPHY_PEN); 
+    list.Add(wxART_CALLIGRAPHY_PEN_CHECKMARK); 
+    list.Add(wxART_CALLIGRAPHY_PEN_ERROR); 
+    list.Add(wxART_CALLIGRAPHY_PEN_QUESTION_MARK); 
+    list.Add(wxART_CAMERA); 
+    list.Add(wxART_CAMERA_ADD); 
+    list.Add(wxART_CAMERA_DOME); 
+    list.Add(wxART_CAMERA_EDIT); 
+    list.Add(wxART_CAMERA_OFF); 
+    list.Add(wxART_CAMERA_SPARKLES); 
+    list.Add(wxART_CAMERA_SWITCH); 
+    list.Add(wxART_CARD_UI); 
+    list.Add(wxART_CARET_DOWN); 
+    list.Add(wxART_CARET_DOWN_RIGHT); 
+    list.Add(wxART_CARET_LEFT); 
+    list.Add(wxART_CARET_RIGHT); 
+    list.Add(wxART_CARET_UP); 
+    list.Add(wxART_CART); 
+    list.Add(wxART_CAST); 
+    list.Add(wxART_CAST_MULTIPLE); 
+    list.Add(wxART_CATCH_UP); 
+    list.Add(wxART_CELLULAR_3G); 
+    list.Add(wxART_CELLULAR_4G); 
+    list.Add(wxART_CELLULAR_5G); 
+    list.Add(wxART_CELLULAR_DATA_1); 
+    list.Add(wxART_CELLULAR_DATA_2); 
+    list.Add(wxART_CELLULAR_DATA_3); 
+    list.Add(wxART_CELLULAR_DATA_4); 
+    list.Add(wxART_CELLULAR_DATA_5); 
+    list.Add(wxART_CELLULAR_OFF); 
+    list.Add(wxART_CELLULAR_WARNING); 
+    list.Add(wxART_CENTER_HORIZONTAL); 
+    list.Add(wxART_CENTER_VERTICAL); 
+    list.Add(wxART_CERTIFICATE); 
+    list.Add(wxART_CHANNEL); 
+    list.Add(wxART_CHANNEL_ADD); 
+    list.Add(wxART_CHANNEL_ALERT); 
+    list.Add(wxART_CHANNEL_ARROW_LEFT); 
+    list.Add(wxART_CHANNEL_DISMISS); 
+    list.Add(wxART_CHANNEL_SHARE); 
+    list.Add(wxART_CHANNEL_SUBTRACT); 
+    list.Add(wxART_CHART_MULTIPLE); 
+    list.Add(wxART_CHART_PERSON); 
+    list.Add(wxART_CHAT); 
+    list.Add(wxART_CHAT_ADD); 
+    list.Add(wxART_CHAT_ARROW_BACK); 
+    list.Add(wxART_CHAT_ARROW_DOUBLE_BACK); 
+    list.Add(wxART_CHAT_BUBBLES_QUESTION); 
+    list.Add(wxART_CHAT_CURSOR); 
+    list.Add(wxART_CHAT_DISMISS); 
+    list.Add(wxART_CHAT_EMPTY); 
+    list.Add(wxART_CHAT_HELP); 
+    list.Add(wxART_CHAT_LOCK); 
+    list.Add(wxART_CHAT_MAIL); 
+    list.Add(wxART_CHAT_MULTIPLE); 
+    list.Add(wxART_CHAT_MULTIPLE_HEART); 
+    list.Add(wxART_CHAT_OFF); 
+    list.Add(wxART_CHAT_SETTINGS); 
+    list.Add(wxART_CHAT_SPARKLE); 
+    list.Add(wxART_CHAT_VIDEO); 
+    list.Add(wxART_CHAT_WARNING); 
+    list.Add(wxART_CHECK); 
+    list.Add(wxART_CHECKBOX_1); 
+    list.Add(wxART_CHECKBOX_2); 
+    list.Add(wxART_CHECKBOX_ARROW_RIGHT); 
+    list.Add(wxART_CHECKBOX_CHECKED); 
+    list.Add(wxART_CHECKBOX_CHECKED_SYNC); 
+    list.Add(wxART_CHECKBOX_INDETERMINATE); 
+    list.Add(wxART_CHECKBOX_PERSON); 
+    list.Add(wxART_CHECKBOX_UNCHECKED); 
+    list.Add(wxART_CHECKBOX_WARNING); 
+    list.Add(wxART_CHECKMARK); 
+    list.Add(wxART_CHECKMARK_CIRCLE); 
+    list.Add(wxART_CHECKMARK_CIRCLE_SQUARE); 
+    list.Add(wxART_CHECKMARK_LOCK); 
+    list.Add(wxART_CHECKMARK_NOTE); 
+    list.Add(wxART_CHECKMARK_SQUARE); 
+    list.Add(wxART_CHECKMARK_STARBURST); 
+    list.Add(wxART_CHECKMARK_UNDERLINE_CIRCLE); 
+    list.Add(wxART_CHESS); 
+    list.Add(wxART_CHEVRON_CIRCLE_DOWN); 
+    list.Add(wxART_CHEVRON_CIRCLE_LEFT); 
+    list.Add(wxART_CHEVRON_CIRCLE_RIGHT); 
+    list.Add(wxART_CHEVRON_CIRCLE_UP); 
+    list.Add(wxART_CHEVRON_DOUBLE_DOWN); 
+    list.Add(wxART_CHEVRON_DOUBLE_LEFT); 
+    list.Add(wxART_CHEVRON_DOUBLE_RIGHT); 
+    list.Add(wxART_CHEVRON_DOUBLE_UP); 
+    list.Add(wxART_CHEVRON_DOWN); 
+    list.Add(wxART_CHEVRON_DOWN_UP); 
+    list.Add(wxART_CHEVRON_LEFT); 
+    list.Add(wxART_CHEVRON_RIGHT); 
+    list.Add(wxART_CHEVRON_UP); 
+    list.Add(wxART_CHEVRON_UP_DOWN); 
+    list.Add(wxART_CIRCLE); 
+    list.Add(wxART_CIRCLE_EDIT); 
+    list.Add(wxART_CIRCLE_ERASER); 
+    list.Add(wxART_CIRCLE_HALF_FILL); 
+    list.Add(wxART_CIRCLE_HINT); 
+    list.Add(wxART_CIRCLE_HINT_HALF_VERTICAL); 
+    list.Add(wxART_CIRCLE_IMAGE); 
+    list.Add(wxART_CIRCLE_LINE); 
+    list.Add(wxART_CIRCLE_MULTIPLE_SUBTRACT_CHECKMARK); 
+    list.Add(wxART_CIRCLE_OFF); 
+    list.Add(wxART_CIRCLE_SMALL); 
+    list.Add(wxART_CITY); 
+    list.Add(wxART_CLASS); 
+    list.Add(wxART_CLASSIFICATION); 
+    list.Add(wxART_CLEAR_FORMATTING); 
+    list.Add(wxART_CLIPBOARD); 
+    list.Add(wxART_CLIPBOARD_3_DAY); 
+    list.Add(wxART_CLIPBOARD_ARROW_RIGHT); 
+    list.Add(wxART_CLIPBOARD_BULLET_LIST); 
+    list.Add(wxART_CLIPBOARD_BULLET_LIST_LTR); 
+    list.Add(wxART_CLIPBOARD_BULLET_LIST_RTL); 
+    list.Add(wxART_CLIPBOARD_CHECKMARK); 
+    list.Add(wxART_CLIPBOARD_CLOCK); 
+    list.Add(wxART_CLIPBOARD_CODE); 
+    list.Add(wxART_CLIPBOARD_DATA_BAR); 
+    list.Add(wxART_CLIPBOARD_DAY); 
+    list.Add(wxART_CLIPBOARD_EDIT); 
+    list.Add(wxART_CLIPBOARD_ERROR); 
+    list.Add(wxART_CLIPBOARD_HEART); 
+    list.Add(wxART_CLIPBOARD_IMAGE); 
+    list.Add(wxART_CLIPBOARD_LETTER); 
+    list.Add(wxART_CLIPBOARD_LINK); 
+    list.Add(wxART_CLIPBOARD_MATH_FORMULA); 
+    list.Add(wxART_CLIPBOARD_MONTH); 
+    list.Add(wxART_CLIPBOARD_MORE); 
+    list.Add(wxART_CLIPBOARD_MULTIPLE); 
+    list.Add(wxART_CLIPBOARD_NOTE); 
+    list.Add(wxART_CLIPBOARD_NUMBER_123); 
+    list.Add(wxART_CLIPBOARD_PASTE); 
+    list.Add(wxART_CLIPBOARD_PULSE); 
+    list.Add(wxART_CLIPBOARD_SEARCH); 
+    list.Add(wxART_CLIPBOARD_SETTINGS); 
+    list.Add(wxART_CLIPBOARD_TASK); 
+    list.Add(wxART_CLIPBOARD_TASK_ADD); 
+    list.Add(wxART_CLIPBOARD_TASK_LIST); 
+    list.Add(wxART_CLIPBOARD_TASK_LIST_LTR); 
+    list.Add(wxART_CLIPBOARD_TASK_LIST_RTL); 
+    list.Add(wxART_CLIPBOARD_TEXT); 
+    list.Add(wxART_CLIPBOARD_TEXT_EDIT); 
+    list.Add(wxART_CLIPBOARD_TEXT_LTR); 
+    list.Add(wxART_CLIPBOARD_TEXT_RTL); 
+    list.Add(wxART_CLOCK); 
+    list.Add(wxART_CLOCK_ALARM); 
+    list.Add(wxART_CLOCK_ARROW_DOWNLOAD); 
+    list.Add(wxART_CLOCK_DISMISS); 
+    list.Add(wxART_CLOCK_LOCK); 
+    list.Add(wxART_CLOCK_PAUSE); 
+    list.Add(wxART_CLOCK_TOOLBOX); 
+    list.Add(wxART_CLOSED_CAPTION); 
+    list.Add(wxART_CLOSED_CAPTION_OFF); 
+    list.Add(wxART_CLOUD); 
+    list.Add(wxART_CLOUD_ADD); 
+    list.Add(wxART_CLOUD_ARCHIVE); 
+    list.Add(wxART_CLOUD_ARROW_DOWN); 
+    list.Add(wxART_CLOUD_ARROW_UP); 
+    list.Add(wxART_CLOUD_BIDIRECTIONAL); 
+    list.Add(wxART_CLOUD_CHECKMARK); 
+    list.Add(wxART_CLOUD_DATABASE); 
+    list.Add(wxART_CLOUD_DESKTOP); 
+    list.Add(wxART_CLOUD_DISMISS); 
+    list.Add(wxART_CLOUD_EDIT); 
+    list.Add(wxART_CLOUD_ERROR); 
+    list.Add(wxART_CLOUD_FLOW); 
+    list.Add(wxART_CLOUD_LINK); 
+    list.Add(wxART_CLOUD_OFF); 
+    list.Add(wxART_CLOUD_SWAP); 
+    list.Add(wxART_CLOUD_SYNC); 
+    list.Add(wxART_CLOUD_WORDS); 
+    list.Add(wxART_CLOVER); 
+    list.Add(wxART_CODE); 
+    list.Add(wxART_CODE_BLOCK); 
+    list.Add(wxART_CODE_CS); 
+    list.Add(wxART_CODE_CS_RECTANGLE); 
+    list.Add(wxART_CODE_CIRCLE); 
+    list.Add(wxART_CODE_FS); 
+    list.Add(wxART_CODE_FS_RECTANGLE); 
+    list.Add(wxART_CODE_JS); 
+    list.Add(wxART_CODE_JS_RECTANGLE); 
+    list.Add(wxART_CODE_PY); 
+    list.Add(wxART_CODE_PY_RECTANGLE); 
+    list.Add(wxART_CODE_RB); 
+    list.Add(wxART_CODE_RB_RECTANGLE); 
+    list.Add(wxART_CODE_TS); 
+    list.Add(wxART_CODE_TS_RECTANGLE); 
+    list.Add(wxART_CODE_TEXT); 
+    list.Add(wxART_CODE_TEXT_EDIT); 
+    list.Add(wxART_CODE_TEXT_OFF); 
+    list.Add(wxART_CODE_VB); 
+    list.Add(wxART_CODE_VB_RECTANGLE); 
+    list.Add(wxART_COLLECTIONS); 
+    list.Add(wxART_COLLECTIONS_ADD); 
+    list.Add(wxART_COLOR); 
+    list.Add(wxART_COLOR_BACKGROUND); 
+    list.Add(wxART_COLOR_FILL); 
+    list.Add(wxART_COLOR_LINE); 
+    list.Add(wxART_COLUMN); 
+    list.Add(wxART_COLUMN_ARROW_RIGHT); 
+    list.Add(wxART_COLUMN_DOUBLE_COMPARE); 
+    list.Add(wxART_COLUMN_EDIT); 
+    list.Add(wxART_COLUMN_SINGLE); 
+    list.Add(wxART_COLUMN_SINGLE_COMPARE); 
+    list.Add(wxART_COLUMN_TRIPLE); 
+    list.Add(wxART_COLUMN_TRIPLE_EDIT); 
+    list.Add(wxART_COMMA); 
+    list.Add(wxART_COMMENT); 
+    list.Add(wxART_COMMENT_ADD); 
+    list.Add(wxART_COMMENT_ARROW_LEFT); 
+    list.Add(wxART_COMMENT_ARROW_LEFT_TEMP_LTR); 
+    list.Add(wxART_COMMENT_ARROW_LEFT_TEMP_RTL); 
+    list.Add(wxART_COMMENT_ARROW_RIGHT); 
+    list.Add(wxART_COMMENT_ARROW_RIGHT_TEMP_LTR); 
+    list.Add(wxART_COMMENT_ARROW_RIGHT_TEMP_RTL); 
+    list.Add(wxART_COMMENT_CHECKMARK); 
+    list.Add(wxART_COMMENT_DISMISS); 
+    list.Add(wxART_COMMENT_EDIT); 
+    list.Add(wxART_COMMENT_ERROR); 
+    list.Add(wxART_COMMENT_LIGHTNING); 
+    list.Add(wxART_COMMENT_LINK); 
+    list.Add(wxART_COMMENT_MENTION); 
+    list.Add(wxART_COMMENT_MULTIPLE); 
+    list.Add(wxART_COMMENT_MULTIPLE_CHECKMARK); 
+    list.Add(wxART_COMMENT_MULTIPLE_LINK); 
+    list.Add(wxART_COMMENT_NOTE); 
+    list.Add(wxART_COMMENT_OFF); 
+    list.Add(wxART_COMMUNICATION); 
+    list.Add(wxART_COMMUNICATION_PERSON); 
+    list.Add(wxART_COMMUNICATION_SHIELD); 
+    list.Add(wxART_COMPASS_NORTHWEST); 
+    list.Add(wxART_COMPONENT_2_DOUBLE_TAP_SWIPE_DOWN); 
+    list.Add(wxART_COMPONENT_2_DOUBLE_TAP_SWIPE_UP); 
+    list.Add(wxART_COMPOSE); 
+    list.Add(wxART_CONE); 
+    list.Add(wxART_CONFERENCE_ROOM); 
+    list.Add(wxART_CONNECTED); 
+    list.Add(wxART_CONNECTOR); 
+    list.Add(wxART_CONTACT_CARD); 
+    list.Add(wxART_CONTACT_CARD_GROUP); 
+    list.Add(wxART_CONTACT_CARD_LINK); 
+    list.Add(wxART_CONTACT_CARD_RIBBON); 
+    list.Add(wxART_CONTENT_SETTINGS); 
+    list.Add(wxART_CONTENT_VIEW); 
+    list.Add(wxART_CONTENT_VIEW_GALLERY); 
+    list.Add(wxART_CONTENT_VIEW_GALLERY_LIGHTNING); 
+    list.Add(wxART_CONTRACT_DOWN_LEFT); 
+    list.Add(wxART_CONTROL_BUTTON); 
+    list.Add(wxART_CONVERT_RANGE); 
+    list.Add(wxART_COOKIES); 
+    list.Add(wxART_COPY); 
+    list.Add(wxART_COPY_ADD); 
+    list.Add(wxART_COPY_ARROW_RIGHT); 
+    list.Add(wxART_COPY_SELECT); 
+    list.Add(wxART_COUCH); 
+    list.Add(wxART_CREDIT_CARD_CLOCK); 
+    list.Add(wxART_CREDIT_CARD_PERSON); 
+    list.Add(wxART_CREDIT_CARD_TOOLBOX); 
+    list.Add(wxART_CROP); 
+    list.Add(wxART_CROP_INTERIM); 
+    list.Add(wxART_CROP_INTERIM_OFF); 
+    list.Add(wxART_CROP_SPARKLE); 
+    list.Add(wxART_CROWN); 
+    list.Add(wxART_CROWN_SUBTRACT); 
+    list.Add(wxART_CUBE); 
+    list.Add(wxART_CUBE_ADD); 
+    list.Add(wxART_CUBE_ARROW_CURVE_DOWN); 
+    list.Add(wxART_CUBE_LINK); 
+    list.Add(wxART_CUBE_MULTIPLE); 
+    list.Add(wxART_CUBE_QUICK); 
+    list.Add(wxART_CUBE_ROTATE); 
+    list.Add(wxART_CUBE_SYNC); 
+    list.Add(wxART_CUBE_TREE); 
+    list.Add(wxART_CURRENCY_DOLLAR_EURO); 
+    list.Add(wxART_CURRENCY_DOLLAR_RUPEE); 
+    list.Add(wxART_CURSOR); 
+    list.Add(wxART_CURSOR_CLICK); 
+    list.Add(wxART_CURSOR_HOVER); 
+    list.Add(wxART_CURSOR_HOVER_OFF); 
+    list.Add(wxART_CURSOR_PROHIBITED); 
+    list.Add(wxART_CUT); 
+    list.Add(wxART_DARK_THEME); 
+    list.Add(wxART_DATA_AREA); 
+    list.Add(wxART_DATA_BAR_HORIZONTAL); 
+    list.Add(wxART_DATA_BAR_HORIZONTAL_DESCENDING); 
+    list.Add(wxART_DATA_BAR_VERTICAL); 
+    list.Add(wxART_DATA_BAR_VERTICAL_ADD); 
+    list.Add(wxART_DATA_BAR_VERTICAL_ASCENDING); 
+    list.Add(wxART_DATA_BAR_VERTICAL_STAR); 
+    list.Add(wxART_DATA_FUNNEL); 
+    list.Add(wxART_DATA_HISTOGRAM); 
+    list.Add(wxART_DATA_LINE); 
+    list.Add(wxART_DATA_PIE); 
+    list.Add(wxART_DATA_SCATTER); 
+    list.Add(wxART_DATA_SUNBURST); 
+    list.Add(wxART_DATA_TREEMAP); 
+    list.Add(wxART_DATA_TRENDING); 
+    list.Add(wxART_DATA_USAGE); 
+    list.Add(wxART_DATA_USAGE_EDIT); 
+    list.Add(wxART_DATA_USAGE_SETTINGS); 
+    list.Add(wxART_DATA_USAGE_TOOLBOX); 
+    list.Add(wxART_DATA_WATERFALL); 
+    list.Add(wxART_DATA_WHISKER); 
+    list.Add(wxART_DATABASE); 
+    list.Add(wxART_DATABASE_ARROW_DOWN); 
+    list.Add(wxART_DATABASE_ARROW_RIGHT); 
+    list.Add(wxART_DATABASE_ARROW_UP); 
+    list.Add(wxART_DATABASE_LIGHTNING); 
+    list.Add(wxART_DATABASE_LINK); 
+    list.Add(wxART_DATABASE_MULTIPLE); 
+    list.Add(wxART_DATABASE_PERSON); 
+    list.Add(wxART_DATABASE_PLUG_CONNECTED); 
+    list.Add(wxART_DATABASE_SEARCH); 
+    list.Add(wxART_DATABASE_STACK); 
+    list.Add(wxART_DATABASE_SWITCH); 
+    list.Add(wxART_DATABASE_WARNING); 
+    list.Add(wxART_DATABASE_WINDOW); 
+    list.Add(wxART_DECIMAL_ARROW_LEFT); 
+    list.Add(wxART_DECIMAL_ARROW_RIGHT); 
+    list.Add(wxART_DELETE); 
+    list.Add(wxART_DELETE_ARROW_BACK); 
+    list.Add(wxART_DELETE_DISMISS); 
+    list.Add(wxART_DELETE_LINES); 
+    list.Add(wxART_DELETE_OFF); 
+    list.Add(wxART_DENTIST); 
+    list.Add(wxART_DESIGN_IDEAS); 
+    list.Add(wxART_DESK); 
+    list.Add(wxART_DESKTOP); 
+    list.Add(wxART_DESKTOP_ARROW_DOWN); 
+    list.Add(wxART_DESKTOP_ARROW_RIGHT); 
+    list.Add(wxART_DESKTOP_CHECKMARK); 
+    list.Add(wxART_DESKTOP_CURSOR); 
+    list.Add(wxART_DESKTOP_EDIT); 
+    list.Add(wxART_DESKTOP_FLOW); 
+    list.Add(wxART_DESKTOP_KEYBOARD); 
+    list.Add(wxART_DESKTOP_MAC); 
+    list.Add(wxART_DESKTOP_PULSE); 
+    list.Add(wxART_DESKTOP_SIGNAL); 
+    list.Add(wxART_DESKTOP_SPEAKER); 
+    list.Add(wxART_DESKTOP_SPEAKER_OFF); 
+    list.Add(wxART_DESKTOP_SYNC); 
+    list.Add(wxART_DESKTOP_TOOLBOX); 
+    list.Add(wxART_DESKTOP_TOWER); 
+    list.Add(wxART_DEVELOPER_BOARD); 
+    list.Add(wxART_DEVELOPER_BOARD_LIGHTNING); 
+    list.Add(wxART_DEVELOPER_BOARD_LIGHTNING_TOOLBOX); 
+    list.Add(wxART_DEVELOPER_BOARD_SEARCH); 
+    list.Add(wxART_DEVICE_EQ); 
+    list.Add(wxART_DEVICE_MEETING_ROOM); 
+    list.Add(wxART_DEVICE_MEETING_ROOM_REMOTE); 
+    list.Add(wxART_DIAGRAM); 
+    list.Add(wxART_DIALPAD); 
+    list.Add(wxART_DIALPAD_OFF); 
+    list.Add(wxART_DIALPAD_QUESTION_MARK); 
+    list.Add(wxART_DIAMOND); 
+    list.Add(wxART_DIRECTIONS); 
+    list.Add(wxART_DISHWASHER); 
+    list.Add(wxART_DISMISS); 
+    list.Add(wxART_DISMISS_CIRCLE); 
+    list.Add(wxART_DISMISS_SQUARE); 
+    list.Add(wxART_DISMISS_SQUARE_MULTIPLE); 
+    list.Add(wxART_DIVERSITY); 
+    list.Add(wxART_DIVIDER_SHORT); 
+    list.Add(wxART_DIVIDER_TALL); 
+    list.Add(wxART_DOCK); 
+    list.Add(wxART_DOCK_ROW); 
+    list.Add(wxART_DOCTOR); 
+    list.Add(wxART_DOCUMENT); 
+    list.Add(wxART_DOCUMENT_100); 
+    list.Add(wxART_DOCUMENT_ADD); 
+    list.Add(wxART_DOCUMENT_ARROW_DOWN); 
+    list.Add(wxART_DOCUMENT_ARROW_LEFT); 
+    list.Add(wxART_DOCUMENT_ARROW_RIGHT); 
+    list.Add(wxART_DOCUMENT_ARROW_UP); 
+    list.Add(wxART_DOCUMENT_BORDER); 
+    list.Add(wxART_DOCUMENT_BORDER_PRINT); 
+    list.Add(wxART_DOCUMENT_BRIEFCASE); 
+    list.Add(wxART_DOCUMENT_BULLET_LIST); 
+    list.Add(wxART_DOCUMENT_BULLET_LIST_ARROW_LEFT); 
+    list.Add(wxART_DOCUMENT_BULLET_LIST_CLOCK); 
+    list.Add(wxART_DOCUMENT_BULLET_LIST_CUBE); 
+    list.Add(wxART_DOCUMENT_BULLET_LIST_MULTIPLE); 
+    list.Add(wxART_DOCUMENT_BULLET_LIST_OFF); 
+    list.Add(wxART_DOCUMENT_CS); 
+    list.Add(wxART_DOCUMENT_CSS); 
+    list.Add(wxART_DOCUMENT_CATCH_UP); 
+    list.Add(wxART_DOCUMENT_CHECKMARK); 
+    list.Add(wxART_DOCUMENT_CHEVRON_DOUBLE); 
+    list.Add(wxART_DOCUMENT_CONTRACT); 
+    list.Add(wxART_DOCUMENT_COPY); 
+    list.Add(wxART_DOCUMENT_CUBE); 
+    list.Add(wxART_DOCUMENT_DATA); 
+    list.Add(wxART_DOCUMENT_DATA_LINK); 
+    list.Add(wxART_DOCUMENT_DATABASE); 
+    list.Add(wxART_DOCUMENT_DISMISS); 
+    list.Add(wxART_DOCUMENT_EDIT); 
+    list.Add(wxART_DOCUMENT_ENDNOTE); 
+    list.Add(wxART_DOCUMENT_ERROR); 
+    list.Add(wxART_DOCUMENT_FS); 
+    list.Add(wxART_DOCUMENT_FIT); 
+    list.Add(wxART_DOCUMENT_FLOWCHART); 
+    list.Add(wxART_DOCUMENT_FOLDER); 
+    list.Add(wxART_DOCUMENT_FOOTER); 
+    list.Add(wxART_DOCUMENT_FOOTER_DISMISS); 
+    list.Add(wxART_DOCUMENT_HEADER); 
+    list.Add(wxART_DOCUMENT_HEADER_ARROW_DOWN); 
+    list.Add(wxART_DOCUMENT_HEADER_DISMISS); 
+    list.Add(wxART_DOCUMENT_HEADER_FOOTER); 
+    list.Add(wxART_DOCUMENT_HEART); 
+    list.Add(wxART_DOCUMENT_HEART_PULSE); 
+    list.Add(wxART_DOCUMENT_IMAGE); 
+    list.Add(wxART_DOCUMENT_JAVA); 
+    list.Add(wxART_DOCUMENT_JS); 
+    list.Add(wxART_DOCUMENT_JAVASCRIPT); 
+    list.Add(wxART_DOCUMENT_KEY); 
+    list.Add(wxART_DOCUMENT_LANDSCAPE); 
+    list.Add(wxART_DOCUMENT_LANDSCAPE_DATA); 
+    list.Add(wxART_DOCUMENT_LANDSCAPE_SPLIT); 
+    list.Add(wxART_DOCUMENT_LANDSCAPE_SPLIT_HINT); 
+    list.Add(wxART_DOCUMENT_LIGHTNING); 
+    list.Add(wxART_DOCUMENT_LINK); 
+    list.Add(wxART_DOCUMENT_LOCK); 
+    list.Add(wxART_DOCUMENT_MARGINS); 
+    list.Add(wxART_DOCUMENT_MENTION); 
+    list.Add(wxART_DOCUMENT_MULTIPLE); 
+    list.Add(wxART_DOCUMENT_MULTIPLE_PERCENT); 
+    list.Add(wxART_DOCUMENT_MULTIPLE_PROHIBITED); 
+    list.Add(wxART_DOCUMENT_MULTIPLE_SYNC); 
+    list.Add(wxART_DOCUMENT_NUMBER_1); 
+    list.Add(wxART_DOCUMENT_ONE_PAGE); 
+    list.Add(wxART_DOCUMENT_ONE_PAGE_ADD); 
+    list.Add(wxART_DOCUMENT_ONE_PAGE_BEAKER); 
+    list.Add(wxART_DOCUMENT_ONE_PAGE_COLUMNS); 
+    list.Add(wxART_DOCUMENT_ONE_PAGE_LINK); 
+    list.Add(wxART_DOCUMENT_ONE_PAGE_MULTIPLE); 
+    list.Add(wxART_DOCUMENT_ONE_PAGE_SPARKLE); 
+    list.Add(wxART_DOCUMENT_PDF); 
+    list.Add(wxART_DOCUMENT_PY); 
+    list.Add(wxART_DOCUMENT_PAGE_BOTTOM_CENTER); 
+    list.Add(wxART_DOCUMENT_PAGE_BOTTOM_LEFT); 
+    list.Add(wxART_DOCUMENT_PAGE_BOTTOM_RIGHT); 
+    list.Add(wxART_DOCUMENT_PAGE_BREAK); 
+    list.Add(wxART_DOCUMENT_PAGE_NUMBER); 
+    list.Add(wxART_DOCUMENT_PAGE_TOP_CENTER); 
+    list.Add(wxART_DOCUMENT_PAGE_TOP_LEFT); 
+    list.Add(wxART_DOCUMENT_PAGE_TOP_RIGHT); 
+    list.Add(wxART_DOCUMENT_PERCENT); 
+    list.Add(wxART_DOCUMENT_PERSON); 
+    list.Add(wxART_DOCUMENT_PILL); 
+    list.Add(wxART_DOCUMENT_PRINT); 
+    list.Add(wxART_DOCUMENT_PROHIBITED); 
+    list.Add(wxART_DOCUMENT_QUESTION_MARK); 
+    list.Add(wxART_DOCUMENT_QUEUE); 
+    list.Add(wxART_DOCUMENT_QUEUE_ADD); 
+    list.Add(wxART_DOCUMENT_QUEUE_MULTIPLE); 
+    list.Add(wxART_DOCUMENT_RB); 
+    list.Add(wxART_DOCUMENT_RIBBON); 
+    list.Add(wxART_DOCUMENT_SASS); 
+    list.Add(wxART_DOCUMENT_SAVE); 
+    list.Add(wxART_DOCUMENT_SEARCH); 
+    list.Add(wxART_DOCUMENT_SETTINGS); 
+    list.Add(wxART_DOCUMENT_SPLIT_HINT); 
+    list.Add(wxART_DOCUMENT_SPLIT_HINT_OFF); 
+    list.Add(wxART_DOCUMENT_SYNC); 
+    list.Add(wxART_DOCUMENT_TS); 
+    list.Add(wxART_DOCUMENT_TABLE); 
+    list.Add(wxART_DOCUMENT_TABLE_ARROW_RIGHT); 
+    list.Add(wxART_DOCUMENT_TABLE_CHECKMARK); 
+    list.Add(wxART_DOCUMENT_TABLE_CUBE); 
+    list.Add(wxART_DOCUMENT_TABLE_SEARCH); 
+    list.Add(wxART_DOCUMENT_TABLE_TRUCK); 
+    list.Add(wxART_DOCUMENT_TARGET); 
+    list.Add(wxART_DOCUMENT_TEXT); 
+    list.Add(wxART_DOCUMENT_TEXT_CLOCK); 
+    list.Add(wxART_DOCUMENT_TEXT_EXTRACT); 
+    list.Add(wxART_DOCUMENT_TEXT_LINK); 
+    list.Add(wxART_DOCUMENT_TEXT_TOOLBOX); 
+    list.Add(wxART_DOCUMENT_TOOLBOX); 
+    list.Add(wxART_DOCUMENT_VB); 
+    list.Add(wxART_DOCUMENT_WIDTH); 
+    list.Add(wxART_DOCUMENT_YML); 
+    list.Add(wxART_DOOR); 
+    list.Add(wxART_DOOR_ARROW_LEFT); 
+    list.Add(wxART_DOOR_ARROW_RIGHT); 
+    list.Add(wxART_DOOR_TAG); 
+    list.Add(wxART_DOUBLE_SWIPE_DOWN); 
+    list.Add(wxART_DOUBLE_SWIPE_UP); 
+    list.Add(wxART_DOUBLE_TAP_SWIPE_DOWN); 
+    list.Add(wxART_DOUBLE_TAP_SWIPE_UP); 
+    list.Add(wxART_DRAFTS); 
+    list.Add(wxART_DRAG); 
+    list.Add(wxART_DRAW_IMAGE); 
+    list.Add(wxART_DRAW_SHAPE); 
+    list.Add(wxART_DRAW_TEXT); 
+    list.Add(wxART_DRAWER); 
+    list.Add(wxART_DRAWER_ADD); 
+    list.Add(wxART_DRAWER_ARROW_DOWNLOAD); 
+    list.Add(wxART_DRAWER_DISMISS); 
+    list.Add(wxART_DRAWER_PLAY); 
+    list.Add(wxART_DRAWER_SUBTRACT); 
+    list.Add(wxART_DRINK_BEER); 
+    list.Add(wxART_DRINK_BOTTLE); 
+    list.Add(wxART_DRINK_BOTTLE_OFF); 
+    list.Add(wxART_DRINK_COFFEE); 
+    list.Add(wxART_DRINK_MARGARITA); 
+    list.Add(wxART_DRINK_TO_GO); 
+    list.Add(wxART_DRINK_WINE); 
+    list.Add(wxART_DRIVE_TRAIN); 
+    list.Add(wxART_DROP); 
+    list.Add(wxART_DUAL_SCREEN); 
+    list.Add(wxART_DUAL_SCREEN_ADD); 
+    list.Add(wxART_DUAL_SCREEN_ARROW_RIGHT); 
+    list.Add(wxART_DUAL_SCREEN_ARROW_UP); 
+    list.Add(wxART_DUAL_SCREEN_CLOCK); 
+    list.Add(wxART_DUAL_SCREEN_CLOSED_ALERT); 
+    list.Add(wxART_DUAL_SCREEN_DESKTOP); 
+    list.Add(wxART_DUAL_SCREEN_DISMISS); 
+    list.Add(wxART_DUAL_SCREEN_GROUP); 
+    list.Add(wxART_DUAL_SCREEN_HEADER); 
+    list.Add(wxART_DUAL_SCREEN_LOCK); 
+    list.Add(wxART_DUAL_SCREEN_MIRROR); 
+    list.Add(wxART_DUAL_SCREEN_PAGINATION); 
+    list.Add(wxART_DUAL_SCREEN_SETTINGS); 
+    list.Add(wxART_DUAL_SCREEN_SPAN); 
+    list.Add(wxART_DUAL_SCREEN_SPEAKER); 
+    list.Add(wxART_DUAL_SCREEN_STATUS_BAR); 
+    list.Add(wxART_DUAL_SCREEN_TABLET); 
+    list.Add(wxART_DUAL_SCREEN_UPDATE); 
+    list.Add(wxART_DUAL_SCREEN_VERTICAL_SCROLL); 
+    list.Add(wxART_DUAL_SCREEN_VIBRATE); 
+    list.Add(wxART_DUMBBELL); 
+    list.Add(wxART_DUST); 
+    list.Add(wxART_EARTH); 
+    list.Add(wxART_EARTH_LEAF); 
+    list.Add(wxART_EDIT); 
+    list.Add(wxART_EDIT_ARROW_BACK); 
+    list.Add(wxART_EDIT_OFF); 
+    list.Add(wxART_EDIT_PROHIBITED); 
+    list.Add(wxART_EDIT_SETTINGS); 
+    list.Add(wxART_ELEVATOR); 
+    list.Add(wxART_EMOJI); 
+    list.Add(wxART_EMOJI_ADD); 
+    list.Add(wxART_EMOJI_ANGRY); 
+    list.Add(wxART_EMOJI_EDIT); 
+    list.Add(wxART_EMOJI_HAND); 
+    list.Add(wxART_EMOJI_HINT); 
+    list.Add(wxART_EMOJI_LAUGH); 
+    list.Add(wxART_EMOJI_MEH); 
+    list.Add(wxART_EMOJI_MULTIPLE); 
+    list.Add(wxART_EMOJI_SAD); 
+    list.Add(wxART_EMOJI_SAD_SLIGHT); 
+    list.Add(wxART_EMOJI_SMILE_SLIGHT); 
+    list.Add(wxART_EMOJI_SPARKLE); 
+    list.Add(wxART_EMOJI_SURPRISE); 
+    list.Add(wxART_ENGINE); 
+    list.Add(wxART_EQUAL_CIRCLE); 
+    list.Add(wxART_EQUAL_OFF); 
+    list.Add(wxART_ERASER); 
+    list.Add(wxART_ERASER_MEDIUM); 
+    list.Add(wxART_ERASER_SEGMENT); 
+    list.Add(wxART_ERASER_SMALL); 
+    list.Add(wxART_ERASER_TOOL); 
+    list.Add(wxART_ERROR_CIRCLE); 
+    list.Add(wxART_ERROR_CIRCLE_SETTINGS); 
+    list.Add(wxART_EXPAND_UP_LEFT); 
+    list.Add(wxART_EXPAND_UP_RIGHT); 
+    list.Add(wxART_EXTENDED_DOCK); 
+    list.Add(wxART_EYE); 
+    list.Add(wxART_EYE_LINES); 
+    list.Add(wxART_EYE_OFF); 
+    list.Add(wxART_EYE_TRACKING); 
+    list.Add(wxART_EYE_TRACKING_OFF); 
+    list.Add(wxART_EYEDROPPER); 
+    list.Add(wxART_EYEDROPPER_OFF); 
+    list.Add(wxART_FPS_120); 
+    list.Add(wxART_FPS_240); 
+    list.Add(wxART_FPS_30); 
+    list.Add(wxART_FPS_60); 
+    list.Add(wxART_FPS_960); 
+    list.Add(wxART_F_STOP); 
+    list.Add(wxART_FAST_ACCELERATION); 
+    list.Add(wxART_FAST_FORWARD); 
+    list.Add(wxART_FAX); 
+    list.Add(wxART_FEED); 
+    list.Add(wxART_FILMSTRIP); 
+    list.Add(wxART_FILMSTRIP_IMAGE); 
+    list.Add(wxART_FILMSTRIP_OFF); 
+    list.Add(wxART_FILMSTRIP_PLAY); 
+    list.Add(wxART_FILMSTRIP_SPLIT); 
+    list.Add(wxART_FILTER); 
+    list.Add(wxART_FILTER_ADD); 
+    list.Add(wxART_FILTER_DISMISS); 
+    list.Add(wxART_FILTER_SYNC); 
+    list.Add(wxART_FINGERPRINT); 
+    list.Add(wxART_FIRE); 
+    list.Add(wxART_FIREPLACE); 
+    list.Add(wxART_FIXED_WIDTH); 
+    list.Add(wxART_FLAG); 
+    list.Add(wxART_FLAG_CHECKERED); 
+    list.Add(wxART_FLAG_CLOCK); 
+    list.Add(wxART_FLAG_OFF); 
+    list.Add(wxART_FLAG_PRIDE); 
+    list.Add(wxART_FLAG_PRIDE_INTERSEX_INCLUSIVE_PROGRESS); 
+    list.Add(wxART_FLAG_PRIDE_PHILADELPHIA); 
+    list.Add(wxART_FLAG_PRIDE_PROGRESS); 
+    list.Add(wxART_FLASH); 
+    list.Add(wxART_FLASH_ADD); 
+    list.Add(wxART_FLASH_AUTO); 
+    list.Add(wxART_FLASH_CHECKMARK); 
+    list.Add(wxART_FLASH_FLOW); 
+    list.Add(wxART_FLASH_OFF); 
+    list.Add(wxART_FLASH_PLAY); 
+    list.Add(wxART_FLASH_SETTINGS); 
+    list.Add(wxART_FLASH_SPARKLE); 
+    list.Add(wxART_FLASHLIGHT); 
+    list.Add(wxART_FLASHLIGHT_OFF); 
+    list.Add(wxART_FLIP_HORIZONTAL); 
+    list.Add(wxART_FLIP_VERTICAL); 
+    list.Add(wxART_FLOW); 
+    list.Add(wxART_FLOWCHART); 
+    list.Add(wxART_FLOWCHART_CIRCLE); 
+    list.Add(wxART_FLUENT); 
+    list.Add(wxART_FLUID); 
+    list.Add(wxART_FOLDER); 
+    list.Add(wxART_FOLDER_ADD); 
+    list.Add(wxART_FOLDER_ARROW_LEFT); 
+    list.Add(wxART_FOLDER_ARROW_RIGHT); 
+    list.Add(wxART_FOLDER_ARROW_UP); 
+    list.Add(wxART_FOLDER_BRIEFCASE); 
+    list.Add(wxART_FOLDER_GLOBE); 
+    list.Add(wxART_FOLDER_LIGHTNING); 
+    list.Add(wxART_FOLDER_LINK); 
+    list.Add(wxART_FOLDER_LIST); 
+    list.Add(wxART_FOLDER_MAIL); 
+    list.Add(wxART_FOLDER_MULTIPLE); 
+    list.Add(wxART_FOLDER_OPEN); 
+    list.Add(wxART_FOLDER_OPEN_VERTICAL); 
+    list.Add(wxART_FOLDER_PEOPLE); 
+    list.Add(wxART_FOLDER_PERSON); 
+    list.Add(wxART_FOLDER_PROHIBITED); 
+    list.Add(wxART_FOLDER_SEARCH); 
+    list.Add(wxART_FOLDER_SWAP); 
+    list.Add(wxART_FOLDER_SYNC); 
+    list.Add(wxART_FOLDER_ZIP); 
+    list.Add(wxART_FONT_DECREASE); 
+    list.Add(wxART_FONT_INCREASE); 
+    list.Add(wxART_FONT_SPACE_TRACKING_IN); 
+    list.Add(wxART_FONT_SPACE_TRACKING_OUT); 
+    list.Add(wxART_FOOD); 
+    list.Add(wxART_FOOD_APPLE); 
+    list.Add(wxART_FOOD_CAKE); 
+    list.Add(wxART_FOOD_CARROT); 
+    list.Add(wxART_FOOD_CHICKEN_LEG); 
+    list.Add(wxART_FOOD_EGG); 
+    list.Add(wxART_FOOD_FISH); 
+    list.Add(wxART_FOOD_GRAINS); 
+    list.Add(wxART_FOOD_PIZZA); 
+    list.Add(wxART_FOOD_TOAST); 
+    list.Add(wxART_FORM); 
+    list.Add(wxART_FORM_MULTIPLE); 
+    list.Add(wxART_FORM_NEW); 
+    list.Add(wxART_FRAME); 
+    list.Add(wxART_FULL_SCREEN_MAXIMIZE); 
+    list.Add(wxART_FULL_SCREEN_MINIMIZE); 
+    list.Add(wxART_GIF); 
+    list.Add(wxART_GAMES); 
+    list.Add(wxART_GANTT_CHART); 
+    list.Add(wxART_GAS); 
+    list.Add(wxART_GAS_PUMP); 
+    list.Add(wxART_GATHER); 
+    list.Add(wxART_GAUGE); 
+    list.Add(wxART_GAUGE_ADD); 
+    list.Add(wxART_GAVEL); 
+    list.Add(wxART_GAVEL_PROHIBITED); 
+    list.Add(wxART_GESTURE); 
+    list.Add(wxART_GIFT); 
+    list.Add(wxART_GIFT_CARD); 
+    list.Add(wxART_GIFT_CARD_ADD); 
+    list.Add(wxART_GIFT_CARD_ARROW_RIGHT); 
+    list.Add(wxART_GIFT_CARD_MONEY); 
+    list.Add(wxART_GIFT_CARD_MULTIPLE); 
+    list.Add(wxART_GIFT_OPEN); 
+    list.Add(wxART_GLANCE); 
+    list.Add(wxART_GLANCE_DEFAULT); 
+    list.Add(wxART_GLANCE_HORIZONTAL); 
+    list.Add(wxART_GLANCE_HORIZONTAL_SPARKLES); 
+    list.Add(wxART_GLASSES); 
+    list.Add(wxART_GLASSES_OFF); 
+    list.Add(wxART_GLOBE); 
+    list.Add(wxART_GLOBE_ADD); 
+    list.Add(wxART_GLOBE_ARROW_FORWARD); 
+    list.Add(wxART_GLOBE_CLOCK); 
+    list.Add(wxART_GLOBE_DESKTOP); 
+    list.Add(wxART_GLOBE_LOCATION); 
+    list.Add(wxART_GLOBE_PERSON); 
+    list.Add(wxART_GLOBE_PROHIBITED); 
+    list.Add(wxART_GLOBE_SEARCH); 
+    list.Add(wxART_GLOBE_SHIELD); 
+    list.Add(wxART_GLOBE_STAR); 
+    list.Add(wxART_GLOBE_SURFACE); 
+    list.Add(wxART_GLOBE_VIDEO); 
+    list.Add(wxART_GRID); 
+    list.Add(wxART_GRID_CIRCLES); 
+    list.Add(wxART_GRID_DOTS); 
+    list.Add(wxART_GRID_KANBAN); 
+    list.Add(wxART_GROUP); 
+    list.Add(wxART_GROUP_DISMISS); 
+    list.Add(wxART_GROUP_LIST); 
+    list.Add(wxART_GROUP_RETURN); 
+    list.Add(wxART_GUARDIAN); 
+    list.Add(wxART_GUEST); 
+    list.Add(wxART_GUEST_ADD); 
+    list.Add(wxART_GUITAR); 
+    list.Add(wxART_HD); 
+    list.Add(wxART_HDR); 
+    list.Add(wxART_HDR_OFF); 
+    list.Add(wxART_HAND_DRAW); 
+    list.Add(wxART_HAND_LEFT); 
+    list.Add(wxART_HAND_LEFT_CHAT); 
+    list.Add(wxART_HAND_OPEN_HEART); 
+    list.Add(wxART_HAND_RIGHT); 
+    list.Add(wxART_HAND_RIGHT_OFF); 
+    list.Add(wxART_HAND_WAVE); 
+    list.Add(wxART_HANDSHAKE); 
+    list.Add(wxART_HARD_DRIVE); 
+    list.Add(wxART_HARD_DRIVE_CALL); 
+    list.Add(wxART_HAT_GRADUATION); 
+    list.Add(wxART_HAT_GRADUATION_ADD); 
+    list.Add(wxART_HAT_GRADUATION_SPARKLE); 
+    list.Add(wxART_HEADPHONES); 
+    list.Add(wxART_HEADPHONES_SOUND_WAVE); 
+    list.Add(wxART_HEADSET); 
+    list.Add(wxART_HEADSET_ADD); 
+    list.Add(wxART_HEADSET_VR); 
+    list.Add(wxART_HEART); 
+    list.Add(wxART_HEART_BROKEN); 
+    list.Add(wxART_HEART_CIRCLE); 
+    list.Add(wxART_HEART_CIRCLE_HINT); 
+    list.Add(wxART_HEART_OFF); 
+    list.Add(wxART_HEART_PULSE); 
+    list.Add(wxART_HEART_PULSE_CHECKMARK); 
+    list.Add(wxART_HEART_PULSE_ERROR); 
+    list.Add(wxART_HEART_PULSE_WARNING); 
+    list.Add(wxART_HEXAGON); 
+    list.Add(wxART_HEXAGON_THREE); 
+    list.Add(wxART_HIGHLIGHT); 
+    list.Add(wxART_HIGHLIGHT_ACCENT); 
+    list.Add(wxART_HIGHLIGHT_LINK); 
+    list.Add(wxART_HISTORY); 
+    list.Add(wxART_HISTORY_DISMISS); 
+    list.Add(wxART_HOME); 
+    list.Add(wxART_HOME_ADD); 
+    list.Add(wxART_HOME_CHECKMARK); 
+    list.Add(wxART_HOME_DATABASE); 
+    list.Add(wxART_HOME_HEART); 
+    list.Add(wxART_HOME_MORE); 
+    list.Add(wxART_HOME_PERSON); 
+    list.Add(wxART_HOME_SPLIT); 
+    list.Add(wxART_HOURGLASS); 
+    list.Add(wxART_HOURGLASS_HALF); 
+    list.Add(wxART_HOURGLASS_ONE_QUARTER); 
+    list.Add(wxART_HOURGLASS_THREE_QUARTER); 
+    list.Add(wxART_ICONS); 
+    list.Add(wxART_IMAGE); 
+    list.Add(wxART_IMAGE_ADD); 
+    list.Add(wxART_IMAGE_ALT_TEXT); 
+    list.Add(wxART_IMAGE_ARROW_BACK); 
+    list.Add(wxART_IMAGE_ARROW_COUNTERCLOCKWISE); 
+    list.Add(wxART_IMAGE_ARROW_FORWARD); 
+    list.Add(wxART_IMAGE_BORDER); 
+    list.Add(wxART_IMAGE_CIRCLE); 
+    list.Add(wxART_IMAGE_COPY); 
+    list.Add(wxART_IMAGE_EDIT); 
+    list.Add(wxART_IMAGE_GLOBE); 
+    list.Add(wxART_IMAGE_MULTIPLE); 
+    list.Add(wxART_IMAGE_MULTIPLE_OFF); 
+    list.Add(wxART_IMAGE_OFF); 
+    list.Add(wxART_IMAGE_PROHIBITED); 
+    list.Add(wxART_IMAGE_REFLECTION); 
+    list.Add(wxART_IMAGE_SEARCH); 
+    list.Add(wxART_IMAGE_SHADOW); 
+    list.Add(wxART_IMAGE_SPARKLE); 
+    list.Add(wxART_IMAGE_STACK); 
+    list.Add(wxART_IMAGE_TABLE); 
+    list.Add(wxART_IMMERSIVE_READER); 
+    list.Add(wxART_IMPORTANT); 
+    list.Add(wxART_INPRIVATE_ACCOUNT); 
+    list.Add(wxART_INCOGNITO); 
+    list.Add(wxART_INFO); 
+    list.Add(wxART_INFO_SHIELD); 
+    list.Add(wxART_INK_STROKE); 
+    list.Add(wxART_INK_STROKE_ARROW_DOWN); 
+    list.Add(wxART_INK_STROKE_ARROW_UP_DOWN); 
+    list.Add(wxART_INKING_TOOL); 
+    list.Add(wxART_INKING_TOOL_ACCENT); 
+    list.Add(wxART_INSERT); 
+    list.Add(wxART_IOT); 
+    list.Add(wxART_IOT_ALERT); 
+    list.Add(wxART_JAVASCRIPT); 
+    list.Add(wxART_JOYSTICK); 
+    list.Add(wxART_KEY); 
+    list.Add(wxART_KEY_COMMAND); 
+    list.Add(wxART_KEY_MULTIPLE); 
+    list.Add(wxART_KEY_RESET); 
+    list.Add(wxART_KEYBOARD); 
+    list.Add(wxART_KEYBOARD_123); 
+    list.Add(wxART_KEYBOARD_DOCK); 
+    list.Add(wxART_KEYBOARD_LAYOUT_FLOAT); 
+    list.Add(wxART_KEYBOARD_LAYOUT_ONE_HANDED_LEFT); 
+    list.Add(wxART_KEYBOARD_LAYOUT_RESIZE); 
+    list.Add(wxART_KEYBOARD_LAYOUT_SPLIT); 
+    list.Add(wxART_KEYBOARD_MOUSE); 
+    list.Add(wxART_KEYBOARD_SHIFT); 
+    list.Add(wxART_KEYBOARD_SHIFT_UPPERCASE); 
+    list.Add(wxART_KEYBOARD_TAB); 
+    list.Add(wxART_KIOSK); 
+    list.Add(wxART_LAPTOP); 
+    list.Add(wxART_LAPTOP_DISMISS); 
+    list.Add(wxART_LAPTOP_MULTIPLE); 
+    list.Add(wxART_LAPTOP_SHIELD); 
+    list.Add(wxART_LASER_TOOL); 
+    list.Add(wxART_LASSO); 
+    list.Add(wxART_LAUNCHER_SETTINGS); 
+    list.Add(wxART_LAYER); 
+    list.Add(wxART_LAYER_DIAGONAL); 
+    list.Add(wxART_LAYER_DIAGONAL_ADD); 
+    list.Add(wxART_LAYER_DIAGONAL_PERSON); 
+    list.Add(wxART_LEAF_ONE); 
+    list.Add(wxART_LEAF_THREE); 
+    list.Add(wxART_LEAF_TWO); 
+    list.Add(wxART_LEARNING_APP); 
+    list.Add(wxART_LIBRARY); 
+    list.Add(wxART_LIGHTBULB); 
+    list.Add(wxART_LIGHTBULB_CHECKMARK); 
+    list.Add(wxART_LIGHTBULB_CIRCLE); 
+    list.Add(wxART_LIGHTBULB_FILAMENT); 
+    list.Add(wxART_LIGHTBULB_PERSON); 
+    list.Add(wxART_LIKERT); 
+    list.Add(wxART_LINE); 
+    list.Add(wxART_LINE_DASHES); 
+    list.Add(wxART_LINE_HORIZONTAL_1); 
+    list.Add(wxART_LINE_HORIZONTAL_1_DASHES); 
+    list.Add(wxART_LINE_HORIZONTAL_2_DASHES_SOLID); 
+    list.Add(wxART_LINE_HORIZONTAL_3); 
+    list.Add(wxART_LINE_HORIZONTAL_4); 
+    list.Add(wxART_LINE_HORIZONTAL_4_SEARCH); 
+    list.Add(wxART_LINE_HORIZONTAL_5); 
+    list.Add(wxART_LINE_HORIZONTAL_5_ERROR); 
+    list.Add(wxART_LINE_STYLE); 
+    list.Add(wxART_LINE_THICKNESS); 
+    list.Add(wxART_LINK); 
+    list.Add(wxART_LINK_ADD); 
+    list.Add(wxART_LINK_DISMISS); 
+    list.Add(wxART_LINK_EDIT); 
+    list.Add(wxART_LINK_MULTIPLE); 
+    list.Add(wxART_LINK_PERSON); 
+    list.Add(wxART_LINK_SETTINGS); 
+    list.Add(wxART_LINK_SQUARE); 
+    list.Add(wxART_LINK_TOOLBOX); 
+    list.Add(wxART_LIST); 
+    list.Add(wxART_LIST_BAR); 
+    list.Add(wxART_LIST_BAR_TREE); 
+    list.Add(wxART_LIST_BAR_TREE_OFFSET); 
+    list.Add(wxART_LIST_RTL); 
+    list.Add(wxART_LIVE); 
+    list.Add(wxART_LIVE_OFF); 
+    list.Add(wxART_LOCAL_LANGUAGE); 
+    list.Add(wxART_LOCATION); 
+    list.Add(wxART_LOCATION_ADD); 
+    list.Add(wxART_LOCATION_ADD_LEFT); 
+    list.Add(wxART_LOCATION_ADD_RIGHT); 
+    list.Add(wxART_LOCATION_ADD_UP); 
+    list.Add(wxART_LOCATION_ARROW); 
+    list.Add(wxART_LOCATION_ARROW_LEFT); 
+    list.Add(wxART_LOCATION_ARROW_RIGHT); 
+    list.Add(wxART_LOCATION_ARROW_UP); 
+    list.Add(wxART_LOCATION_DISMISS); 
+    list.Add(wxART_LOCATION_LIVE); 
+    list.Add(wxART_LOCATION_OFF); 
+    list.Add(wxART_LOCK_CLOSED); 
+    list.Add(wxART_LOCK_CLOSED_KEY); 
+    list.Add(wxART_LOCK_MULTIPLE); 
+    list.Add(wxART_LOCK_OPEN); 
+    list.Add(wxART_LOCK_SHIELD); 
+    list.Add(wxART_LOTTERY); 
+    list.Add(wxART_LUGGAGE); 
+    list.Add(wxART_MAIL); 
+    list.Add(wxART_MAIL_ADD); 
+    list.Add(wxART_MAIL_ALERT); 
+    list.Add(wxART_MAIL_ALL_READ); 
+    list.Add(wxART_MAIL_ALL_UNREAD); 
+    list.Add(wxART_MAIL_ARROW_DOUBLE_BACK); 
+    list.Add(wxART_MAIL_ARROW_DOWN); 
+    list.Add(wxART_MAIL_ARROW_FORWARD); 
+    list.Add(wxART_MAIL_ARROW_UP); 
+    list.Add(wxART_MAIL_ATTACH); 
+    list.Add(wxART_MAIL_CHECKMARK); 
+    list.Add(wxART_MAIL_CLOCK); 
+    list.Add(wxART_MAIL_COPY); 
+    list.Add(wxART_MAIL_DISMISS); 
+    list.Add(wxART_MAIL_EDIT); 
+    list.Add(wxART_MAIL_ERROR); 
+    list.Add(wxART_MAIL_INBOX); 
+    list.Add(wxART_MAIL_INBOX_ADD); 
+    list.Add(wxART_MAIL_INBOX_ALL); 
+    list.Add(wxART_MAIL_INBOX_ARROW_DOWN); 
+    list.Add(wxART_MAIL_INBOX_ARROW_RIGHT); 
+    list.Add(wxART_MAIL_INBOX_ARROW_UP); 
+    list.Add(wxART_MAIL_INBOX_CHECKMARK); 
+    list.Add(wxART_MAIL_INBOX_DISMISS); 
+    list.Add(wxART_MAIL_LINK); 
+    list.Add(wxART_MAIL_LIST); 
+    list.Add(wxART_MAIL_MULTIPLE); 
+    list.Add(wxART_MAIL_OFF); 
+    list.Add(wxART_MAIL_OPEN_PERSON); 
+    list.Add(wxART_MAIL_PAUSE); 
+    list.Add(wxART_MAIL_PROHIBITED); 
+    list.Add(wxART_MAIL_READ); 
+    list.Add(wxART_MAIL_READ_MULTIPLE); 
+    list.Add(wxART_MAIL_REWIND); 
+    list.Add(wxART_MAIL_SETTINGS); 
+    list.Add(wxART_MAIL_SHIELD); 
+    list.Add(wxART_MAIL_TEMPLATE); 
+    list.Add(wxART_MAIL_UNREAD); 
+    list.Add(wxART_MAIL_WARNING); 
+    list.Add(wxART_MAP); 
+    list.Add(wxART_MAP_DRIVE); 
+    list.Add(wxART_MARKDOWN); 
+    list.Add(wxART_MATCH_APP_LAYOUT); 
+    list.Add(wxART_MATH_FORMAT_LINEAR); 
+    list.Add(wxART_MATH_FORMAT_PROFESSIONAL); 
+    list.Add(wxART_MATH_FORMULA); 
+    list.Add(wxART_MATH_SYMBOLS); 
+    list.Add(wxART_MAXIMIZE); 
+    list.Add(wxART_MEET_NOW); 
+    list.Add(wxART_MEGAPHONE); 
+    list.Add(wxART_MEGAPHONE_CIRCLE); 
+    list.Add(wxART_MEGAPHONE_LOUD); 
+    list.Add(wxART_MEGAPHONE_OFF); 
+    list.Add(wxART_MEMORY); 
+    list.Add(wxART_MENTION); 
+    list.Add(wxART_MENTION_ARROW_DOWN); 
+    list.Add(wxART_MENTION_BRACKETS); 
+    list.Add(wxART_MERGE); 
+    list.Add(wxART_MIC); 
+    list.Add(wxART_MIC_OFF); 
+    list.Add(wxART_MIC_PROHIBITED); 
+    list.Add(wxART_MIC_PULSE); 
+    list.Add(wxART_MIC_PULSE_OFF); 
+    list.Add(wxART_MIC_RECORD); 
+    list.Add(wxART_MIC_SETTINGS); 
+    list.Add(wxART_MIC_SPARKLE); 
+    list.Add(wxART_MIC_SYNC); 
+    list.Add(wxART_MICROSCOPE); 
+    list.Add(wxART_MIDI); 
+    list.Add(wxART_MOBILE_OPTIMIZED); 
+    list.Add(wxART_MOLD); 
+    list.Add(wxART_MOLECULE); 
+    list.Add(wxART_MONEY); 
+    list.Add(wxART_MONEY_CALCULATOR); 
+    list.Add(wxART_MONEY_DISMISS); 
+    list.Add(wxART_MONEY_HAND); 
+    list.Add(wxART_MONEY_OFF); 
+    list.Add(wxART_MONEY_SETTINGS); 
+    list.Add(wxART_MORE_CIRCLE); 
+    list.Add(wxART_MORE_HORIZONTAL); 
+    list.Add(wxART_MORE_VERTICAL); 
+    list.Add(wxART_MOUNTAIN_LOCATION_BOTTOM); 
+    list.Add(wxART_MOUNTAIN_LOCATION_TOP); 
+    list.Add(wxART_MOUNTAIN_TRAIL); 
+    list.Add(wxART_MOVIES_AND_TV); 
+    list.Add(wxART_MULTIPLIER_1_2X); 
+    list.Add(wxART_MULTIPLIER_1_5X); 
+    list.Add(wxART_MULTIPLIER_1_8X); 
+    list.Add(wxART_MULTIPLIER_1X); 
+    list.Add(wxART_MULTIPLIER_2X); 
+    list.Add(wxART_MULTIPLIER__5X); 
+    list.Add(wxART_MULTISELECT_LTR); 
+    list.Add(wxART_MULTISELECT_RTL); 
+    list.Add(wxART_MUSIC_NOTE_1); 
+    list.Add(wxART_MUSIC_NOTE_2); 
+    list.Add(wxART_MUSIC_NOTE_2_PLAY); 
+    list.Add(wxART_MUSIC_NOTE_OFF_1); 
+    list.Add(wxART_MUSIC_NOTE_OFF_2); 
+    list.Add(wxART_MY_LOCATION); 
+    list.Add(wxART_NAVIGATION); 
+    list.Add(wxART_NAVIGATION_LOCATION_TARGET); 
+    list.Add(wxART_NAVIGATION_PLAY); 
+    list.Add(wxART_NAVIGATION_UNREAD); 
+    list.Add(wxART_NETWORK_ADAPTER); 
+    list.Add(wxART_NETWORK_CHECK); 
+    list.Add(wxART_NEW); 
+    list.Add(wxART_NEWS); 
+    list.Add(wxART_NEXT); 
+    list.Add(wxART_NEXT_FRAME); 
+    list.Add(wxART_NOTE); 
+    list.Add(wxART_NOTE_ADD); 
+    list.Add(wxART_NOTE_EDIT); 
+    list.Add(wxART_NOTE_PIN); 
+    list.Add(wxART_NOTEBOOK); 
+    list.Add(wxART_NOTEBOOK_ADD); 
+    list.Add(wxART_NOTEBOOK_ARROW_CURVE_DOWN); 
+    list.Add(wxART_NOTEBOOK_ERROR); 
+    list.Add(wxART_NOTEBOOK_EYE); 
+    list.Add(wxART_NOTEBOOK_LIGHTNING); 
+    list.Add(wxART_NOTEBOOK_QUESTION_MARK); 
+    list.Add(wxART_NOTEBOOK_SECTION); 
+    list.Add(wxART_NOTEBOOK_SECTION_ARROW_RIGHT); 
+    list.Add(wxART_NOTEBOOK_SUBSECTION); 
+    list.Add(wxART_NOTEBOOK_SYNC); 
+    list.Add(wxART_NOTEPAD); 
+    list.Add(wxART_NOTEPAD_EDIT); 
+    list.Add(wxART_NOTEPAD_PERSON); 
+    list.Add(wxART_NUMBER_CIRCLE_0); 
+    list.Add(wxART_NUMBER_CIRCLE_1); 
+    list.Add(wxART_NUMBER_CIRCLE_2); 
+    list.Add(wxART_NUMBER_CIRCLE_3); 
+    list.Add(wxART_NUMBER_CIRCLE_4); 
+    list.Add(wxART_NUMBER_CIRCLE_5); 
+    list.Add(wxART_NUMBER_CIRCLE_6); 
+    list.Add(wxART_NUMBER_CIRCLE_7); 
+    list.Add(wxART_NUMBER_CIRCLE_8); 
+    list.Add(wxART_NUMBER_CIRCLE_9); 
+    list.Add(wxART_NUMBER_ROW); 
+    list.Add(wxART_NUMBER_SYMBOL); 
+    list.Add(wxART_NUMBER_SYMBOL_DISMISS); 
+    list.Add(wxART_NUMBER_SYMBOL_SQUARE); 
+    list.Add(wxART_OPEN); 
+    list.Add(wxART_OPEN_FOLDER); 
+    list.Add(wxART_OPEN_OFF); 
+    list.Add(wxART_OPTIONS); 
+    list.Add(wxART_ORGANIZATION); 
+    list.Add(wxART_ORGANIZATION_HORIZONTAL); 
+    list.Add(wxART_ORIENTATION); 
+    list.Add(wxART_OVAL); 
+    list.Add(wxART_OVEN); 
+    list.Add(wxART_PADDING_DOWN); 
+    list.Add(wxART_PADDING_LEFT); 
+    list.Add(wxART_PADDING_RIGHT); 
+    list.Add(wxART_PADDING_TOP); 
+    list.Add(wxART_PAGE_FIT); 
+    list.Add(wxART_PAINT_BRUSH); 
+    list.Add(wxART_PAINT_BRUSH_ARROW_DOWN); 
+    list.Add(wxART_PAINT_BRUSH_ARROW_UP); 
+    list.Add(wxART_PAINT_BUCKET); 
+    list.Add(wxART_PAIR); 
+    list.Add(wxART_PANEL_BOTTOM); 
+    list.Add(wxART_PANEL_BOTTOM_CONTRACT); 
+    list.Add(wxART_PANEL_BOTTOM_EXPAND); 
+    list.Add(wxART_PANEL_LEFT); 
+    list.Add(wxART_PANEL_LEFT_ADD); 
+    list.Add(wxART_PANEL_LEFT_CONTRACT); 
+    list.Add(wxART_PANEL_LEFT_EXPAND); 
+    list.Add(wxART_PANEL_LEFT_FOCUS_RIGHT); 
+    list.Add(wxART_PANEL_LEFT_HEADER); 
+    list.Add(wxART_PANEL_LEFT_HEADER_ADD); 
+    list.Add(wxART_PANEL_LEFT_HEADER_KEY); 
+    list.Add(wxART_PANEL_LEFT_KEY); 
+    list.Add(wxART_PANEL_LEFT_TEXT); 
+    list.Add(wxART_PANEL_LEFT_TEXT_ADD); 
+    list.Add(wxART_PANEL_LEFT_TEXT_DISMISS); 
+    list.Add(wxART_PANEL_RIGHT); 
+    list.Add(wxART_PANEL_RIGHT_ADD); 
+    list.Add(wxART_PANEL_RIGHT_CONTRACT); 
+    list.Add(wxART_PANEL_RIGHT_CURSOR); 
+    list.Add(wxART_PANEL_RIGHT_EXPAND); 
+    list.Add(wxART_PANEL_RIGHT_GALLERY); 
+    list.Add(wxART_PANEL_SEPARATE_WINDOW); 
+    list.Add(wxART_PANEL_TOP_CONTRACT); 
+    list.Add(wxART_PANEL_TOP_EXPAND); 
+    list.Add(wxART_PANEL_TOP_GALLERY); 
+    list.Add(wxART_PASSWORD); 
+    list.Add(wxART_PATCH); 
+    list.Add(wxART_PATIENT); 
+    list.Add(wxART_PAUSE); 
+    list.Add(wxART_PAUSE_CIRCLE); 
+    list.Add(wxART_PAUSE_OFF); 
+    list.Add(wxART_PAUSE_SETTINGS); 
+    list.Add(wxART_PAYMENT); 
+    list.Add(wxART_PEN); 
+    list.Add(wxART_PEN_DISMISS); 
+    list.Add(wxART_PEN_OFF); 
+    list.Add(wxART_PEN_PROHIBITED); 
+    list.Add(wxART_PEN_SPARKLE); 
+    list.Add(wxART_PENTAGON); 
+    list.Add(wxART_PEOPLE); 
+    list.Add(wxART_PEOPLE_ADD); 
+    list.Add(wxART_PEOPLE_AUDIENCE); 
+    list.Add(wxART_PEOPLE_CALL); 
+    list.Add(wxART_PEOPLE_CHAT); 
+    list.Add(wxART_PEOPLE_CHECKMARK); 
+    list.Add(wxART_PEOPLE_COMMUNITY); 
+    list.Add(wxART_PEOPLE_COMMUNITY_ADD); 
+    list.Add(wxART_PEOPLE_EDIT); 
+    list.Add(wxART_PEOPLE_ERROR); 
+    list.Add(wxART_PEOPLE_LIST); 
+    list.Add(wxART_PEOPLE_LOCK); 
+    list.Add(wxART_PEOPLE_MONEY); 
+    list.Add(wxART_PEOPLE_PROHIBITED); 
+    list.Add(wxART_PEOPLE_QUEUE); 
+    list.Add(wxART_PEOPLE_SEARCH); 
+    list.Add(wxART_PEOPLE_SETTINGS); 
+    list.Add(wxART_PEOPLE_STAR); 
+    list.Add(wxART_PEOPLE_SWAP); 
+    list.Add(wxART_PEOPLE_SYNC); 
+    list.Add(wxART_PEOPLE_TEAM); 
+    list.Add(wxART_PEOPLE_TEAM_ADD); 
+    list.Add(wxART_PEOPLE_TEAM_DELETE); 
+    list.Add(wxART_PEOPLE_TEAM_TOOLBOX); 
+    list.Add(wxART_PEOPLE_TOOLBOX); 
+    list.Add(wxART_PERSON); 
+    list.Add(wxART_PERSON_5); 
+    list.Add(wxART_PERSON_6); 
+    list.Add(wxART_PERSON_ACCOUNTS); 
+    list.Add(wxART_PERSON_ADD); 
+    list.Add(wxART_PERSON_ALERT); 
+    list.Add(wxART_PERSON_ARROW_BACK); 
+    list.Add(wxART_PERSON_ARROW_LEFT); 
+    list.Add(wxART_PERSON_ARROW_RIGHT); 
+    list.Add(wxART_PERSON_AVAILABLE); 
+    list.Add(wxART_PERSON_BOARD); 
+    list.Add(wxART_PERSON_CALL); 
+    list.Add(wxART_PERSON_CHAT); 
+    list.Add(wxART_PERSON_CIRCLE); 
+    list.Add(wxART_PERSON_CLOCK); 
+    list.Add(wxART_PERSON_DELETE); 
+    list.Add(wxART_PERSON_DESKTOP); 
+    list.Add(wxART_PERSON_EDIT); 
+    list.Add(wxART_PERSON_FEEDBACK); 
+    list.Add(wxART_PERSON_HEART); 
+    list.Add(wxART_PERSON_INFO); 
+    list.Add(wxART_PERSON_KEY); 
+    list.Add(wxART_PERSON_LIGHTBULB); 
+    list.Add(wxART_PERSON_LIGHTNING); 
+    list.Add(wxART_PERSON_LINK); 
+    list.Add(wxART_PERSON_LOCK); 
+    list.Add(wxART_PERSON_MAIL); 
+    list.Add(wxART_PERSON_MONEY); 
+    list.Add(wxART_PERSON_NOTE); 
+    list.Add(wxART_PERSON_PHONE); 
+    list.Add(wxART_PERSON_PILL); 
+    list.Add(wxART_PERSON_PROHIBITED); 
+    list.Add(wxART_PERSON_QUESTION_MARK); 
+    list.Add(wxART_PERSON_RIBBON); 
+    list.Add(wxART_PERSON_RUNNING); 
+    list.Add(wxART_PERSON_SEARCH); 
+    list.Add(wxART_PERSON_SETTINGS); 
+    list.Add(wxART_PERSON_SQUARE); 
+    list.Add(wxART_PERSON_STANDING); 
+    list.Add(wxART_PERSON_STAR); 
+    list.Add(wxART_PERSON_STARBURST); 
+    list.Add(wxART_PERSON_SUBTRACT); 
+    list.Add(wxART_PERSON_SUPPORT); 
+    list.Add(wxART_PERSON_SWAP); 
+    list.Add(wxART_PERSON_SYNC); 
+    list.Add(wxART_PERSON_TAG); 
+    list.Add(wxART_PERSON_VOICE); 
+    list.Add(wxART_PERSON_WALKING); 
+    list.Add(wxART_PERSON_WARNING); 
+    list.Add(wxART_PERSON_WRENCH); 
+    list.Add(wxART_PHONE); 
+    list.Add(wxART_PHONE_ADD); 
+    list.Add(wxART_PHONE_ARROW_RIGHT); 
+    list.Add(wxART_PHONE_BRIEFCASE); 
+    list.Add(wxART_PHONE_CHAT); 
+    list.Add(wxART_PHONE_CHECKMARK); 
+    list.Add(wxART_PHONE_DESKTOP); 
+    list.Add(wxART_PHONE_DESKTOP_ADD); 
+    list.Add(wxART_PHONE_DISMISS); 
+    list.Add(wxART_PHONE_EDIT); 
+    list.Add(wxART_PHONE_ERASER); 
+    list.Add(wxART_PHONE_KEY); 
+    list.Add(wxART_PHONE_LAPTOP); 
+    list.Add(wxART_PHONE_LINK_SETUP); 
+    list.Add(wxART_PHONE_LOCK); 
+    list.Add(wxART_PHONE_MULTIPLE); 
+    list.Add(wxART_PHONE_MULTIPLE_SETTINGS); 
+    list.Add(wxART_PHONE_PAGE_HEADER); 
+    list.Add(wxART_PHONE_PAGINATION); 
+    list.Add(wxART_PHONE_PERSON); 
+    list.Add(wxART_PHONE_SCREEN_TIME); 
+    list.Add(wxART_PHONE_SHAKE); 
+    list.Add(wxART_PHONE_SPAN_IN); 
+    list.Add(wxART_PHONE_SPAN_OUT); 
+    list.Add(wxART_PHONE_SPEAKER); 
+    list.Add(wxART_PHONE_STATUS_BAR); 
+    list.Add(wxART_PHONE_SUBTRACT); 
+    list.Add(wxART_PHONE_TABLET); 
+    list.Add(wxART_PHONE_UPDATE); 
+    list.Add(wxART_PHONE_UPDATE_CHECKMARK); 
+    list.Add(wxART_PHONE_VERTICAL_SCROLL); 
+    list.Add(wxART_PHONE_VIBRATE); 
+    list.Add(wxART_PHOTO_FILTER); 
+    list.Add(wxART_PI); 
+    list.Add(wxART_PICTURE_IN_PICTURE); 
+    list.Add(wxART_PICTURE_IN_PICTURE_ENTER); 
+    list.Add(wxART_PICTURE_IN_PICTURE_EXIT); 
+    list.Add(wxART_PILL); 
+    list.Add(wxART_PIN); 
+    list.Add(wxART_PIN_OFF); 
+    list.Add(wxART_PIPELINE); 
+    list.Add(wxART_PIPELINE_ADD); 
+    list.Add(wxART_PIPELINE_ARROW_CURVE_DOWN); 
+    list.Add(wxART_PIPELINE_PLAY); 
+    list.Add(wxART_PIVOT); 
+    list.Add(wxART_PLANT_GRASS); 
+    list.Add(wxART_PLANT_RAGWEED); 
+    list.Add(wxART_PLAY); 
+    list.Add(wxART_PLAY_CIRCLE); 
+    list.Add(wxART_PLAY_CIRCLE_HINT); 
+    list.Add(wxART_PLAY_MULTIPLE); 
+    list.Add(wxART_PLAY_SETTINGS); 
+    list.Add(wxART_PLAYING_CARDS); 
+    list.Add(wxART_PLUG_CONNECTED); 
+    list.Add(wxART_PLUG_CONNECTED_ADD); 
+    list.Add(wxART_PLUG_CONNECTED_CHECKMARK); 
+    list.Add(wxART_PLUG_CONNECTED_SETTINGS); 
+    list.Add(wxART_PLUG_DISCONNECTED); 
+    list.Add(wxART_POINT_SCAN); 
+    list.Add(wxART_POLL); 
+    list.Add(wxART_POLL_HORIZONTAL); 
+    list.Add(wxART_PORT_HDMI); 
+    list.Add(wxART_PORT_MICRO_USB); 
+    list.Add(wxART_PORT_USB_A); 
+    list.Add(wxART_PORT_USB_C); 
+    list.Add(wxART_POSITION_BACKWARD); 
+    list.Add(wxART_POSITION_FORWARD); 
+    list.Add(wxART_POSITION_TO_BACK); 
+    list.Add(wxART_POSITION_TO_FRONT); 
+    list.Add(wxART_POWER); 
+    list.Add(wxART_PREDICTIONS); 
+    list.Add(wxART_PREMIUM); 
+    list.Add(wxART_PREMIUM_PERSON); 
+    list.Add(wxART_PRESENCE_AVAILABLE); 
+    list.Add(wxART_PRESENCE_AWAY); 
+    list.Add(wxART_PRESENCE_BUSY); 
+    list.Add(wxART_PRESENCE_DND); 
+    list.Add(wxART_PRESENTER); 
+    list.Add(wxART_PRESENTER_OFF); 
+    list.Add(wxART_PREVIEW_LINK); 
+    list.Add(wxART_PREVIOUS); 
+    list.Add(wxART_PREVIOUS_FRAME); 
+    list.Add(wxART_PRINT); 
+    list.Add(wxART_PRINT_ADD); 
+    list.Add(wxART_PRODUCTION); 
+    list.Add(wxART_PRODUCTION_CHECKMARK); 
+    list.Add(wxART_PROHIBITED); 
+    list.Add(wxART_PROHIBITED_MULTIPLE); 
+    list.Add(wxART_PROHIBITED_NOTE); 
+    list.Add(wxART_PROJECTION_SCREEN); 
+    list.Add(wxART_PROJECTION_SCREEN_DISMISS); 
+    list.Add(wxART_PROJECTION_SCREEN_TEXT); 
+    list.Add(wxART_PROTOCOL_HANDLER); 
+    list.Add(wxART_PULSE); 
+    list.Add(wxART_PULSE_SQUARE); 
+    list.Add(wxART_PUZZLE_CUBE); 
+    list.Add(wxART_PUZZLE_CUBE_PIECE); 
+    list.Add(wxART_PUZZLE_PIECE_SHIELD); 
+    list.Add(wxART_PUZZLE_PIECE); 
+    list.Add(wxART_QR_CODE); 
+    list.Add(wxART_QUESTION); 
+    list.Add(wxART_QUESTION_CIRCLE); 
+    list.Add(wxART_QUIZ_NEW); 
+    list.Add(wxART_RAM); 
+    list.Add(wxART_RSS); 
+    list.Add(wxART_RADAR); 
+    list.Add(wxART_RADAR_CHECKMARK); 
+    list.Add(wxART_RADAR_RECTANGLE_MULTIPLE); 
+    list.Add(wxART_RADIO_BUTTON); 
+    list.Add(wxART_RADIO_BUTTON_OFF); 
+    list.Add(wxART_RATING_MATURE); 
+    list.Add(wxART_RATIO_ONE_TO_ONE); 
+    list.Add(wxART_RE_ORDER); 
+    list.Add(wxART_RE_ORDER_DOTS_HORIZONTAL); 
+    list.Add(wxART_RE_ORDER_DOTS_VERTICAL); 
+    list.Add(wxART_READ_ALOUD); 
+    list.Add(wxART_READING_LIST); 
+    list.Add(wxART_READING_LIST_ADD); 
+    list.Add(wxART_READING_MODE_MOBILE); 
+    list.Add(wxART_REAL_ESTATE); 
+    list.Add(wxART_RECEIPT); 
+    list.Add(wxART_RECEIPT_ADD); 
+    list.Add(wxART_RECEIPT_BAG); 
+    list.Add(wxART_RECEIPT_CUBE); 
+    list.Add(wxART_RECEIPT_MONEY); 
+    list.Add(wxART_RECEIPT_PLAY); 
+    list.Add(wxART_RECEIPT_SEARCH); 
+    list.Add(wxART_RECEIPT_SPARKLES); 
+    list.Add(wxART_RECORD); 
+    list.Add(wxART_RECORD_STOP); 
+    list.Add(wxART_RECTANGLE_LANDSCAPE); 
+    list.Add(wxART_RECTANGLE_LANDSCAPE_HINT_COPY); 
+    list.Add(wxART_RECTANGLE_LANDSCAPE_SPARKLE); 
+    list.Add(wxART_RECTANGLE_PORTRAIT_LOCATION_TARGET); 
+    list.Add(wxART_RECYCLE); 
+    list.Add(wxART_REMIX_ADD); 
+    list.Add(wxART_REMOTE); 
+    list.Add(wxART_RENAME); 
+    list.Add(wxART_REORDER); 
+    list.Add(wxART_REPLAY); 
+    list.Add(wxART_RESIZE); 
+    list.Add(wxART_RESIZE_IMAGE); 
+    list.Add(wxART_RESIZE_LARGE); 
+    list.Add(wxART_RESIZE_SMALL); 
+    list.Add(wxART_RESIZE_TABLE); 
+    list.Add(wxART_RESIZE_VIDEO); 
+    list.Add(wxART_REWARD); 
+    list.Add(wxART_REWIND); 
+    list.Add(wxART_RHOMBUS); 
+    list.Add(wxART_RIBBON); 
+    list.Add(wxART_RIBBON_ADD); 
+    list.Add(wxART_RIBBON_OFF); 
+    list.Add(wxART_RIBBON_STAR); 
+    list.Add(wxART_ROAD_CONE); 
+    list.Add(wxART_ROCKET); 
+    list.Add(wxART_ROTATE_LEFT); 
+    list.Add(wxART_ROTATE_RIGHT); 
+    list.Add(wxART_ROUTER); 
+    list.Add(wxART_ROW_TRIPLE); 
+    list.Add(wxART_RULER); 
+    list.Add(wxART_RUN); 
+    list.Add(wxART_SIM); 
+    list.Add(wxART_SANITIZE); 
+    list.Add(wxART_SAVE); 
+    list.Add(wxART_SAVE_ARROW_RIGHT); 
+    list.Add(wxART_SAVE_COPY); 
+    list.Add(wxART_SAVE_EDIT); 
+    list.Add(wxART_SAVE_IMAGE); 
+    list.Add(wxART_SAVE_MULTIPLE); 
+    list.Add(wxART_SAVE_SEARCH); 
+    list.Add(wxART_SAVE_SYNC); 
+    list.Add(wxART_SAVINGS); 
+    list.Add(wxART_SCALE_FILL); 
+    list.Add(wxART_SCALE_FIT); 
+    list.Add(wxART_SCALES); 
+    list.Add(wxART_SCAN); 
+    list.Add(wxART_SCAN_CAMERA); 
+    list.Add(wxART_SCAN_DASH); 
+    list.Add(wxART_SCAN_OBJECT); 
+    list.Add(wxART_SCAN_PERSON); 
+    list.Add(wxART_SCAN_QR_CODE); 
+    list.Add(wxART_SCAN_TABLE); 
+    list.Add(wxART_SCAN_TEXT); 
+    list.Add(wxART_SCAN_THUMB_UP); 
+    list.Add(wxART_SCAN_THUMB_UP_OFF); 
+    list.Add(wxART_SCAN_TYPE); 
+    list.Add(wxART_SCAN_TYPE_CHECKMARK); 
+    list.Add(wxART_SCAN_TYPE_OFF); 
+    list.Add(wxART_SCRATCHPAD); 
+    list.Add(wxART_SCREEN_CUT); 
+    list.Add(wxART_SCREEN_PERSON); 
+    list.Add(wxART_SCREEN_SEARCH); 
+    list.Add(wxART_SCREENSHOT); 
+    list.Add(wxART_SCREENSHOT_RECORD); 
+    list.Add(wxART_SCRIPT); 
+    list.Add(wxART_SEARCH); 
+    list.Add(wxART_SEARCH_INFO); 
+    list.Add(wxART_SEARCH_SETTINGS); 
+    list.Add(wxART_SEARCH_SHIELD); 
+    list.Add(wxART_SEARCH_SQUARE); 
+    list.Add(wxART_SEARCH_VISUAL); 
+    list.Add(wxART_SELECT_ALL_OFF); 
+    list.Add(wxART_SELECT_ALL_ON); 
+    list.Add(wxART_SELECT_OBJECT); 
+    list.Add(wxART_SELECT_OBJECT_SKEW); 
+    list.Add(wxART_SELECT_OBJECT_SKEW_DISMISS); 
+    list.Add(wxART_SELECT_OBJECT_SKEW_EDIT); 
+    list.Add(wxART_SEND); 
+    list.Add(wxART_SEND_BEAKER); 
+    list.Add(wxART_SEND_CLOCK); 
+    list.Add(wxART_SEND_COPY); 
+    list.Add(wxART_SERIAL_PORT); 
+    list.Add(wxART_SERVER); 
+    list.Add(wxART_SERVER_LINK); 
+    list.Add(wxART_SERVER_MULTIPLE); 
+    list.Add(wxART_SERVER_PLAY); 
+    list.Add(wxART_SERVER_SURFACE); 
+    list.Add(wxART_SERVER_SURFACE_MULTIPLE); 
+    list.Add(wxART_SERVICE_BELL); 
+    list.Add(wxART_SETTINGS); 
+    list.Add(wxART_SETTINGS_CHAT); 
+    list.Add(wxART_SETTINGS_COG_MULTIPLE); 
+    list.Add(wxART_SHAPE_EXCLUDE); 
+    list.Add(wxART_SHAPE_INTERSECT); 
+    list.Add(wxART_SHAPE_ORGANIC); 
+    list.Add(wxART_SHAPE_SUBTRACT); 
+    list.Add(wxART_SHAPE_UNION); 
+    list.Add(wxART_SHAPES); 
+    list.Add(wxART_SHARE); 
+    list.Add(wxART_SHARE_ANDROID); 
+    list.Add(wxART_SHARE_CLOSE_TRAY); 
+    list.Add(wxART_SHARE_SCREEN_PERSON); 
+    list.Add(wxART_SHARE_SCREEN_PERSON_OVERLAY); 
+    list.Add(wxART_SHARE_SCREEN_PERSON_OVERLAY_INSIDE); 
+    list.Add(wxART_SHARE_SCREEN_PERSON_P); 
+    list.Add(wxART_SHARE_SCREEN_START); 
+    list.Add(wxART_SHARE_SCREEN_STOP); 
+    list.Add(wxART_SHARE_IOS); 
+    list.Add(wxART_SHIELD); 
+    list.Add(wxART_SHIELD_ADD); 
+    list.Add(wxART_SHIELD_BADGE); 
+    list.Add(wxART_SHIELD_CHECKMARK); 
+    list.Add(wxART_SHIELD_DISMISS); 
+    list.Add(wxART_SHIELD_DISMISS_SHIELD); 
+    list.Add(wxART_SHIELD_ERROR); 
+    list.Add(wxART_SHIELD_GLOBE); 
+    list.Add(wxART_SHIELD_KEYHOLE); 
+    list.Add(wxART_SHIELD_LOCK); 
+    list.Add(wxART_SHIELD_PERSON); 
+    list.Add(wxART_SHIELD_PERSON_ADD); 
+    list.Add(wxART_SHIELD_PROHIBITED); 
+    list.Add(wxART_SHIELD_QUESTION); 
+    list.Add(wxART_SHIELD_TASK); 
+    list.Add(wxART_SHIFTS); 
+    list.Add(wxART_SHIFTS_30_MINUTES); 
+    list.Add(wxART_SHIFTS_ACTIVITY); 
+    list.Add(wxART_SHIFTS_ADD); 
+    list.Add(wxART_SHIFTS_AVAILABILITY); 
+    list.Add(wxART_SHIFTS_CHECKMARK); 
+    list.Add(wxART_SHIFTS_DAY); 
+    list.Add(wxART_SHIFTS_OPEN); 
+    list.Add(wxART_SHIFTS_PROHIBITED); 
+    list.Add(wxART_SHIFTS_QUESTION_MARK); 
+    list.Add(wxART_SHIFTS_TEAM); 
+    list.Add(wxART_SHOPPING_BAG); 
+    list.Add(wxART_SHOPPING_BAG_ARROW_LEFT); 
+    list.Add(wxART_SHOPPING_BAG_DISMISS); 
+    list.Add(wxART_SHOPPING_BAG_PAUSE); 
+    list.Add(wxART_SHOPPING_BAG_PERCENT); 
+    list.Add(wxART_SHOPPING_BAG_PLAY); 
+    list.Add(wxART_SHOPPING_BAG_TAG); 
+    list.Add(wxART_SHORTPICK); 
+    list.Add(wxART_SHOWERHEAD); 
+    list.Add(wxART_SIDEBAR_SEARCH_LTR); 
+    list.Add(wxART_SIDEBAR_SEARCH_RTL); 
+    list.Add(wxART_SIGN_OUT); 
+    list.Add(wxART_SIGNATURE); 
+    list.Add(wxART_SKIP_BACK_10); 
+    list.Add(wxART_SKIP_FORWARD_10); 
+    list.Add(wxART_SKIP_FORWARD_30); 
+    list.Add(wxART_SKIP_FORWARD_TAB); 
+    list.Add(wxART_SLASH_FORWARD); 
+    list.Add(wxART_SLEEP); 
+    list.Add(wxART_SLIDE_ADD); 
+    list.Add(wxART_SLIDE_ARROW_RIGHT); 
+    list.Add(wxART_SLIDE_CONTENT); 
+    list.Add(wxART_SLIDE_ERASER); 
+    list.Add(wxART_SLIDE_GRID); 
+    list.Add(wxART_SLIDE_HIDE); 
+    list.Add(wxART_SLIDE_LAYOUT); 
+    list.Add(wxART_SLIDE_LINK); 
+    list.Add(wxART_SLIDE_MICROPHONE); 
+    list.Add(wxART_SLIDE_MULTIPLE); 
+    list.Add(wxART_SLIDE_MULTIPLE_ARROW_RIGHT); 
+    list.Add(wxART_SLIDE_MULTIPLE_SEARCH); 
+    list.Add(wxART_SLIDE_RECORD); 
+    list.Add(wxART_SLIDE_SEARCH); 
+    list.Add(wxART_SLIDE_SETTINGS); 
+    list.Add(wxART_SLIDE_SIZE); 
+    list.Add(wxART_SLIDE_TEXT); 
+    list.Add(wxART_SLIDE_TEXT_EDIT); 
+    list.Add(wxART_SLIDE_TEXT_MULTIPLE); 
+    list.Add(wxART_SLIDE_TEXT_PERSON); 
+    list.Add(wxART_SLIDE_TEXT_SPARKLE); 
+    list.Add(wxART_SLIDE_TRANSITION); 
+    list.Add(wxART_SMARTWATCH); 
+    list.Add(wxART_SMARTWATCH_DOT); 
+    list.Add(wxART_SNOOZE); 
+    list.Add(wxART_SOUND_SOURCE); 
+    list.Add(wxART_SOUND_WAVE_CIRCLE); 
+    list.Add(wxART_SPACE_3D); 
+    list.Add(wxART_SPACEBAR); 
+    list.Add(wxART_SPARKLE); 
+    list.Add(wxART_SPARKLE_CIRCLE); 
+    list.Add(wxART_SPEAKER_0); 
+    list.Add(wxART_SPEAKER_1); 
+    list.Add(wxART_SPEAKER_2); 
+    list.Add(wxART_SPEAKER_BLUETOOTH); 
+    list.Add(wxART_SPEAKER_EDIT); 
+    list.Add(wxART_SPEAKER_MUTE); 
+    list.Add(wxART_SPEAKER_OFF); 
+    list.Add(wxART_SPEAKER_SETTINGS); 
+    list.Add(wxART_SPEAKER_USB); 
+    list.Add(wxART_SPINNER_IOS); 
+    list.Add(wxART_SPLIT_HINT); 
+    list.Add(wxART_SPLIT_HORIZONTAL); 
+    list.Add(wxART_SPLIT_VERTICAL); 
+    list.Add(wxART_SPORT); 
+    list.Add(wxART_SPORT_AMERICAN_FOOTBALL); 
+    list.Add(wxART_SPORT_BASEBALL); 
+    list.Add(wxART_SPORT_BASKETBALL); 
+    list.Add(wxART_SPORT_HOCKEY); 
+    list.Add(wxART_SPORT_SOCCER); 
+    list.Add(wxART_SPRAY_CAN); 
+    list.Add(wxART_SQUARE); 
+    list.Add(wxART_SQUARE_ADD); 
+    list.Add(wxART_SQUARE_ARROW_FORWARD); 
+    list.Add(wxART_SQUARE_DISMISS); 
+    list.Add(wxART_SQUARE_ERASER); 
+    list.Add(wxART_SQUARE_HINT); 
+    list.Add(wxART_SQUARE_HINT_APPS); 
+    list.Add(wxART_SQUARE_HINT_ARROW_BACK); 
+    list.Add(wxART_SQUARE_HINT_HEXAGON); 
+    list.Add(wxART_SQUARE_HINT_SPARKLES); 
+    list.Add(wxART_SQUARE_MULTIPLE); 
+    list.Add(wxART_SQUARE_SHADOW); 
+    list.Add(wxART_SQUARES_NESTED); 
+    list.Add(wxART_STACK); 
+    list.Add(wxART_STACK_ADD); 
+    list.Add(wxART_STACK_ARROW_FORWARD); 
+    list.Add(wxART_STACK_STAR); 
+    list.Add(wxART_STACK_VERTICAL); 
+    list.Add(wxART_STAR); 
+    list.Add(wxART_STAR_ADD); 
+    list.Add(wxART_STAR_ARROW_BACK); 
+    list.Add(wxART_STAR_ARROW_RIGHT_END); 
+    list.Add(wxART_STAR_ARROW_RIGHT_START); 
+    list.Add(wxART_STAR_CHECKMARK); 
+    list.Add(wxART_STAR_DISMISS); 
+    list.Add(wxART_STAR_EDIT); 
+    list.Add(wxART_STAR_EMPHASIS); 
+    list.Add(wxART_STAR_HALF); 
+    list.Add(wxART_STAR_LINE_HORIZONTAL_3); 
+    list.Add(wxART_STAR_OFF); 
+    list.Add(wxART_STAR_ONE_QUARTER); 
+    list.Add(wxART_STAR_PROHIBITED); 
+    list.Add(wxART_STAR_SETTINGS); 
+    list.Add(wxART_STAR_THREE_QUARTER); 
+    list.Add(wxART_STATUS); 
+    list.Add(wxART_STEP); 
+    list.Add(wxART_STEPS); 
+    list.Add(wxART_STETHOSCOPE); 
+    list.Add(wxART_STICKER); 
+    list.Add(wxART_STICKER_ADD); 
+    list.Add(wxART_STOP); 
+    list.Add(wxART_STORAGE); 
+    list.Add(wxART_STORE_MICROSOFT); 
+    list.Add(wxART_STREAM); 
+    list.Add(wxART_STREAM_INPUT); 
+    list.Add(wxART_STREAM_INPUT_OUTPUT); 
+    list.Add(wxART_STREAM_OUTPUT); 
+    list.Add(wxART_STYLE_GUIDE); 
+    list.Add(wxART_SUB_GRID); 
+    list.Add(wxART_SUBTITLES); 
+    list.Add(wxART_SUBTRACT); 
+    list.Add(wxART_SUBTRACT_CIRCLE); 
+    list.Add(wxART_SUBTRACT_CIRCLE_ARROW_BACK); 
+    list.Add(wxART_SUBTRACT_CIRCLE_ARROW_FORWARD); 
+    list.Add(wxART_SUBTRACT_PARENTHESES); 
+    list.Add(wxART_SUBTRACT_SQUARE); 
+    list.Add(wxART_SUBTRACT_SQUARE_MULTIPLE); 
+    list.Add(wxART_SURFACE_EARBUDS); 
+    list.Add(wxART_SURFACE_HUB); 
+    list.Add(wxART_SWIMMING_POOL); 
+    list.Add(wxART_SWIPE_DOWN); 
+    list.Add(wxART_SWIPE_RIGHT); 
+    list.Add(wxART_SWIPE_UP); 
+    list.Add(wxART_SYMBOLS); 
+    list.Add(wxART_SYNC_OFF); 
+    list.Add(wxART_SYRINGE); 
+    list.Add(wxART_SYSTEM); 
+    list.Add(wxART_TV); 
+    list.Add(wxART_TV_ARROW_RIGHT); 
+    list.Add(wxART_TV_USB); 
+    list.Add(wxART_TAB); 
+    list.Add(wxART_TAB_ADD); 
+    list.Add(wxART_TAB_ARROW_LEFT); 
+    list.Add(wxART_TAB_DESKTOP); 
+    list.Add(wxART_TAB_DESKTOP_ARROW_CLOCKWISE); 
+    list.Add(wxART_TAB_DESKTOP_ARROW_LEFT); 
+    list.Add(wxART_TAB_DESKTOP_BOTTOM); 
+    list.Add(wxART_TAB_DESKTOP_CLOCK); 
+    list.Add(wxART_TAB_DESKTOP_COPY); 
+    list.Add(wxART_TAB_DESKTOP_IMAGE); 
+    list.Add(wxART_TAB_DESKTOP_LINK); 
+    list.Add(wxART_TAB_DESKTOP_MULTIPLE); 
+    list.Add(wxART_TAB_DESKTOP_MULTIPLE_ADD); 
+    list.Add(wxART_TAB_DESKTOP_MULTIPLE_BOTTOM); 
+    list.Add(wxART_TAB_DESKTOP_NEW_PAGE); 
+    list.Add(wxART_TAB_INPRIVATE_ACCOUNT); 
+    list.Add(wxART_TAB_IN_PRIVATE); 
+    list.Add(wxART_TAB_PROHIBITED); 
+    list.Add(wxART_TAB_SHIELD_DISMISS); 
+    list.Add(wxART_TABLE); 
+    list.Add(wxART_TABLE_ADD); 
+    list.Add(wxART_TABLE_ARROW_UP); 
+    list.Add(wxART_TABLE_BOTTOM_ROW); 
+    list.Add(wxART_TABLE_CALCULATOR); 
+    list.Add(wxART_TABLE_CELL_EDIT); 
+    list.Add(wxART_TABLE_CELLS_MERGE); 
+    list.Add(wxART_TABLE_CELLS_SPLIT); 
+    list.Add(wxART_TABLE_CHECKER); 
+    list.Add(wxART_TABLE_COLUMN_TOP_BOTTOM); 
+    list.Add(wxART_TABLE_COPY); 
+    list.Add(wxART_TABLE_DEFAULT); 
+    list.Add(wxART_TABLE_DELETE_COLUMN); 
+    list.Add(wxART_TABLE_DELETE_ROW); 
+    list.Add(wxART_TABLE_DISMISS); 
+    list.Add(wxART_TABLE_EDIT); 
+    list.Add(wxART_TABLE_FREEZE_COLUMN); 
+    list.Add(wxART_TABLE_FREEZE_COLUMN_AND_ROW); 
+    list.Add(wxART_TABLE_FREEZE_COLUMN_AND_ROW_TEMP_LTR); 
+    list.Add(wxART_TABLE_FREEZE_COLUMN_AND_ROW_TEMP_RTL); 
+    list.Add(wxART_TABLE_FREEZE_COLUMN_TEMP_LTR); 
+    list.Add(wxART_TABLE_FREEZE_COLUMN_TEMP_RTL); 
+    list.Add(wxART_TABLE_FREEZE_ROW); 
+    list.Add(wxART_TABLE_IMAGE); 
+    list.Add(wxART_TABLE_INSERT_COLUMN); 
+    list.Add(wxART_TABLE_INSERT_ROW); 
+    list.Add(wxART_TABLE_LIGHTNING); 
+    list.Add(wxART_TABLE_LINK); 
+    list.Add(wxART_TABLE_LOCK); 
+    list.Add(wxART_TABLE_MOVE_ABOVE); 
+    list.Add(wxART_TABLE_MOVE_BELOW); 
+    list.Add(wxART_TABLE_MOVE_LEFT); 
+    list.Add(wxART_TABLE_MOVE_RIGHT); 
+    list.Add(wxART_TABLE_MULTIPLE); 
+    list.Add(wxART_TABLE_OFFSET); 
+    list.Add(wxART_TABLE_OFFSET_ADD); 
+    list.Add(wxART_TABLE_OFFSET_LESS_THAN_OR_EQUAL_TO); 
+    list.Add(wxART_TABLE_OFFSET_SETTINGS); 
+    list.Add(wxART_TABLE_RESIZE_COLUMN); 
+    list.Add(wxART_TABLE_RESIZE_ROW); 
+    list.Add(wxART_TABLE_SEARCH); 
+    list.Add(wxART_TABLE_SETTINGS); 
+    list.Add(wxART_TABLE_SIMPLE); 
+    list.Add(wxART_TABLE_SIMPLE_CHECKMARK); 
+    list.Add(wxART_TABLE_SIMPLE_EXCLUDE); 
+    list.Add(wxART_TABLE_SIMPLE_INCLUDE); 
+    list.Add(wxART_TABLE_SIMPLE_MULTIPLE); 
+    list.Add(wxART_TABLE_SPLIT); 
+    list.Add(wxART_TABLE_STACK_ABOVE); 
+    list.Add(wxART_TABLE_STACK_BELOW); 
+    list.Add(wxART_TABLE_STACK_LEFT); 
+    list.Add(wxART_TABLE_STACK_RIGHT); 
+    list.Add(wxART_TABLE_SWITCH); 
+    list.Add(wxART_TABLET); 
+    list.Add(wxART_TABLET_LAPTOP); 
+    list.Add(wxART_TABLET_SPEAKER); 
+    list.Add(wxART_TABS); 
+    list.Add(wxART_TAG); 
+    list.Add(wxART_TAG_CIRCLE); 
+    list.Add(wxART_TAG_DISMISS); 
+    list.Add(wxART_TAG_ERROR); 
+    list.Add(wxART_TAG_LOCK); 
+    list.Add(wxART_TAG_LOCK_ACCENT); 
+    list.Add(wxART_TAG_MULTIPLE); 
+    list.Add(wxART_TAG_OFF); 
+    list.Add(wxART_TAG_QUESTION_MARK); 
+    list.Add(wxART_TAG_RESET); 
+    list.Add(wxART_TAG_SEARCH); 
+    list.Add(wxART_TAP_DOUBLE); 
+    list.Add(wxART_TAP_SINGLE); 
+    list.Add(wxART_TARGET); 
+    list.Add(wxART_TARGET_ADD); 
+    list.Add(wxART_TARGET_ARROW); 
+    list.Add(wxART_TARGET_DISMISS); 
+    list.Add(wxART_TARGET_EDIT); 
+    list.Add(wxART_TASK_LIST_ADD); 
+    list.Add(wxART_TASK_LIST_LTR); 
+    list.Add(wxART_TASK_LIST_RTL); 
+    list.Add(wxART_TASK_LIST_SQUARE_ADD); 
+    list.Add(wxART_TASK_LIST_SQUARE_DATABASE); 
+    list.Add(wxART_TASK_LIST_SQUARE_LTR); 
+    list.Add(wxART_TASK_LIST_SQUARE_PERSON); 
+    list.Add(wxART_TASK_LIST_SQUARE_RTL); 
+    list.Add(wxART_TASK_LIST_SQUARE_SETTINGS); 
+    list.Add(wxART_TASKS_APP); 
+    list.Add(wxART_TEARDROP_BOTTOM_RIGHT); 
+    list.Add(wxART_TEDDY); 
+    list.Add(wxART_TEMPERATURE); 
+    list.Add(wxART_TENT); 
+    list.Add(wxART_TETRIS_APP); 
+    list.Add(wxART_TEXT); 
+    list.Add(wxART_TEXTBOX); 
+    list.Add(wxART_TEXTBOX_ALIGN_BOTTOM); 
+    list.Add(wxART_TEXTBOX_ALIGN_BOTTOM_CENTER); 
+    list.Add(wxART_TEXTBOX_ALIGN_BOTTOM_LEFT); 
+    list.Add(wxART_TEXTBOX_ALIGN_BOTTOM_RIGHT); 
+    list.Add(wxART_TEXTBOX_ALIGN_BOTTOM_ROTATE_90); 
+    list.Add(wxART_TEXTBOX_ALIGN_CENTER); 
+    list.Add(wxART_TEXTBOX_ALIGN_MIDDLE); 
+    list.Add(wxART_TEXTBOX_ALIGN_MIDDLE_LEFT); 
+    list.Add(wxART_TEXTBOX_ALIGN_MIDDLE_RIGHT); 
+    list.Add(wxART_TEXTBOX_ALIGN_MIDDLE_ROTATE_90); 
+    list.Add(wxART_TEXTBOX_ALIGN_TOP); 
+    list.Add(wxART_TEXTBOX_ALIGN_TOP_CENTER); 
+    list.Add(wxART_TEXTBOX_ALIGN_TOP_LEFT); 
+    list.Add(wxART_TEXTBOX_ALIGN_TOP_RIGHT); 
+    list.Add(wxART_TEXTBOX_ALIGN_TOP_ROTATE_90); 
+    list.Add(wxART_TEXTBOX_MORE); 
+    list.Add(wxART_TEXTBOX_ROTATE_90); 
+    list.Add(wxART_TEXTBOX_SETTINGS); 
+    list.Add(wxART_TEXT_ABC_UNDERLINE_DOUBLE); 
+    list.Add(wxART_TEXT_ADD); 
+    list.Add(wxART_TEXT_ADD_SPACE_AFTER); 
+    list.Add(wxART_TEXT_ADD_SPACE_BEFORE); 
+    list.Add(wxART_TEXT_ADD_T); 
+    list.Add(wxART_TEXT_ALIGN_CENTER); 
+    list.Add(wxART_TEXT_ALIGN_CENTER_ROTATE_270); 
+    list.Add(wxART_TEXT_ALIGN_CENTER_ROTATE_90); 
+    list.Add(wxART_TEXT_ALIGN_DISTRIBUTED); 
+    list.Add(wxART_TEXT_ALIGN_DISTRIBUTED_EVENLY); 
+    list.Add(wxART_TEXT_ALIGN_DISTRIBUTED_VERTICAL); 
+    list.Add(wxART_TEXT_ALIGN_JUSTIFY); 
+    list.Add(wxART_TEXT_ALIGN_JUSTIFY_LOW); 
+    list.Add(wxART_TEXT_ALIGN_JUSTIFY_LOW_90); 
+    list.Add(wxART_TEXT_ALIGN_JUSTIFY_LOW_ROTATE_270); 
+    list.Add(wxART_TEXT_ALIGN_JUSTIFY_LOW_ROTATE_90); 
+    list.Add(wxART_TEXT_ALIGN_JUSTIFY_ROTATE_270); 
+    list.Add(wxART_TEXT_ALIGN_JUSTIFY_ROTATE_90); 
+    list.Add(wxART_TEXT_ALIGN_LEFT); 
+    list.Add(wxART_TEXT_ALIGN_LEFT_ROTATE_270); 
+    list.Add(wxART_TEXT_ALIGN_LEFT_ROTATE_90); 
+    list.Add(wxART_TEXT_ALIGN_LEFT_TEMP_LTR); 
+    list.Add(wxART_TEXT_ALIGN_LEFT_TEMP_RTL); 
+    list.Add(wxART_TEXT_ALIGN_RIGHT); 
+    list.Add(wxART_TEXT_ALIGN_RIGHT_ROTATE_270); 
+    list.Add(wxART_TEXT_ALIGN_RIGHT_ROTATE_90); 
+    list.Add(wxART_TEXT_ASTERISK); 
+    list.Add(wxART_TEXT_BASELINE); 
+    list.Add(wxART_TEXT_BOLD); 
+    list.Add(wxART_TEXT_BOX_SETTINGS); 
+    list.Add(wxART_TEXT_BULLET_LIST); 
+    list.Add(wxART_TEXT_BULLET_LIST_270); 
+    list.Add(wxART_TEXT_BULLET_LIST_90); 
+    list.Add(wxART_TEXT_BULLET_LIST_ADD); 
+    list.Add(wxART_TEXT_BULLET_LIST_CHECKMARK); 
+    list.Add(wxART_TEXT_BULLET_LIST_DISMISS); 
+    list.Add(wxART_TEXT_BULLET_LIST_LTR); 
+    list.Add(wxART_TEXT_BULLET_LIST_LTR_90); 
+    list.Add(wxART_TEXT_BULLET_LIST_LTR_ROTATE_270); 
+    list.Add(wxART_TEXT_BULLET_LIST_RTL); 
+    list.Add(wxART_TEXT_BULLET_LIST_RTL_90); 
+    list.Add(wxART_TEXT_BULLET_LIST_SQUARE); 
+    list.Add(wxART_TEXT_BULLET_LIST_SQUARE_CLOCK); 
+    list.Add(wxART_TEXT_BULLET_LIST_SQUARE_EDIT); 
+    list.Add(wxART_TEXT_BULLET_LIST_SQUARE_PERSON); 
+    list.Add(wxART_TEXT_BULLET_LIST_SQUARE_SEARCH); 
+    list.Add(wxART_TEXT_BULLET_LIST_SQUARE_SETTINGS); 
+    list.Add(wxART_TEXT_BULLET_LIST_SQUARE_SHIELD); 
+    list.Add(wxART_TEXT_BULLET_LIST_SQUARE_SPARKLE); 
+    list.Add(wxART_TEXT_BULLET_LIST_SQUARE_TOOLBOX); 
+    list.Add(wxART_TEXT_BULLET_LIST_SQUARE_WARNING); 
+    list.Add(wxART_TEXT_BULLET_LIST_TREE); 
+    list.Add(wxART_TEXT_CASE_LOWERCASE); 
+    list.Add(wxART_TEXT_CASE_TITLE); 
+    list.Add(wxART_TEXT_CASE_UPPERCASE); 
+    list.Add(wxART_TEXT_CHANGE_CASE); 
+    list.Add(wxART_TEXT_CLEAR_FORMATTING); 
+    list.Add(wxART_TEXT_COLLAPSE); 
+    list.Add(wxART_TEXT_COLOR); 
+    list.Add(wxART_TEXT_COLOR_ACCENT); 
+    list.Add(wxART_TEXT_COLUMN_ONE); 
+    list.Add(wxART_TEXT_COLUMN_ONE_NARROW); 
+    list.Add(wxART_TEXT_COLUMN_ONE_SEMI_NARROW); 
+    list.Add(wxART_TEXT_COLUMN_ONE_WIDE); 
+    list.Add(wxART_TEXT_COLUMN_ONE_WIDE_LIGHTNING); 
+    list.Add(wxART_TEXT_COLUMN_THREE); 
+    list.Add(wxART_TEXT_COLUMN_TWO); 
+    list.Add(wxART_TEXT_COLUMN_TWO_LEFT); 
+    list.Add(wxART_TEXT_COLUMN_TWO_RIGHT); 
+    list.Add(wxART_TEXT_COLUMN_WIDE); 
+    list.Add(wxART_TEXT_CONTINUOUS); 
+    list.Add(wxART_TEXT_DENSITY); 
+    list.Add(wxART_TEXT_DESCRIPTION); 
+    list.Add(wxART_TEXT_DESCRIPTION_LTR); 
+    list.Add(wxART_TEXT_DESCRIPTION_RTL); 
+    list.Add(wxART_TEXT_DIRECTION_HORIZONTAL_LTR); 
+    list.Add(wxART_TEXT_DIRECTION_HORIZONTAL_LEFT); 
+    list.Add(wxART_TEXT_DIRECTION_HORIZONTAL_RTL); 
+    list.Add(wxART_TEXT_DIRECTION_HORIZONTAL_RIGHT); 
+    list.Add(wxART_TEXT_DIRECTION_ROTATE_270_RIGHT); 
+    list.Add(wxART_TEXT_DIRECTION_ROTATE_315_RIGHT); 
+    list.Add(wxART_TEXT_DIRECTION_ROTATE_45_RIGHT); 
+    list.Add(wxART_TEXT_DIRECTION_ROTATE_90_LTR); 
+    list.Add(wxART_TEXT_DIRECTION_ROTATE_90_LEFT); 
+    list.Add(wxART_TEXT_DIRECTION_ROTATE_90_RTL); 
+    list.Add(wxART_TEXT_DIRECTION_ROTATE_90_RIGHT); 
+    list.Add(wxART_TEXT_DIRECTION_VERTICAL); 
+    list.Add(wxART_TEXT_EDIT_STYLE); 
+    list.Add(wxART_TEXT_EFFECTS); 
+    list.Add(wxART_TEXT_EXPAND); 
+    list.Add(wxART_TEXT_FIELD); 
+    list.Add(wxART_TEXT_FIRST_LINE); 
+    list.Add(wxART_TEXT_FIRST_LINE_TEMP_LTR); 
+    list.Add(wxART_TEXT_FIRST_LINE_TEMP_RTL); 
+    list.Add(wxART_TEXT_FONT); 
+    list.Add(wxART_TEXT_FONT_INFO); 
+    list.Add(wxART_TEXT_FONT_SIZE); 
+    list.Add(wxART_TEXT_FOOTNOTE); 
+    list.Add(wxART_TEXT_GRAMMAR_ARROW_LEFT); 
+    list.Add(wxART_TEXT_GRAMMAR_ARROW_LEFT_TEMP_LTR); 
+    list.Add(wxART_TEXT_GRAMMAR_ARROW_LEFT_TEMP_RTL); 
+    list.Add(wxART_TEXT_GRAMMAR_ARROW_RIGHT); 
+    list.Add(wxART_TEXT_GRAMMAR_ARROW_RIGHT_TEMP_LTR); 
+    list.Add(wxART_TEXT_GRAMMAR_ARROW_RIGHT_TEMP_RTL); 
+    list.Add(wxART_TEXT_GRAMMAR_CHECKMARK); 
+    list.Add(wxART_TEXT_GRAMMAR_DISMISS); 
+    list.Add(wxART_TEXT_GRAMMAR_ERROR); 
+    list.Add(wxART_TEXT_GRAMMAR_LIGHTNING); 
+    list.Add(wxART_TEXT_GRAMMAR_SETTINGS); 
+    list.Add(wxART_TEXT_GRAMMAR_WAND); 
+    list.Add(wxART_TEXT_HANGING); 
+    list.Add(wxART_TEXT_HANGING_TEMP_LTR); 
+    list.Add(wxART_TEXT_HANGING_TEMP_RTL); 
+    list.Add(wxART_TEXT_HEADER_1); 
+    list.Add(wxART_TEXT_HEADER_1_LINES); 
+    list.Add(wxART_TEXT_HEADER_1_LINES_CARET); 
+    list.Add(wxART_TEXT_HEADER_2); 
+    list.Add(wxART_TEXT_HEADER_2_LINES); 
+    list.Add(wxART_TEXT_HEADER_2_LINES_CARET); 
+    list.Add(wxART_TEXT_HEADER_3); 
+    list.Add(wxART_TEXT_HEADER_3_LINES); 
+    list.Add(wxART_TEXT_HEADER_3_LINES_CARET); 
+    list.Add(wxART_TEXT_INDENT_DECREASE); 
+    list.Add(wxART_TEXT_INDENT_DECREASE_LTR); 
+    list.Add(wxART_TEXT_INDENT_DECREASE_LTR_90); 
+    list.Add(wxART_TEXT_INDENT_DECREASE_LTR_ROTATE_270); 
+    list.Add(wxART_TEXT_INDENT_DECREASE_RTL); 
+    list.Add(wxART_TEXT_INDENT_DECREASE_RTL_90); 
+    list.Add(wxART_TEXT_INDENT_DECREASE_RTL_ROTATE_270); 
+    list.Add(wxART_TEXT_INDENT_DECREASE_ROTATE_270); 
+    list.Add(wxART_TEXT_INDENT_DECREASE_ROTATE_90); 
+    list.Add(wxART_TEXT_INDENT_INCREASE); 
+    list.Add(wxART_TEXT_INDENT_INCREASE_LTR); 
+    list.Add(wxART_TEXT_INDENT_INCREASE_LTR_90); 
+    list.Add(wxART_TEXT_INDENT_INCREASE_LTR_ROTATE_270); 
+    list.Add(wxART_TEXT_INDENT_INCREASE_RTL); 
+    list.Add(wxART_TEXT_INDENT_INCREASE_RTL_90); 
+    list.Add(wxART_TEXT_INDENT_INCREASE_RTL_ROTATE_270); 
+    list.Add(wxART_TEXT_INDENT_INCREASE_ROTATE_270); 
+    list.Add(wxART_TEXT_INDENT_INCREASE_ROTATE_90); 
+    list.Add(wxART_TEXT_ITALIC); 
+    list.Add(wxART_TEXT_LINE_SPACING); 
+    list.Add(wxART_TEXT_MORE); 
+    list.Add(wxART_TEXT_NUMBER_FORMAT); 
+    list.Add(wxART_TEXT_NUMBER_LIST_LTR); 
+    list.Add(wxART_TEXT_NUMBER_LIST_LTR_90); 
+    list.Add(wxART_TEXT_NUMBER_LIST_LTR_ROTATE_270); 
+    list.Add(wxART_TEXT_NUMBER_LIST_RTL); 
+    list.Add(wxART_TEXT_NUMBER_LIST_RTL_90); 
+    list.Add(wxART_TEXT_NUMBER_LIST_RTL_ROTATE_270); 
+    list.Add(wxART_TEXT_NUMBER_LIST_ROTATE_270); 
+    list.Add(wxART_TEXT_NUMBER_LIST_ROTATE_90); 
+    list.Add(wxART_TEXT_PARAGRAPH); 
+    list.Add(wxART_TEXT_PARAGRAPH_DIRECTION); 
+    list.Add(wxART_TEXT_PARAGRAPH_DIRECTION_LEFT); 
+    list.Add(wxART_TEXT_PARAGRAPH_DIRECTION_RIGHT); 
+    list.Add(wxART_TEXT_PARAGRAPH_TEMP_LTR); 
+    list.Add(wxART_TEXT_PARAGRAPH_TEMP_RTL); 
+    list.Add(wxART_TEXT_PERIOD_ASTERISK); 
+    list.Add(wxART_TEXT_POSITION_BEHIND); 
+    list.Add(wxART_TEXT_POSITION_FRONT); 
+    list.Add(wxART_TEXT_POSITION_LINE); 
+    list.Add(wxART_TEXT_POSITION_SQUARE); 
+    list.Add(wxART_TEXT_POSITION_SQUARE_LEFT); 
+    list.Add(wxART_TEXT_POSITION_SQUARE_RIGHT); 
+    list.Add(wxART_TEXT_POSITION_THROUGH); 
+    list.Add(wxART_TEXT_POSITION_TIGHT); 
+    list.Add(wxART_TEXT_POSITION_TOP_BOTTOM); 
+    list.Add(wxART_TEXT_PROOFING_TOOLS); 
+    list.Add(wxART_TEXT_QUOTE); 
+    list.Add(wxART_TEXT_SORT_ASCENDING); 
+    list.Add(wxART_TEXT_SORT_DESCENDING); 
+    list.Add(wxART_TEXT_STRIKETHROUGH); 
+    list.Add(wxART_TEXT_SUBSCRIPT); 
+    list.Add(wxART_TEXT_SUPERSCRIPT); 
+    list.Add(wxART_TEXT_T); 
+    list.Add(wxART_TEXT_T_TAG); 
+    list.Add(wxART_TEXT_UNDERLINE); 
+    list.Add(wxART_TEXT_UNDERLINE_CHARACTER_U); 
+    list.Add(wxART_TEXT_UNDERLINE_DOUBLE); 
+    list.Add(wxART_TEXT_WHOLE_WORD); 
+    list.Add(wxART_TEXT_WORD_COUNT); 
+    list.Add(wxART_TEXT_WRAP); 
+    list.Add(wxART_TEXT_WRAP_OFF); 
+    list.Add(wxART_THINKING); 
+    list.Add(wxART_THUMB_DISLIKE); 
+    list.Add(wxART_THUMB_LIKE); 
+    list.Add(wxART_THUMB_LIKE_DISLIKE); 
+    list.Add(wxART_TICKET_DIAGONAL); 
+    list.Add(wxART_TICKET_HORIZONTAL); 
+    list.Add(wxART_TIME_AND_WEATHER); 
+    list.Add(wxART_TIME_PICKER); 
+    list.Add(wxART_TIMELINE); 
+    list.Add(wxART_TIMER); 
+    list.Add(wxART_TIMER_10); 
+    list.Add(wxART_TIMER_2); 
+    list.Add(wxART_TIMER_3); 
+    list.Add(wxART_TIMER_OFF); 
+    list.Add(wxART_TOGGLE_LEFT); 
+    list.Add(wxART_TOGGLE_MULTIPLE); 
+    list.Add(wxART_TOGGLE_RIGHT); 
+    list.Add(wxART_TOOLBOX); 
+    list.Add(wxART_TOOLTIP_QUOTE); 
+    list.Add(wxART_TOP_SPEED); 
+    list.Add(wxART_TRANSLATE); 
+    list.Add(wxART_TRANSLATE_AUTO); 
+    list.Add(wxART_TRANSLATE_OFF); 
+    list.Add(wxART_TRANSMISSION); 
+    list.Add(wxART_TRAY_ITEM_ADD); 
+    list.Add(wxART_TRAY_ITEM_REMOVE); 
+    list.Add(wxART_TREE_DECIDUOUS); 
+    list.Add(wxART_TREE_EVERGREEN); 
+    list.Add(wxART_TRIANGLE); 
+    list.Add(wxART_TRIANGLE_DOWN); 
+    list.Add(wxART_TRIANGLE_LEFT); 
+    list.Add(wxART_TRIANGLE_RIGHT); 
+    list.Add(wxART_TRIANGLE_UP); 
+    list.Add(wxART_TROPHY); 
+    list.Add(wxART_TROPHY_LOCK); 
+    list.Add(wxART_TROPHY_OFF); 
+    list.Add(wxART_USB_PLUG); 
+    list.Add(wxART_UMBRELLA); 
+    list.Add(wxART_UNINSTALL_APP); 
+    list.Add(wxART_USB_STICK); 
+    list.Add(wxART_VAULT); 
+    list.Add(wxART_VEHICLE_BICYCLE); 
+    list.Add(wxART_VEHICLE_BUS); 
+    list.Add(wxART_VEHICLE_CAB); 
+    list.Add(wxART_VEHICLE_CABLE_CAR); 
+    list.Add(wxART_VEHICLE_CAR); 
+    list.Add(wxART_VEHICLE_CAR_COLLISION); 
+    list.Add(wxART_VEHICLE_CAR_PARKING); 
+    list.Add(wxART_VEHICLE_CAR_PROFILE); 
+    list.Add(wxART_VEHICLE_CAR_PROFILE_LTR); 
+    list.Add(wxART_VEHICLE_CAR_PROFILE_LTR_CLOCK); 
+    list.Add(wxART_VEHICLE_CAR_PROFILE_RTL); 
+    list.Add(wxART_VEHICLE_SHIP); 
+    list.Add(wxART_VEHICLE_SUBWAY); 
+    list.Add(wxART_VEHICLE_SUBWAY_CLOCK); 
+    list.Add(wxART_VEHICLE_TRUCK); 
+    list.Add(wxART_VEHICLE_TRUCK_BAG); 
+    list.Add(wxART_VEHICLE_TRUCK_CUBE); 
+    list.Add(wxART_VEHICLE_TRUCK_PROFILE); 
+    list.Add(wxART_VIDEO); 
+    list.Add(wxART_VIDEO_360); 
+    list.Add(wxART_VIDEO_360_OFF); 
+    list.Add(wxART_VIDEO_ADD); 
+    list.Add(wxART_VIDEO_BACKGROUND_EFFECT); 
+    list.Add(wxART_VIDEO_BACKGROUND_EFFECT_HORIZONTAL); 
+    list.Add(wxART_VIDEO_CHAT); 
+    list.Add(wxART_VIDEO_CLIP); 
+    list.Add(wxART_VIDEO_CLIP_MULTIPLE); 
+    list.Add(wxART_VIDEO_CLIP_OFF); 
+    list.Add(wxART_VIDEO_CLIP_OPTIMIZE); 
+    list.Add(wxART_VIDEO_OFF); 
+    list.Add(wxART_VIDEO_PEOPLE); 
+    list.Add(wxART_VIDEO_PERSON); 
+    list.Add(wxART_VIDEO_PERSON_CALL); 
+    list.Add(wxART_VIDEO_PERSON_CLOCK); 
+    list.Add(wxART_VIDEO_PERSON_OFF); 
+    list.Add(wxART_VIDEO_PERSON_PULSE); 
+    list.Add(wxART_VIDEO_PERSON_SPARKLE); 
+    list.Add(wxART_VIDEO_PERSON_SPARKLE_OFF); 
+    list.Add(wxART_VIDEO_PERSON_STAR); 
+    list.Add(wxART_VIDEO_PERSON_STAR_OFF); 
+    list.Add(wxART_VIDEO_PLAY_PAUSE); 
+    list.Add(wxART_VIDEO_PROHIBITED); 
+    list.Add(wxART_VIDEO_RECORDING); 
+    list.Add(wxART_VIDEO_SECURITY); 
+    list.Add(wxART_VIDEO_SWITCH); 
+    list.Add(wxART_VIDEO_SYNC); 
+    list.Add(wxART_VIEW_DESKTOP); 
+    list.Add(wxART_VIEW_DESKTOP_MOBILE); 
+    list.Add(wxART_VIRTUAL_NETWORK); 
+    list.Add(wxART_VIRTUAL_NETWORK_TOOLBOX); 
+    list.Add(wxART_VOICEMAIL); 
+    list.Add(wxART_VOICEMAIL_ARROW_BACK); 
+    list.Add(wxART_VOICEMAIL_ARROW_FORWARD); 
+    list.Add(wxART_VOICEMAIL_ARROW_SUBTRACT); 
+    list.Add(wxART_VOICEMAIL_SHIELD); 
+    list.Add(wxART_VOICEMAIL_SUBTRACT); 
+    list.Add(wxART_VOTE); 
+    list.Add(wxART_WALKIE_TALKIE); 
+    list.Add(wxART_WALLET); 
+    list.Add(wxART_WALLET_CREDIT_CARD); 
+    list.Add(wxART_WALLPAPER); 
+    list.Add(wxART_WAND); 
+    list.Add(wxART_WARNING); 
+    list.Add(wxART_WARNING_SHIELD); 
+    list.Add(wxART_WASHER); 
+    list.Add(wxART_WATER); 
+    list.Add(wxART_WEATHER_BLOWING_SNOW); 
+    list.Add(wxART_WEATHER_CLOUDY); 
+    list.Add(wxART_WEATHER_DRIZZLE); 
+    list.Add(wxART_WEATHER_DUSTSTORM); 
+    list.Add(wxART_WEATHER_FOG); 
+    list.Add(wxART_WEATHER_HAIL_DAY); 
+    list.Add(wxART_WEATHER_HAIL_NIGHT); 
+    list.Add(wxART_WEATHER_HAZE); 
+    list.Add(wxART_WEATHER_MOON); 
+    list.Add(wxART_WEATHER_MOON_OFF); 
+    list.Add(wxART_WEATHER_PARTLY_CLOUDY_DAY); 
+    list.Add(wxART_WEATHER_PARTLY_CLOUDY_NIGHT); 
+    list.Add(wxART_WEATHER_RAIN); 
+    list.Add(wxART_WEATHER_RAIN_SHOWERS_DAY); 
+    list.Add(wxART_WEATHER_RAIN_SHOWERS_NIGHT); 
+    list.Add(wxART_WEATHER_RAIN_SNOW); 
+    list.Add(wxART_WEATHER_SNOW); 
+    list.Add(wxART_WEATHER_SNOW_SHOWER_DAY); 
+    list.Add(wxART_WEATHER_SNOW_SHOWER_NIGHT); 
+    list.Add(wxART_WEATHER_SNOWFLAKE); 
+    list.Add(wxART_WEATHER_SQUALLS); 
+    list.Add(wxART_WEATHER_SUNNY); 
+    list.Add(wxART_WEATHER_SUNNY_HIGH); 
+    list.Add(wxART_WEATHER_SUNNY_LOW); 
+    list.Add(wxART_WEATHER_THUNDERSTORM); 
+    list.Add(wxART_WEB_ASSET); 
+    list.Add(wxART_WHITEBOARD); 
+    list.Add(wxART_WIFI_1); 
+    list.Add(wxART_WIFI_2); 
+    list.Add(wxART_WIFI_3); 
+    list.Add(wxART_WIFI_4); 
+    list.Add(wxART_WIFI_LOCK); 
+    list.Add(wxART_WIFI_OFF); 
+    list.Add(wxART_WIFI_SETTINGS); 
+    list.Add(wxART_WIFI_WARNING); 
+    list.Add(wxART_WINDOW); 
+    list.Add(wxART_WINDOW_AD); 
+    list.Add(wxART_WINDOW_AD_OFF); 
+    list.Add(wxART_WINDOW_AD_PERSON); 
+    list.Add(wxART_WINDOW_APPS); 
+    list.Add(wxART_WINDOW_ARROW_UP); 
+    list.Add(wxART_WINDOW_BULLET_LIST); 
+    list.Add(wxART_WINDOW_BULLET_LIST_ADD); 
+    list.Add(wxART_WINDOW_CONSOLE); 
+    list.Add(wxART_WINDOW_DATABASE); 
+    list.Add(wxART_WINDOW_DEV_EDIT); 
+    list.Add(wxART_WINDOW_DEV_TOOLS); 
+    list.Add(wxART_WINDOW_EDIT); 
+    list.Add(wxART_WINDOW_HEADER_HORIZONTAL); 
+    list.Add(wxART_WINDOW_HEADER_HORIZONTAL_OFF); 
+    list.Add(wxART_WINDOW_HEADER_VERTICAL); 
+    list.Add(wxART_WINDOW_INPRIVATE); 
+    list.Add(wxART_WINDOW_INPRIVATE_ACCOUNT); 
+    list.Add(wxART_WINDOW_LOCATION_TARGET); 
+    list.Add(wxART_WINDOW_MULTIPLE); 
+    list.Add(wxART_WINDOW_MULTIPLE_SWAP); 
+    list.Add(wxART_WINDOW_NEW); 
+    list.Add(wxART_WINDOW_PLAY); 
+    list.Add(wxART_WINDOW_SETTINGS); 
+    list.Add(wxART_WINDOW_SHIELD); 
+    list.Add(wxART_WINDOW_TEXT); 
+    list.Add(wxART_WINDOW_WRENCH); 
+    list.Add(wxART_WRENCH); 
+    list.Add(wxART_WRENCH_SCREWDRIVER); 
+    list.Add(wxART_XBOX_CONSOLE); 
+    list.Add(wxART_XBOX_CONTROLLER); 
+    list.Add(wxART_XBOX_CONTROLLER_ERROR); 
+    list.Add(wxART_XRAY); 
+    list.Add(wxART_ZOOM_FIT); 
+    list.Add(wxART_ZOOM_IN); 
+    list.Add(wxART_ZOOM_OUT); 
+    list.Add(wxART_IOS_ARROW); 
+    list.Add(wxART_IOS_ARROW_LTR); 
+    list.Add(wxART_IOS_ARROW_RTL); 
+    list.Add(wxART_IOS_CHEVRON_RIGHT); 
+    return list; 
+}
+
+
+// Return SVG for the current ID as a wxBitmap 
+wxBitmap CreateFilledFluentuiArtBitmapByID(const wxArtID& id, const wxSize& size, const wxColour& color)
+{
+  // Return SVG as a string 
+  wxString svg = FilledFluentuiArtColorSVGByID(id,color); 
+  if (svg.IsEmpty()) return wxNullBitmap; 
+
+  // Create bundle and get bitmap from it 
+  wxSize useSize = size==wxDefaultSize? wxSize(24,24) : size;
+  wxBitmapBundle bundle = wxBitmapBundle::FromSVG(svg.mb_str(),useSize);
+  if (!bundle.IsOk()) return wxNullBitmap; 
+  wxBitmap bmp = bundle.GetBitmap(useSize); 
+  if (!bmp.IsOk()) return wxNullBitmap; 
+  return bmp; 
+}
+
+
+// Return SVG for the current ID as a wxBitmapBundle 
+wxBitmapBundle CreateFilledFluentuiArtBitmapBundleByID(const wxArtID& id, const wxSize& size, const wxColour& color)
+{
+  // Return SVG as a string 
+  wxBitmapBundle bundle; 
+  wxString svg = FilledFluentuiArtColorSVGByID(id,color); 
+  if (svg.IsEmpty()) return bundle; 
+
+  // Create bundle and get bitmap from it 
+  wxSize useSize = size==wxDefaultSize? wxSize(24,24) : size;
+  bundle = wxBitmapBundle::FromSVG(svg.mb_str(),useSize);
+  return bundle; 
+}
+
+

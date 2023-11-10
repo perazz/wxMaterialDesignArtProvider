@@ -14,23 +14,27 @@ wxBitmapBundle wxMaterialDesignArtProvider::CreateBitmapBundle(const wxArtID& id
 
     // Assemble bitmap
     if (client == wxART_CLIENT_MATERIAL_FILLED)
-        return CreateFilledMaterialArtBitmapBundleByID(id,size);
+        return CreateFilledMaterialArtBitmapBundleByID(id, size, color);
     if (client == wxART_CLIENT_MATERIAL_OUTLINED)
-        return CreateOutlinedMaterialArtBitmapBundleByID(id,size);
+        return CreateOutlinedMaterialArtBitmapBundleByID(id, size, color);
     if (client == wxART_CLIENT_MATERIAL_ROUND)
-        return CreateRoundMaterialArtBitmapBundleByID(id,size);
+        return CreateRoundMaterialArtBitmapBundleByID(id, size, color);
     if (client == wxART_CLIENT_MATERIAL_SHARP)
-        return CreateSharpMaterialArtBitmapBundleByID(id,size);
+        return CreateSharpMaterialArtBitmapBundleByID(id, size, color);
     if (client == wxART_CLIENT_MATERIAL_TWO_TONE)
-        return CreateTwoToneMaterialArtBitmapBundleByID(id,size);
+        return CreateTwoToneMaterialArtBitmapBundleByID(id, size, color);
     if (client == wxART_CLIENT_AWESOME_BRANDS)
-        return CreateBrandsAwesomeArtBitmapBundleByID(id,size);
+        return CreateBrandsAwesomeArtBitmapBundleByID(id, size, color);
     if (client == wxART_CLIENT_AWESOME_REGULAR)
-        return CreateRegularAwesomeArtBitmapBundleByID(id,size);
+        return CreateRegularAwesomeArtBitmapBundleByID(id, size, color);
     if (client == wxART_CLIENT_AWESOME_SOLID)
-        return CreateSolidAwesomeArtBitmapBundleByID(id,size);
+        return CreateSolidAwesomeArtBitmapBundleByID(id, size, color);
     if (client == wxART_CLIENT_SIMPLE_ICONS)
-        return CreateIconsSimpleArtBitmapBundleByID(id,size);
+        return CreateIconsSimpleArtBitmapBundleByID(id, size, color);
+    if (client == wxART_CLIENT_FLUENTUI_FILLED)
+        return CreateFilledFluentuiArtBitmapBundleByID(id, size, color);
+    if (client == wxART_CLIENT_FLUENTUI_REGULAR)
+        return CreateRegularFluentuiArtBitmapBundleByID(id, size, color);
 
     // Not implemented
     wxBitmapBundle bb;
@@ -70,7 +74,11 @@ wxBitmap wxMaterialDesignArtProvider::GetBitmap(const wxArtID& id,
     if (client == wxART_CLIENT_AWESOME_SOLID)
         return CreateSolidAwesomeArtBitmapByID(id,size, color);
     if (client == wxART_CLIENT_SIMPLE_ICONS)
-        return CreateIconsSimpleArtBitmapByID(id,size);
+        return CreateIconsSimpleArtBitmapByID(id,size, color);
+    if (client == wxART_CLIENT_FLUENTUI_FILLED)
+        return CreateFilledFluentuiArtBitmapByID(id,size, color);
+    if (client == wxART_CLIENT_FLUENTUI_REGULAR)
+        return CreateRegularFluentuiArtBitmapByID(id,size, color);
 
     // Not implemented
     return wxNullBitmap;
@@ -111,6 +119,10 @@ bool wxMaterialDesignArtProvider::HasClient(const wxArtClient& client)
     if (client == wxART_CLIENT_AWESOME_SOLID)
         return true;
     if (client == wxART_CLIENT_SIMPLE_ICONS)
+        return true;
+    if (client == wxART_CLIENT_FLUENTUI_FILLED)
+        return true;
+    if (client == wxART_CLIENT_FLUENTUI_REGULAR)
         return true;
 
     // Not implemented

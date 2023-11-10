@@ -10041,19 +10041,21 @@
 	"wx/gdicmn.h"
 	"wx/event.h"
 
-1699555481 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignArtProvider.h
+1699642158 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignArtProvider.h
 	<wx/artprov.h>
 	<wx/bitmap.h>
 	<wx/bmpbndl.h>
-	"wxMaterialDesignFilledArt.hpp"
-	"wxMaterialDesignOutlinedArt.hpp"
-	"wxMaterialDesignRoundArt.hpp"
-	"wxMaterialDesignSharpArt.hpp"
-	"wxMaterialDesignTwoToneArt.hpp"
-	"wxMaterialDesignBrandsArt.hpp"
-	"wxMaterialDesignRegularArt.hpp"
-	"wxMaterialDesignSolidArt.hpp"
-	"wxMaterialDesignIconsArt.hpp"
+	"wxAwesomeBrandsArt.hpp"
+	"wxAwesomeRegularArt.hpp"
+	"wxAwesomeSolidArt.hpp"
+	"wxFluentuiFilledArt.hpp"
+	"wxFluentuiRegularArt.hpp"
+	"wxMaterialFilledArt.hpp"
+	"wxMaterialOutlinedArt.hpp"
+	"wxMaterialRoundArt.hpp"
+	"wxMaterialSharpArt.hpp"
+	"wxMaterialTwoToneArt.hpp"
+	"wxSimpleIconsArt.hpp"
 
 1676299790 /opt/homebrew/include/wx-3.2/wx/artprov.h
 	"wx/string.h"
@@ -11211,4 +11213,129 @@
 
 1699555401 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialDesignTwoToneArt.cpp
 	"wxMaterialDesignTwoToneArt.hpp"
+
+1699642064 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxAwesomeBrandsArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699642064 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxAwesomeRegularArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699642064 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxAwesomeSolidArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699642065 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxFluentuiFilledArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699642064 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxFluentuiRegularArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699642064 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialFilledArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699642064 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialOutlinedArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699642064 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialRoundArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699642064 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialSharpArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699642064 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialTwoToneArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699642064 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxSimpleIconsArt.hpp
+	<wx/string.h>
+	<wx/arrstr.h>
+	<wx/artprov.h>
+	<wx/colour.h>
+
+1699555998 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/wxMaterialDesignIconsMain.cpp
+	"wx_pch.h"
+	"wxMaterialDesignIconsMain.h"
+	"wx/wxprec.h"
+	"wx/wx.h"
+	"wx/choice.h"
+	"wx/listctrl.h"
+	<wx/clrpicker.h>
+	<wx/arrstr.h>
+	"wx/sizer.h"
+	"wx/imaglist.h"
+	"wx/listctrl.h"
+	"null.xpm"
+
+1676299790 /opt/homebrew/include/wx-3.2/wx/wxprec.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/msw/wrapwin.h"
+	"wx/msw/private.h"
+	"wx/msw/wrapcctl.h"
+	"wx/msw/wrapcdlg.h"
+	"wx/msw/missing.h"
+	"wx/wx.h"
+
+1699459391 /Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/null.xpm
+
+1699642064 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxAwesomeBrandsArt.cpp
+	"wxAwesomeBrandsArt.hpp"
+
+1699642064 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxAwesomeRegularArt.cpp
+	"wxAwesomeRegularArt.hpp"
+
+1699642064 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxAwesomeSolidArt.cpp
+	"wxAwesomeSolidArt.hpp"
+
+1699642065 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxFluentuiFilledArt.cpp
+	"wxFluentuiFilledArt.hpp"
+
+1699642064 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxFluentuiRegularArt.cpp
+	"wxFluentuiRegularArt.hpp"
+
+1699642064 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialFilledArt.cpp
+	"wxMaterialFilledArt.hpp"
+
+1699642064 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialOutlinedArt.cpp
+	"wxMaterialOutlinedArt.hpp"
+
+1699642064 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialRoundArt.cpp
+	"wxMaterialRoundArt.hpp"
+
+1699642064 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialSharpArt.cpp
+	"wxMaterialSharpArt.hpp"
+
+1699642064 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxMaterialTwoToneArt.cpp
+	"wxMaterialTwoToneArt.hpp"
+
+1699642064 source:/Users/federico/Documents/GitHub/wxMaterialDesignArtProvider/MaterialDesign/wxSimpleIconsArt.cpp
+	"wxSimpleIconsArt.hpp"
 

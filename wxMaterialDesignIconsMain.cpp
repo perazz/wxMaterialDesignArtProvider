@@ -61,6 +61,8 @@
 
 static void FillClients(wxChoice *choice)
 {
+    ART_CLIENT(wxART_CLIENT_FLUENTUI_FILLED)
+    ART_CLIENT(wxART_CLIENT_FLUENTUI_REGULAR)
     ART_CLIENT(wxART_CLIENT_SIMPLE_ICONS)
     ART_CLIENT(wxART_CLIENT_AWESOME_BRANDS)
     ART_CLIENT(wxART_CLIENT_AWESOME_SOLID)
@@ -87,6 +89,8 @@ static void FillBitmaps(wxImageList *images, wxListCtrl *list,
     if (client == wxART_CLIENT_AWESOME_BRANDS) ids = BrandsAwesomeArtIDs();
     if (client == wxART_CLIENT_AWESOME_REGULAR) ids = RegularAwesomeArtIDs();
     if (client == wxART_CLIENT_AWESOME_SOLID) ids = SolidAwesomeArtIDs();
+    if (client == wxART_CLIENT_FLUENTUI_FILLED) ids = FilledFluentuiArtIDs();
+    if (client == wxART_CLIENT_FLUENTUI_REGULAR) ids = RegularFluentuiArtIDs();
 
     for (size_t avail=0; avail<ids.Count(); avail++) {
         wxBitmap bmp = wxArtProvider::GetBitmap(ids.Item(avail), client, size);

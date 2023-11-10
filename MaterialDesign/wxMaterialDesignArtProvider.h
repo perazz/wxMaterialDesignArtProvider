@@ -4,15 +4,17 @@
 #include <wx/artprov.h>
 #include <wx/bitmap.h>
 #include <wx/bmpbndl.h>
-#include "wxMaterialDesignFilledArt.hpp"
-#include "wxMaterialDesignOutlinedArt.hpp"
-#include "wxMaterialDesignRoundArt.hpp"
-#include "wxMaterialDesignSharpArt.hpp"
-#include "wxMaterialDesignTwoToneArt.hpp"
-#include "wxMaterialDesignBrandsArt.hpp"
-#include "wxMaterialDesignRegularArt.hpp"
-#include "wxMaterialDesignSolidArt.hpp"
-#include "wxMaterialDesignIconsArt.hpp"
+#include "wxAwesomeBrandsArt.hpp"
+#include "wxAwesomeRegularArt.hpp"
+#include "wxAwesomeSolidArt.hpp"
+#include "wxFluentuiFilledArt.hpp"
+#include "wxFluentuiRegularArt.hpp"
+#include "wxMaterialFilledArt.hpp"
+#include "wxMaterialOutlinedArt.hpp"
+#include "wxMaterialRoundArt.hpp"
+#include "wxMaterialSharpArt.hpp"
+#include "wxMaterialTwoToneArt.hpp"
+#include "wxSimpleIconsArt.hpp"
 
 class wxMaterialDesignArtProvider : public wxArtProvider
 {
