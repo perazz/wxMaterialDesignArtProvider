@@ -88,7 +88,8 @@ def create_svg_folder_header(base_path,folder,save_path,client_name):
     # Now write prototype functions
     fcpp = open(os.path.join(save_path,header_name+".cpp"),"w")
 
-    fcpp.write('#include "'+ header_name + '.hpp" \n\n')
+    fcpp.write('#include "'+ header_name + '.hpp" \n')
+    fcpp.write('#include <wx/regex.h> \n\n')
 
     # 1) Return wxString containing the SVG
     fcpp.write("// Return SVG for the current ID as a string \n")
@@ -110,9 +111,14 @@ def create_svg_folder_header(base_path,folder,save_path,client_name):
     fcpp.write("wxString " + camel_case(folder) + clicm + "ArtColorSVGByID(const wxArtID& id, const wxColour& color)\n{\n")
     fcpp.write("wxString svg = " + camel_case(folder) + clicm + "ArtSVGByID(id); \n")
     fcpp.write("if (svg.IsEmpty() || (color==wxNullColour)) return svg; \n")
-    fcpp.write("wxString temp; \n")
+    fcpp.write('static constexpr const char FILL_REGEX[36] = "fill=\\\"#(?:[0-9a-fA-F]{3,4}){1,2}\\\""; \n');
     fcpp.write("static constexpr const char NEW_PATH[7] = \"<path \";  \n")
     fcpp.write("static constexpr const size_t NPSIZE = 7;  \n")
+    fcpp.write('// Replace existing fills, if any   \n');
+    fcpp.write('wxString newFill("fill=\\"" + color.GetAsString(wxC2S_HTML_SYNTAX) + "\\"");\n');
+    fcpp.write('wxRegEx reFill(FILL_REGEX);\n');
+    fcpp.write('size_t count = reFill.ReplaceAll(&svg, newFill);\n');
+    fcpp.write('if (count>0) return svg; \n\n');
     fcpp.write("// Set color to the first path  \n")
     fcpp.write("int ifirst = svg.Find(NEW_PATH);  \n")
     fcpp.write("int npaths = 0;  \n")

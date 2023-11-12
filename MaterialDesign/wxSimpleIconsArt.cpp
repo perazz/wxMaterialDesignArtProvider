@@ -1,4 +1,5 @@
 #include "wxSimpleIconsArt.hpp" 
+#include <wx/regex.h> 
 
 // Return SVG for the current ID as a string 
 wxString IconsSimpleArtSVGByID(const wxArtID& id)
@@ -5519,9 +5520,15 @@ wxString IconsSimpleArtColorSVGByID(const wxArtID& id, const wxColour& color)
 {
 wxString svg = IconsSimpleArtSVGByID(id); 
 if (svg.IsEmpty() || (color==wxNullColour)) return svg; 
-wxString temp; 
+static constexpr const char FILL_REGEX[36] = "fill=\"#(?:[0-9a-fA-F]{3,4}){1,2}\""; 
 static constexpr const char NEW_PATH[7] = "<path ";  
 static constexpr const size_t NPSIZE = 7;  
+// Replace existing fills, if any   
+wxString newFill("fill=\"" + color.GetAsString(wxC2S_HTML_SYNTAX) + "\"");
+wxRegEx reFill(FILL_REGEX);
+size_t count = reFill.ReplaceAll(&svg, newFill);
+if (count>0) return svg; 
+
 // Set color to the first path  
 int ifirst = svg.Find(NEW_PATH);  
 int npaths = 0;  
