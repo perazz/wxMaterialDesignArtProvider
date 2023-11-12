@@ -121,10 +121,8 @@ def create_svg_folder_header(base_path,folder,save_path,client_name):
     fcpp.write('if (count>0) return svg; \n\n');
     fcpp.write("// Set color to the first path  \n")
     fcpp.write("int ifirst = svg.Find(NEW_PATH);  \n")
-    fcpp.write("int npaths = 0;  \n")
     fcpp.write("wxString tmp;  \n")
     fcpp.write("while (!(ifirst==wxNOT_FOUND)) {  \n")
-    fcpp.write("   npaths++;  \n")
     fcpp.write("   // Add color to the current fill  \n")
     fcpp.write("   tmp.append(svg.substr(0,(size_t)ifirst+NPSIZE-1)  \n")
     fcpp.write('              + "fill=\\""  \n')

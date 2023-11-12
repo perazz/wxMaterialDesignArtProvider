@@ -5015,10 +5015,8 @@ if (count>0) return svg;
 
 // Set color to the first path  
 int ifirst = svg.Find(NEW_PATH);  
-int npaths = 0;  
 wxString tmp;  
 while (!(ifirst==wxNOT_FOUND)) {  
-   npaths++;  
    // Add color to the current fill  
    tmp.append(svg.substr(0,(size_t)ifirst+NPSIZE-1)  
               + "fill=\""  
