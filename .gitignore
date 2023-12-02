@@ -30,4 +30,7 @@
 *.exe
 *.out
 *.app
-project/wxMaterialDesignIcons.layout
+
+# CodeBlocks project temporaries
+*.layout
+*.depend
