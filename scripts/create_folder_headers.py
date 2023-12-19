@@ -51,8 +51,7 @@ def create_svg_folder_header(base_path,folder,save_path,client_name):
     for svg in svg_files:
         as_text = open(svg,"r")
         raw_string = as_text.read()
-        # Convert to a raw c++ literal
-        literal = 'R"rawsvg(' + raw_string + ')rawsvg"'
+
         as_text.close()
 
         # Add literal to header
@@ -70,7 +69,18 @@ def create_svg_folder_header(base_path,folder,save_path,client_name):
 
         # Actual data
         fid.write("static constexpr const char *" + char_name + "= \n")
-        fid.write(literal)
+
+        #MSVC fix: constant literals cannot be longer than 16380 characters each
+        chunk_size = 16300
+
+        # Convert to a raw c++ literal
+        literal = 'R"rawsvg(' + raw_string + ')rawsvg"'
+
+        for i in range(0, len(raw_string), chunk_size):
+            chunk = ('R"rawsvg(' if i==0 else '\nR"rawsvg(') + raw_string[i:i+chunk_size] + ')rawsvg"'
+            fid.write(chunk)
+
+        # fid.write(literal)
         fid.write("\n;")
 
     # Define prototype functions
