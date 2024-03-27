@@ -72,5 +72,6 @@ The attached project contains a sample icon browser, modelled on wxWidget's stan
 - Material Design icons are subject to the Apache 2.0 license.
 - SimpleIcons are subject to  the CC0 1.0 License.
 - FluentUI icons are subject to the MIT License.
+
 This provider is released under the Apache 2.0 license, that all dataset licenses should get along with.
 
