@@ -109,7 +109,7 @@ def create_svg_folder_header(base_path,folder,save_path,client_name):
         art_ID = "wxART_" + icon_name
         char_name = "SVG_" + cliup + "_" + macro_case(folder) + "_" + icon_name
 
-        fcpp.write("  if (id == " + art_ID + ")  \n")
+        fcpp.write("  if (wxASCII_STR(id) == wxASCII_STR(" + art_ID + "))  \n")
         fcpp.write("      return wxString(" + char_name + ");\n")
 
     fcpp.write("\n\n// Any IDs not implemented here will return a null string \n")
