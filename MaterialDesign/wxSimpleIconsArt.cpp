@@ -4,5509 +4,5509 @@
 // Return SVG for the current ID as a string 
 wxString IconsSimpleArtSVGByID(const wxArtID& id)
 {
-  if (id == wxART_1001TRACKLISTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_1001TRACKLISTS))  
       return wxString(SVG_SIMPLE_ICONS_1001TRACKLISTS);
-  if (id == wxART_1PASSWORD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_1PASSWORD))  
       return wxString(SVG_SIMPLE_ICONS_1PASSWORD);
-  if (id == wxART_3M)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_3M))  
       return wxString(SVG_SIMPLE_ICONS_3M);
-  if (id == wxART_42)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_42))  
       return wxString(SVG_SIMPLE_ICONS_42);
-  if (id == wxART_4CHAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_4CHAN))  
       return wxString(SVG_SIMPLE_ICONS_4CHAN);
-  if (id == wxART_4D)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_4D))  
       return wxString(SVG_SIMPLE_ICONS_4D);
-  if (id == wxART_500PX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_500PX))  
       return wxString(SVG_SIMPLE_ICONS_500PX);
-  if (id == wxART_ABBOTT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ABBOTT))  
       return wxString(SVG_SIMPLE_ICONS_ABBOTT);
-  if (id == wxART_ABBROBOTSTUDIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ABBROBOTSTUDIO))  
       return wxString(SVG_SIMPLE_ICONS_ABBROBOTSTUDIO);
-  if (id == wxART_ABBVIE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ABBVIE))  
       return wxString(SVG_SIMPLE_ICONS_ABBVIE);
-  if (id == wxART_ABLETONLIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ABLETONLIVE))  
       return wxString(SVG_SIMPLE_ICONS_ABLETONLIVE);
-  if (id == wxART_ABOUTDOTME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ABOUTDOTME))  
       return wxString(SVG_SIMPLE_ICONS_ABOUTDOTME);
-  if (id == wxART_ABSTRACT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ABSTRACT))  
       return wxString(SVG_SIMPLE_ICONS_ABSTRACT);
-  if (id == wxART_ACADEMIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ACADEMIA))  
       return wxString(SVG_SIMPLE_ICONS_ACADEMIA);
-  if (id == wxART_ACCENTURE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ACCENTURE))  
       return wxString(SVG_SIMPLE_ICONS_ACCENTURE);
-  if (id == wxART_ACCLAIM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ACCLAIM))  
       return wxString(SVG_SIMPLE_ICONS_ACCLAIM);
-  if (id == wxART_ACCUSOFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ACCUSOFT))  
       return wxString(SVG_SIMPLE_ICONS_ACCUSOFT);
-  if (id == wxART_ACER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ACER))  
       return wxString(SVG_SIMPLE_ICONS_ACER);
-  if (id == wxART_ACM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ACM))  
       return wxString(SVG_SIMPLE_ICONS_ACM);
-  if (id == wxART_ACTIGRAPH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ACTIGRAPH))  
       return wxString(SVG_SIMPLE_ICONS_ACTIGRAPH);
-  if (id == wxART_ACTIVISION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ACTIVISION))  
       return wxString(SVG_SIMPLE_ICONS_ACTIVISION);
-  if (id == wxART_ACTIVITYPUB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ACTIVITYPUB))  
       return wxString(SVG_SIMPLE_ICONS_ACTIVITYPUB);
-  if (id == wxART_ACURA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ACURA))  
       return wxString(SVG_SIMPLE_ICONS_ACURA);
-  if (id == wxART_ADAFRUIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADAFRUIT))  
       return wxString(SVG_SIMPLE_ICONS_ADAFRUIT);
-  if (id == wxART_ADBLOCK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADBLOCK))  
       return wxString(SVG_SIMPLE_ICONS_ADBLOCK);
-  if (id == wxART_ADBLOCKPLUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADBLOCKPLUS))  
       return wxString(SVG_SIMPLE_ICONS_ADBLOCKPLUS);
-  if (id == wxART_ADDTHIS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADDTHIS))  
       return wxString(SVG_SIMPLE_ICONS_ADDTHIS);
-  if (id == wxART_ADGUARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADGUARD))  
       return wxString(SVG_SIMPLE_ICONS_ADGUARD);
-  if (id == wxART_ADIDAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADIDAS))  
       return wxString(SVG_SIMPLE_ICONS_ADIDAS);
-  if (id == wxART_ADMINER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADMINER))  
       return wxString(SVG_SIMPLE_ICONS_ADMINER);
-  if (id == wxART_ADOBE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBE))  
       return wxString(SVG_SIMPLE_ICONS_ADOBE);
-  if (id == wxART_ADOBEACROBATREADER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBEACROBATREADER))  
       return wxString(SVG_SIMPLE_ICONS_ADOBEACROBATREADER);
-  if (id == wxART_ADOBEAFTEREFFECTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBEAFTEREFFECTS))  
       return wxString(SVG_SIMPLE_ICONS_ADOBEAFTEREFFECTS);
-  if (id == wxART_ADOBEAUDITION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBEAUDITION))  
       return wxString(SVG_SIMPLE_ICONS_ADOBEAUDITION);
-  if (id == wxART_ADOBECREATIVECLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBECREATIVECLOUD))  
       return wxString(SVG_SIMPLE_ICONS_ADOBECREATIVECLOUD);
-  if (id == wxART_ADOBEDREAMWEAVER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBEDREAMWEAVER))  
       return wxString(SVG_SIMPLE_ICONS_ADOBEDREAMWEAVER);
-  if (id == wxART_ADOBEFONTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBEFONTS))  
       return wxString(SVG_SIMPLE_ICONS_ADOBEFONTS);
-  if (id == wxART_ADOBEILLUSTRATOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBEILLUSTRATOR))  
       return wxString(SVG_SIMPLE_ICONS_ADOBEILLUSTRATOR);
-  if (id == wxART_ADOBEINDESIGN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBEINDESIGN))  
       return wxString(SVG_SIMPLE_ICONS_ADOBEINDESIGN);
-  if (id == wxART_ADOBELIGHTROOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBELIGHTROOM))  
       return wxString(SVG_SIMPLE_ICONS_ADOBELIGHTROOM);
-  if (id == wxART_ADOBELIGHTROOMCLASSIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBELIGHTROOMCLASSIC))  
       return wxString(SVG_SIMPLE_ICONS_ADOBELIGHTROOMCLASSIC);
-  if (id == wxART_ADOBEPHOTOSHOP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBEPHOTOSHOP))  
       return wxString(SVG_SIMPLE_ICONS_ADOBEPHOTOSHOP);
-  if (id == wxART_ADOBEPREMIEREPRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBEPREMIEREPRO))  
       return wxString(SVG_SIMPLE_ICONS_ADOBEPREMIEREPRO);
-  if (id == wxART_ADOBEXD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADOBEXD))  
       return wxString(SVG_SIMPLE_ICONS_ADOBEXD);
-  if (id == wxART_ADONISJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADONISJS))  
       return wxString(SVG_SIMPLE_ICONS_ADONISJS);
-  if (id == wxART_ADP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADP))  
       return wxString(SVG_SIMPLE_ICONS_ADP);
-  if (id == wxART_ADROLL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADROLL))  
       return wxString(SVG_SIMPLE_ICONS_ADROLL);
-  if (id == wxART_ADVENTOFCODE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADVENTOFCODE))  
       return wxString(SVG_SIMPLE_ICONS_ADVENTOFCODE);
-  if (id == wxART_ADYEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ADYEN))  
       return wxString(SVG_SIMPLE_ICONS_ADYEN);
-  if (id == wxART_AERLINGUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AERLINGUS))  
       return wxString(SVG_SIMPLE_ICONS_AERLINGUS);
-  if (id == wxART_AEROFLOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AEROFLOT))  
       return wxString(SVG_SIMPLE_ICONS_AEROFLOT);
-  if (id == wxART_AEROMEXICO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AEROMEXICO))  
       return wxString(SVG_SIMPLE_ICONS_AEROMEXICO);
-  if (id == wxART_AEROSPIKE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AEROSPIKE))  
       return wxString(SVG_SIMPLE_ICONS_AEROSPIKE);
-  if (id == wxART_AEW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AEW))  
       return wxString(SVG_SIMPLE_ICONS_AEW);
-  if (id == wxART_AFFINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AFFINE))  
       return wxString(SVG_SIMPLE_ICONS_AFFINE);
-  if (id == wxART_AFFINITY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AFFINITY))  
       return wxString(SVG_SIMPLE_ICONS_AFFINITY);
-  if (id == wxART_AFFINITYDESIGNER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AFFINITYDESIGNER))  
       return wxString(SVG_SIMPLE_ICONS_AFFINITYDESIGNER);
-  if (id == wxART_AFFINITYPHOTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AFFINITYPHOTO))  
       return wxString(SVG_SIMPLE_ICONS_AFFINITYPHOTO);
-  if (id == wxART_AFFINITYPUBLISHER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AFFINITYPUBLISHER))  
       return wxString(SVG_SIMPLE_ICONS_AFFINITYPUBLISHER);
-  if (id == wxART_AFRAME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AFRAME))  
       return wxString(SVG_SIMPLE_ICONS_AFRAME);
-  if (id == wxART_AGORA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AGORA))  
       return wxString(SVG_SIMPLE_ICONS_AGORA);
-  if (id == wxART_AIB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIB))  
       return wxString(SVG_SIMPLE_ICONS_AIB);
-  if (id == wxART_AIDUNGEON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIDUNGEON))  
       return wxString(SVG_SIMPLE_ICONS_AIDUNGEON);
-  if (id == wxART_AIOHTTP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIOHTTP))  
       return wxString(SVG_SIMPLE_ICONS_AIOHTTP);
-  if (id == wxART_AIQFOME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIQFOME))  
       return wxString(SVG_SIMPLE_ICONS_AIQFOME);
-  if (id == wxART_AIRASIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRASIA))  
       return wxString(SVG_SIMPLE_ICONS_AIRASIA);
-  if (id == wxART_AIRBNB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRBNB))  
       return wxString(SVG_SIMPLE_ICONS_AIRBNB);
-  if (id == wxART_AIRBRAKEDOTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRBRAKEDOTIO))  
       return wxString(SVG_SIMPLE_ICONS_AIRBRAKEDOTIO);
-  if (id == wxART_AIRBUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRBUS))  
       return wxString(SVG_SIMPLE_ICONS_AIRBUS);
-  if (id == wxART_AIRBYTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRBYTE))  
       return wxString(SVG_SIMPLE_ICONS_AIRBYTE);
-  if (id == wxART_AIRCALL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRCALL))  
       return wxString(SVG_SIMPLE_ICONS_AIRCALL);
-  if (id == wxART_AIRCANADA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRCANADA))  
       return wxString(SVG_SIMPLE_ICONS_AIRCANADA);
-  if (id == wxART_AIRCHINA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRCHINA))  
       return wxString(SVG_SIMPLE_ICONS_AIRCHINA);
-  if (id == wxART_AIRFRANCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRFRANCE))  
       return wxString(SVG_SIMPLE_ICONS_AIRFRANCE);
-  if (id == wxART_AIRINDIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRINDIA))  
       return wxString(SVG_SIMPLE_ICONS_AIRINDIA);
-  if (id == wxART_AIRPLAYAUDIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRPLAYAUDIO))  
       return wxString(SVG_SIMPLE_ICONS_AIRPLAYAUDIO);
-  if (id == wxART_AIRPLAYVIDEO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRPLAYVIDEO))  
       return wxString(SVG_SIMPLE_ICONS_AIRPLAYVIDEO);
-  if (id == wxART_AIRTABLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AIRTABLE))  
       return wxString(SVG_SIMPLE_ICONS_AIRTABLE);
-  if (id == wxART_AJV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AJV))  
       return wxString(SVG_SIMPLE_ICONS_AJV);
-  if (id == wxART_AKAMAI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AKAMAI))  
       return wxString(SVG_SIMPLE_ICONS_AKAMAI);
-  if (id == wxART_AKAUNTING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AKAUNTING))  
       return wxString(SVG_SIMPLE_ICONS_AKAUNTING);
-  if (id == wxART_ALACRITTY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALACRITTY))  
       return wxString(SVG_SIMPLE_ICONS_ALACRITTY);
-  if (id == wxART_ALBERTHEIJN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALBERTHEIJN))  
       return wxString(SVG_SIMPLE_ICONS_ALBERTHEIJN);
-  if (id == wxART_ALBY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALBY))  
       return wxString(SVG_SIMPLE_ICONS_ALBY);
-  if (id == wxART_ALCHEMY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALCHEMY))  
       return wxString(SVG_SIMPLE_ICONS_ALCHEMY);
-  if (id == wxART_ALDINORD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALDINORD))  
       return wxString(SVG_SIMPLE_ICONS_ALDINORD);
-  if (id == wxART_ALDISUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALDISUD))  
       return wxString(SVG_SIMPLE_ICONS_ALDISUD);
-  if (id == wxART_ALFAROMEO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALFAROMEO))  
       return wxString(SVG_SIMPLE_ICONS_ALFAROMEO);
-  if (id == wxART_ALFRED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALFRED))  
       return wxString(SVG_SIMPLE_ICONS_ALFRED);
-  if (id == wxART_ALGOLIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALGOLIA))  
       return wxString(SVG_SIMPLE_ICONS_ALGOLIA);
-  if (id == wxART_ALGORAND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALGORAND))  
       return wxString(SVG_SIMPLE_ICONS_ALGORAND);
-  if (id == wxART_ALIBABACLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALIBABACLOUD))  
       return wxString(SVG_SIMPLE_ICONS_ALIBABACLOUD);
-  if (id == wxART_ALIBABADOTCOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALIBABADOTCOM))  
       return wxString(SVG_SIMPLE_ICONS_ALIBABADOTCOM);
-  if (id == wxART_ALIENWARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALIENWARE))  
       return wxString(SVG_SIMPLE_ICONS_ALIENWARE);
-  if (id == wxART_ALIEXPRESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALIEXPRESS))  
       return wxString(SVG_SIMPLE_ICONS_ALIEXPRESS);
-  if (id == wxART_ALIPAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALIPAY))  
       return wxString(SVG_SIMPLE_ICONS_ALIPAY);
-  if (id == wxART_ALLEGRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALLEGRO))  
       return wxString(SVG_SIMPLE_ICONS_ALLEGRO);
-  if (id == wxART_ALLIEDMODDERS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALLIEDMODDERS))  
       return wxString(SVG_SIMPLE_ICONS_ALLIEDMODDERS);
-  if (id == wxART_ALLOCINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALLOCINE))  
       return wxString(SVG_SIMPLE_ICONS_ALLOCINE);
-  if (id == wxART_ALLTRAILS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALLTRAILS))  
       return wxString(SVG_SIMPLE_ICONS_ALLTRAILS);
-  if (id == wxART_ALPINEDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALPINEDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_ALPINEDOTJS);
-  if (id == wxART_ALPINELINUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALPINELINUX))  
       return wxString(SVG_SIMPLE_ICONS_ALPINELINUX);
-  if (id == wxART_ALTERYX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALTERYX))  
       return wxString(SVG_SIMPLE_ICONS_ALTERYX);
-  if (id == wxART_ALTIUMDESIGNER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALTIUMDESIGNER))  
       return wxString(SVG_SIMPLE_ICONS_ALTIUMDESIGNER);
-  if (id == wxART_ALWAYSDATA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ALWAYSDATA))  
       return wxString(SVG_SIMPLE_ICONS_ALWAYSDATA);
-  if (id == wxART_AMAZON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZON))  
       return wxString(SVG_SIMPLE_ICONS_AMAZON);
-  if (id == wxART_AMAZONALEXA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONALEXA))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONALEXA);
-  if (id == wxART_AMAZONAPIGATEWAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONAPIGATEWAY))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONAPIGATEWAY);
-  if (id == wxART_AMAZONAWS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONAWS))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONAWS);
-  if (id == wxART_AMAZONCLOUDWATCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONCLOUDWATCH))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONCLOUDWATCH);
-  if (id == wxART_AMAZONDOCUMENTDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONDOCUMENTDB))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONDOCUMENTDB);
-  if (id == wxART_AMAZONDYNAMODB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONDYNAMODB))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONDYNAMODB);
-  if (id == wxART_AMAZONEC2)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONEC2))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONEC2);
-  if (id == wxART_AMAZONECS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONECS))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONECS);
-  if (id == wxART_AMAZONEKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONEKS))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONEKS);
-  if (id == wxART_AMAZONFIRETV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONFIRETV))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONFIRETV);
-  if (id == wxART_AMAZONGAMES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONGAMES))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONGAMES);
-  if (id == wxART_AMAZONIAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONIAM))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONIAM);
-  if (id == wxART_AMAZONLUMBERYARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONLUMBERYARD))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONLUMBERYARD);
-  if (id == wxART_AMAZONLUNA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONLUNA))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONLUNA);
-  if (id == wxART_AMAZONPAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONPAY))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONPAY);
-  if (id == wxART_AMAZONPRIME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONPRIME))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONPRIME);
-  if (id == wxART_AMAZONRDS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONRDS))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONRDS);
-  if (id == wxART_AMAZONREDSHIFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONREDSHIFT))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONREDSHIFT);
-  if (id == wxART_AMAZONROUTE53)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONROUTE53))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONROUTE53);
-  if (id == wxART_AMAZONS3)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONS3))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONS3);
-  if (id == wxART_AMAZONSIMPLEEMAILSERVICE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONSIMPLEEMAILSERVICE))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONSIMPLEEMAILSERVICE);
-  if (id == wxART_AMAZONSQS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMAZONSQS))  
       return wxString(SVG_SIMPLE_ICONS_AMAZONSQS);
-  if (id == wxART_AMD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMD))  
       return wxString(SVG_SIMPLE_ICONS_AMD);
-  if (id == wxART_AMEBA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMEBA))  
       return wxString(SVG_SIMPLE_ICONS_AMEBA);
-  if (id == wxART_AMERICANAIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMERICANAIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_AMERICANAIRLINES);
-  if (id == wxART_AMERICANEXPRESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMERICANEXPRESS))  
       return wxString(SVG_SIMPLE_ICONS_AMERICANEXPRESS);
-  if (id == wxART_AMG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMG))  
       return wxString(SVG_SIMPLE_ICONS_AMG);
-  if (id == wxART_AMP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMP))  
       return wxString(SVG_SIMPLE_ICONS_AMP);
-  if (id == wxART_AMUL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AMUL))  
       return wxString(SVG_SIMPLE_ICONS_AMUL);
-  if (id == wxART_ANA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANA))  
       return wxString(SVG_SIMPLE_ICONS_ANA);
-  if (id == wxART_ANACONDA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANACONDA))  
       return wxString(SVG_SIMPLE_ICONS_ANACONDA);
-  if (id == wxART_ANALOGUE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANALOGUE))  
       return wxString(SVG_SIMPLE_ICONS_ANALOGUE);
-  if (id == wxART_ANCHOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANCHOR))  
       return wxString(SVG_SIMPLE_ICONS_ANCHOR);
-  if (id == wxART_ANDELA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANDELA))  
       return wxString(SVG_SIMPLE_ICONS_ANDELA);
-  if (id == wxART_ANDROID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANDROID))  
       return wxString(SVG_SIMPLE_ICONS_ANDROID);
-  if (id == wxART_ANDROIDAUTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANDROIDAUTO))  
       return wxString(SVG_SIMPLE_ICONS_ANDROIDAUTO);
-  if (id == wxART_ANDROIDSTUDIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANDROIDSTUDIO))  
       return wxString(SVG_SIMPLE_ICONS_ANDROIDSTUDIO);
-  if (id == wxART_ANGELLIST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANGELLIST))  
       return wxString(SVG_SIMPLE_ICONS_ANGELLIST);
-  if (id == wxART_ANGULAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANGULAR))  
       return wxString(SVG_SIMPLE_ICONS_ANGULAR);
-  if (id == wxART_ANGULARJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANGULARJS))  
       return wxString(SVG_SIMPLE_ICONS_ANGULARJS);
-  if (id == wxART_ANGULARUNIVERSAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANGULARUNIVERSAL))  
       return wxString(SVG_SIMPLE_ICONS_ANGULARUNIVERSAL);
-  if (id == wxART_ANILIST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANILIST))  
       return wxString(SVG_SIMPLE_ICONS_ANILIST);
-  if (id == wxART_ANSIBLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANSIBLE))  
       return wxString(SVG_SIMPLE_ICONS_ANSIBLE);
-  if (id == wxART_ANSWER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANSWER))  
       return wxString(SVG_SIMPLE_ICONS_ANSWER);
-  if (id == wxART_ANSYS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANSYS))  
       return wxString(SVG_SIMPLE_ICONS_ANSYS);
-  if (id == wxART_ANTA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANTA))  
       return wxString(SVG_SIMPLE_ICONS_ANTA);
-  if (id == wxART_ANTDESIGN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANTDESIGN))  
       return wxString(SVG_SIMPLE_ICONS_ANTDESIGN);
-  if (id == wxART_ANTENA3)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANTENA3))  
       return wxString(SVG_SIMPLE_ICONS_ANTENA3);
-  if (id == wxART_ANYDESK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ANYDESK))  
       return wxString(SVG_SIMPLE_ICONS_ANYDESK);
-  if (id == wxART_AOL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AOL))  
       return wxString(SVG_SIMPLE_ICONS_AOL);
-  if (id == wxART_APACHE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHE))  
       return wxString(SVG_SIMPLE_ICONS_APACHE);
-  if (id == wxART_APACHEAIRFLOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEAIRFLOW))  
       return wxString(SVG_SIMPLE_ICONS_APACHEAIRFLOW);
-  if (id == wxART_APACHEANT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEANT))  
       return wxString(SVG_SIMPLE_ICONS_APACHEANT);
-  if (id == wxART_APACHECASSANDRA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHECASSANDRA))  
       return wxString(SVG_SIMPLE_ICONS_APACHECASSANDRA);
-  if (id == wxART_APACHECLOUDSTACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHECLOUDSTACK))  
       return wxString(SVG_SIMPLE_ICONS_APACHECLOUDSTACK);
-  if (id == wxART_APACHECORDOVA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHECORDOVA))  
       return wxString(SVG_SIMPLE_ICONS_APACHECORDOVA);
-  if (id == wxART_APACHECOUCHDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHECOUCHDB))  
       return wxString(SVG_SIMPLE_ICONS_APACHECOUCHDB);
-  if (id == wxART_APACHEDRUID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEDRUID))  
       return wxString(SVG_SIMPLE_ICONS_APACHEDRUID);
-  if (id == wxART_APACHEECHARTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEECHARTS))  
       return wxString(SVG_SIMPLE_ICONS_APACHEECHARTS);
-  if (id == wxART_APACHEFLINK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEFLINK))  
       return wxString(SVG_SIMPLE_ICONS_APACHEFLINK);
-  if (id == wxART_APACHEGROOVY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEGROOVY))  
       return wxString(SVG_SIMPLE_ICONS_APACHEGROOVY);
-  if (id == wxART_APACHEGUACAMOLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEGUACAMOLE))  
       return wxString(SVG_SIMPLE_ICONS_APACHEGUACAMOLE);
-  if (id == wxART_APACHEHADOOP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEHADOOP))  
       return wxString(SVG_SIMPLE_ICONS_APACHEHADOOP);
-  if (id == wxART_APACHEHIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEHIVE))  
       return wxString(SVG_SIMPLE_ICONS_APACHEHIVE);
-  if (id == wxART_APACHEJMETER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEJMETER))  
       return wxString(SVG_SIMPLE_ICONS_APACHEJMETER);
-  if (id == wxART_APACHEKAFKA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEKAFKA))  
       return wxString(SVG_SIMPLE_ICONS_APACHEKAFKA);
-  if (id == wxART_APACHEKYLIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEKYLIN))  
       return wxString(SVG_SIMPLE_ICONS_APACHEKYLIN);
-  if (id == wxART_APACHEMAVEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEMAVEN))  
       return wxString(SVG_SIMPLE_ICONS_APACHEMAVEN);
-  if (id == wxART_APACHENETBEANSIDE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHENETBEANSIDE))  
       return wxString(SVG_SIMPLE_ICONS_APACHENETBEANSIDE);
-  if (id == wxART_APACHEOPENOFFICE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEOPENOFFICE))  
       return wxString(SVG_SIMPLE_ICONS_APACHEOPENOFFICE);
-  if (id == wxART_APACHEPARQUET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEPARQUET))  
       return wxString(SVG_SIMPLE_ICONS_APACHEPARQUET);
-  if (id == wxART_APACHEPULSAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEPULSAR))  
       return wxString(SVG_SIMPLE_ICONS_APACHEPULSAR);
-  if (id == wxART_APACHEROCKETMQ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHEROCKETMQ))  
       return wxString(SVG_SIMPLE_ICONS_APACHEROCKETMQ);
-  if (id == wxART_APACHESOLR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHESOLR))  
       return wxString(SVG_SIMPLE_ICONS_APACHESOLR);
-  if (id == wxART_APACHESPARK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHESPARK))  
       return wxString(SVG_SIMPLE_ICONS_APACHESPARK);
-  if (id == wxART_APACHESTORM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHESTORM))  
       return wxString(SVG_SIMPLE_ICONS_APACHESTORM);
-  if (id == wxART_APACHETOMCAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APACHETOMCAT))  
       return wxString(SVG_SIMPLE_ICONS_APACHETOMCAT);
-  if (id == wxART_APARAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APARAT))  
       return wxString(SVG_SIMPLE_ICONS_APARAT);
-  if (id == wxART_APIFOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APIFOX))  
       return wxString(SVG_SIMPLE_ICONS_APIFOX);
-  if (id == wxART_APOLLOGRAPHQL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APOLLOGRAPHQL))  
       return wxString(SVG_SIMPLE_ICONS_APOLLOGRAPHQL);
-  if (id == wxART_APOSTROPHE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APOSTROPHE))  
       return wxString(SVG_SIMPLE_ICONS_APOSTROPHE);
-  if (id == wxART_APPIAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPIAN))  
       return wxString(SVG_SIMPLE_ICONS_APPIAN);
-  if (id == wxART_APPLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPLE))  
       return wxString(SVG_SIMPLE_ICONS_APPLE);
-  if (id == wxART_APPLEARCADE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPLEARCADE))  
       return wxString(SVG_SIMPLE_ICONS_APPLEARCADE);
-  if (id == wxART_APPLEMUSIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPLEMUSIC))  
       return wxString(SVG_SIMPLE_ICONS_APPLEMUSIC);
-  if (id == wxART_APPLENEWS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPLENEWS))  
       return wxString(SVG_SIMPLE_ICONS_APPLENEWS);
-  if (id == wxART_APPLEPAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPLEPAY))  
       return wxString(SVG_SIMPLE_ICONS_APPLEPAY);
-  if (id == wxART_APPLEPODCASTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPLEPODCASTS))  
       return wxString(SVG_SIMPLE_ICONS_APPLEPODCASTS);
-  if (id == wxART_APPLETV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPLETV))  
       return wxString(SVG_SIMPLE_ICONS_APPLETV);
-  if (id == wxART_APPSIGNAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPSIGNAL))  
       return wxString(SVG_SIMPLE_ICONS_APPSIGNAL);
-  if (id == wxART_APPSMITH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPSMITH))  
       return wxString(SVG_SIMPLE_ICONS_APPSMITH);
-  if (id == wxART_APPSTORE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPSTORE))  
       return wxString(SVG_SIMPLE_ICONS_APPSTORE);
-  if (id == wxART_APPVEYOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPVEYOR))  
       return wxString(SVG_SIMPLE_ICONS_APPVEYOR);
-  if (id == wxART_APPWRITE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_APPWRITE))  
       return wxString(SVG_SIMPLE_ICONS_APPWRITE);
-  if (id == wxART_AQUA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AQUA))  
       return wxString(SVG_SIMPLE_ICONS_AQUA);
-  if (id == wxART_ARAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARAL))  
       return wxString(SVG_SIMPLE_ICONS_ARAL);
-  if (id == wxART_ARANGODB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARANGODB))  
       return wxString(SVG_SIMPLE_ICONS_ARANGODB);
-  if (id == wxART_ARC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARC))  
       return wxString(SVG_SIMPLE_ICONS_ARC);
-  if (id == wxART_ARCGIS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARCGIS))  
       return wxString(SVG_SIMPLE_ICONS_ARCGIS);
-  if (id == wxART_ARCHICAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARCHICAD))  
       return wxString(SVG_SIMPLE_ICONS_ARCHICAD);
-  if (id == wxART_ARCHIVEOFOUROWN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARCHIVEOFOUROWN))  
       return wxString(SVG_SIMPLE_ICONS_ARCHIVEOFOUROWN);
-  if (id == wxART_ARCHLINUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARCHLINUX))  
       return wxString(SVG_SIMPLE_ICONS_ARCHLINUX);
-  if (id == wxART_ARDOUR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARDOUR))  
       return wxString(SVG_SIMPLE_ICONS_ARDOUR);
-  if (id == wxART_ARDUINO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARDUINO))  
       return wxString(SVG_SIMPLE_ICONS_ARDUINO);
-  if (id == wxART_ARGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARGO))  
       return wxString(SVG_SIMPLE_ICONS_ARGO);
-  if (id == wxART_ARGOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARGOS))  
       return wxString(SVG_SIMPLE_ICONS_ARGOS);
-  if (id == wxART_ARIAKIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARIAKIT))  
       return wxString(SVG_SIMPLE_ICONS_ARIAKIT);
-  if (id == wxART_ARKECOSYSTEM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARKECOSYSTEM))  
       return wxString(SVG_SIMPLE_ICONS_ARKECOSYSTEM);
-  if (id == wxART_ARLO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARLO))  
       return wxString(SVG_SIMPLE_ICONS_ARLO);
-  if (id == wxART_ARM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARM))  
       return wxString(SVG_SIMPLE_ICONS_ARM);
-  if (id == wxART_ARMKEIL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARMKEIL))  
       return wxString(SVG_SIMPLE_ICONS_ARMKEIL);
-  if (id == wxART_ARSTECHNICA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARSTECHNICA))  
       return wxString(SVG_SIMPLE_ICONS_ARSTECHNICA);
-  if (id == wxART_ARTIFACTHUB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARTIFACTHUB))  
       return wxString(SVG_SIMPLE_ICONS_ARTIFACTHUB);
-  if (id == wxART_ARTIXLINUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARTIXLINUX))  
       return wxString(SVG_SIMPLE_ICONS_ARTIXLINUX);
-  if (id == wxART_ARTSTATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARTSTATION))  
       return wxString(SVG_SIMPLE_ICONS_ARTSTATION);
-  if (id == wxART_ARXIV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ARXIV))  
       return wxString(SVG_SIMPLE_ICONS_ARXIV);
-  if (id == wxART_ASANA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASANA))  
       return wxString(SVG_SIMPLE_ICONS_ASANA);
-  if (id == wxART_ASCIIDOCTOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASCIIDOCTOR))  
       return wxString(SVG_SIMPLE_ICONS_ASCIIDOCTOR);
-  if (id == wxART_ASCIINEMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASCIINEMA))  
       return wxString(SVG_SIMPLE_ICONS_ASCIINEMA);
-  if (id == wxART_ASDA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASDA))  
       return wxString(SVG_SIMPLE_ICONS_ASDA);
-  if (id == wxART_ASEPRITE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASEPRITE))  
       return wxString(SVG_SIMPLE_ICONS_ASEPRITE);
-  if (id == wxART_ASKFM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASKFM))  
       return wxString(SVG_SIMPLE_ICONS_ASKFM);
-  if (id == wxART_ASKUBUNTU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASKUBUNTU))  
       return wxString(SVG_SIMPLE_ICONS_ASKUBUNTU);
-  if (id == wxART_ASSEMBLYSCRIPT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASSEMBLYSCRIPT))  
       return wxString(SVG_SIMPLE_ICONS_ASSEMBLYSCRIPT);
-  if (id == wxART_ASTONMARTIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASTONMARTIN))  
       return wxString(SVG_SIMPLE_ICONS_ASTONMARTIN);
-  if (id == wxART_ASTRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASTRO))  
       return wxString(SVG_SIMPLE_ICONS_ASTRO);
-  if (id == wxART_ASUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ASUS))  
       return wxString(SVG_SIMPLE_ICONS_ASUS);
-  if (id == wxART_ATANDT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ATANDT))  
       return wxString(SVG_SIMPLE_ICONS_ATANDT);
-  if (id == wxART_ATARI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ATARI))  
       return wxString(SVG_SIMPLE_ICONS_ATARI);
-  if (id == wxART_ATLASSIAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ATLASSIAN))  
       return wxString(SVG_SIMPLE_ICONS_ATLASSIAN);
-  if (id == wxART_ATOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ATOM))  
       return wxString(SVG_SIMPLE_ICONS_ATOM);
-  if (id == wxART_AUCHAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUCHAN))  
       return wxString(SVG_SIMPLE_ICONS_AUCHAN);
-  if (id == wxART_AUDACITY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUDACITY))  
       return wxString(SVG_SIMPLE_ICONS_AUDACITY);
-  if (id == wxART_AUDI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUDI))  
       return wxString(SVG_SIMPLE_ICONS_AUDI);
-  if (id == wxART_AUDIBLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUDIBLE))  
       return wxString(SVG_SIMPLE_ICONS_AUDIBLE);
-  if (id == wxART_AUDIOBOOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUDIOBOOM))  
       return wxString(SVG_SIMPLE_ICONS_AUDIOBOOM);
-  if (id == wxART_AUDIOMACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUDIOMACK))  
       return wxString(SVG_SIMPLE_ICONS_AUDIOMACK);
-  if (id == wxART_AUDIOTECHNICA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUDIOTECHNICA))  
       return wxString(SVG_SIMPLE_ICONS_AUDIOTECHNICA);
-  if (id == wxART_AURELIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AURELIA))  
       return wxString(SVG_SIMPLE_ICONS_AURELIA);
-  if (id == wxART_AUTH0)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUTH0))  
       return wxString(SVG_SIMPLE_ICONS_AUTH0);
-  if (id == wxART_AUTHELIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUTHELIA))  
       return wxString(SVG_SIMPLE_ICONS_AUTHELIA);
-  if (id == wxART_AUTHY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUTHY))  
       return wxString(SVG_SIMPLE_ICONS_AUTHY);
-  if (id == wxART_AUTODESK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUTODESK))  
       return wxString(SVG_SIMPLE_ICONS_AUTODESK);
-  if (id == wxART_AUTODESKREVIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUTODESKREVIT))  
       return wxString(SVG_SIMPLE_ICONS_AUTODESKREVIT);
-  if (id == wxART_AUTOHOTKEY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUTOHOTKEY))  
       return wxString(SVG_SIMPLE_ICONS_AUTOHOTKEY);
-  if (id == wxART_AUTOMATTIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUTOMATTIC))  
       return wxString(SVG_SIMPLE_ICONS_AUTOMATTIC);
-  if (id == wxART_AUTOPREFIXER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AUTOPREFIXER))  
       return wxString(SVG_SIMPLE_ICONS_AUTOPREFIXER);
-  if (id == wxART_AVAJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AVAJS))  
       return wxString(SVG_SIMPLE_ICONS_AVAJS);
-  if (id == wxART_AVAST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AVAST))  
       return wxString(SVG_SIMPLE_ICONS_AVAST);
-  if (id == wxART_AVIRA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AVIRA))  
       return wxString(SVG_SIMPLE_ICONS_AVIRA);
-  if (id == wxART_AWESOMELISTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AWESOMELISTS))  
       return wxString(SVG_SIMPLE_ICONS_AWESOMELISTS);
-  if (id == wxART_AWESOMEWM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AWESOMEWM))  
       return wxString(SVG_SIMPLE_ICONS_AWESOMEWM);
-  if (id == wxART_AWSAMPLIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AWSAMPLIFY))  
       return wxString(SVG_SIMPLE_ICONS_AWSAMPLIFY);
-  if (id == wxART_AWSFARGATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AWSFARGATE))  
       return wxString(SVG_SIMPLE_ICONS_AWSFARGATE);
-  if (id == wxART_AWSLAMBDA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AWSLAMBDA))  
       return wxString(SVG_SIMPLE_ICONS_AWSLAMBDA);
-  if (id == wxART_AWSORGANIZATIONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AWSORGANIZATIONS))  
       return wxString(SVG_SIMPLE_ICONS_AWSORGANIZATIONS);
-  if (id == wxART_AXIOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AXIOS))  
       return wxString(SVG_SIMPLE_ICONS_AXIOS);
-  if (id == wxART_AZUREARTIFACTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AZUREARTIFACTS))  
       return wxString(SVG_SIMPLE_ICONS_AZUREARTIFACTS);
-  if (id == wxART_AZUREDATAEXPLORER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AZUREDATAEXPLORER))  
       return wxString(SVG_SIMPLE_ICONS_AZUREDATAEXPLORER);
-  if (id == wxART_AZUREDEVOPS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AZUREDEVOPS))  
       return wxString(SVG_SIMPLE_ICONS_AZUREDEVOPS);
-  if (id == wxART_AZUREFUNCTIONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AZUREFUNCTIONS))  
       return wxString(SVG_SIMPLE_ICONS_AZUREFUNCTIONS);
-  if (id == wxART_AZUREPIPELINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_AZUREPIPELINES))  
       return wxString(SVG_SIMPLE_ICONS_AZUREPIPELINES);
-  if (id == wxART_BABEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BABEL))  
       return wxString(SVG_SIMPLE_ICONS_BABEL);
-  if (id == wxART_BABYLONDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BABYLONDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_BABYLONDOTJS);
-  if (id == wxART_BACKBLAZE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BACKBLAZE))  
       return wxString(SVG_SIMPLE_ICONS_BACKBLAZE);
-  if (id == wxART_BACKBONEDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BACKBONEDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_BACKBONEDOTJS);
-  if (id == wxART_BACKENDLESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BACKENDLESS))  
       return wxString(SVG_SIMPLE_ICONS_BACKENDLESS);
-  if (id == wxART_BACKSTAGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BACKSTAGE))  
       return wxString(SVG_SIMPLE_ICONS_BACKSTAGE);
-  if (id == wxART_BADGR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BADGR))  
       return wxString(SVG_SIMPLE_ICONS_BADGR);
-  if (id == wxART_BADOO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BADOO))  
       return wxString(SVG_SIMPLE_ICONS_BADOO);
-  if (id == wxART_BAIDU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BAIDU))  
       return wxString(SVG_SIMPLE_ICONS_BAIDU);
-  if (id == wxART_BAMBOO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BAMBOO))  
       return wxString(SVG_SIMPLE_ICONS_BAMBOO);
-  if (id == wxART_BANDCAMP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BANDCAMP))  
       return wxString(SVG_SIMPLE_ICONS_BANDCAMP);
-  if (id == wxART_BANDLAB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BANDLAB))  
       return wxString(SVG_SIMPLE_ICONS_BANDLAB);
-  if (id == wxART_BANDRAUTOMATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BANDRAUTOMATION))  
       return wxString(SVG_SIMPLE_ICONS_BANDRAUTOMATION);
-  if (id == wxART_BANDSINTOWN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BANDSINTOWN))  
       return wxString(SVG_SIMPLE_ICONS_BANDSINTOWN);
-  if (id == wxART_BANKOFAMERICA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BANKOFAMERICA))  
       return wxString(SVG_SIMPLE_ICONS_BANKOFAMERICA);
-  if (id == wxART_BARCLAYS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BARCLAYS))  
       return wxString(SVG_SIMPLE_ICONS_BARCLAYS);
-  if (id == wxART_BAREMETRICS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BAREMETRICS))  
       return wxString(SVG_SIMPLE_ICONS_BAREMETRICS);
-  if (id == wxART_BASECAMP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BASECAMP))  
       return wxString(SVG_SIMPLE_ICONS_BASECAMP);
-  if (id == wxART_BASTYON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BASTYON))  
       return wxString(SVG_SIMPLE_ICONS_BASTYON);
-  if (id == wxART_BATA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BATA))  
       return wxString(SVG_SIMPLE_ICONS_BATA);
-  if (id == wxART_BATHASU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BATHASU))  
       return wxString(SVG_SIMPLE_ICONS_BATHASU);
-  if (id == wxART_BATTLEDOTNET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BATTLEDOTNET))  
       return wxString(SVG_SIMPLE_ICONS_BATTLEDOTNET);
-  if (id == wxART_BBC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BBC))  
       return wxString(SVG_SIMPLE_ICONS_BBC);
-  if (id == wxART_BBCIPLAYER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BBCIPLAYER))  
       return wxString(SVG_SIMPLE_ICONS_BBCIPLAYER);
-  if (id == wxART_BEATPORT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BEATPORT))  
       return wxString(SVG_SIMPLE_ICONS_BEATPORT);
-  if (id == wxART_BEATS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BEATS))  
       return wxString(SVG_SIMPLE_ICONS_BEATS);
-  if (id == wxART_BEATSBYDRE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BEATSBYDRE))  
       return wxString(SVG_SIMPLE_ICONS_BEATSBYDRE);
-  if (id == wxART_BEHANCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BEHANCE))  
       return wxString(SVG_SIMPLE_ICONS_BEHANCE);
-  if (id == wxART_BEIJINGSUBWAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BEIJINGSUBWAY))  
       return wxString(SVG_SIMPLE_ICONS_BEIJINGSUBWAY);
-  if (id == wxART_BEM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BEM))  
       return wxString(SVG_SIMPLE_ICONS_BEM);
-  if (id == wxART_BENTLEY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BENTLEY))  
       return wxString(SVG_SIMPLE_ICONS_BENTLEY);
-  if (id == wxART_BENTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BENTO))  
       return wxString(SVG_SIMPLE_ICONS_BENTO);
-  if (id == wxART_BENTOML)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BENTOML))  
       return wxString(SVG_SIMPLE_ICONS_BENTOML);
-  if (id == wxART_BEREAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BEREAL))  
       return wxString(SVG_SIMPLE_ICONS_BEREAL);
-  if (id == wxART_BETFAIR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BETFAIR))  
       return wxString(SVG_SIMPLE_ICONS_BETFAIR);
-  if (id == wxART_BIGBASKET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BIGBASKET))  
       return wxString(SVG_SIMPLE_ICONS_BIGBASKET);
-  if (id == wxART_BIGBLUEBUTTON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BIGBLUEBUTTON))  
       return wxString(SVG_SIMPLE_ICONS_BIGBLUEBUTTON);
-  if (id == wxART_BIGCARTEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BIGCARTEL))  
       return wxString(SVG_SIMPLE_ICONS_BIGCARTEL);
-  if (id == wxART_BIGCOMMERCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BIGCOMMERCE))  
       return wxString(SVG_SIMPLE_ICONS_BIGCOMMERCE);
-  if (id == wxART_BILIBILI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BILIBILI))  
       return wxString(SVG_SIMPLE_ICONS_BILIBILI);
-  if (id == wxART_BILLBOARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BILLBOARD))  
       return wxString(SVG_SIMPLE_ICONS_BILLBOARD);
-  if (id == wxART_BIM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BIM))  
       return wxString(SVG_SIMPLE_ICONS_BIM);
-  if (id == wxART_BINANCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BINANCE))  
       return wxString(SVG_SIMPLE_ICONS_BINANCE);
-  if (id == wxART_BIOLINK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BIOLINK))  
       return wxString(SVG_SIMPLE_ICONS_BIOLINK);
-  if (id == wxART_BISECTHOSTING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BISECTHOSTING))  
       return wxString(SVG_SIMPLE_ICONS_BISECTHOSTING);
-  if (id == wxART_BIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BIT))  
       return wxString(SVG_SIMPLE_ICONS_BIT);
-  if (id == wxART_BITBUCKET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BITBUCKET))  
       return wxString(SVG_SIMPLE_ICONS_BITBUCKET);
-  if (id == wxART_BITCOIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BITCOIN))  
       return wxString(SVG_SIMPLE_ICONS_BITCOIN);
-  if (id == wxART_BITCOINCASH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BITCOINCASH))  
       return wxString(SVG_SIMPLE_ICONS_BITCOINCASH);
-  if (id == wxART_BITCOINSV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BITCOINSV))  
       return wxString(SVG_SIMPLE_ICONS_BITCOINSV);
-  if (id == wxART_BITDEFENDER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BITDEFENDER))  
       return wxString(SVG_SIMPLE_ICONS_BITDEFENDER);
-  if (id == wxART_BITLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BITLY))  
       return wxString(SVG_SIMPLE_ICONS_BITLY);
-  if (id == wxART_BITRISE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BITRISE))  
       return wxString(SVG_SIMPLE_ICONS_BITRISE);
-  if (id == wxART_BITWARDEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BITWARDEN))  
       return wxString(SVG_SIMPLE_ICONS_BITWARDEN);
-  if (id == wxART_BITWIG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BITWIG))  
       return wxString(SVG_SIMPLE_ICONS_BITWIG);
-  if (id == wxART_BLACKBERRY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BLACKBERRY))  
       return wxString(SVG_SIMPLE_ICONS_BLACKBERRY);
-  if (id == wxART_BLAZEMETER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BLAZEMETER))  
       return wxString(SVG_SIMPLE_ICONS_BLAZEMETER);
-  if (id == wxART_BLAZOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BLAZOR))  
       return wxString(SVG_SIMPLE_ICONS_BLAZOR);
-  if (id == wxART_BLENDER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BLENDER))  
       return wxString(SVG_SIMPLE_ICONS_BLENDER);
-  if (id == wxART_BLOCKCHAINDOTCOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BLOCKCHAINDOTCOM))  
       return wxString(SVG_SIMPLE_ICONS_BLOCKCHAINDOTCOM);
-  if (id == wxART_BLOGGER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BLOGGER))  
       return wxString(SVG_SIMPLE_ICONS_BLOGGER);
-  if (id == wxART_BLOGLOVIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BLOGLOVIN))  
       return wxString(SVG_SIMPLE_ICONS_BLOGLOVIN);
-  if (id == wxART_BLUEPRINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BLUEPRINT))  
       return wxString(SVG_SIMPLE_ICONS_BLUEPRINT);
-  if (id == wxART_BLUETOOTH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BLUETOOTH))  
       return wxString(SVG_SIMPLE_ICONS_BLUETOOTH);
-  if (id == wxART_BMCSOFTWARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BMCSOFTWARE))  
       return wxString(SVG_SIMPLE_ICONS_BMCSOFTWARE);
-  if (id == wxART_BMW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BMW))  
       return wxString(SVG_SIMPLE_ICONS_BMW);
-  if (id == wxART_BOARDGAMEGEEK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOARDGAMEGEEK))  
       return wxString(SVG_SIMPLE_ICONS_BOARDGAMEGEEK);
-  if (id == wxART_BOEHRINGERINGELHEIM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOEHRINGERINGELHEIM))  
       return wxString(SVG_SIMPLE_ICONS_BOEHRINGERINGELHEIM);
-  if (id == wxART_BOEING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOEING))  
       return wxString(SVG_SIMPLE_ICONS_BOEING);
-  if (id == wxART_BOMBARDIER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOMBARDIER))  
       return wxString(SVG_SIMPLE_ICONS_BOMBARDIER);
-  if (id == wxART_BOOKALOPE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOOKALOPE))  
       return wxString(SVG_SIMPLE_ICONS_BOOKALOPE);
-  if (id == wxART_BOOKBUB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOOKBUB))  
       return wxString(SVG_SIMPLE_ICONS_BOOKBUB);
-  if (id == wxART_BOOKMETER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOOKMETER))  
       return wxString(SVG_SIMPLE_ICONS_BOOKMETER);
-  if (id == wxART_BOOKMYSHOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOOKMYSHOW))  
       return wxString(SVG_SIMPLE_ICONS_BOOKMYSHOW);
-  if (id == wxART_BOOKSTACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOOKSTACK))  
       return wxString(SVG_SIMPLE_ICONS_BOOKSTACK);
-  if (id == wxART_BOOST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOOST))  
       return wxString(SVG_SIMPLE_ICONS_BOOST);
-  if (id == wxART_BOOTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOOTS))  
       return wxString(SVG_SIMPLE_ICONS_BOOTS);
-  if (id == wxART_BOOTSTRAP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOOTSTRAP))  
       return wxString(SVG_SIMPLE_ICONS_BOOTSTRAP);
-  if (id == wxART_BORGBACKUP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BORGBACKUP))  
       return wxString(SVG_SIMPLE_ICONS_BORGBACKUP);
-  if (id == wxART_BOSCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOSCH))  
       return wxString(SVG_SIMPLE_ICONS_BOSCH);
-  if (id == wxART_BOSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOSE))  
       return wxString(SVG_SIMPLE_ICONS_BOSE);
-  if (id == wxART_BOTBLECMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOTBLECMS))  
       return wxString(SVG_SIMPLE_ICONS_BOTBLECMS);
-  if (id == wxART_BOULANGER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOULANGER))  
       return wxString(SVG_SIMPLE_ICONS_BOULANGER);
-  if (id == wxART_BOWER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOWER))  
       return wxString(SVG_SIMPLE_ICONS_BOWER);
-  if (id == wxART_BOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOX))  
       return wxString(SVG_SIMPLE_ICONS_BOX);
-  if (id == wxART_BOXYSVG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BOXYSVG))  
       return wxString(SVG_SIMPLE_ICONS_BOXYSVG);
-  if (id == wxART_BRANDFOLDER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BRANDFOLDER))  
       return wxString(SVG_SIMPLE_ICONS_BRANDFOLDER);
-  if (id == wxART_BRAVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BRAVE))  
       return wxString(SVG_SIMPLE_ICONS_BRAVE);
-  if (id == wxART_BREAKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BREAKER))  
       return wxString(SVG_SIMPLE_ICONS_BREAKER);
-  if (id == wxART_BREVO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BREVO))  
       return wxString(SVG_SIMPLE_ICONS_BREVO);
-  if (id == wxART_BRITISHAIRWAYS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BRITISHAIRWAYS))  
       return wxString(SVG_SIMPLE_ICONS_BRITISHAIRWAYS);
-  if (id == wxART_BROADCOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BROADCOM))  
       return wxString(SVG_SIMPLE_ICONS_BROADCOM);
-  if (id == wxART_BSD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BSD))  
       return wxString(SVG_SIMPLE_ICONS_BSD);
-  if (id == wxART_BSPWM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BSPWM))  
       return wxString(SVG_SIMPLE_ICONS_BSPWM);
-  if (id == wxART_BT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BT))  
       return wxString(SVG_SIMPLE_ICONS_BT);
-  if (id == wxART_BUDDY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUDDY))  
       return wxString(SVG_SIMPLE_ICONS_BUDDY);
-  if (id == wxART_BUDIBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUDIBASE))  
       return wxString(SVG_SIMPLE_ICONS_BUDIBASE);
-  if (id == wxART_BUEFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUEFY))  
       return wxString(SVG_SIMPLE_ICONS_BUEFY);
-  if (id == wxART_BUFFER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUFFER))  
       return wxString(SVG_SIMPLE_ICONS_BUFFER);
-  if (id == wxART_BUGATTI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUGATTI))  
       return wxString(SVG_SIMPLE_ICONS_BUGATTI);
-  if (id == wxART_BUGCROWD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUGCROWD))  
       return wxString(SVG_SIMPLE_ICONS_BUGCROWD);
-  if (id == wxART_BUGSNAG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUGSNAG))  
       return wxString(SVG_SIMPLE_ICONS_BUGSNAG);
-  if (id == wxART_BUILDKITE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUILDKITE))  
       return wxString(SVG_SIMPLE_ICONS_BUILDKITE);
-  if (id == wxART_BUKALAPAK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUKALAPAK))  
       return wxString(SVG_SIMPLE_ICONS_BUKALAPAK);
-  if (id == wxART_BULMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BULMA))  
       return wxString(SVG_SIMPLE_ICONS_BULMA);
-  if (id == wxART_BUN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUN))  
       return wxString(SVG_SIMPLE_ICONS_BUN);
-  if (id == wxART_BUNQ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUNQ))  
       return wxString(SVG_SIMPLE_ICONS_BUNQ);
-  if (id == wxART_BURGERKING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BURGERKING))  
       return wxString(SVG_SIMPLE_ICONS_BURGERKING);
-  if (id == wxART_BURTON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BURTON))  
       return wxString(SVG_SIMPLE_ICONS_BURTON);
-  if (id == wxART_BUYMEACOFFEE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUYMEACOFFEE))  
       return wxString(SVG_SIMPLE_ICONS_BUYMEACOFFEE);
-  if (id == wxART_BUZZFEED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BUZZFEED))  
       return wxString(SVG_SIMPLE_ICONS_BUZZFEED);
-  if (id == wxART_BVG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BVG))  
       return wxString(SVG_SIMPLE_ICONS_BVG);
-  if (id == wxART_BYJUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BYJUS))  
       return wxString(SVG_SIMPLE_ICONS_BYJUS);
-  if (id == wxART_BYTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BYTE))  
       return wxString(SVG_SIMPLE_ICONS_BYTE);
-  if (id == wxART_BYTEDANCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_BYTEDANCE))  
       return wxString(SVG_SIMPLE_ICONS_BYTEDANCE);
-  if (id == wxART_C)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_C))  
       return wxString(SVG_SIMPLE_ICONS_C);
-  if (id == wxART_CACHET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CACHET))  
       return wxString(SVG_SIMPLE_ICONS_CACHET);
-  if (id == wxART_CADDY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CADDY))  
       return wxString(SVG_SIMPLE_ICONS_CADDY);
-  if (id == wxART_CADILLAC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CADILLAC))  
       return wxString(SVG_SIMPLE_ICONS_CADILLAC);
-  if (id == wxART_CAFEPRESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CAFEPRESS))  
       return wxString(SVG_SIMPLE_ICONS_CAFEPRESS);
-  if (id == wxART_CAFFEINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CAFFEINE))  
       return wxString(SVG_SIMPLE_ICONS_CAFFEINE);
-  if (id == wxART_CAIROGRAPHICS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CAIROGRAPHICS))  
       return wxString(SVG_SIMPLE_ICONS_CAIROGRAPHICS);
-  if (id == wxART_CAIROMETRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CAIROMETRO))  
       return wxString(SVG_SIMPLE_ICONS_CAIROMETRO);
-  if (id == wxART_CAKEPHP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CAKEPHP))  
       return wxString(SVG_SIMPLE_ICONS_CAKEPHP);
-  if (id == wxART_CAMPAIGNMONITOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CAMPAIGNMONITOR))  
       return wxString(SVG_SIMPLE_ICONS_CAMPAIGNMONITOR);
-  if (id == wxART_CANONICAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CANONICAL))  
       return wxString(SVG_SIMPLE_ICONS_CANONICAL);
-  if (id == wxART_CANVA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CANVA))  
       return wxString(SVG_SIMPLE_ICONS_CANVA);
-  if (id == wxART_CAPACITOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CAPACITOR))  
       return wxString(SVG_SIMPLE_ICONS_CAPACITOR);
-  if (id == wxART_CARDANO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CARDANO))  
       return wxString(SVG_SIMPLE_ICONS_CARDANO);
-  if (id == wxART_CARRD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CARRD))  
       return wxString(SVG_SIMPLE_ICONS_CARRD);
-  if (id == wxART_CARREFOUR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CARREFOUR))  
       return wxString(SVG_SIMPLE_ICONS_CARREFOUR);
-  if (id == wxART_CARTHROTTLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CARTHROTTLE))  
       return wxString(SVG_SIMPLE_ICONS_CARTHROTTLE);
-  if (id == wxART_CARTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CARTO))  
       return wxString(SVG_SIMPLE_ICONS_CARTO);
-  if (id == wxART_CASHAPP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CASHAPP))  
       return wxString(SVG_SIMPLE_ICONS_CASHAPP);
-  if (id == wxART_CASTBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CASTBOX))  
       return wxString(SVG_SIMPLE_ICONS_CASTBOX);
-  if (id == wxART_CASTORAMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CASTORAMA))  
       return wxString(SVG_SIMPLE_ICONS_CASTORAMA);
-  if (id == wxART_CASTRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CASTRO))  
       return wxString(SVG_SIMPLE_ICONS_CASTRO);
-  if (id == wxART_CATERPILLAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CATERPILLAR))  
       return wxString(SVG_SIMPLE_ICONS_CATERPILLAR);
-  if (id == wxART_CBS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CBS))  
       return wxString(SVG_SIMPLE_ICONS_CBS);
-  if (id == wxART_CDPROJEKT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CDPROJEKT))  
       return wxString(SVG_SIMPLE_ICONS_CDPROJEKT);
-  if (id == wxART_CELERY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CELERY))  
       return wxString(SVG_SIMPLE_ICONS_CELERY);
-  if (id == wxART_CENTOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CENTOS))  
       return wxString(SVG_SIMPLE_ICONS_CENTOS);
-  if (id == wxART_CEPH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CEPH))  
       return wxString(SVG_SIMPLE_ICONS_CEPH);
-  if (id == wxART_CESIUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CESIUM))  
       return wxString(SVG_SIMPLE_ICONS_CESIUM);
-  if (id == wxART_CHAI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHAI))  
       return wxString(SVG_SIMPLE_ICONS_CHAI);
-  if (id == wxART_CHAINGUARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHAINGUARD))  
       return wxString(SVG_SIMPLE_ICONS_CHAINGUARD);
-  if (id == wxART_CHAINLINK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHAINLINK))  
       return wxString(SVG_SIMPLE_ICONS_CHAINLINK);
-  if (id == wxART_CHAKRAUI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHAKRAUI))  
       return wxString(SVG_SIMPLE_ICONS_CHAKRAUI);
-  if (id == wxART_CHANNEL4)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHANNEL4))  
       return wxString(SVG_SIMPLE_ICONS_CHANNEL4);
-  if (id == wxART_CHARTDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHARTDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_CHARTDOTJS);
-  if (id == wxART_CHARTMOGUL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHARTMOGUL))  
       return wxString(SVG_SIMPLE_ICONS_CHARTMOGUL);
-  if (id == wxART_CHASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHASE))  
       return wxString(SVG_SIMPLE_ICONS_CHASE);
-  if (id == wxART_CHATBOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHATBOT))  
       return wxString(SVG_SIMPLE_ICONS_CHATBOT);
-  if (id == wxART_CHATWOOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHATWOOT))  
       return wxString(SVG_SIMPLE_ICONS_CHATWOOT);
-  if (id == wxART_CHECKIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHECKIO))  
       return wxString(SVG_SIMPLE_ICONS_CHECKIO);
-  if (id == wxART_CHECKMARX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHECKMARX))  
       return wxString(SVG_SIMPLE_ICONS_CHECKMARX);
-  if (id == wxART_CHECKMK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHECKMK))  
       return wxString(SVG_SIMPLE_ICONS_CHECKMK);
-  if (id == wxART_CHEF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHEF))  
       return wxString(SVG_SIMPLE_ICONS_CHEF);
-  if (id == wxART_CHEMEX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHEMEX))  
       return wxString(SVG_SIMPLE_ICONS_CHEMEX);
-  if (id == wxART_CHEVROLET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHEVROLET))  
       return wxString(SVG_SIMPLE_ICONS_CHEVROLET);
-  if (id == wxART_CHIANETWORK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHIANETWORK))  
       return wxString(SVG_SIMPLE_ICONS_CHIANETWORK);
-  if (id == wxART_CHINAEASTERNAIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHINAEASTERNAIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_CHINAEASTERNAIRLINES);
-  if (id == wxART_CHINASOUTHERNAIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHINASOUTHERNAIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_CHINASOUTHERNAIRLINES);
-  if (id == wxART_CHOCOLATEY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHOCOLATEY))  
       return wxString(SVG_SIMPLE_ICONS_CHOCOLATEY);
-  if (id == wxART_CHROMATIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHROMATIC))  
       return wxString(SVG_SIMPLE_ICONS_CHROMATIC);
-  if (id == wxART_CHROMECAST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHROMECAST))  
       return wxString(SVG_SIMPLE_ICONS_CHROMECAST);
-  if (id == wxART_CHRYSLER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHRYSLER))  
       return wxString(SVG_SIMPLE_ICONS_CHRYSLER);
-  if (id == wxART_CHUPACHUPS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CHUPACHUPS))  
       return wxString(SVG_SIMPLE_ICONS_CHUPACHUPS);
-  if (id == wxART_CILIUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CILIUM))  
       return wxString(SVG_SIMPLE_ICONS_CILIUM);
-  if (id == wxART_CINEMA4D)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CINEMA4D))  
       return wxString(SVG_SIMPLE_ICONS_CINEMA4D);
-  if (id == wxART_CIRCLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CIRCLE))  
       return wxString(SVG_SIMPLE_ICONS_CIRCLE);
-  if (id == wxART_CIRCLECI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CIRCLECI))  
       return wxString(SVG_SIMPLE_ICONS_CIRCLECI);
-  if (id == wxART_CIRCUITVERSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CIRCUITVERSE))  
       return wxString(SVG_SIMPLE_ICONS_CIRCUITVERSE);
-  if (id == wxART_CIRRUSCI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CIRRUSCI))  
       return wxString(SVG_SIMPLE_ICONS_CIRRUSCI);
-  if (id == wxART_CISCO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CISCO))  
       return wxString(SVG_SIMPLE_ICONS_CISCO);
-  if (id == wxART_CITRIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CITRIX))  
       return wxString(SVG_SIMPLE_ICONS_CITRIX);
-  if (id == wxART_CITROEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CITROEN))  
       return wxString(SVG_SIMPLE_ICONS_CITROEN);
-  if (id == wxART_CIVICRM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CIVICRM))  
       return wxString(SVG_SIMPLE_ICONS_CIVICRM);
-  if (id == wxART_CIVO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CIVO))  
       return wxString(SVG_SIMPLE_ICONS_CIVO);
-  if (id == wxART_CKEDITOR4)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CKEDITOR4))  
       return wxString(SVG_SIMPLE_ICONS_CKEDITOR4);
-  if (id == wxART_CLARIFAI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLARIFAI))  
       return wxString(SVG_SIMPLE_ICONS_CLARIFAI);
-  if (id == wxART_CLARIS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLARIS))  
       return wxString(SVG_SIMPLE_ICONS_CLARIS);
-  if (id == wxART_CLARIVATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLARIVATE))  
       return wxString(SVG_SIMPLE_ICONS_CLARIVATE);
-  if (id == wxART_CLICKHOUSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLICKHOUSE))  
       return wxString(SVG_SIMPLE_ICONS_CLICKHOUSE);
-  if (id == wxART_CLICKUP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLICKUP))  
       return wxString(SVG_SIMPLE_ICONS_CLICKUP);
-  if (id == wxART_CLION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLION))  
       return wxString(SVG_SIMPLE_ICONS_CLION);
-  if (id == wxART_CLIQZ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLIQZ))  
       return wxString(SVG_SIMPLE_ICONS_CLIQZ);
-  if (id == wxART_CLOCKIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOCKIFY))  
       return wxString(SVG_SIMPLE_ICONS_CLOCKIFY);
-  if (id == wxART_CLOJURE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOJURE))  
       return wxString(SVG_SIMPLE_ICONS_CLOJURE);
-  if (id == wxART_CLOUD66)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOUD66))  
       return wxString(SVG_SIMPLE_ICONS_CLOUD66);
-  if (id == wxART_CLOUDBEES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOUDBEES))  
       return wxString(SVG_SIMPLE_ICONS_CLOUDBEES);
-  if (id == wxART_CLOUDCANNON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOUDCANNON))  
       return wxString(SVG_SIMPLE_ICONS_CLOUDCANNON);
-  if (id == wxART_CLOUDERA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOUDERA))  
       return wxString(SVG_SIMPLE_ICONS_CLOUDERA);
-  if (id == wxART_CLOUDFLARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOUDFLARE))  
       return wxString(SVG_SIMPLE_ICONS_CLOUDFLARE);
-  if (id == wxART_CLOUDFLAREPAGES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOUDFLAREPAGES))  
       return wxString(SVG_SIMPLE_ICONS_CLOUDFLAREPAGES);
-  if (id == wxART_CLOUDFOUNDRY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOUDFOUNDRY))  
       return wxString(SVG_SIMPLE_ICONS_CLOUDFOUNDRY);
-  if (id == wxART_CLOUDSMITH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOUDSMITH))  
       return wxString(SVG_SIMPLE_ICONS_CLOUDSMITH);
-  if (id == wxART_CLOUDWAYS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLOUDWAYS))  
       return wxString(SVG_SIMPLE_ICONS_CLOUDWAYS);
-  if (id == wxART_CLUBHOUSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLUBHOUSE))  
       return wxString(SVG_SIMPLE_ICONS_CLUBHOUSE);
-  if (id == wxART_CLYP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CLYP))  
       return wxString(SVG_SIMPLE_ICONS_CLYP);
-  if (id == wxART_CMAKE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CMAKE))  
       return wxString(SVG_SIMPLE_ICONS_CMAKE);
-  if (id == wxART_CNCF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CNCF))  
       return wxString(SVG_SIMPLE_ICONS_CNCF);
-  if (id == wxART_CNN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CNN))  
       return wxString(SVG_SIMPLE_ICONS_CNN);
-  if (id == wxART_COCACOLA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COCACOLA))  
       return wxString(SVG_SIMPLE_ICONS_COCACOLA);
-  if (id == wxART_COCKPIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COCKPIT))  
       return wxString(SVG_SIMPLE_ICONS_COCKPIT);
-  if (id == wxART_COCKROACHLABS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COCKROACHLABS))  
       return wxString(SVG_SIMPLE_ICONS_COCKROACHLABS);
-  if (id == wxART_COCOAPODS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COCOAPODS))  
       return wxString(SVG_SIMPLE_ICONS_COCOAPODS);
-  if (id == wxART_COCOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COCOS))  
       return wxString(SVG_SIMPLE_ICONS_COCOS);
-  if (id == wxART_CODA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODA))  
       return wxString(SVG_SIMPLE_ICONS_CODA);
-  if (id == wxART_CODACY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODACY))  
       return wxString(SVG_SIMPLE_ICONS_CODACY);
-  if (id == wxART_CODEBERG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEBERG))  
       return wxString(SVG_SIMPLE_ICONS_CODEBERG);
-  if (id == wxART_CODECADEMY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODECADEMY))  
       return wxString(SVG_SIMPLE_ICONS_CODECADEMY);
-  if (id == wxART_CODECEPTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODECEPTJS))  
       return wxString(SVG_SIMPLE_ICONS_CODECEPTJS);
-  if (id == wxART_CODECHEF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODECHEF))  
       return wxString(SVG_SIMPLE_ICONS_CODECHEF);
-  if (id == wxART_CODECLIMATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODECLIMATE))  
       return wxString(SVG_SIMPLE_ICONS_CODECLIMATE);
-  if (id == wxART_CODECOV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODECOV))  
       return wxString(SVG_SIMPLE_ICONS_CODECOV);
-  if (id == wxART_CODEFACTOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEFACTOR))  
       return wxString(SVG_SIMPLE_ICONS_CODEFACTOR);
-  if (id == wxART_CODEFORCES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEFORCES))  
       return wxString(SVG_SIMPLE_ICONS_CODEFORCES);
-  if (id == wxART_CODEIGNITER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEIGNITER))  
       return wxString(SVG_SIMPLE_ICONS_CODEIGNITER);
-  if (id == wxART_CODEIUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEIUM))  
       return wxString(SVG_SIMPLE_ICONS_CODEIUM);
-  if (id == wxART_CODEMAGIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEMAGIC))  
       return wxString(SVG_SIMPLE_ICONS_CODEMAGIC);
-  if (id == wxART_CODEMIRROR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEMIRROR))  
       return wxString(SVG_SIMPLE_ICONS_CODEMIRROR);
-  if (id == wxART_CODENEWBIE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODENEWBIE))  
       return wxString(SVG_SIMPLE_ICONS_CODENEWBIE);
-  if (id == wxART_CODEPEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEPEN))  
       return wxString(SVG_SIMPLE_ICONS_CODEPEN);
-  if (id == wxART_CODEPROJECT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEPROJECT))  
       return wxString(SVG_SIMPLE_ICONS_CODEPROJECT);
-  if (id == wxART_CODEREVIEW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEREVIEW))  
       return wxString(SVG_SIMPLE_ICONS_CODEREVIEW);
-  if (id == wxART_CODERSRANK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODERSRANK))  
       return wxString(SVG_SIMPLE_ICONS_CODERSRANK);
-  if (id == wxART_CODERWALL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODERWALL))  
       return wxString(SVG_SIMPLE_ICONS_CODERWALL);
-  if (id == wxART_CODESANDBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODESANDBOX))  
       return wxString(SVG_SIMPLE_ICONS_CODESANDBOX);
-  if (id == wxART_CODESHIP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODESHIP))  
       return wxString(SVG_SIMPLE_ICONS_CODESHIP);
-  if (id == wxART_CODESIGNAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODESIGNAL))  
       return wxString(SVG_SIMPLE_ICONS_CODESIGNAL);
-  if (id == wxART_CODESTREAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODESTREAM))  
       return wxString(SVG_SIMPLE_ICONS_CODESTREAM);
-  if (id == wxART_CODEWARS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODEWARS))  
       return wxString(SVG_SIMPLE_ICONS_CODEWARS);
-  if (id == wxART_CODINGAME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODINGAME))  
       return wxString(SVG_SIMPLE_ICONS_CODINGAME);
-  if (id == wxART_CODINGNINJAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODINGNINJAS))  
       return wxString(SVG_SIMPLE_ICONS_CODINGNINJAS);
-  if (id == wxART_CODIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CODIO))  
       return wxString(SVG_SIMPLE_ICONS_CODIO);
-  if (id == wxART_COFFEESCRIPT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COFFEESCRIPT))  
       return wxString(SVG_SIMPLE_ICONS_COFFEESCRIPT);
-  if (id == wxART_COGNIZANT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COGNIZANT))  
       return wxString(SVG_SIMPLE_ICONS_COGNIZANT);
-  if (id == wxART_COIL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COIL))  
       return wxString(SVG_SIMPLE_ICONS_COIL);
-  if (id == wxART_COINBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COINBASE))  
       return wxString(SVG_SIMPLE_ICONS_COINBASE);
-  if (id == wxART_COINMARKETCAP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COINMARKETCAP))  
       return wxString(SVG_SIMPLE_ICONS_COINMARKETCAP);
-  if (id == wxART_COMMERZBANK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COMMERZBANK))  
       return wxString(SVG_SIMPLE_ICONS_COMMERZBANK);
-  if (id == wxART_COMMITLINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COMMITLINT))  
       return wxString(SVG_SIMPLE_ICONS_COMMITLINT);
-  if (id == wxART_COMMODORE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COMMODORE))  
       return wxString(SVG_SIMPLE_ICONS_COMMODORE);
-  if (id == wxART_COMMONWORKFLOWLANGUAGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COMMONWORKFLOWLANGUAGE))  
       return wxString(SVG_SIMPLE_ICONS_COMMONWORKFLOWLANGUAGE);
-  if (id == wxART_COMPILEREXPLORER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COMPILEREXPLORER))  
       return wxString(SVG_SIMPLE_ICONS_COMPILEREXPLORER);
-  if (id == wxART_COMPOSER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COMPOSER))  
       return wxString(SVG_SIMPLE_ICONS_COMPOSER);
-  if (id == wxART_COMPTIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COMPTIA))  
       return wxString(SVG_SIMPLE_ICONS_COMPTIA);
-  if (id == wxART_COMSOL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COMSOL))  
       return wxString(SVG_SIMPLE_ICONS_COMSOL);
-  if (id == wxART_CONAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONAN))  
       return wxString(SVG_SIMPLE_ICONS_CONAN);
-  if (id == wxART_CONCOURSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONCOURSE))  
       return wxString(SVG_SIMPLE_ICONS_CONCOURSE);
-  if (id == wxART_CONDAFORGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONDAFORGE))  
       return wxString(SVG_SIMPLE_ICONS_CONDAFORGE);
-  if (id == wxART_CONEKTA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONEKTA))  
       return wxString(SVG_SIMPLE_ICONS_CONEKTA);
-  if (id == wxART_CONFLUENCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONFLUENCE))  
       return wxString(SVG_SIMPLE_ICONS_CONFLUENCE);
-  if (id == wxART_CONSTRUCT3)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONSTRUCT3))  
       return wxString(SVG_SIMPLE_ICONS_CONSTRUCT3);
-  if (id == wxART_CONSUL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONSUL))  
       return wxString(SVG_SIMPLE_ICONS_CONSUL);
-  if (id == wxART_CONTACTLESSPAYMENT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONTACTLESSPAYMENT))  
       return wxString(SVG_SIMPLE_ICONS_CONTACTLESSPAYMENT);
-  if (id == wxART_CONTAINERD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONTAINERD))  
       return wxString(SVG_SIMPLE_ICONS_CONTAINERD);
-  if (id == wxART_CONTAO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONTAO))  
       return wxString(SVG_SIMPLE_ICONS_CONTAO);
-  if (id == wxART_CONTENTFUL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONTENTFUL))  
       return wxString(SVG_SIMPLE_ICONS_CONTENTFUL);
-  if (id == wxART_CONVENTIONALCOMMITS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONVENTIONALCOMMITS))  
       return wxString(SVG_SIMPLE_ICONS_CONVENTIONALCOMMITS);
-  if (id == wxART_CONVERTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CONVERTIO))  
       return wxString(SVG_SIMPLE_ICONS_CONVERTIO);
-  if (id == wxART_COOKIECUTTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COOKIECUTTER))  
       return wxString(SVG_SIMPLE_ICONS_COOKIECUTTER);
-  if (id == wxART_COOP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COOP))  
       return wxString(SVG_SIMPLE_ICONS_COOP);
-  if (id == wxART_CORA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CORA))  
       return wxString(SVG_SIMPLE_ICONS_CORA);
-  if (id == wxART_CORONAENGINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CORONAENGINE))  
       return wxString(SVG_SIMPLE_ICONS_CORONAENGINE);
-  if (id == wxART_CORONARENDERER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CORONARENDERER))  
       return wxString(SVG_SIMPLE_ICONS_CORONARENDERER);
-  if (id == wxART_CORSAIR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CORSAIR))  
       return wxString(SVG_SIMPLE_ICONS_CORSAIR);
-  if (id == wxART_COUCHBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COUCHBASE))  
       return wxString(SVG_SIMPLE_ICONS_COUCHBASE);
-  if (id == wxART_COUNTERSTRIKE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COUNTERSTRIKE))  
       return wxString(SVG_SIMPLE_ICONS_COUNTERSTRIKE);
-  if (id == wxART_COUNTINGWORKSPRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COUNTINGWORKSPRO))  
       return wxString(SVG_SIMPLE_ICONS_COUNTINGWORKSPRO);
-  if (id == wxART_COURSERA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COURSERA))  
       return wxString(SVG_SIMPLE_ICONS_COURSERA);
-  if (id == wxART_COVERALLS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_COVERALLS))  
       return wxString(SVG_SIMPLE_ICONS_COVERALLS);
-  if (id == wxART_CPANEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CPANEL))  
       return wxString(SVG_SIMPLE_ICONS_CPANEL);
-  if (id == wxART_CPLUSPLUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CPLUSPLUS))  
       return wxString(SVG_SIMPLE_ICONS_CPLUSPLUS);
-  if (id == wxART_CPLUSPLUSBUILDER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CPLUSPLUSBUILDER))  
       return wxString(SVG_SIMPLE_ICONS_CPLUSPLUSBUILDER);
-  if (id == wxART_CRAFTCMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CRAFTCMS))  
       return wxString(SVG_SIMPLE_ICONS_CRAFTCMS);
-  if (id == wxART_CRAFTSMAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CRAFTSMAN))  
       return wxString(SVG_SIMPLE_ICONS_CRAFTSMAN);
-  if (id == wxART_CRATEDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CRATEDB))  
       return wxString(SVG_SIMPLE_ICONS_CRATEDB);
-  if (id == wxART_CRAYON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CRAYON))  
       return wxString(SVG_SIMPLE_ICONS_CRAYON);
-  if (id == wxART_CREALITY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CREALITY))  
       return wxString(SVG_SIMPLE_ICONS_CREALITY);
-  if (id == wxART_CREATEREACTAPP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CREATEREACTAPP))  
       return wxString(SVG_SIMPLE_ICONS_CREATEREACTAPP);
-  if (id == wxART_CREATIVECOMMONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CREATIVECOMMONS))  
       return wxString(SVG_SIMPLE_ICONS_CREATIVECOMMONS);
-  if (id == wxART_CREATIVETECHNOLOGY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CREATIVETECHNOLOGY))  
       return wxString(SVG_SIMPLE_ICONS_CREATIVETECHNOLOGY);
-  if (id == wxART_CREDLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CREDLY))  
       return wxString(SVG_SIMPLE_ICONS_CREDLY);
-  if (id == wxART_CREHANA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CREHANA))  
       return wxString(SVG_SIMPLE_ICONS_CREHANA);
-  if (id == wxART_CRITICALROLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CRITICALROLE))  
       return wxString(SVG_SIMPLE_ICONS_CRITICALROLE);
-  if (id == wxART_CROWDIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CROWDIN))  
       return wxString(SVG_SIMPLE_ICONS_CROWDIN);
-  if (id == wxART_CROWDSOURCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CROWDSOURCE))  
       return wxString(SVG_SIMPLE_ICONS_CROWDSOURCE);
-  if (id == wxART_CRUNCHBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CRUNCHBASE))  
       return wxString(SVG_SIMPLE_ICONS_CRUNCHBASE);
-  if (id == wxART_CRUNCHYROLL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CRUNCHYROLL))  
       return wxString(SVG_SIMPLE_ICONS_CRUNCHYROLL);
-  if (id == wxART_CRYENGINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CRYENGINE))  
       return wxString(SVG_SIMPLE_ICONS_CRYENGINE);
-  if (id == wxART_CRYSTAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CRYSTAL))  
       return wxString(SVG_SIMPLE_ICONS_CRYSTAL);
-  if (id == wxART_CSHARP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CSHARP))  
       return wxString(SVG_SIMPLE_ICONS_CSHARP);
-  if (id == wxART_CSS3)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CSS3))  
       return wxString(SVG_SIMPLE_ICONS_CSS3);
-  if (id == wxART_CSSMODULES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CSSMODULES))  
       return wxString(SVG_SIMPLE_ICONS_CSSMODULES);
-  if (id == wxART_CSSWIZARDRY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CSSWIZARDRY))  
       return wxString(SVG_SIMPLE_ICONS_CSSWIZARDRY);
-  if (id == wxART_CTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CTS))  
       return wxString(SVG_SIMPLE_ICONS_CTS);
-  if (id == wxART_CUCUMBER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CUCUMBER))  
       return wxString(SVG_SIMPLE_ICONS_CUCUMBER);
-  if (id == wxART_CULTURA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CULTURA))  
       return wxString(SVG_SIMPLE_ICONS_CULTURA);
-  if (id == wxART_CURL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CURL))  
       return wxString(SVG_SIMPLE_ICONS_CURL);
-  if (id == wxART_CURSEFORGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CURSEFORGE))  
       return wxString(SVG_SIMPLE_ICONS_CURSEFORGE);
-  if (id == wxART_CYBERDEFENDERS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CYBERDEFENDERS))  
       return wxString(SVG_SIMPLE_ICONS_CYBERDEFENDERS);
-  if (id == wxART_CYCLING74)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CYCLING74))  
       return wxString(SVG_SIMPLE_ICONS_CYCLING74);
-  if (id == wxART_CYPRESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CYPRESS))  
       return wxString(SVG_SIMPLE_ICONS_CYPRESS);
-  if (id == wxART_CYTOSCAPEDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_CYTOSCAPEDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_CYTOSCAPEDOTJS);
-  if (id == wxART_D)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_D))  
       return wxString(SVG_SIMPLE_ICONS_D);
-  if (id == wxART_D3DOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_D3DOTJS))  
       return wxString(SVG_SIMPLE_ICONS_D3DOTJS);
-  if (id == wxART_DACIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DACIA))  
       return wxString(SVG_SIMPLE_ICONS_DACIA);
-  if (id == wxART_DAF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DAF))  
       return wxString(SVG_SIMPLE_ICONS_DAF);
-  if (id == wxART_DAILYMOTION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DAILYMOTION))  
       return wxString(SVG_SIMPLE_ICONS_DAILYMOTION);
-  if (id == wxART_DAIMLER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DAIMLER))  
       return wxString(SVG_SIMPLE_ICONS_DAIMLER);
-  if (id == wxART_DAISYUI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DAISYUI))  
       return wxString(SVG_SIMPLE_ICONS_DAISYUI);
-  if (id == wxART_DAPR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DAPR))  
       return wxString(SVG_SIMPLE_ICONS_DAPR);
-  if (id == wxART_DARKREADER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DARKREADER))  
       return wxString(SVG_SIMPLE_ICONS_DARKREADER);
-  if (id == wxART_DART)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DART))  
       return wxString(SVG_SIMPLE_ICONS_DART);
-  if (id == wxART_DARTY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DARTY))  
       return wxString(SVG_SIMPLE_ICONS_DARTY);
-  if (id == wxART_DASERSTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DASERSTE))  
       return wxString(SVG_SIMPLE_ICONS_DASERSTE);
-  if (id == wxART_DASH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DASH))  
       return wxString(SVG_SIMPLE_ICONS_DASH);
-  if (id == wxART_DASHLANE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DASHLANE))  
       return wxString(SVG_SIMPLE_ICONS_DASHLANE);
-  if (id == wxART_DASK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DASK))  
       return wxString(SVG_SIMPLE_ICONS_DASK);
-  if (id == wxART_DASSAULTSYSTEMES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DASSAULTSYSTEMES))  
       return wxString(SVG_SIMPLE_ICONS_DASSAULTSYSTEMES);
-  if (id == wxART_DATABRICKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DATABRICKS))  
       return wxString(SVG_SIMPLE_ICONS_DATABRICKS);
-  if (id == wxART_DATACAMP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DATACAMP))  
       return wxString(SVG_SIMPLE_ICONS_DATACAMP);
-  if (id == wxART_DATADOG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DATADOG))  
       return wxString(SVG_SIMPLE_ICONS_DATADOG);
-  if (id == wxART_DATADOTAI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DATADOTAI))  
       return wxString(SVG_SIMPLE_ICONS_DATADOTAI);
-  if (id == wxART_DATAGRIP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DATAGRIP))  
       return wxString(SVG_SIMPLE_ICONS_DATAGRIP);
-  if (id == wxART_DATAIKU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DATAIKU))  
       return wxString(SVG_SIMPLE_ICONS_DATAIKU);
-  if (id == wxART_DATASTAX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DATASTAX))  
       return wxString(SVG_SIMPLE_ICONS_DATASTAX);
-  if (id == wxART_DATAVERSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DATAVERSE))  
       return wxString(SVG_SIMPLE_ICONS_DATAVERSE);
-  if (id == wxART_DATOCMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DATOCMS))  
       return wxString(SVG_SIMPLE_ICONS_DATOCMS);
-  if (id == wxART_DATTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DATTO))  
       return wxString(SVG_SIMPLE_ICONS_DATTO);
-  if (id == wxART_DAZN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DAZN))  
       return wxString(SVG_SIMPLE_ICONS_DAZN);
-  if (id == wxART_DBLP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DBLP))  
       return wxString(SVG_SIMPLE_ICONS_DBLP);
-  if (id == wxART_DBT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DBT))  
       return wxString(SVG_SIMPLE_ICONS_DBT);
-  if (id == wxART_DCENTERTAINMENT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DCENTERTAINMENT))  
       return wxString(SVG_SIMPLE_ICONS_DCENTERTAINMENT);
-  if (id == wxART_DEBIAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEBIAN))  
       return wxString(SVG_SIMPLE_ICONS_DEBIAN);
-  if (id == wxART_DECAPCMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DECAPCMS))  
       return wxString(SVG_SIMPLE_ICONS_DECAPCMS);
-  if (id == wxART_DEDGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEDGE))  
       return wxString(SVG_SIMPLE_ICONS_DEDGE);
-  if (id == wxART_DEEPIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEEPIN))  
       return wxString(SVG_SIMPLE_ICONS_DEEPIN);
-  if (id == wxART_DEEPNOTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEEPNOTE))  
       return wxString(SVG_SIMPLE_ICONS_DEEPNOTE);
-  if (id == wxART_DEEZER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEEZER))  
       return wxString(SVG_SIMPLE_ICONS_DEEZER);
-  if (id == wxART_DELICIOUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DELICIOUS))  
       return wxString(SVG_SIMPLE_ICONS_DELICIOUS);
-  if (id == wxART_DELIVEROO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DELIVEROO))  
       return wxString(SVG_SIMPLE_ICONS_DELIVEROO);
-  if (id == wxART_DELL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DELL))  
       return wxString(SVG_SIMPLE_ICONS_DELL);
-  if (id == wxART_DELONGHI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DELONGHI))  
       return wxString(SVG_SIMPLE_ICONS_DELONGHI);
-  if (id == wxART_DELPHI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DELPHI))  
       return wxString(SVG_SIMPLE_ICONS_DELPHI);
-  if (id == wxART_DELTA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DELTA))  
       return wxString(SVG_SIMPLE_ICONS_DELTA);
-  if (id == wxART_DENO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DENO))  
       return wxString(SVG_SIMPLE_ICONS_DENO);
-  if (id == wxART_DENON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DENON))  
       return wxString(SVG_SIMPLE_ICONS_DENON);
-  if (id == wxART_DEPENDABOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEPENDABOT))  
       return wxString(SVG_SIMPLE_ICONS_DEPENDABOT);
-  if (id == wxART_DEPENDENCYCHECK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEPENDENCYCHECK))  
       return wxString(SVG_SIMPLE_ICONS_DEPENDENCYCHECK);
-  if (id == wxART_DERSPIEGEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DERSPIEGEL))  
       return wxString(SVG_SIMPLE_ICONS_DERSPIEGEL);
-  if (id == wxART_DESIGNERNEWS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DESIGNERNEWS))  
       return wxString(SVG_SIMPLE_ICONS_DESIGNERNEWS);
-  if (id == wxART_DEUTSCHEBAHN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEUTSCHEBAHN))  
       return wxString(SVG_SIMPLE_ICONS_DEUTSCHEBAHN);
-  if (id == wxART_DEUTSCHEBANK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEUTSCHEBANK))  
       return wxString(SVG_SIMPLE_ICONS_DEUTSCHEBANK);
-  if (id == wxART_DEVDOTTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEVDOTTO))  
       return wxString(SVG_SIMPLE_ICONS_DEVDOTTO);
-  if (id == wxART_DEVEXPRESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEVEXPRESS))  
       return wxString(SVG_SIMPLE_ICONS_DEVEXPRESS);
-  if (id == wxART_DEVIANTART)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEVIANTART))  
       return wxString(SVG_SIMPLE_ICONS_DEVIANTART);
-  if (id == wxART_DEVPOST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEVPOST))  
       return wxString(SVG_SIMPLE_ICONS_DEVPOST);
-  if (id == wxART_DEVRANT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DEVRANT))  
       return wxString(SVG_SIMPLE_ICONS_DEVRANT);
-  if (id == wxART_DGRAPH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DGRAPH))  
       return wxString(SVG_SIMPLE_ICONS_DGRAPH);
-  if (id == wxART_DHL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DHL))  
       return wxString(SVG_SIMPLE_ICONS_DHL);
-  if (id == wxART_DIAGRAMSDOTNET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DIAGRAMSDOTNET))  
       return wxString(SVG_SIMPLE_ICONS_DIAGRAMSDOTNET);
-  if (id == wxART_DIALOGFLOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DIALOGFLOW))  
       return wxString(SVG_SIMPLE_ICONS_DIALOGFLOW);
-  if (id == wxART_DIASPORA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DIASPORA))  
       return wxString(SVG_SIMPLE_ICONS_DIASPORA);
-  if (id == wxART_DIGG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DIGG))  
       return wxString(SVG_SIMPLE_ICONS_DIGG);
-  if (id == wxART_DIGIKEYELECTRONICS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DIGIKEYELECTRONICS))  
       return wxString(SVG_SIMPLE_ICONS_DIGIKEYELECTRONICS);
-  if (id == wxART_DIGITALOCEAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DIGITALOCEAN))  
       return wxString(SVG_SIMPLE_ICONS_DIGITALOCEAN);
-  if (id == wxART_DIOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DIOR))  
       return wxString(SVG_SIMPLE_ICONS_DIOR);
-  if (id == wxART_DIRECTUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DIRECTUS))  
       return wxString(SVG_SIMPLE_ICONS_DIRECTUS);
-  if (id == wxART_DISCOGS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DISCOGS))  
       return wxString(SVG_SIMPLE_ICONS_DISCOGS);
-  if (id == wxART_DISCORD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DISCORD))  
       return wxString(SVG_SIMPLE_ICONS_DISCORD);
-  if (id == wxART_DISCOURSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DISCOURSE))  
       return wxString(SVG_SIMPLE_ICONS_DISCOURSE);
-  if (id == wxART_DISCOVER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DISCOVER))  
       return wxString(SVG_SIMPLE_ICONS_DISCOVER);
-  if (id == wxART_DISQUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DISQUS))  
       return wxString(SVG_SIMPLE_ICONS_DISQUS);
-  if (id == wxART_DISROOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DISROOT))  
       return wxString(SVG_SIMPLE_ICONS_DISROOT);
-  if (id == wxART_DISTROKID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DISTROKID))  
       return wxString(SVG_SIMPLE_ICONS_DISTROKID);
-  if (id == wxART_DJANGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DJANGO))  
       return wxString(SVG_SIMPLE_ICONS_DJANGO);
-  if (id == wxART_DJI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DJI))  
       return wxString(SVG_SIMPLE_ICONS_DJI);
-  if (id == wxART_DLIB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DLIB))  
       return wxString(SVG_SIMPLE_ICONS_DLIB);
-  if (id == wxART_DLNA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DLNA))  
       return wxString(SVG_SIMPLE_ICONS_DLNA);
-  if (id == wxART_DM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DM))  
       return wxString(SVG_SIMPLE_ICONS_DM);
-  if (id == wxART_DOCKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOCKER))  
       return wxString(SVG_SIMPLE_ICONS_DOCKER);
-  if (id == wxART_DOCSDOTRS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOCSDOTRS))  
       return wxString(SVG_SIMPLE_ICONS_DOCSDOTRS);
-  if (id == wxART_DOCSIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOCSIFY))  
       return wxString(SVG_SIMPLE_ICONS_DOCSIFY);
-  if (id == wxART_DOCUSAURUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOCUSAURUS))  
       return wxString(SVG_SIMPLE_ICONS_DOCUSAURUS);
-  if (id == wxART_DOCUSIGN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOCUSIGN))  
       return wxString(SVG_SIMPLE_ICONS_DOCUSIGN);
-  if (id == wxART_DOGECOIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOGECOIN))  
       return wxString(SVG_SIMPLE_ICONS_DOGECOIN);
-  if (id == wxART_DOI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOI))  
       return wxString(SVG_SIMPLE_ICONS_DOI);
-  if (id == wxART_DOLBY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOLBY))  
       return wxString(SVG_SIMPLE_ICONS_DOLBY);
-  if (id == wxART_DOORDASH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOORDASH))  
       return wxString(SVG_SIMPLE_ICONS_DOORDASH);
-  if (id == wxART_DOTENV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOTENV))  
       return wxString(SVG_SIMPLE_ICONS_DOTENV);
-  if (id == wxART_DOTNET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOTNET))  
       return wxString(SVG_SIMPLE_ICONS_DOTNET);
-  if (id == wxART_DOUBAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOUBAN))  
       return wxString(SVG_SIMPLE_ICONS_DOUBAN);
-  if (id == wxART_DOUBANREAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOUBANREAD))  
       return wxString(SVG_SIMPLE_ICONS_DOUBANREAD);
-  if (id == wxART_DOVECOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DOVECOT))  
       return wxString(SVG_SIMPLE_ICONS_DOVECOT);
-  if (id == wxART_DPD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DPD))  
       return wxString(SVG_SIMPLE_ICONS_DPD);
-  if (id == wxART_DRAGONFRAME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DRAGONFRAME))  
       return wxString(SVG_SIMPLE_ICONS_DRAGONFRAME);
-  if (id == wxART_DRAUGIEMDOTLV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DRAUGIEMDOTLV))  
       return wxString(SVG_SIMPLE_ICONS_DRAUGIEMDOTLV);
-  if (id == wxART_DRIBBBLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DRIBBBLE))  
       return wxString(SVG_SIMPLE_ICONS_DRIBBBLE);
-  if (id == wxART_DRONE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DRONE))  
       return wxString(SVG_SIMPLE_ICONS_DRONE);
-  if (id == wxART_DROOBLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DROOBLE))  
       return wxString(SVG_SIMPLE_ICONS_DROOBLE);
-  if (id == wxART_DROPBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DROPBOX))  
       return wxString(SVG_SIMPLE_ICONS_DROPBOX);
-  if (id == wxART_DRUPAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DRUPAL))  
       return wxString(SVG_SIMPLE_ICONS_DRUPAL);
-  if (id == wxART_DSAUTOMOBILES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DSAUTOMOBILES))  
       return wxString(SVG_SIMPLE_ICONS_DSAUTOMOBILES);
-  if (id == wxART_DTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DTS))  
       return wxString(SVG_SIMPLE_ICONS_DTS);
-  if (id == wxART_DTUBE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DTUBE))  
       return wxString(SVG_SIMPLE_ICONS_DTUBE);
-  if (id == wxART_DUCATI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DUCATI))  
       return wxString(SVG_SIMPLE_ICONS_DUCATI);
-  if (id == wxART_DUCKDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DUCKDB))  
       return wxString(SVG_SIMPLE_ICONS_DUCKDB);
-  if (id == wxART_DUCKDUCKGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DUCKDUCKGO))  
       return wxString(SVG_SIMPLE_ICONS_DUCKDUCKGO);
-  if (id == wxART_DUNGEONSANDDRAGONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DUNGEONSANDDRAGONS))  
       return wxString(SVG_SIMPLE_ICONS_DUNGEONSANDDRAGONS);
-  if (id == wxART_DUNKED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DUNKED))  
       return wxString(SVG_SIMPLE_ICONS_DUNKED);
-  if (id == wxART_DUOLINGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DUOLINGO))  
       return wxString(SVG_SIMPLE_ICONS_DUOLINGO);
-  if (id == wxART_DVC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DVC))  
       return wxString(SVG_SIMPLE_ICONS_DVC);
-  if (id == wxART_DWAVESYSTEMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DWAVESYSTEMS))  
       return wxString(SVG_SIMPLE_ICONS_DWAVESYSTEMS);
-  if (id == wxART_DWM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DWM))  
       return wxString(SVG_SIMPLE_ICONS_DWM);
-  if (id == wxART_DYNAMICS365)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DYNAMICS365))  
       return wxString(SVG_SIMPLE_ICONS_DYNAMICS365);
-  if (id == wxART_DYNATRACE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_DYNATRACE))  
       return wxString(SVG_SIMPLE_ICONS_DYNATRACE);
-  if (id == wxART_E)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_E))  
       return wxString(SVG_SIMPLE_ICONS_E);
-  if (id == wxART_E3)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_E3))  
       return wxString(SVG_SIMPLE_ICONS_E3);
-  if (id == wxART_EA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EA))  
       return wxString(SVG_SIMPLE_ICONS_EA);
-  if (id == wxART_EAGLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EAGLE))  
       return wxString(SVG_SIMPLE_ICONS_EAGLE);
-  if (id == wxART_EASYEDA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EASYEDA))  
       return wxString(SVG_SIMPLE_ICONS_EASYEDA);
-  if (id == wxART_EASYJET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EASYJET))  
       return wxString(SVG_SIMPLE_ICONS_EASYJET);
-  if (id == wxART_EBAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EBAY))  
       return wxString(SVG_SIMPLE_ICONS_EBAY);
-  if (id == wxART_EBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EBOX))  
       return wxString(SVG_SIMPLE_ICONS_EBOX);
-  if (id == wxART_ECLIPSEADOPTIUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ECLIPSEADOPTIUM))  
       return wxString(SVG_SIMPLE_ICONS_ECLIPSEADOPTIUM);
-  if (id == wxART_ECLIPSECHE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ECLIPSECHE))  
       return wxString(SVG_SIMPLE_ICONS_ECLIPSECHE);
-  if (id == wxART_ECLIPSEIDE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ECLIPSEIDE))  
       return wxString(SVG_SIMPLE_ICONS_ECLIPSEIDE);
-  if (id == wxART_ECLIPSEJETTY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ECLIPSEJETTY))  
       return wxString(SVG_SIMPLE_ICONS_ECLIPSEJETTY);
-  if (id == wxART_ECLIPSEMOSQUITTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ECLIPSEMOSQUITTO))  
       return wxString(SVG_SIMPLE_ICONS_ECLIPSEMOSQUITTO);
-  if (id == wxART_ECLIPSEVERTDOTX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ECLIPSEVERTDOTX))  
       return wxString(SVG_SIMPLE_ICONS_ECLIPSEVERTDOTX);
-  if (id == wxART_EDEKA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EDEKA))  
       return wxString(SVG_SIMPLE_ICONS_EDEKA);
-  if (id == wxART_EDITORCONFIG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EDITORCONFIG))  
       return wxString(SVG_SIMPLE_ICONS_EDITORCONFIG);
-  if (id == wxART_EDOTLECLERC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EDOTLECLERC))  
       return wxString(SVG_SIMPLE_ICONS_EDOTLECLERC);
-  if (id == wxART_EDX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EDX))  
       return wxString(SVG_SIMPLE_ICONS_EDX);
-  if (id == wxART_EGGHEAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EGGHEAD))  
       return wxString(SVG_SIMPLE_ICONS_EGGHEAD);
-  if (id == wxART_EGNYTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EGNYTE))  
       return wxString(SVG_SIMPLE_ICONS_EGNYTE);
-  if (id == wxART_EIGHTSLEEP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EIGHTSLEEP))  
       return wxString(SVG_SIMPLE_ICONS_EIGHTSLEEP);
-  if (id == wxART_ELASTIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELASTIC))  
       return wxString(SVG_SIMPLE_ICONS_ELASTIC);
-  if (id == wxART_ELASTICCLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELASTICCLOUD))  
       return wxString(SVG_SIMPLE_ICONS_ELASTICCLOUD);
-  if (id == wxART_ELASTICSEARCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELASTICSEARCH))  
       return wxString(SVG_SIMPLE_ICONS_ELASTICSEARCH);
-  if (id == wxART_ELASTICSTACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELASTICSTACK))  
       return wxString(SVG_SIMPLE_ICONS_ELASTICSTACK);
-  if (id == wxART_ELAVON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELAVON))  
       return wxString(SVG_SIMPLE_ICONS_ELAVON);
-  if (id == wxART_ELECTRON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELECTRON))  
       return wxString(SVG_SIMPLE_ICONS_ELECTRON);
-  if (id == wxART_ELECTRONBUILDER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELECTRONBUILDER))  
       return wxString(SVG_SIMPLE_ICONS_ELECTRONBUILDER);
-  if (id == wxART_ELECTRONFIDDLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELECTRONFIDDLE))  
       return wxString(SVG_SIMPLE_ICONS_ELECTRONFIDDLE);
-  if (id == wxART_ELEMENT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELEMENT))  
       return wxString(SVG_SIMPLE_ICONS_ELEMENT);
-  if (id == wxART_ELEMENTARY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELEMENTARY))  
       return wxString(SVG_SIMPLE_ICONS_ELEMENTARY);
-  if (id == wxART_ELEMENTOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELEMENTOR))  
       return wxString(SVG_SIMPLE_ICONS_ELEMENTOR);
-  if (id == wxART_ELEVENTY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELEVENTY))  
       return wxString(SVG_SIMPLE_ICONS_ELEVENTY);
-  if (id == wxART_ELGATO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELGATO))  
       return wxString(SVG_SIMPLE_ICONS_ELGATO);
-  if (id == wxART_ELIXIR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELIXIR))  
       return wxString(SVG_SIMPLE_ICONS_ELIXIR);
-  if (id == wxART_ELJUEVES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELJUEVES))  
       return wxString(SVG_SIMPLE_ICONS_ELJUEVES);
-  if (id == wxART_ELLO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELLO))  
       return wxString(SVG_SIMPLE_ICONS_ELLO);
-  if (id == wxART_ELM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELM))  
       return wxString(SVG_SIMPLE_ICONS_ELM);
-  if (id == wxART_ELSEVIER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ELSEVIER))  
       return wxString(SVG_SIMPLE_ICONS_ELSEVIER);
-  if (id == wxART_EMBARCADERO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EMBARCADERO))  
       return wxString(SVG_SIMPLE_ICONS_EMBARCADERO);
-  if (id == wxART_EMBERDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EMBERDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_EMBERDOTJS);
-  if (id == wxART_EMBY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EMBY))  
       return wxString(SVG_SIMPLE_ICONS_EMBY);
-  if (id == wxART_EMIRATES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EMIRATES))  
       return wxString(SVG_SIMPLE_ICONS_EMIRATES);
-  if (id == wxART_EMLAKJET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EMLAKJET))  
       return wxString(SVG_SIMPLE_ICONS_EMLAKJET);
-  if (id == wxART_EMPIREKRED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EMPIREKRED))  
       return wxString(SVG_SIMPLE_ICONS_EMPIREKRED);
-  if (id == wxART_ENGADGET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ENGADGET))  
       return wxString(SVG_SIMPLE_ICONS_ENGADGET);
-  if (id == wxART_ENPASS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ENPASS))  
       return wxString(SVG_SIMPLE_ICONS_ENPASS);
-  if (id == wxART_ENTERPRISEDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ENTERPRISEDB))  
       return wxString(SVG_SIMPLE_ICONS_ENTERPRISEDB);
-  if (id == wxART_ENVATO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ENVATO))  
       return wxString(SVG_SIMPLE_ICONS_ENVATO);
-  if (id == wxART_ENVOYPROXY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ENVOYPROXY))  
       return wxString(SVG_SIMPLE_ICONS_ENVOYPROXY);
-  if (id == wxART_EPEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EPEL))  
       return wxString(SVG_SIMPLE_ICONS_EPEL);
-  if (id == wxART_EPICGAMES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EPICGAMES))  
       return wxString(SVG_SIMPLE_ICONS_EPICGAMES);
-  if (id == wxART_EPSON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EPSON))  
       return wxString(SVG_SIMPLE_ICONS_EPSON);
-  if (id == wxART_EQUINIXMETAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EQUINIXMETAL))  
       return wxString(SVG_SIMPLE_ICONS_EQUINIXMETAL);
-  if (id == wxART_ERICSSON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ERICSSON))  
       return wxString(SVG_SIMPLE_ICONS_ERICSSON);
-  if (id == wxART_ERLANG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ERLANG))  
       return wxString(SVG_SIMPLE_ICONS_ERLANG);
-  if (id == wxART_ESBUILD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ESBUILD))  
       return wxString(SVG_SIMPLE_ICONS_ESBUILD);
-  if (id == wxART_ESEA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ESEA))  
       return wxString(SVG_SIMPLE_ICONS_ESEA);
-  if (id == wxART_ESLGAMING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ESLGAMING))  
       return wxString(SVG_SIMPLE_ICONS_ESLGAMING);
-  if (id == wxART_ESLINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ESLINT))  
       return wxString(SVG_SIMPLE_ICONS_ESLINT);
-  if (id == wxART_ESPHOME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ESPHOME))  
       return wxString(SVG_SIMPLE_ICONS_ESPHOME);
-  if (id == wxART_ESPRESSIF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ESPRESSIF))  
       return wxString(SVG_SIMPLE_ICONS_ESPRESSIF);
-  if (id == wxART_ESRI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ESRI))  
       return wxString(SVG_SIMPLE_ICONS_ESRI);
-  if (id == wxART_ETCD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ETCD))  
       return wxString(SVG_SIMPLE_ICONS_ETCD);
-  if (id == wxART_ETHEREUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ETHEREUM))  
       return wxString(SVG_SIMPLE_ICONS_ETHEREUM);
-  if (id == wxART_ETHIOPIANAIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ETHIOPIANAIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_ETHIOPIANAIRLINES);
-  if (id == wxART_ETIHADAIRWAYS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ETIHADAIRWAYS))  
       return wxString(SVG_SIMPLE_ICONS_ETIHADAIRWAYS);
-  if (id == wxART_ETSY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ETSY))  
       return wxString(SVG_SIMPLE_ICONS_ETSY);
-  if (id == wxART_EVENTBRITE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EVENTBRITE))  
       return wxString(SVG_SIMPLE_ICONS_EVENTBRITE);
-  if (id == wxART_EVENTSTORE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EVENTSTORE))  
       return wxString(SVG_SIMPLE_ICONS_EVENTSTORE);
-  if (id == wxART_EVERNOTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EVERNOTE))  
       return wxString(SVG_SIMPLE_ICONS_EVERNOTE);
-  if (id == wxART_EXERCISM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EXERCISM))  
       return wxString(SVG_SIMPLE_ICONS_EXERCISM);
-  if (id == wxART_EXORDO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EXORDO))  
       return wxString(SVG_SIMPLE_ICONS_EXORDO);
-  if (id == wxART_EXOSCALE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EXOSCALE))  
       return wxString(SVG_SIMPLE_ICONS_EXOSCALE);
-  if (id == wxART_EXPENSIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EXPENSIFY))  
       return wxString(SVG_SIMPLE_ICONS_EXPENSIFY);
-  if (id == wxART_EXPERTSEXCHANGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EXPERTSEXCHANGE))  
       return wxString(SVG_SIMPLE_ICONS_EXPERTSEXCHANGE);
-  if (id == wxART_EXPO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EXPO))  
       return wxString(SVG_SIMPLE_ICONS_EXPO);
-  if (id == wxART_EXPRESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EXPRESS))  
       return wxString(SVG_SIMPLE_ICONS_EXPRESS);
-  if (id == wxART_EXPRESSVPN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EXPRESSVPN))  
       return wxString(SVG_SIMPLE_ICONS_EXPRESSVPN);
-  if (id == wxART_EYEEM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_EYEEM))  
       return wxString(SVG_SIMPLE_ICONS_EYEEM);
-  if (id == wxART_F1)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_F1))  
       return wxString(SVG_SIMPLE_ICONS_F1);
-  if (id == wxART_F5)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_F5))  
       return wxString(SVG_SIMPLE_ICONS_F5);
-  if (id == wxART_FACEBOOK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FACEBOOK))  
       return wxString(SVG_SIMPLE_ICONS_FACEBOOK);
-  if (id == wxART_FACEBOOKGAMING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FACEBOOKGAMING))  
       return wxString(SVG_SIMPLE_ICONS_FACEBOOKGAMING);
-  if (id == wxART_FACEBOOKLIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FACEBOOKLIVE))  
       return wxString(SVG_SIMPLE_ICONS_FACEBOOKLIVE);
-  if (id == wxART_FACEIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FACEIT))  
       return wxString(SVG_SIMPLE_ICONS_FACEIT);
-  if (id == wxART_FACEPUNCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FACEPUNCH))  
       return wxString(SVG_SIMPLE_ICONS_FACEPUNCH);
-  if (id == wxART_FALCO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FALCO))  
       return wxString(SVG_SIMPLE_ICONS_FALCO);
-  if (id == wxART_FALCON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FALCON))  
       return wxString(SVG_SIMPLE_ICONS_FALCON);
-  if (id == wxART_FAMPAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FAMPAY))  
       return wxString(SVG_SIMPLE_ICONS_FAMPAY);
-  if (id == wxART_FANDANGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FANDANGO))  
       return wxString(SVG_SIMPLE_ICONS_FANDANGO);
-  if (id == wxART_FANDOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FANDOM))  
       return wxString(SVG_SIMPLE_ICONS_FANDOM);
-  if (id == wxART_FANFOU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FANFOU))  
       return wxString(SVG_SIMPLE_ICONS_FANFOU);
-  if (id == wxART_FANTOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FANTOM))  
       return wxString(SVG_SIMPLE_ICONS_FANTOM);
-  if (id == wxART_FAREHARBOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FAREHARBOR))  
       return wxString(SVG_SIMPLE_ICONS_FAREHARBOR);
-  if (id == wxART_FARFETCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FARFETCH))  
       return wxString(SVG_SIMPLE_ICONS_FARFETCH);
-  if (id == wxART_FASTAPI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FASTAPI))  
       return wxString(SVG_SIMPLE_ICONS_FASTAPI);
-  if (id == wxART_FASTIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FASTIFY))  
       return wxString(SVG_SIMPLE_ICONS_FASTIFY);
-  if (id == wxART_FASTLANE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FASTLANE))  
       return wxString(SVG_SIMPLE_ICONS_FASTLANE);
-  if (id == wxART_FASTLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FASTLY))  
       return wxString(SVG_SIMPLE_ICONS_FASTLY);
-  if (id == wxART_FATHOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FATHOM))  
       return wxString(SVG_SIMPLE_ICONS_FATHOM);
-  if (id == wxART_FAUNA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FAUNA))  
       return wxString(SVG_SIMPLE_ICONS_FAUNA);
-  if (id == wxART_FAVRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FAVRO))  
       return wxString(SVG_SIMPLE_ICONS_FAVRO);
-  if (id == wxART_FDROID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FDROID))  
       return wxString(SVG_SIMPLE_ICONS_FDROID);
-  if (id == wxART_FEATHUB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FEATHUB))  
       return wxString(SVG_SIMPLE_ICONS_FEATHUB);
-  if (id == wxART_FEDEX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FEDEX))  
       return wxString(SVG_SIMPLE_ICONS_FEDEX);
-  if (id == wxART_FEDORA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FEDORA))  
       return wxString(SVG_SIMPLE_ICONS_FEDORA);
-  if (id == wxART_FEEDLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FEEDLY))  
       return wxString(SVG_SIMPLE_ICONS_FEEDLY);
-  if (id == wxART_FERRARI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FERRARI))  
       return wxString(SVG_SIMPLE_ICONS_FERRARI);
-  if (id == wxART_FERRARINV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FERRARINV))  
       return wxString(SVG_SIMPLE_ICONS_FERRARINV);
-  if (id == wxART_FERRETDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FERRETDB))  
       return wxString(SVG_SIMPLE_ICONS_FERRETDB);
-  if (id == wxART_FFMPEG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FFMPEG))  
       return wxString(SVG_SIMPLE_ICONS_FFMPEG);
-  if (id == wxART_FI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FI))  
       return wxString(SVG_SIMPLE_ICONS_FI);
-  if (id == wxART_FIAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIAT))  
       return wxString(SVG_SIMPLE_ICONS_FIAT);
-  if (id == wxART_FIDOALLIANCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIDOALLIANCE))  
       return wxString(SVG_SIMPLE_ICONS_FIDOALLIANCE);
-  if (id == wxART_FIFA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIFA))  
       return wxString(SVG_SIMPLE_ICONS_FIFA);
-  if (id == wxART_FIG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIG))  
       return wxString(SVG_SIMPLE_ICONS_FIG);
-  if (id == wxART_FIGMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIGMA))  
       return wxString(SVG_SIMPLE_ICONS_FIGMA);
-  if (id == wxART_FIGSHARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIGSHARE))  
       return wxString(SVG_SIMPLE_ICONS_FIGSHARE);
-  if (id == wxART_FILA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FILA))  
       return wxString(SVG_SIMPLE_ICONS_FILA);
-  if (id == wxART_FILES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FILES))  
       return wxString(SVG_SIMPLE_ICONS_FILES);
-  if (id == wxART_FILEZILLA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FILEZILLA))  
       return wxString(SVG_SIMPLE_ICONS_FILEZILLA);
-  if (id == wxART_FING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FING))  
       return wxString(SVG_SIMPLE_ICONS_FING);
-  if (id == wxART_FIREBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIREBASE))  
       return wxString(SVG_SIMPLE_ICONS_FIREBASE);
-  if (id == wxART_FIREFISH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIREFISH))  
       return wxString(SVG_SIMPLE_ICONS_FIREFISH);
-  if (id == wxART_FIREFLYIII)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIREFLYIII))  
       return wxString(SVG_SIMPLE_ICONS_FIREFLYIII);
-  if (id == wxART_FIREFOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIREFOX))  
       return wxString(SVG_SIMPLE_ICONS_FIREFOX);
-  if (id == wxART_FIREFOXBROWSER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIREFOXBROWSER))  
       return wxString(SVG_SIMPLE_ICONS_FIREFOXBROWSER);
-  if (id == wxART_FIRESHIP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIRESHIP))  
       return wxString(SVG_SIMPLE_ICONS_FIRESHIP);
-  if (id == wxART_FIREWALLA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIREWALLA))  
       return wxString(SVG_SIMPLE_ICONS_FIREWALLA);
-  if (id == wxART_FIRST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIRST))  
       return wxString(SVG_SIMPLE_ICONS_FIRST);
-  if (id == wxART_FITBIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FITBIT))  
       return wxString(SVG_SIMPLE_ICONS_FITBIT);
-  if (id == wxART_FITE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FITE))  
       return wxString(SVG_SIMPLE_ICONS_FITE);
-  if (id == wxART_FIVEM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIVEM))  
       return wxString(SVG_SIMPLE_ICONS_FIVEM);
-  if (id == wxART_FIVERR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FIVERR))  
       return wxString(SVG_SIMPLE_ICONS_FIVERR);
-  if (id == wxART_FLASK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLASK))  
       return wxString(SVG_SIMPLE_ICONS_FLASK);
-  if (id == wxART_FLAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLAT))  
       return wxString(SVG_SIMPLE_ICONS_FLAT);
-  if (id == wxART_FLATHUB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLATHUB))  
       return wxString(SVG_SIMPLE_ICONS_FLATHUB);
-  if (id == wxART_FLATPAK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLATPAK))  
       return wxString(SVG_SIMPLE_ICONS_FLATPAK);
-  if (id == wxART_FLATTR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLATTR))  
       return wxString(SVG_SIMPLE_ICONS_FLATTR);
-  if (id == wxART_FLICKR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLICKR))  
       return wxString(SVG_SIMPLE_ICONS_FLICKR);
-  if (id == wxART_FLIGHTAWARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLIGHTAWARE))  
       return wxString(SVG_SIMPLE_ICONS_FLIGHTAWARE);
-  if (id == wxART_FLIPBOARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLIPBOARD))  
       return wxString(SVG_SIMPLE_ICONS_FLIPBOARD);
-  if (id == wxART_FLIPKART)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLIPKART))  
       return wxString(SVG_SIMPLE_ICONS_FLIPKART);
-  if (id == wxART_FLOATPLANE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLOATPLANE))  
       return wxString(SVG_SIMPLE_ICONS_FLOATPLANE);
-  if (id == wxART_FLOOD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLOOD))  
       return wxString(SVG_SIMPLE_ICONS_FLOOD);
-  if (id == wxART_FLUENTBIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLUENTBIT))  
       return wxString(SVG_SIMPLE_ICONS_FLUENTBIT);
-  if (id == wxART_FLUENTD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLUENTD))  
       return wxString(SVG_SIMPLE_ICONS_FLUENTD);
-  if (id == wxART_FLUKE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLUKE))  
       return wxString(SVG_SIMPLE_ICONS_FLUKE);
-  if (id == wxART_FLUTTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLUTTER))  
       return wxString(SVG_SIMPLE_ICONS_FLUTTER);
-  if (id == wxART_FLUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLUX))  
       return wxString(SVG_SIMPLE_ICONS_FLUX);
-  if (id == wxART_FLUXUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLUXUS))  
       return wxString(SVG_SIMPLE_ICONS_FLUXUS);
-  if (id == wxART_FLYWAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FLYWAY))  
       return wxString(SVG_SIMPLE_ICONS_FLYWAY);
-  if (id == wxART_FMOD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FMOD))  
       return wxString(SVG_SIMPLE_ICONS_FMOD);
-  if (id == wxART_FNAC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FNAC))  
       return wxString(SVG_SIMPLE_ICONS_FNAC);
-  if (id == wxART_FOLIUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FOLIUM))  
       return wxString(SVG_SIMPLE_ICONS_FOLIUM);
-  if (id == wxART_FONOMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FONOMA))  
       return wxString(SVG_SIMPLE_ICONS_FONOMA);
-  if (id == wxART_FONTAWESOME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FONTAWESOME))  
       return wxString(SVG_SIMPLE_ICONS_FONTAWESOME);
-  if (id == wxART_FONTBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FONTBASE))  
       return wxString(SVG_SIMPLE_ICONS_FONTBASE);
-  if (id == wxART_FONTFORGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FONTFORGE))  
       return wxString(SVG_SIMPLE_ICONS_FONTFORGE);
-  if (id == wxART_FOODPANDA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FOODPANDA))  
       return wxString(SVG_SIMPLE_ICONS_FOODPANDA);
-  if (id == wxART_FORD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FORD))  
       return wxString(SVG_SIMPLE_ICONS_FORD);
-  if (id == wxART_FORESTRY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FORESTRY))  
       return wxString(SVG_SIMPLE_ICONS_FORESTRY);
-  if (id == wxART_FORGEJO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FORGEJO))  
       return wxString(SVG_SIMPLE_ICONS_FORGEJO);
-  if (id == wxART_FORMSTACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FORMSTACK))  
       return wxString(SVG_SIMPLE_ICONS_FORMSTACK);
-  if (id == wxART_FORTINET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FORTINET))  
       return wxString(SVG_SIMPLE_ICONS_FORTINET);
-  if (id == wxART_FORTRAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FORTRAN))  
       return wxString(SVG_SIMPLE_ICONS_FORTRAN);
-  if (id == wxART_FOSSA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FOSSA))  
       return wxString(SVG_SIMPLE_ICONS_FOSSA);
-  if (id == wxART_FOSSILSCM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FOSSILSCM))  
       return wxString(SVG_SIMPLE_ICONS_FOSSILSCM);
-  if (id == wxART_FOURSQUARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FOURSQUARE))  
       return wxString(SVG_SIMPLE_ICONS_FOURSQUARE);
-  if (id == wxART_FOURSQUARECITYGUIDE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FOURSQUARECITYGUIDE))  
       return wxString(SVG_SIMPLE_ICONS_FOURSQUARECITYGUIDE);
-  if (id == wxART_FOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FOX))  
       return wxString(SVG_SIMPLE_ICONS_FOX);
-  if (id == wxART_FOXTEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FOXTEL))  
       return wxString(SVG_SIMPLE_ICONS_FOXTEL);
-  if (id == wxART_FOZZY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FOZZY))  
       return wxString(SVG_SIMPLE_ICONS_FOZZY);
-  if (id == wxART_FRAMER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FRAMER))  
       return wxString(SVG_SIMPLE_ICONS_FRAMER);
-  if (id == wxART_FRAMEWORK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FRAMEWORK))  
       return wxString(SVG_SIMPLE_ICONS_FRAMEWORK);
-  if (id == wxART_FRAMEWORK7)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FRAMEWORK7))  
       return wxString(SVG_SIMPLE_ICONS_FRAMEWORK7);
-  if (id == wxART_FRANPRIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FRANPRIX))  
       return wxString(SVG_SIMPLE_ICONS_FRANPRIX);
-  if (id == wxART_FRAUNHOFERGESELLSCHAFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FRAUNHOFERGESELLSCHAFT))  
       return wxString(SVG_SIMPLE_ICONS_FRAUNHOFERGESELLSCHAFT);
-  if (id == wxART_FREEBSD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FREEBSD))  
       return wxString(SVG_SIMPLE_ICONS_FREEBSD);
-  if (id == wxART_FREECODECAMP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FREECODECAMP))  
       return wxString(SVG_SIMPLE_ICONS_FREECODECAMP);
-  if (id == wxART_FREEDESKTOPDOTORG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FREEDESKTOPDOTORG))  
       return wxString(SVG_SIMPLE_ICONS_FREEDESKTOPDOTORG);
-  if (id == wxART_FREELANCER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FREELANCER))  
       return wxString(SVG_SIMPLE_ICONS_FREELANCER);
-  if (id == wxART_FREENAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FREENAS))  
       return wxString(SVG_SIMPLE_ICONS_FREENAS);
-  if (id == wxART_FREEPIK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FREEPIK))  
       return wxString(SVG_SIMPLE_ICONS_FREEPIK);
-  if (id == wxART_FRONTENDMENTOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FRONTENDMENTOR))  
       return wxString(SVG_SIMPLE_ICONS_FRONTENDMENTOR);
-  if (id == wxART_FRONTIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FRONTIFY))  
       return wxString(SVG_SIMPLE_ICONS_FRONTIFY);
-  if (id == wxART_FSECURE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FSECURE))  
       return wxString(SVG_SIMPLE_ICONS_FSECURE);
-  if (id == wxART_FSHARP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FSHARP))  
       return wxString(SVG_SIMPLE_ICONS_FSHARP);
-  if (id == wxART_FUGACLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FUGACLOUD))  
       return wxString(SVG_SIMPLE_ICONS_FUGACLOUD);
-  if (id == wxART_FUJIFILM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FUJIFILM))  
       return wxString(SVG_SIMPLE_ICONS_FUJIFILM);
-  if (id == wxART_FUJITSU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FUJITSU))  
       return wxString(SVG_SIMPLE_ICONS_FUJITSU);
-  if (id == wxART_FUNIMATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FUNIMATION))  
       return wxString(SVG_SIMPLE_ICONS_FUNIMATION);
-  if (id == wxART_FURAFFINITY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FURAFFINITY))  
       return wxString(SVG_SIMPLE_ICONS_FURAFFINITY);
-  if (id == wxART_FURRYNETWORK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FURRYNETWORK))  
       return wxString(SVG_SIMPLE_ICONS_FURRYNETWORK);
-  if (id == wxART_FUTURELEARN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_FUTURELEARN))  
       return wxString(SVG_SIMPLE_ICONS_FUTURELEARN);
-  if (id == wxART_G2)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_G2))  
       return wxString(SVG_SIMPLE_ICONS_G2);
-  if (id == wxART_G2A)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_G2A))  
       return wxString(SVG_SIMPLE_ICONS_G2A);
-  if (id == wxART_GAMEANDWATCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GAMEANDWATCH))  
       return wxString(SVG_SIMPLE_ICONS_GAMEANDWATCH);
-  if (id == wxART_GAMEBANANA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GAMEBANANA))  
       return wxString(SVG_SIMPLE_ICONS_GAMEBANANA);
-  if (id == wxART_GAMEDEVELOPER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GAMEDEVELOPER))  
       return wxString(SVG_SIMPLE_ICONS_GAMEDEVELOPER);
-  if (id == wxART_GAMEJOLT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GAMEJOLT))  
       return wxString(SVG_SIMPLE_ICONS_GAMEJOLT);
-  if (id == wxART_GAMEMAKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GAMEMAKER))  
       return wxString(SVG_SIMPLE_ICONS_GAMEMAKER);
-  if (id == wxART_GARMIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GARMIN))  
       return wxString(SVG_SIMPLE_ICONS_GARMIN);
-  if (id == wxART_GATLING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GATLING))  
       return wxString(SVG_SIMPLE_ICONS_GATLING);
-  if (id == wxART_GATSBY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GATSBY))  
       return wxString(SVG_SIMPLE_ICONS_GATSBY);
-  if (id == wxART_GDAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GDAL))  
       return wxString(SVG_SIMPLE_ICONS_GDAL);
-  if (id == wxART_GEANT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GEANT))  
       return wxString(SVG_SIMPLE_ICONS_GEANT);
-  if (id == wxART_GEEKSFORGEEKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GEEKSFORGEEKS))  
       return wxString(SVG_SIMPLE_ICONS_GEEKSFORGEEKS);
-  if (id == wxART_GENERALELECTRIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GENERALELECTRIC))  
       return wxString(SVG_SIMPLE_ICONS_GENERALELECTRIC);
-  if (id == wxART_GENERALMOTORS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GENERALMOTORS))  
       return wxString(SVG_SIMPLE_ICONS_GENERALMOTORS);
-  if (id == wxART_GENIUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GENIUS))  
       return wxString(SVG_SIMPLE_ICONS_GENIUS);
-  if (id == wxART_GENTOO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GENTOO))  
       return wxString(SVG_SIMPLE_ICONS_GENTOO);
-  if (id == wxART_GEOCACHING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GEOCACHING))  
       return wxString(SVG_SIMPLE_ICONS_GEOCACHING);
-  if (id == wxART_GERRIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GERRIT))  
       return wxString(SVG_SIMPLE_ICONS_GERRIT);
-  if (id == wxART_GHOST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GHOST))  
       return wxString(SVG_SIMPLE_ICONS_GHOST);
-  if (id == wxART_GHOSTERY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GHOSTERY))  
       return wxString(SVG_SIMPLE_ICONS_GHOSTERY);
-  if (id == wxART_GIMP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GIMP))  
       return wxString(SVG_SIMPLE_ICONS_GIMP);
-  if (id == wxART_GIPHY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GIPHY))  
       return wxString(SVG_SIMPLE_ICONS_GIPHY);
-  if (id == wxART_GIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GIT))  
       return wxString(SVG_SIMPLE_ICONS_GIT);
-  if (id == wxART_GITBOOK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITBOOK))  
       return wxString(SVG_SIMPLE_ICONS_GITBOOK);
-  if (id == wxART_GITEA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITEA))  
       return wxString(SVG_SIMPLE_ICONS_GITEA);
-  if (id == wxART_GITEE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITEE))  
       return wxString(SVG_SIMPLE_ICONS_GITEE);
-  if (id == wxART_GITEXTENSIONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITEXTENSIONS))  
       return wxString(SVG_SIMPLE_ICONS_GITEXTENSIONS);
-  if (id == wxART_GITHUB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITHUB))  
       return wxString(SVG_SIMPLE_ICONS_GITHUB);
-  if (id == wxART_GITHUBACTIONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITHUBACTIONS))  
       return wxString(SVG_SIMPLE_ICONS_GITHUBACTIONS);
-  if (id == wxART_GITHUBPAGES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITHUBPAGES))  
       return wxString(SVG_SIMPLE_ICONS_GITHUBPAGES);
-  if (id == wxART_GITHUBSPONSORS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITHUBSPONSORS))  
       return wxString(SVG_SIMPLE_ICONS_GITHUBSPONSORS);
-  if (id == wxART_GITIGNOREDOTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITIGNOREDOTIO))  
       return wxString(SVG_SIMPLE_ICONS_GITIGNOREDOTIO);
-  if (id == wxART_GITKRAKEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITKRAKEN))  
       return wxString(SVG_SIMPLE_ICONS_GITKRAKEN);
-  if (id == wxART_GITLAB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITLAB))  
       return wxString(SVG_SIMPLE_ICONS_GITLAB);
-  if (id == wxART_GITLFS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITLFS))  
       return wxString(SVG_SIMPLE_ICONS_GITLFS);
-  if (id == wxART_GITPOD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITPOD))  
       return wxString(SVG_SIMPLE_ICONS_GITPOD);
-  if (id == wxART_GITTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GITTER))  
       return wxString(SVG_SIMPLE_ICONS_GITTER);
-  if (id == wxART_GLASSDOOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GLASSDOOR))  
       return wxString(SVG_SIMPLE_ICONS_GLASSDOOR);
-  if (id == wxART_GLITCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GLITCH))  
       return wxString(SVG_SIMPLE_ICONS_GLITCH);
-  if (id == wxART_GLOBUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GLOBUS))  
       return wxString(SVG_SIMPLE_ICONS_GLOBUS);
-  if (id == wxART_GMAIL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GMAIL))  
       return wxString(SVG_SIMPLE_ICONS_GMAIL);
-  if (id == wxART_GNOME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GNOME))  
       return wxString(SVG_SIMPLE_ICONS_GNOME);
-  if (id == wxART_GNOMETERMINAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GNOMETERMINAL))  
       return wxString(SVG_SIMPLE_ICONS_GNOMETERMINAL);
-  if (id == wxART_GNU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GNU))  
       return wxString(SVG_SIMPLE_ICONS_GNU);
-  if (id == wxART_GNUBASH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GNUBASH))  
       return wxString(SVG_SIMPLE_ICONS_GNUBASH);
-  if (id == wxART_GNUEMACS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GNUEMACS))  
       return wxString(SVG_SIMPLE_ICONS_GNUEMACS);
-  if (id == wxART_GNUICECAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GNUICECAT))  
       return wxString(SVG_SIMPLE_ICONS_GNUICECAT);
-  if (id == wxART_GNUPRIVACYGUARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GNUPRIVACYGUARD))  
       return wxString(SVG_SIMPLE_ICONS_GNUPRIVACYGUARD);
-  if (id == wxART_GNUSOCIAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GNUSOCIAL))  
       return wxString(SVG_SIMPLE_ICONS_GNUSOCIAL);
-  if (id == wxART_GO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GO))  
       return wxString(SVG_SIMPLE_ICONS_GO);
-  if (id == wxART_GOCD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOCD))  
       return wxString(SVG_SIMPLE_ICONS_GOCD);
-  if (id == wxART_GODADDY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GODADDY))  
       return wxString(SVG_SIMPLE_ICONS_GODADDY);
-  if (id == wxART_GODOTENGINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GODOTENGINE))  
       return wxString(SVG_SIMPLE_ICONS_GODOTENGINE);
-  if (id == wxART_GOFUNDME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOFUNDME))  
       return wxString(SVG_SIMPLE_ICONS_GOFUNDME);
-  if (id == wxART_GOGDOTCOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOGDOTCOM))  
       return wxString(SVG_SIMPLE_ICONS_GOGDOTCOM);
-  if (id == wxART_GOLAND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOLAND))  
       return wxString(SVG_SIMPLE_ICONS_GOLAND);
-  if (id == wxART_GOLDENLINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOLDENLINE))  
       return wxString(SVG_SIMPLE_ICONS_GOLDENLINE);
-  if (id == wxART_GOODREADS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOODREADS))  
       return wxString(SVG_SIMPLE_ICONS_GOODREADS);
-  if (id == wxART_GOOGLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLE))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLE);
-  if (id == wxART_GOOGLEADMOB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEADMOB))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEADMOB);
-  if (id == wxART_GOOGLEADS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEADS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEADS);
-  if (id == wxART_GOOGLEADSENSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEADSENSE))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEADSENSE);
-  if (id == wxART_GOOGLEANALYTICS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEANALYTICS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEANALYTICS);
-  if (id == wxART_GOOGLEAPPSSCRIPT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEAPPSSCRIPT))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEAPPSSCRIPT);
-  if (id == wxART_GOOGLEASSISTANT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEASSISTANT))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEASSISTANT);
-  if (id == wxART_GOOGLEBARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEBARD))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEBARD);
-  if (id == wxART_GOOGLEBIGQUERY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEBIGQUERY))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEBIGQUERY);
-  if (id == wxART_GOOGLECALENDAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLECALENDAR))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLECALENDAR);
-  if (id == wxART_GOOGLECARDBOARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLECARDBOARD))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLECARDBOARD);
-  if (id == wxART_GOOGLECHAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLECHAT))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLECHAT);
-  if (id == wxART_GOOGLECHROME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLECHROME))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLECHROME);
-  if (id == wxART_GOOGLECLASSROOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLECLASSROOM))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLECLASSROOM);
-  if (id == wxART_GOOGLECLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLECLOUD))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLECLOUD);
-  if (id == wxART_GOOGLECLOUDCOMPOSER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLECLOUDCOMPOSER))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLECLOUDCOMPOSER);
-  if (id == wxART_GOOGLECOLAB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLECOLAB))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLECOLAB);
-  if (id == wxART_GOOGLECONTAINEROPTIMIZEDOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLECONTAINEROPTIMIZEDOS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLECONTAINEROPTIMIZEDOS);
-  if (id == wxART_GOOGLEDATASTUDIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEDATASTUDIO))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEDATASTUDIO);
-  if (id == wxART_GOOGLEDOCS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEDOCS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEDOCS);
-  if (id == wxART_GOOGLEDOMAINS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEDOMAINS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEDOMAINS);
-  if (id == wxART_GOOGLEDRIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEDRIVE))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEDRIVE);
-  if (id == wxART_GOOGLEEARTH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEEARTH))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEEARTH);
-  if (id == wxART_GOOGLEEARTHENGINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEEARTHENGINE))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEEARTHENGINE);
-  if (id == wxART_GOOGLEFIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEFIT))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEFIT);
-  if (id == wxART_GOOGLEFONTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEFONTS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEFONTS);
-  if (id == wxART_GOOGLEFORMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEFORMS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEFORMS);
-  if (id == wxART_GOOGLEHANGOUTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEHANGOUTS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEHANGOUTS);
-  if (id == wxART_GOOGLEHOME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEHOME))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEHOME);
-  if (id == wxART_GOOGLEKEEP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEKEEP))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEKEEP);
-  if (id == wxART_GOOGLELENS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLELENS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLELENS);
-  if (id == wxART_GOOGLEMAPS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEMAPS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEMAPS);
-  if (id == wxART_GOOGLEMARKETINGPLATFORM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEMARKETINGPLATFORM))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEMARKETINGPLATFORM);
-  if (id == wxART_GOOGLEMEET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEMEET))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEMEET);
-  if (id == wxART_GOOGLEMESSAGES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEMESSAGES))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEMESSAGES);
-  if (id == wxART_GOOGLEMYBUSINESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEMYBUSINESS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEMYBUSINESS);
-  if (id == wxART_GOOGLENEARBY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLENEARBY))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLENEARBY);
-  if (id == wxART_GOOGLENEWS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLENEWS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLENEWS);
-  if (id == wxART_GOOGLEOPTIMIZE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEOPTIMIZE))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEOPTIMIZE);
-  if (id == wxART_GOOGLEPAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEPAY))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEPAY);
-  if (id == wxART_GOOGLEPHOTOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEPHOTOS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEPHOTOS);
-  if (id == wxART_GOOGLEPLAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEPLAY))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEPLAY);
-  if (id == wxART_GOOGLEPODCASTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLEPODCASTS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLEPODCASTS);
-  if (id == wxART_GOOGLESCHOLAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLESCHOLAR))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLESCHOLAR);
-  if (id == wxART_GOOGLESEARCHCONSOLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLESEARCHCONSOLE))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLESEARCHCONSOLE);
-  if (id == wxART_GOOGLESHEETS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLESHEETS))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLESHEETS);
-  if (id == wxART_GOOGLESLIDES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLESLIDES))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLESLIDES);
-  if (id == wxART_GOOGLESTREETVIEW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLESTREETVIEW))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLESTREETVIEW);
-  if (id == wxART_GOOGLETAGMANAGER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLETAGMANAGER))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLETAGMANAGER);
-  if (id == wxART_GOOGLETRANSLATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOOGLETRANSLATE))  
       return wxString(SVG_SIMPLE_ICONS_GOOGLETRANSLATE);
-  if (id == wxART_GOTOMEETING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GOTOMEETING))  
       return wxString(SVG_SIMPLE_ICONS_GOTOMEETING);
-  if (id == wxART_GRAB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRAB))  
       return wxString(SVG_SIMPLE_ICONS_GRAB);
-  if (id == wxART_GRADLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRADLE))  
       return wxString(SVG_SIMPLE_ICONS_GRADLE);
-  if (id == wxART_GRADLEPLAYPUBLISHER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRADLEPLAYPUBLISHER))  
       return wxString(SVG_SIMPLE_ICONS_GRADLEPLAYPUBLISHER);
-  if (id == wxART_GRAFANA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRAFANA))  
       return wxString(SVG_SIMPLE_ICONS_GRAFANA);
-  if (id == wxART_GRAMMARLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRAMMARLY))  
       return wxString(SVG_SIMPLE_ICONS_GRAMMARLY);
-  if (id == wxART_GRANDFRAIS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRANDFRAIS))  
       return wxString(SVG_SIMPLE_ICONS_GRANDFRAIS);
-  if (id == wxART_GRAPHQL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRAPHQL))  
       return wxString(SVG_SIMPLE_ICONS_GRAPHQL);
-  if (id == wxART_GRAV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRAV))  
       return wxString(SVG_SIMPLE_ICONS_GRAV);
-  if (id == wxART_GRAVATAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRAVATAR))  
       return wxString(SVG_SIMPLE_ICONS_GRAVATAR);
-  if (id == wxART_GRAYLOG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRAYLOG))  
       return wxString(SVG_SIMPLE_ICONS_GRAYLOG);
-  if (id == wxART_GREENHOUSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GREENHOUSE))  
       return wxString(SVG_SIMPLE_ICONS_GREENHOUSE);
-  if (id == wxART_GREENSOCK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GREENSOCK))  
       return wxString(SVG_SIMPLE_ICONS_GREENSOCK);
-  if (id == wxART_GRIDDOTAI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRIDDOTAI))  
       return wxString(SVG_SIMPLE_ICONS_GRIDDOTAI);
-  if (id == wxART_GRIDSOME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRIDSOME))  
       return wxString(SVG_SIMPLE_ICONS_GRIDSOME);
-  if (id == wxART_GROUPME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GROUPME))  
       return wxString(SVG_SIMPLE_ICONS_GROUPME);
-  if (id == wxART_GROUPON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GROUPON))  
       return wxString(SVG_SIMPLE_ICONS_GROUPON);
-  if (id == wxART_GRUBHUB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRUBHUB))  
       return wxString(SVG_SIMPLE_ICONS_GRUBHUB);
-  if (id == wxART_GRUNT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GRUNT))  
       return wxString(SVG_SIMPLE_ICONS_GRUNT);
-  if (id == wxART_GSK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GSK))  
       return wxString(SVG_SIMPLE_ICONS_GSK);
-  if (id == wxART_GSTREAMER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GSTREAMER))  
       return wxString(SVG_SIMPLE_ICONS_GSTREAMER);
-  if (id == wxART_GTK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GTK))  
       return wxString(SVG_SIMPLE_ICONS_GTK);
-  if (id == wxART_GUANGZHOUMETRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GUANGZHOUMETRO))  
       return wxString(SVG_SIMPLE_ICONS_GUANGZHOUMETRO);
-  if (id == wxART_GUILDED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GUILDED))  
       return wxString(SVG_SIMPLE_ICONS_GUILDED);
-  if (id == wxART_GULP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GULP))  
       return wxString(SVG_SIMPLE_ICONS_GULP);
-  if (id == wxART_GUMROAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GUMROAD))  
       return wxString(SVG_SIMPLE_ICONS_GUMROAD);
-  if (id == wxART_GUMTREE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GUMTREE))  
       return wxString(SVG_SIMPLE_ICONS_GUMTREE);
-  if (id == wxART_GUNICORN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GUNICORN))  
       return wxString(SVG_SIMPLE_ICONS_GUNICORN);
-  if (id == wxART_GUROBI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GUROBI))  
       return wxString(SVG_SIMPLE_ICONS_GUROBI);
-  if (id == wxART_GUTENBERG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_GUTENBERG))  
       return wxString(SVG_SIMPLE_ICONS_GUTENBERG);
-  if (id == wxART_H3)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_H3))  
       return wxString(SVG_SIMPLE_ICONS_H3);
-  if (id == wxART_HABR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HABR))  
       return wxString(SVG_SIMPLE_ICONS_HABR);
-  if (id == wxART_HACKADAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HACKADAY))  
       return wxString(SVG_SIMPLE_ICONS_HACKADAY);
-  if (id == wxART_HACKCLUB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HACKCLUB))  
       return wxString(SVG_SIMPLE_ICONS_HACKCLUB);
-  if (id == wxART_HACKEREARTH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HACKEREARTH))  
       return wxString(SVG_SIMPLE_ICONS_HACKEREARTH);
-  if (id == wxART_HACKERNOON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HACKERNOON))  
       return wxString(SVG_SIMPLE_ICONS_HACKERNOON);
-  if (id == wxART_HACKERONE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HACKERONE))  
       return wxString(SVG_SIMPLE_ICONS_HACKERONE);
-  if (id == wxART_HACKERRANK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HACKERRANK))  
       return wxString(SVG_SIMPLE_ICONS_HACKERRANK);
-  if (id == wxART_HACKSTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HACKSTER))  
       return wxString(SVG_SIMPLE_ICONS_HACKSTER);
-  if (id == wxART_HACKTHEBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HACKTHEBOX))  
       return wxString(SVG_SIMPLE_ICONS_HACKTHEBOX);
-  if (id == wxART_HAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HAL))  
       return wxString(SVG_SIMPLE_ICONS_HAL);
-  if (id == wxART_HANDLEBARSDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HANDLEBARSDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_HANDLEBARSDOTJS);
-  if (id == wxART_HANDM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HANDM))  
       return wxString(SVG_SIMPLE_ICONS_HANDM);
-  if (id == wxART_HANDSHAKE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HANDSHAKE))  
       return wxString(SVG_SIMPLE_ICONS_HANDSHAKE);
-  if (id == wxART_HANDSHAKE_PROTOCOL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HANDSHAKE_PROTOCOL))  
       return wxString(SVG_SIMPLE_ICONS_HANDSHAKE_PROTOCOL);
-  if (id == wxART_HAPPYCOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HAPPYCOW))  
       return wxString(SVG_SIMPLE_ICONS_HAPPYCOW);
-  if (id == wxART_HARBOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HARBOR))  
       return wxString(SVG_SIMPLE_ICONS_HARBOR);
-  if (id == wxART_HARMONYOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HARMONYOS))  
       return wxString(SVG_SIMPLE_ICONS_HARMONYOS);
-  if (id == wxART_HASHICORP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HASHICORP))  
       return wxString(SVG_SIMPLE_ICONS_HASHICORP);
-  if (id == wxART_HASHNODE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HASHNODE))  
       return wxString(SVG_SIMPLE_ICONS_HASHNODE);
-  if (id == wxART_HASKELL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HASKELL))  
       return wxString(SVG_SIMPLE_ICONS_HASKELL);
-  if (id == wxART_HASURA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HASURA))  
       return wxString(SVG_SIMPLE_ICONS_HASURA);
-  if (id == wxART_HATENABOOKMARK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HATENABOOKMARK))  
       return wxString(SVG_SIMPLE_ICONS_HATENABOOKMARK);
-  if (id == wxART_HAVEIBEENPWNED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HAVEIBEENPWNED))  
       return wxString(SVG_SIMPLE_ICONS_HAVEIBEENPWNED);
-  if (id == wxART_HAXE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HAXE))  
       return wxString(SVG_SIMPLE_ICONS_HAXE);
-  if (id == wxART_HBO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HBO))  
       return wxString(SVG_SIMPLE_ICONS_HBO);
-  if (id == wxART_HCL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HCL))  
       return wxString(SVG_SIMPLE_ICONS_HCL);
-  if (id == wxART_HEADLESSUI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HEADLESSUI))  
       return wxString(SVG_SIMPLE_ICONS_HEADLESSUI);
-  if (id == wxART_HEADSPACE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HEADSPACE))  
       return wxString(SVG_SIMPLE_ICONS_HEADSPACE);
-  if (id == wxART_HEARTH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HEARTH))  
       return wxString(SVG_SIMPLE_ICONS_HEARTH);
-  if (id == wxART_HEARTHISDOTAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HEARTHISDOTAT))  
       return wxString(SVG_SIMPLE_ICONS_HEARTHISDOTAT);
-  if (id == wxART_HEDERA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HEDERA))  
       return wxString(SVG_SIMPLE_ICONS_HEDERA);
-  if (id == wxART_HELLOFRESH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HELLOFRESH))  
       return wxString(SVG_SIMPLE_ICONS_HELLOFRESH);
-  if (id == wxART_HELLYHANSEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HELLYHANSEN))  
       return wxString(SVG_SIMPLE_ICONS_HELLYHANSEN);
-  if (id == wxART_HELM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HELM))  
       return wxString(SVG_SIMPLE_ICONS_HELM);
-  if (id == wxART_HELPDESK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HELPDESK))  
       return wxString(SVG_SIMPLE_ICONS_HELPDESK);
-  if (id == wxART_HELPSCOUT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HELPSCOUT))  
       return wxString(SVG_SIMPLE_ICONS_HELPSCOUT);
-  if (id == wxART_HERE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HERE))  
       return wxString(SVG_SIMPLE_ICONS_HERE);
-  if (id == wxART_HEROKU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HEROKU))  
       return wxString(SVG_SIMPLE_ICONS_HEROKU);
-  if (id == wxART_HETZNER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HETZNER))  
       return wxString(SVG_SIMPLE_ICONS_HETZNER);
-  if (id == wxART_HEXLET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HEXLET))  
       return wxString(SVG_SIMPLE_ICONS_HEXLET);
-  if (id == wxART_HEXO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HEXO))  
       return wxString(SVG_SIMPLE_ICONS_HEXO);
-  if (id == wxART_HEY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HEY))  
       return wxString(SVG_SIMPLE_ICONS_HEY);
-  if (id == wxART_HIBERNATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HIBERNATE))  
       return wxString(SVG_SIMPLE_ICONS_HIBERNATE);
-  if (id == wxART_HIBOB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HIBOB))  
       return wxString(SVG_SIMPLE_ICONS_HIBOB);
-  if (id == wxART_HILTON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HILTON))  
       return wxString(SVG_SIMPLE_ICONS_HILTON);
-  if (id == wxART_HITACHI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HITACHI))  
       return wxString(SVG_SIMPLE_ICONS_HITACHI);
-  if (id == wxART_HIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HIVE))  
       return wxString(SVG_SIMPLE_ICONS_HIVE);
-  if (id == wxART_HIVE_BLOCKCHAIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HIVE_BLOCKCHAIN))  
       return wxString(SVG_SIMPLE_ICONS_HIVE_BLOCKCHAIN);
-  if (id == wxART_HOMEADVISOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOMEADVISOR))  
       return wxString(SVG_SIMPLE_ICONS_HOMEADVISOR);
-  if (id == wxART_HOMEASSISTANT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOMEASSISTANT))  
       return wxString(SVG_SIMPLE_ICONS_HOMEASSISTANT);
-  if (id == wxART_HOMEASSISTANTCOMMUNITYSTORE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOMEASSISTANTCOMMUNITYSTORE))  
       return wxString(SVG_SIMPLE_ICONS_HOMEASSISTANTCOMMUNITYSTORE);
-  if (id == wxART_HOMEBREW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOMEBREW))  
       return wxString(SVG_SIMPLE_ICONS_HOMEBREW);
-  if (id == wxART_HOMEBRIDGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOMEBRIDGE))  
       return wxString(SVG_SIMPLE_ICONS_HOMEBRIDGE);
-  if (id == wxART_HOMIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOMIFY))  
       return wxString(SVG_SIMPLE_ICONS_HOMIFY);
-  if (id == wxART_HONDA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HONDA))  
       return wxString(SVG_SIMPLE_ICONS_HONDA);
-  if (id == wxART_HONEY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HONEY))  
       return wxString(SVG_SIMPLE_ICONS_HONEY);
-  if (id == wxART_HONOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HONOR))  
       return wxString(SVG_SIMPLE_ICONS_HONOR);
-  if (id == wxART_HOOTSUITE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOOTSUITE))  
       return wxString(SVG_SIMPLE_ICONS_HOOTSUITE);
-  if (id == wxART_HOPPSCOTCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOPPSCOTCH))  
       return wxString(SVG_SIMPLE_ICONS_HOPPSCOTCH);
-  if (id == wxART_HOTELSDOTCOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOTELSDOTCOM))  
       return wxString(SVG_SIMPLE_ICONS_HOTELSDOTCOM);
-  if (id == wxART_HOTJAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOTJAR))  
       return wxString(SVG_SIMPLE_ICONS_HOTJAR);
-  if (id == wxART_HOTWIRE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOTWIRE))  
       return wxString(SVG_SIMPLE_ICONS_HOTWIRE);
-  if (id == wxART_HOUDINI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOUDINI))  
       return wxString(SVG_SIMPLE_ICONS_HOUDINI);
-  if (id == wxART_HOUZZ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HOUZZ))  
       return wxString(SVG_SIMPLE_ICONS_HOUZZ);
-  if (id == wxART_HP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HP))  
       return wxString(SVG_SIMPLE_ICONS_HP);
-  if (id == wxART_HSBC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HSBC))  
       return wxString(SVG_SIMPLE_ICONS_HSBC);
-  if (id == wxART_HTML5)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HTML5))  
       return wxString(SVG_SIMPLE_ICONS_HTML5);
-  if (id == wxART_HTMLACADEMY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HTMLACADEMY))  
       return wxString(SVG_SIMPLE_ICONS_HTMLACADEMY);
-  if (id == wxART_HTOP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HTOP))  
       return wxString(SVG_SIMPLE_ICONS_HTOP);
-  if (id == wxART_HTTPIE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HTTPIE))  
       return wxString(SVG_SIMPLE_ICONS_HTTPIE);
-  if (id == wxART_HUAWEI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HUAWEI))  
       return wxString(SVG_SIMPLE_ICONS_HUAWEI);
-  if (id == wxART_HUBSPOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HUBSPOT))  
       return wxString(SVG_SIMPLE_ICONS_HUBSPOT);
-  if (id == wxART_HUGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HUGO))  
       return wxString(SVG_SIMPLE_ICONS_HUGO);
-  if (id == wxART_HULU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HULU))  
       return wxString(SVG_SIMPLE_ICONS_HULU);
-  if (id == wxART_HUMBLEBUNDLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HUMBLEBUNDLE))  
       return wxString(SVG_SIMPLE_ICONS_HUMBLEBUNDLE);
-  if (id == wxART_HUNGRYJACKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HUNGRYJACKS))  
       return wxString(SVG_SIMPLE_ICONS_HUNGRYJACKS);
-  if (id == wxART_HURRIYETEMLAK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HURRIYETEMLAK))  
       return wxString(SVG_SIMPLE_ICONS_HURRIYETEMLAK);
-  if (id == wxART_HUSQVARNA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HUSQVARNA))  
       return wxString(SVG_SIMPLE_ICONS_HUSQVARNA);
-  if (id == wxART_HYPER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HYPER))  
       return wxString(SVG_SIMPLE_ICONS_HYPER);
-  if (id == wxART_HYPERLEDGER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HYPERLEDGER))  
       return wxString(SVG_SIMPLE_ICONS_HYPERLEDGER);
-  if (id == wxART_HYPOTHESIS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HYPOTHESIS))  
       return wxString(SVG_SIMPLE_ICONS_HYPOTHESIS);
-  if (id == wxART_HYUNDAI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_HYUNDAI))  
       return wxString(SVG_SIMPLE_ICONS_HYUNDAI);
-  if (id == wxART_I18NEXT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_I18NEXT))  
       return wxString(SVG_SIMPLE_ICONS_I18NEXT);
-  if (id == wxART_I3)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_I3))  
       return wxString(SVG_SIMPLE_ICONS_I3);
-  if (id == wxART_IATA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IATA))  
       return wxString(SVG_SIMPLE_ICONS_IATA);
-  if (id == wxART_IBEACON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IBEACON))  
       return wxString(SVG_SIMPLE_ICONS_IBEACON);
-  if (id == wxART_IBM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IBM))  
       return wxString(SVG_SIMPLE_ICONS_IBM);
-  if (id == wxART_IBMCLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IBMCLOUD))  
       return wxString(SVG_SIMPLE_ICONS_IBMCLOUD);
-  if (id == wxART_IBMWATSON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IBMWATSON))  
       return wxString(SVG_SIMPLE_ICONS_IBMWATSON);
-  if (id == wxART_ICED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICED))  
       return wxString(SVG_SIMPLE_ICONS_ICED);
-  if (id == wxART_ICELAND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICELAND))  
       return wxString(SVG_SIMPLE_ICONS_ICELAND);
-  if (id == wxART_ICINGA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICINGA))  
       return wxString(SVG_SIMPLE_ICONS_ICINGA);
-  if (id == wxART_ICLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICLOUD))  
       return wxString(SVG_SIMPLE_ICONS_ICLOUD);
-  if (id == wxART_ICOMOON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICOMOON))  
       return wxString(SVG_SIMPLE_ICONS_ICOMOON);
-  if (id == wxART_ICON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICON))  
       return wxString(SVG_SIMPLE_ICONS_ICON);
-  if (id == wxART_ICONFINDER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICONFINDER))  
       return wxString(SVG_SIMPLE_ICONS_ICONFINDER);
-  if (id == wxART_ICONIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICONIFY))  
       return wxString(SVG_SIMPLE_ICONS_ICONIFY);
-  if (id == wxART_ICONJAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICONJAR))  
       return wxString(SVG_SIMPLE_ICONS_ICONJAR);
-  if (id == wxART_ICONS8)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICONS8))  
       return wxString(SVG_SIMPLE_ICONS_ICONS8);
-  if (id == wxART_ICQ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ICQ))  
       return wxString(SVG_SIMPLE_ICONS_ICQ);
-  if (id == wxART_IEEE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IEEE))  
       return wxString(SVG_SIMPLE_ICONS_IEEE);
-  if (id == wxART_IFIXIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IFIXIT))  
       return wxString(SVG_SIMPLE_ICONS_IFIXIT);
-  if (id == wxART_IFOOD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IFOOD))  
       return wxString(SVG_SIMPLE_ICONS_IFOOD);
-  if (id == wxART_IFTTT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IFTTT))  
       return wxString(SVG_SIMPLE_ICONS_IFTTT);
-  if (id == wxART_IGDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IGDB))  
       return wxString(SVG_SIMPLE_ICONS_IGDB);
-  if (id == wxART_IHEARTRADIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IHEARTRADIO))  
       return wxString(SVG_SIMPLE_ICONS_IHEARTRADIO);
-  if (id == wxART_IKEA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IKEA))  
       return wxString(SVG_SIMPLE_ICONS_IKEA);
-  if (id == wxART_ILEDEFRANCEMOBILITES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ILEDEFRANCEMOBILITES))  
       return wxString(SVG_SIMPLE_ICONS_ILEDEFRANCEMOBILITES);
-  if (id == wxART_IMAGEJ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IMAGEJ))  
       return wxString(SVG_SIMPLE_ICONS_IMAGEJ);
-  if (id == wxART_IMDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IMDB))  
       return wxString(SVG_SIMPLE_ICONS_IMDB);
-  if (id == wxART_IMGUR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IMGUR))  
       return wxString(SVG_SIMPLE_ICONS_IMGUR);
-  if (id == wxART_IMMER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IMMER))  
       return wxString(SVG_SIMPLE_ICONS_IMMER);
-  if (id == wxART_IMMICH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IMMICH))  
       return wxString(SVG_SIMPLE_ICONS_IMMICH);
-  if (id == wxART_IMOU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IMOU))  
       return wxString(SVG_SIMPLE_ICONS_IMOU);
-  if (id == wxART_IMPROVMX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IMPROVMX))  
       return wxString(SVG_SIMPLE_ICONS_IMPROVMX);
-  if (id == wxART_INDEED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INDEED))  
       return wxString(SVG_SIMPLE_ICONS_INDEED);
-  if (id == wxART_INDIGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INDIGO))  
       return wxString(SVG_SIMPLE_ICONS_INDIGO);
-  if (id == wxART_INERTIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INERTIA))  
       return wxString(SVG_SIMPLE_ICONS_INERTIA);
-  if (id == wxART_INFINITI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INFINITI))  
       return wxString(SVG_SIMPLE_ICONS_INFINITI);
-  if (id == wxART_INFLUXDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INFLUXDB))  
       return wxString(SVG_SIMPLE_ICONS_INFLUXDB);
-  if (id == wxART_INFOQ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INFOQ))  
       return wxString(SVG_SIMPLE_ICONS_INFOQ);
-  if (id == wxART_INFORMATICA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INFORMATICA))  
       return wxString(SVG_SIMPLE_ICONS_INFORMATICA);
-  if (id == wxART_INFOSYS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INFOSYS))  
       return wxString(SVG_SIMPLE_ICONS_INFOSYS);
-  if (id == wxART_INFRACOST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INFRACOST))  
       return wxString(SVG_SIMPLE_ICONS_INFRACOST);
-  if (id == wxART_INGRESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INGRESS))  
       return wxString(SVG_SIMPLE_ICONS_INGRESS);
-  if (id == wxART_INKDROP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INKDROP))  
       return wxString(SVG_SIMPLE_ICONS_INKDROP);
-  if (id == wxART_INKSCAPE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INKSCAPE))  
       return wxString(SVG_SIMPLE_ICONS_INKSCAPE);
-  if (id == wxART_INSOMNIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INSOMNIA))  
       return wxString(SVG_SIMPLE_ICONS_INSOMNIA);
-  if (id == wxART_INSTACART)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INSTACART))  
       return wxString(SVG_SIMPLE_ICONS_INSTACART);
-  if (id == wxART_INSTAGRAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INSTAGRAM))  
       return wxString(SVG_SIMPLE_ICONS_INSTAGRAM);
-  if (id == wxART_INSTAPAPER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INSTAPAPER))  
       return wxString(SVG_SIMPLE_ICONS_INSTAPAPER);
-  if (id == wxART_INSTATUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INSTATUS))  
       return wxString(SVG_SIMPLE_ICONS_INSTATUS);
-  if (id == wxART_INSTRUCTABLES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INSTRUCTABLES))  
       return wxString(SVG_SIMPLE_ICONS_INSTRUCTABLES);
-  if (id == wxART_INSTRUCTURE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INSTRUCTURE))  
       return wxString(SVG_SIMPLE_ICONS_INSTRUCTURE);
-  if (id == wxART_INTEGROMAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTEGROMAT))  
       return wxString(SVG_SIMPLE_ICONS_INTEGROMAT);
-  if (id == wxART_INTEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTEL))  
       return wxString(SVG_SIMPLE_ICONS_INTEL);
-  if (id == wxART_INTELLIJIDEA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTELLIJIDEA))  
       return wxString(SVG_SIMPLE_ICONS_INTELLIJIDEA);
-  if (id == wxART_INTERACTIONDESIGNFOUNDATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTERACTIONDESIGNFOUNDATION))  
       return wxString(SVG_SIMPLE_ICONS_INTERACTIONDESIGNFOUNDATION);
-  if (id == wxART_INTERACTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTERACTJS))  
       return wxString(SVG_SIMPLE_ICONS_INTERACTJS);
-  if (id == wxART_INTERBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTERBASE))  
       return wxString(SVG_SIMPLE_ICONS_INTERBASE);
-  if (id == wxART_INTERCOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTERCOM))  
       return wxString(SVG_SIMPLE_ICONS_INTERCOM);
-  if (id == wxART_INTERMARCHE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTERMARCHE))  
       return wxString(SVG_SIMPLE_ICONS_INTERMARCHE);
-  if (id == wxART_INTERNETARCHIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTERNETARCHIVE))  
       return wxString(SVG_SIMPLE_ICONS_INTERNETARCHIVE);
-  if (id == wxART_INTERNETCOMPUTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTERNETCOMPUTER))  
       return wxString(SVG_SIMPLE_ICONS_INTERNETCOMPUTER);
-  if (id == wxART_INTERNETEXPLORER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTERNETEXPLORER))  
       return wxString(SVG_SIMPLE_ICONS_INTERNETEXPLORER);
-  if (id == wxART_INTIGRITI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTIGRITI))  
       return wxString(SVG_SIMPLE_ICONS_INTIGRITI);
-  if (id == wxART_INTUIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INTUIT))  
       return wxString(SVG_SIMPLE_ICONS_INTUIT);
-  if (id == wxART_INVISION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INVISION))  
       return wxString(SVG_SIMPLE_ICONS_INVISION);
-  if (id == wxART_INVOICENINJA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_INVOICENINJA))  
       return wxString(SVG_SIMPLE_ICONS_INVOICENINJA);
-  if (id == wxART_IOBROKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IOBROKER))  
       return wxString(SVG_SIMPLE_ICONS_IOBROKER);
-  if (id == wxART_IONIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IONIC))  
       return wxString(SVG_SIMPLE_ICONS_IONIC);
-  if (id == wxART_IONOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IONOS))  
       return wxString(SVG_SIMPLE_ICONS_IONOS);
-  if (id == wxART_IOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IOS))  
       return wxString(SVG_SIMPLE_ICONS_IOS);
-  if (id == wxART_IOTA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IOTA))  
       return wxString(SVG_SIMPLE_ICONS_IOTA);
-  if (id == wxART_IPFS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IPFS))  
       return wxString(SVG_SIMPLE_ICONS_IPFS);
-  if (id == wxART_IRIS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IRIS))  
       return wxString(SVG_SIMPLE_ICONS_IRIS);
-  if (id == wxART_ISC2)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ISC2))  
       return wxString(SVG_SIMPLE_ICONS_ISC2);
-  if (id == wxART_ISCSQUARED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ISCSQUARED))  
       return wxString(SVG_SIMPLE_ICONS_ISCSQUARED);
-  if (id == wxART_ISSUU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ISSUU))  
       return wxString(SVG_SIMPLE_ICONS_ISSUU);
-  if (id == wxART_ISTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ISTIO))  
       return wxString(SVG_SIMPLE_ICONS_ISTIO);
-  if (id == wxART_ITCHDOTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ITCHDOTIO))  
       return wxString(SVG_SIMPLE_ICONS_ITCHDOTIO);
-  if (id == wxART_ITERM2)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ITERM2))  
       return wxString(SVG_SIMPLE_ICONS_ITERM2);
-  if (id == wxART_ITUNES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ITUNES))  
       return wxString(SVG_SIMPLE_ICONS_ITUNES);
-  if (id == wxART_ITVX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ITVX))  
       return wxString(SVG_SIMPLE_ICONS_ITVX);
-  if (id == wxART_IVECO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_IVECO))  
       return wxString(SVG_SIMPLE_ICONS_IVECO);
-  if (id == wxART_JABBER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JABBER))  
       return wxString(SVG_SIMPLE_ICONS_JABBER);
-  if (id == wxART_JAEGER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JAEGER))  
       return wxString(SVG_SIMPLE_ICONS_JAEGER);
-  if (id == wxART_JAGUAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JAGUAR))  
       return wxString(SVG_SIMPLE_ICONS_JAGUAR);
-  if (id == wxART_JAMBOARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JAMBOARD))  
       return wxString(SVG_SIMPLE_ICONS_JAMBOARD);
-  if (id == wxART_JAMESON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JAMESON))  
       return wxString(SVG_SIMPLE_ICONS_JAMESON);
-  if (id == wxART_JAMSTACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JAMSTACK))  
       return wxString(SVG_SIMPLE_ICONS_JAMSTACK);
-  if (id == wxART_JASMINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JASMINE))  
       return wxString(SVG_SIMPLE_ICONS_JASMINE);
-  if (id == wxART_JAVASCRIPT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JAVASCRIPT))  
       return wxString(SVG_SIMPLE_ICONS_JAVASCRIPT);
-  if (id == wxART_JBL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JBL))  
       return wxString(SVG_SIMPLE_ICONS_JBL);
-  if (id == wxART_JCB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JCB))  
       return wxString(SVG_SIMPLE_ICONS_JCB);
-  if (id == wxART_JEEP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JEEP))  
       return wxString(SVG_SIMPLE_ICONS_JEEP);
-  if (id == wxART_JEKYLL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JEKYLL))  
       return wxString(SVG_SIMPLE_ICONS_JEKYLL);
-  if (id == wxART_JELLYFIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JELLYFIN))  
       return wxString(SVG_SIMPLE_ICONS_JELLYFIN);
-  if (id == wxART_JENKINS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JENKINS))  
       return wxString(SVG_SIMPLE_ICONS_JENKINS);
-  if (id == wxART_JENKINSX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JENKINSX))  
       return wxString(SVG_SIMPLE_ICONS_JENKINSX);
-  if (id == wxART_JEST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JEST))  
       return wxString(SVG_SIMPLE_ICONS_JEST);
-  if (id == wxART_JET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JET))  
       return wxString(SVG_SIMPLE_ICONS_JET);
-  if (id == wxART_JETBLUE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JETBLUE))  
       return wxString(SVG_SIMPLE_ICONS_JETBLUE);
-  if (id == wxART_JETBRAINS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JETBRAINS))  
       return wxString(SVG_SIMPLE_ICONS_JETBRAINS);
-  if (id == wxART_JETPACKCOMPOSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JETPACKCOMPOSE))  
       return wxString(SVG_SIMPLE_ICONS_JETPACKCOMPOSE);
-  if (id == wxART_JFROG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JFROG))  
       return wxString(SVG_SIMPLE_ICONS_JFROG);
-  if (id == wxART_JFROGBINTRAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JFROGBINTRAY))  
       return wxString(SVG_SIMPLE_ICONS_JFROGBINTRAY);
-  if (id == wxART_JFROGPIPELINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JFROGPIPELINES))  
       return wxString(SVG_SIMPLE_ICONS_JFROGPIPELINES);
-  if (id == wxART_JINJA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JINJA))  
       return wxString(SVG_SIMPLE_ICONS_JINJA);
-  if (id == wxART_JIRA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JIRA))  
       return wxString(SVG_SIMPLE_ICONS_JIRA);
-  if (id == wxART_JIRASOFTWARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JIRASOFTWARE))  
       return wxString(SVG_SIMPLE_ICONS_JIRASOFTWARE);
-  if (id == wxART_JITSI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JITSI))  
       return wxString(SVG_SIMPLE_ICONS_JITSI);
-  if (id == wxART_JOHNDEERE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JOHNDEERE))  
       return wxString(SVG_SIMPLE_ICONS_JOHNDEERE);
-  if (id == wxART_JOOMLA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JOOMLA))  
       return wxString(SVG_SIMPLE_ICONS_JOOMLA);
-  if (id == wxART_JOPLIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JOPLIN))  
       return wxString(SVG_SIMPLE_ICONS_JOPLIN);
-  if (id == wxART_JORDAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JORDAN))  
       return wxString(SVG_SIMPLE_ICONS_JORDAN);
-  if (id == wxART_JOVIAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JOVIAN))  
       return wxString(SVG_SIMPLE_ICONS_JOVIAN);
-  if (id == wxART_JPEG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JPEG))  
       return wxString(SVG_SIMPLE_ICONS_JPEG);
-  if (id == wxART_JQUERY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JQUERY))  
       return wxString(SVG_SIMPLE_ICONS_JQUERY);
-  if (id == wxART_JRGROUP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JRGROUP))  
       return wxString(SVG_SIMPLE_ICONS_JRGROUP);
-  if (id == wxART_JSDELIVR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JSDELIVR))  
       return wxString(SVG_SIMPLE_ICONS_JSDELIVR);
-  if (id == wxART_JSFIDDLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JSFIDDLE))  
       return wxString(SVG_SIMPLE_ICONS_JSFIDDLE);
-  if (id == wxART_JSON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JSON))  
       return wxString(SVG_SIMPLE_ICONS_JSON);
-  if (id == wxART_JSONWEBTOKENS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JSONWEBTOKENS))  
       return wxString(SVG_SIMPLE_ICONS_JSONWEBTOKENS);
-  if (id == wxART_JSS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JSS))  
       return wxString(SVG_SIMPLE_ICONS_JSS);
-  if (id == wxART_JUCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JUCE))  
       return wxString(SVG_SIMPLE_ICONS_JUCE);
-  if (id == wxART_JUEJIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JUEJIN))  
       return wxString(SVG_SIMPLE_ICONS_JUEJIN);
-  if (id == wxART_JUKE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JUKE))  
       return wxString(SVG_SIMPLE_ICONS_JUKE);
-  if (id == wxART_JULIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JULIA))  
       return wxString(SVG_SIMPLE_ICONS_JULIA);
-  if (id == wxART_JUNIPERNETWORKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JUNIPERNETWORKS))  
       return wxString(SVG_SIMPLE_ICONS_JUNIPERNETWORKS);
-  if (id == wxART_JUNIT5)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JUNIT5))  
       return wxString(SVG_SIMPLE_ICONS_JUNIT5);
-  if (id == wxART_JUPYTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JUPYTER))  
       return wxString(SVG_SIMPLE_ICONS_JUPYTER);
-  if (id == wxART_JUSTEAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JUSTEAT))  
       return wxString(SVG_SIMPLE_ICONS_JUSTEAT);
-  if (id == wxART_JUSTGIVING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_JUSTGIVING))  
       return wxString(SVG_SIMPLE_ICONS_JUSTGIVING);
-  if (id == wxART_K3S)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_K3S))  
       return wxString(SVG_SIMPLE_ICONS_K3S);
-  if (id == wxART_K6)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_K6))  
       return wxString(SVG_SIMPLE_ICONS_K6);
-  if (id == wxART_KAGGLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KAGGLE))  
       return wxString(SVG_SIMPLE_ICONS_KAGGLE);
-  if (id == wxART_KAHOOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KAHOOT))  
       return wxString(SVG_SIMPLE_ICONS_KAHOOT);
-  if (id == wxART_KAIOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KAIOS))  
       return wxString(SVG_SIMPLE_ICONS_KAIOS);
-  if (id == wxART_KAKAO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KAKAO))  
       return wxString(SVG_SIMPLE_ICONS_KAKAO);
-  if (id == wxART_KAKAOTALK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KAKAOTALK))  
       return wxString(SVG_SIMPLE_ICONS_KAKAOTALK);
-  if (id == wxART_KALILINUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KALILINUX))  
       return wxString(SVG_SIMPLE_ICONS_KALILINUX);
-  if (id == wxART_KAMAILIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KAMAILIO))  
       return wxString(SVG_SIMPLE_ICONS_KAMAILIO);
-  if (id == wxART_KANIKO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KANIKO))  
       return wxString(SVG_SIMPLE_ICONS_KANIKO);
-  if (id == wxART_KARLSRUHERVERKEHRSVERBUND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KARLSRUHERVERKEHRSVERBUND))  
       return wxString(SVG_SIMPLE_ICONS_KARLSRUHERVERKEHRSVERBUND);
-  if (id == wxART_KASASMART)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KASASMART))  
       return wxString(SVG_SIMPLE_ICONS_KASASMART);
-  if (id == wxART_KASHFLOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KASHFLOW))  
       return wxString(SVG_SIMPLE_ICONS_KASHFLOW);
-  if (id == wxART_KASPERSKY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KASPERSKY))  
       return wxString(SVG_SIMPLE_ICONS_KASPERSKY);
-  if (id == wxART_KATACODA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KATACODA))  
       return wxString(SVG_SIMPLE_ICONS_KATACODA);
-  if (id == wxART_KATANA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KATANA))  
       return wxString(SVG_SIMPLE_ICONS_KATANA);
-  if (id == wxART_KAUFLAND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KAUFLAND))  
       return wxString(SVG_SIMPLE_ICONS_KAUFLAND);
-  if (id == wxART_KDE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KDE))  
       return wxString(SVG_SIMPLE_ICONS_KDE);
-  if (id == wxART_KDENLIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KDENLIVE))  
       return wxString(SVG_SIMPLE_ICONS_KDENLIVE);
-  if (id == wxART_KEDRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KEDRO))  
       return wxString(SVG_SIMPLE_ICONS_KEDRO);
-  if (id == wxART_KEEPACHANGELOG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KEEPACHANGELOG))  
       return wxString(SVG_SIMPLE_ICONS_KEEPACHANGELOG);
-  if (id == wxART_KEEPASSXC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KEEPASSXC))  
       return wxString(SVG_SIMPLE_ICONS_KEEPASSXC);
-  if (id == wxART_KENTICO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KENTICO))  
       return wxString(SVG_SIMPLE_ICONS_KENTICO);
-  if (id == wxART_KERAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KERAS))  
       return wxString(SVG_SIMPLE_ICONS_KERAS);
-  if (id == wxART_KEYBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KEYBASE))  
       return wxString(SVG_SIMPLE_ICONS_KEYBASE);
-  if (id == wxART_KEYCDN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KEYCDN))  
       return wxString(SVG_SIMPLE_ICONS_KEYCDN);
-  if (id == wxART_KEYSTONE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KEYSTONE))  
       return wxString(SVG_SIMPLE_ICONS_KEYSTONE);
-  if (id == wxART_KFC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KFC))  
       return wxString(SVG_SIMPLE_ICONS_KFC);
-  if (id == wxART_KHANACADEMY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KHANACADEMY))  
       return wxString(SVG_SIMPLE_ICONS_KHANACADEMY);
-  if (id == wxART_KHRONOSGROUP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KHRONOSGROUP))  
       return wxString(SVG_SIMPLE_ICONS_KHRONOSGROUP);
-  if (id == wxART_KIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KIA))  
       return wxString(SVG_SIMPLE_ICONS_KIA);
-  if (id == wxART_KIBANA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KIBANA))  
       return wxString(SVG_SIMPLE_ICONS_KIBANA);
-  if (id == wxART_KICAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KICAD))  
       return wxString(SVG_SIMPLE_ICONS_KICAD);
-  if (id == wxART_KICKSTARTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KICKSTARTER))  
       return wxString(SVG_SIMPLE_ICONS_KICKSTARTER);
-  if (id == wxART_KIK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KIK))  
       return wxString(SVG_SIMPLE_ICONS_KIK);
-  if (id == wxART_KINGSTONTECHNOLOGY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KINGSTONTECHNOLOGY))  
       return wxString(SVG_SIMPLE_ICONS_KINGSTONTECHNOLOGY);
-  if (id == wxART_KINOPOISK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KINOPOISK))  
       return wxString(SVG_SIMPLE_ICONS_KINOPOISK);
-  if (id == wxART_KINSTA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KINSTA))  
       return wxString(SVG_SIMPLE_ICONS_KINSTA);
-  if (id == wxART_KIRBY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KIRBY))  
       return wxString(SVG_SIMPLE_ICONS_KIRBY);
-  if (id == wxART_KIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KIT))  
       return wxString(SVG_SIMPLE_ICONS_KIT);
-  if (id == wxART_KITSU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KITSU))  
       return wxString(SVG_SIMPLE_ICONS_KITSU);
-  if (id == wxART_KLARNA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KLARNA))  
       return wxString(SVG_SIMPLE_ICONS_KLARNA);
-  if (id == wxART_KLM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KLM))  
       return wxString(SVG_SIMPLE_ICONS_KLM);
-  if (id == wxART_KLOOK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KLOOK))  
       return wxString(SVG_SIMPLE_ICONS_KLOOK);
-  if (id == wxART_KNATIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KNATIVE))  
       return wxString(SVG_SIMPLE_ICONS_KNATIVE);
-  if (id == wxART_KNOWLEDGEBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KNOWLEDGEBASE))  
       return wxString(SVG_SIMPLE_ICONS_KNOWLEDGEBASE);
-  if (id == wxART_KNOWN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KNOWN))  
       return wxString(SVG_SIMPLE_ICONS_KNOWN);
-  if (id == wxART_KOA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KOA))  
       return wxString(SVG_SIMPLE_ICONS_KOA);
-  if (id == wxART_KOC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KOC))  
       return wxString(SVG_SIMPLE_ICONS_KOC);
-  if (id == wxART_KODAK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KODAK))  
       return wxString(SVG_SIMPLE_ICONS_KODAK);
-  if (id == wxART_KODI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KODI))  
       return wxString(SVG_SIMPLE_ICONS_KODI);
-  if (id == wxART_KOFAX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KOFAX))  
       return wxString(SVG_SIMPLE_ICONS_KOFAX);
-  if (id == wxART_KOFI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KOFI))  
       return wxString(SVG_SIMPLE_ICONS_KOFI);
-  if (id == wxART_KOMOOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KOMOOT))  
       return wxString(SVG_SIMPLE_ICONS_KOMOOT);
-  if (id == wxART_KONAMI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KONAMI))  
       return wxString(SVG_SIMPLE_ICONS_KONAMI);
-  if (id == wxART_KONG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KONG))  
       return wxString(SVG_SIMPLE_ICONS_KONG);
-  if (id == wxART_KONGREGATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KONGREGATE))  
       return wxString(SVG_SIMPLE_ICONS_KONGREGATE);
-  if (id == wxART_KONVA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KONVA))  
       return wxString(SVG_SIMPLE_ICONS_KONVA);
-  if (id == wxART_KOTLIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KOTLIN))  
       return wxString(SVG_SIMPLE_ICONS_KOTLIN);
-  if (id == wxART_KOYEB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KOYEB))  
       return wxString(SVG_SIMPLE_ICONS_KOYEB);
-  if (id == wxART_KRITA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KRITA))  
       return wxString(SVG_SIMPLE_ICONS_KRITA);
-  if (id == wxART_KTM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KTM))  
       return wxString(SVG_SIMPLE_ICONS_KTM);
-  if (id == wxART_KUAISHOU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KUAISHOU))  
       return wxString(SVG_SIMPLE_ICONS_KUAISHOU);
-  if (id == wxART_KUBERNETES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KUBERNETES))  
       return wxString(SVG_SIMPLE_ICONS_KUBERNETES);
-  if (id == wxART_KUBUNTU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KUBUNTU))  
       return wxString(SVG_SIMPLE_ICONS_KUBUNTU);
-  if (id == wxART_KUMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KUMA))  
       return wxString(SVG_SIMPLE_ICONS_KUMA);
-  if (id == wxART_KUULA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KUULA))  
       return wxString(SVG_SIMPLE_ICONS_KUULA);
-  if (id == wxART_KYOCERA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_KYOCERA))  
       return wxString(SVG_SIMPLE_ICONS_KYOCERA);
-  if (id == wxART_LABVIEW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LABVIEW))  
       return wxString(SVG_SIMPLE_ICONS_LABVIEW);
-  if (id == wxART_LADA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LADA))  
       return wxString(SVG_SIMPLE_ICONS_LADA);
-  if (id == wxART_LAMBORGHINI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LAMBORGHINI))  
       return wxString(SVG_SIMPLE_ICONS_LAMBORGHINI);
-  if (id == wxART_LANDROVER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LANDROVER))  
       return wxString(SVG_SIMPLE_ICONS_LANDROVER);
-  if (id == wxART_LAPCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LAPCE))  
       return wxString(SVG_SIMPLE_ICONS_LAPCE);
-  if (id == wxART_LARAGON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LARAGON))  
       return wxString(SVG_SIMPLE_ICONS_LARAGON);
-  if (id == wxART_LARAVEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LARAVEL))  
       return wxString(SVG_SIMPLE_ICONS_LARAVEL);
-  if (id == wxART_LARAVELHORIZON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LARAVELHORIZON))  
       return wxString(SVG_SIMPLE_ICONS_LARAVELHORIZON);
-  if (id == wxART_LARAVELNOVA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LARAVELNOVA))  
       return wxString(SVG_SIMPLE_ICONS_LARAVELNOVA);
-  if (id == wxART_LASTDOTFM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LASTDOTFM))  
       return wxString(SVG_SIMPLE_ICONS_LASTDOTFM);
-  if (id == wxART_LASTPASS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LASTPASS))  
       return wxString(SVG_SIMPLE_ICONS_LASTPASS);
-  if (id == wxART_LATEX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LATEX))  
       return wxString(SVG_SIMPLE_ICONS_LATEX);
-  if (id == wxART_LAUNCHPAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LAUNCHPAD))  
       return wxString(SVG_SIMPLE_ICONS_LAUNCHPAD);
-  if (id == wxART_LAZARUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LAZARUS))  
       return wxString(SVG_SIMPLE_ICONS_LAZARUS);
-  if (id == wxART_LBRY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LBRY))  
       return wxString(SVG_SIMPLE_ICONS_LBRY);
-  if (id == wxART_LEADERPRICE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEADERPRICE))  
       return wxString(SVG_SIMPLE_ICONS_LEADERPRICE);
-  if (id == wxART_LEAFLET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEAFLET))  
       return wxString(SVG_SIMPLE_ICONS_LEAFLET);
-  if (id == wxART_LEAGUEOFLEGENDS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEAGUEOFLEGENDS))  
       return wxString(SVG_SIMPLE_ICONS_LEAGUEOFLEGENDS);
-  if (id == wxART_LEANPUB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEANPUB))  
       return wxString(SVG_SIMPLE_ICONS_LEANPUB);
-  if (id == wxART_LEETCODE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEETCODE))  
       return wxString(SVG_SIMPLE_ICONS_LEETCODE);
-  if (id == wxART_LEGACYGAMES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEGACYGAMES))  
       return wxString(SVG_SIMPLE_ICONS_LEGACYGAMES);
-  if (id == wxART_LEICA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEICA))  
       return wxString(SVG_SIMPLE_ICONS_LEICA);
-  if (id == wxART_LEMMY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEMMY))  
       return wxString(SVG_SIMPLE_ICONS_LEMMY);
-  if (id == wxART_LENOVO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LENOVO))  
       return wxString(SVG_SIMPLE_ICONS_LENOVO);
-  if (id == wxART_LENS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LENS))  
       return wxString(SVG_SIMPLE_ICONS_LENS);
-  if (id == wxART_LEPTOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEPTOS))  
       return wxString(SVG_SIMPLE_ICONS_LEPTOS);
-  if (id == wxART_LERNA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LERNA))  
       return wxString(SVG_SIMPLE_ICONS_LERNA);
-  if (id == wxART_LEROYMERLIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEROYMERLIN))  
       return wxString(SVG_SIMPLE_ICONS_LEROYMERLIN);
-  if (id == wxART_LESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LESS))  
       return wxString(SVG_SIMPLE_ICONS_LESS);
-  if (id == wxART_LETSENCRYPT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LETSENCRYPT))  
       return wxString(SVG_SIMPLE_ICONS_LETSENCRYPT);
-  if (id == wxART_LETTERBOXD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LETTERBOXD))  
       return wxString(SVG_SIMPLE_ICONS_LETTERBOXD);
-  if (id == wxART_LEVELSDOTFYI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LEVELSDOTFYI))  
       return wxString(SVG_SIMPLE_ICONS_LEVELSDOTFYI);
-  if (id == wxART_LG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LG))  
       return wxString(SVG_SIMPLE_ICONS_LG);
-  if (id == wxART_LGTM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LGTM))  
       return wxString(SVG_SIMPLE_ICONS_LGTM);
-  if (id == wxART_LIBERADOTCHAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIBERADOTCHAT))  
       return wxString(SVG_SIMPLE_ICONS_LIBERADOTCHAT);
-  if (id == wxART_LIBERAPAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIBERAPAY))  
       return wxString(SVG_SIMPLE_ICONS_LIBERAPAY);
-  if (id == wxART_LIBRARIESDOTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIBRARIESDOTIO))  
       return wxString(SVG_SIMPLE_ICONS_LIBRARIESDOTIO);
-  if (id == wxART_LIBRARYTHING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIBRARYTHING))  
       return wxString(SVG_SIMPLE_ICONS_LIBRARYTHING);
-  if (id == wxART_LIBREOFFICE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIBREOFFICE))  
       return wxString(SVG_SIMPLE_ICONS_LIBREOFFICE);
-  if (id == wxART_LIBUV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIBUV))  
       return wxString(SVG_SIMPLE_ICONS_LIBUV);
-  if (id == wxART_LICHESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LICHESS))  
       return wxString(SVG_SIMPLE_ICONS_LICHESS);
-  if (id == wxART_LIDL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIDL))  
       return wxString(SVG_SIMPLE_ICONS_LIDL);
-  if (id == wxART_LIFX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIFX))  
       return wxString(SVG_SIMPLE_ICONS_LIFX);
-  if (id == wxART_LIGHTBURN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIGHTBURN))  
       return wxString(SVG_SIMPLE_ICONS_LIGHTBURN);
-  if (id == wxART_LIGHTHOUSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIGHTHOUSE))  
       return wxString(SVG_SIMPLE_ICONS_LIGHTHOUSE);
-  if (id == wxART_LIGHTNING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIGHTNING))  
       return wxString(SVG_SIMPLE_ICONS_LIGHTNING);
-  if (id == wxART_LINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINE))  
       return wxString(SVG_SIMPLE_ICONS_LINE);
-  if (id == wxART_LINEAGEOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINEAGEOS))  
       return wxString(SVG_SIMPLE_ICONS_LINEAGEOS);
-  if (id == wxART_LINEAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINEAR))  
       return wxString(SVG_SIMPLE_ICONS_LINEAR);
-  if (id == wxART_LINKEDIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINKEDIN))  
       return wxString(SVG_SIMPLE_ICONS_LINKEDIN);
-  if (id == wxART_LINKERD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINKERD))  
       return wxString(SVG_SIMPLE_ICONS_LINKERD);
-  if (id == wxART_LINKFIRE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINKFIRE))  
       return wxString(SVG_SIMPLE_ICONS_LINKFIRE);
-  if (id == wxART_LINKTREE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINKTREE))  
       return wxString(SVG_SIMPLE_ICONS_LINKTREE);
-  if (id == wxART_LINUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINUX))  
       return wxString(SVG_SIMPLE_ICONS_LINUX);
-  if (id == wxART_LINUXCONTAINERS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINUXCONTAINERS))  
       return wxString(SVG_SIMPLE_ICONS_LINUXCONTAINERS);
-  if (id == wxART_LINUXFOUNDATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINUXFOUNDATION))  
       return wxString(SVG_SIMPLE_ICONS_LINUXFOUNDATION);
-  if (id == wxART_LINUXMINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LINUXMINT))  
       return wxString(SVG_SIMPLE_ICONS_LINUXMINT);
-  if (id == wxART_LIONAIR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIONAIR))  
       return wxString(SVG_SIMPLE_ICONS_LIONAIR);
-  if (id == wxART_LIQUIBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIQUIBASE))  
       return wxString(SVG_SIMPLE_ICONS_LIQUIBASE);
-  if (id == wxART_LIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIT))  
       return wxString(SVG_SIMPLE_ICONS_LIT);
-  if (id == wxART_LITECOIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LITECOIN))  
       return wxString(SVG_SIMPLE_ICONS_LITECOIN);
-  if (id == wxART_LITIENGINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LITIENGINE))  
       return wxString(SVG_SIMPLE_ICONS_LITIENGINE);
-  if (id == wxART_LIVECHAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIVECHAT))  
       return wxString(SVG_SIMPLE_ICONS_LIVECHAT);
-  if (id == wxART_LIVEJOURNAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIVEJOURNAL))  
       return wxString(SVG_SIMPLE_ICONS_LIVEJOURNAL);
-  if (id == wxART_LIVEWIRE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LIVEWIRE))  
       return wxString(SVG_SIMPLE_ICONS_LIVEWIRE);
-  if (id == wxART_LLVM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LLVM))  
       return wxString(SVG_SIMPLE_ICONS_LLVM);
-  if (id == wxART_LMMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LMMS))  
       return wxString(SVG_SIMPLE_ICONS_LMMS);
-  if (id == wxART_LOCAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOCAL))  
       return wxString(SVG_SIMPLE_ICONS_LOCAL);
-  if (id == wxART_LODASH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LODASH))  
       return wxString(SVG_SIMPLE_ICONS_LODASH);
-  if (id == wxART_LOGITECH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOGITECH))  
       return wxString(SVG_SIMPLE_ICONS_LOGITECH);
-  if (id == wxART_LOGMEIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOGMEIN))  
       return wxString(SVG_SIMPLE_ICONS_LOGMEIN);
-  if (id == wxART_LOGSEQ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOGSEQ))  
       return wxString(SVG_SIMPLE_ICONS_LOGSEQ);
-  if (id == wxART_LOGSTASH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOGSTASH))  
       return wxString(SVG_SIMPLE_ICONS_LOGSTASH);
-  if (id == wxART_LOOKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOOKER))  
       return wxString(SVG_SIMPLE_ICONS_LOOKER);
-  if (id == wxART_LOOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOOM))  
       return wxString(SVG_SIMPLE_ICONS_LOOM);
-  if (id == wxART_LOOP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOOP))  
       return wxString(SVG_SIMPLE_ICONS_LOOP);
-  if (id == wxART_LOOPBACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOOPBACK))  
       return wxString(SVG_SIMPLE_ICONS_LOOPBACK);
-  if (id == wxART_LOSPEC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOSPEC))  
       return wxString(SVG_SIMPLE_ICONS_LOSPEC);
-  if (id == wxART_LOTPOLISHAIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LOTPOLISHAIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_LOTPOLISHAIRLINES);
-  if (id == wxART_LTSPICE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LTSPICE))  
       return wxString(SVG_SIMPLE_ICONS_LTSPICE);
-  if (id == wxART_LUA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LUA))  
       return wxString(SVG_SIMPLE_ICONS_LUA);
-  if (id == wxART_LUBUNTU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LUBUNTU))  
       return wxString(SVG_SIMPLE_ICONS_LUBUNTU);
-  if (id == wxART_LUDWIG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LUDWIG))  
       return wxString(SVG_SIMPLE_ICONS_LUDWIG);
-  if (id == wxART_LUFTHANSA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LUFTHANSA))  
       return wxString(SVG_SIMPLE_ICONS_LUFTHANSA);
-  if (id == wxART_LUMEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LUMEN))  
       return wxString(SVG_SIMPLE_ICONS_LUMEN);
-  if (id == wxART_LUNACY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LUNACY))  
       return wxString(SVG_SIMPLE_ICONS_LUNACY);
-  if (id == wxART_LUTRIS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LUTRIS))  
       return wxString(SVG_SIMPLE_ICONS_LUTRIS);
-  if (id == wxART_LYDIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LYDIA))  
       return wxString(SVG_SIMPLE_ICONS_LYDIA);
-  if (id == wxART_LYFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_LYFT))  
       return wxString(SVG_SIMPLE_ICONS_LYFT);
-  if (id == wxART_MAAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAAS))  
       return wxString(SVG_SIMPLE_ICONS_MAAS);
-  if (id == wxART_MACOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MACOS))  
       return wxString(SVG_SIMPLE_ICONS_MACOS);
-  if (id == wxART_MACPAW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MACPAW))  
       return wxString(SVG_SIMPLE_ICONS_MACPAW);
-  if (id == wxART_MACYS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MACYS))  
       return wxString(SVG_SIMPLE_ICONS_MACYS);
-  if (id == wxART_MAGASINSU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAGASINSU))  
       return wxString(SVG_SIMPLE_ICONS_MAGASINSU);
-  if (id == wxART_MAGENTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAGENTO))  
       return wxString(SVG_SIMPLE_ICONS_MAGENTO);
-  if (id == wxART_MAGISK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAGISK))  
       return wxString(SVG_SIMPLE_ICONS_MAGISK);
-  if (id == wxART_MAILCHIMP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAILCHIMP))  
       return wxString(SVG_SIMPLE_ICONS_MAILCHIMP);
-  if (id == wxART_MAILDOTCOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAILDOTCOM))  
       return wxString(SVG_SIMPLE_ICONS_MAILDOTCOM);
-  if (id == wxART_MAILDOTRU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAILDOTRU))  
       return wxString(SVG_SIMPLE_ICONS_MAILDOTRU);
-  if (id == wxART_MAILGUN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAILGUN))  
       return wxString(SVG_SIMPLE_ICONS_MAILGUN);
-  if (id == wxART_MAJORLEAGUEHACKING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAJORLEAGUEHACKING))  
       return wxString(SVG_SIMPLE_ICONS_MAJORLEAGUEHACKING);
-  if (id == wxART_MAKERBOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAKERBOT))  
       return wxString(SVG_SIMPLE_ICONS_MAKERBOT);
-  if (id == wxART_MAMBAUI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAMBAUI))  
       return wxString(SVG_SIMPLE_ICONS_MAMBAUI);
-  if (id == wxART_MAMP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAMP))  
       return wxString(SVG_SIMPLE_ICONS_MAMP);
-  if (id == wxART_MAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAN))  
       return wxString(SVG_SIMPLE_ICONS_MAN);
-  if (id == wxART_MANAGEIQ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MANAGEIQ))  
       return wxString(SVG_SIMPLE_ICONS_MANAGEIQ);
-  if (id == wxART_MANJARO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MANJARO))  
       return wxString(SVG_SIMPLE_ICONS_MANJARO);
-  if (id == wxART_MANTINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MANTINE))  
       return wxString(SVG_SIMPLE_ICONS_MANTINE);
-  if (id == wxART_MAPBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAPBOX))  
       return wxString(SVG_SIMPLE_ICONS_MAPBOX);
-  if (id == wxART_MAPLIBRE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAPLIBRE))  
       return wxString(SVG_SIMPLE_ICONS_MAPLIBRE);
-  if (id == wxART_MARIADB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MARIADB))  
       return wxString(SVG_SIMPLE_ICONS_MARIADB);
-  if (id == wxART_MARIADBFOUNDATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MARIADBFOUNDATION))  
       return wxString(SVG_SIMPLE_ICONS_MARIADBFOUNDATION);
-  if (id == wxART_MARKDOWN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MARKDOWN))  
       return wxString(SVG_SIMPLE_ICONS_MARKDOWN);
-  if (id == wxART_MARKETO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MARKETO))  
       return wxString(SVG_SIMPLE_ICONS_MARKETO);
-  if (id == wxART_MARKO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MARKO))  
       return wxString(SVG_SIMPLE_ICONS_MARKO);
-  if (id == wxART_MARRIOTT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MARRIOTT))  
       return wxString(SVG_SIMPLE_ICONS_MARRIOTT);
-  if (id == wxART_MARVELAPP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MARVELAPP))  
       return wxString(SVG_SIMPLE_ICONS_MARVELAPP);
-  if (id == wxART_MASERATI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MASERATI))  
       return wxString(SVG_SIMPLE_ICONS_MASERATI);
-  if (id == wxART_MASTERCARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MASTERCARD))  
       return wxString(SVG_SIMPLE_ICONS_MASTERCARD);
-  if (id == wxART_MASTERCOMFIG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MASTERCOMFIG))  
       return wxString(SVG_SIMPLE_ICONS_MASTERCOMFIG);
-  if (id == wxART_MASTODON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MASTODON))  
       return wxString(SVG_SIMPLE_ICONS_MASTODON);
-  if (id == wxART_MATERIALDESIGN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MATERIALDESIGN))  
       return wxString(SVG_SIMPLE_ICONS_MATERIALDESIGN);
-  if (id == wxART_MATERIALDESIGNICONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MATERIALDESIGNICONS))  
       return wxString(SVG_SIMPLE_ICONS_MATERIALDESIGNICONS);
-  if (id == wxART_MATILLION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MATILLION))  
       return wxString(SVG_SIMPLE_ICONS_MATILLION);
-  if (id == wxART_MATOMO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MATOMO))  
       return wxString(SVG_SIMPLE_ICONS_MATOMO);
-  if (id == wxART_MATRIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MATRIX))  
       return wxString(SVG_SIMPLE_ICONS_MATRIX);
-  if (id == wxART_MATTERDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MATTERDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_MATTERDOTJS);
-  if (id == wxART_MATTERMOST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MATTERMOST))  
       return wxString(SVG_SIMPLE_ICONS_MATTERMOST);
-  if (id == wxART_MATTERNET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MATTERNET))  
       return wxString(SVG_SIMPLE_ICONS_MATTERNET);
-  if (id == wxART_MAUTIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAUTIC))  
       return wxString(SVG_SIMPLE_ICONS_MAUTIC);
-  if (id == wxART_MAX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAX))  
       return wxString(SVG_SIMPLE_ICONS_MAX);
-  if (id == wxART_MAXPLANCKGESELLSCHAFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAXPLANCKGESELLSCHAFT))  
       return wxString(SVG_SIMPLE_ICONS_MAXPLANCKGESELLSCHAFT);
-  if (id == wxART_MAYTAG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAYTAG))  
       return wxString(SVG_SIMPLE_ICONS_MAYTAG);
-  if (id == wxART_MAZDA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MAZDA))  
       return wxString(SVG_SIMPLE_ICONS_MAZDA);
-  if (id == wxART_MCAFEE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MCAFEE))  
       return wxString(SVG_SIMPLE_ICONS_MCAFEE);
-  if (id == wxART_MCDONALDS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MCDONALDS))  
       return wxString(SVG_SIMPLE_ICONS_MCDONALDS);
-  if (id == wxART_MCLAREN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MCLAREN))  
       return wxString(SVG_SIMPLE_ICONS_MCLAREN);
-  if (id == wxART_MDBOOK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MDBOOK))  
       return wxString(SVG_SIMPLE_ICONS_MDBOOK);
-  if (id == wxART_MDNWEBDOCS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MDNWEBDOCS))  
       return wxString(SVG_SIMPLE_ICONS_MDNWEBDOCS);
-  if (id == wxART_MDX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MDX))  
       return wxString(SVG_SIMPLE_ICONS_MDX);
-  if (id == wxART_MEDIAFIRE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MEDIAFIRE))  
       return wxString(SVG_SIMPLE_ICONS_MEDIAFIRE);
-  if (id == wxART_MEDIAMARKT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MEDIAMARKT))  
       return wxString(SVG_SIMPLE_ICONS_MEDIAMARKT);
-  if (id == wxART_MEDIATEK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MEDIATEK))  
       return wxString(SVG_SIMPLE_ICONS_MEDIATEK);
-  if (id == wxART_MEDIATEMPLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MEDIATEMPLE))  
       return wxString(SVG_SIMPLE_ICONS_MEDIATEMPLE);
-  if (id == wxART_MEDIBANGPAINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MEDIBANGPAINT))  
       return wxString(SVG_SIMPLE_ICONS_MEDIBANGPAINT);
-  if (id == wxART_MEDIUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MEDIUM))  
       return wxString(SVG_SIMPLE_ICONS_MEDIUM);
-  if (id == wxART_MEETUP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MEETUP))  
       return wxString(SVG_SIMPLE_ICONS_MEETUP);
-  if (id == wxART_MEGA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MEGA))  
       return wxString(SVG_SIMPLE_ICONS_MEGA);
-  if (id == wxART_MEILISEARCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MEILISEARCH))  
       return wxString(SVG_SIMPLE_ICONS_MEILISEARCH);
-  if (id == wxART_MENDELEY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MENDELEY))  
       return wxString(SVG_SIMPLE_ICONS_MENDELEY);
-  if (id == wxART_MERCADOPAGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MERCADOPAGO))  
       return wxString(SVG_SIMPLE_ICONS_MERCADOPAGO);
-  if (id == wxART_MERCEDES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MERCEDES))  
       return wxString(SVG_SIMPLE_ICONS_MERCEDES);
-  if (id == wxART_MERCK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MERCK))  
       return wxString(SVG_SIMPLE_ICONS_MERCK);
-  if (id == wxART_MERCURIAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MERCURIAL))  
       return wxString(SVG_SIMPLE_ICONS_MERCURIAL);
-  if (id == wxART_MESSENGER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MESSENGER))  
       return wxString(SVG_SIMPLE_ICONS_MESSENGER);
-  if (id == wxART_META)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_META))  
       return wxString(SVG_SIMPLE_ICONS_META);
-  if (id == wxART_METABASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_METABASE))  
       return wxString(SVG_SIMPLE_ICONS_METABASE);
-  if (id == wxART_METAFILTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_METAFILTER))  
       return wxString(SVG_SIMPLE_ICONS_METAFILTER);
-  if (id == wxART_METEOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_METEOR))  
       return wxString(SVG_SIMPLE_ICONS_METEOR);
-  if (id == wxART_METRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_METRO))  
       return wxString(SVG_SIMPLE_ICONS_METRO);
-  if (id == wxART_METRODELACIUDADDEMEXICO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_METRODELACIUDADDEMEXICO))  
       return wxString(SVG_SIMPLE_ICONS_METRODELACIUDADDEMEXICO);
-  if (id == wxART_METRODEMADRID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_METRODEMADRID))  
       return wxString(SVG_SIMPLE_ICONS_METRODEMADRID);
-  if (id == wxART_METRODEPARIS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_METRODEPARIS))  
       return wxString(SVG_SIMPLE_ICONS_METRODEPARIS);
-  if (id == wxART_MEWE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MEWE))  
       return wxString(SVG_SIMPLE_ICONS_MEWE);
-  if (id == wxART_MG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MG))  
       return wxString(SVG_SIMPLE_ICONS_MG);
-  if (id == wxART_MICROBIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROBIT))  
       return wxString(SVG_SIMPLE_ICONS_MICROBIT);
-  if (id == wxART_MICRODOTBLOG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICRODOTBLOG))  
       return wxString(SVG_SIMPLE_ICONS_MICRODOTBLOG);
-  if (id == wxART_MICROEDITOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROEDITOR))  
       return wxString(SVG_SIMPLE_ICONS_MICROEDITOR);
-  if (id == wxART_MICROGENETICS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROGENETICS))  
       return wxString(SVG_SIMPLE_ICONS_MICROGENETICS);
-  if (id == wxART_MICROPYTHON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROPYTHON))  
       return wxString(SVG_SIMPLE_ICONS_MICROPYTHON);
-  if (id == wxART_MICROSOFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFT))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFT);
-  if (id == wxART_MICROSOFTACADEMIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTACADEMIC))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTACADEMIC);
-  if (id == wxART_MICROSOFTACCESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTACCESS))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTACCESS);
-  if (id == wxART_MICROSOFTAZURE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTAZURE))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTAZURE);
-  if (id == wxART_MICROSOFTBING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTBING))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTBING);
-  if (id == wxART_MICROSOFTEDGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTEDGE))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTEDGE);
-  if (id == wxART_MICROSOFTEXCEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTEXCEL))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTEXCEL);
-  if (id == wxART_MICROSOFTEXCHANGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTEXCHANGE))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTEXCHANGE);
-  if (id == wxART_MICROSOFTOFFICE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTOFFICE))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTOFFICE);
-  if (id == wxART_MICROSOFTONEDRIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTONEDRIVE))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTONEDRIVE);
-  if (id == wxART_MICROSOFTONENOTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTONENOTE))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTONENOTE);
-  if (id == wxART_MICROSOFTOUTLOOK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTOUTLOOK))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTOUTLOOK);
-  if (id == wxART_MICROSOFTPOWERPOINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTPOWERPOINT))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTPOWERPOINT);
-  if (id == wxART_MICROSOFTSHAREPOINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTSHAREPOINT))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTSHAREPOINT);
-  if (id == wxART_MICROSOFTSQLSERVER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTSQLSERVER))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTSQLSERVER);
-  if (id == wxART_MICROSOFTTEAMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTTEAMS))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTTEAMS);
-  if (id == wxART_MICROSOFTTRANSLATOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTTRANSLATOR))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTTRANSLATOR);
-  if (id == wxART_MICROSOFTVISIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTVISIO))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTVISIO);
-  if (id == wxART_MICROSOFTWORD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSOFTWORD))  
       return wxString(SVG_SIMPLE_ICONS_MICROSOFTWORD);
-  if (id == wxART_MICROSTATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSTATION))  
       return wxString(SVG_SIMPLE_ICONS_MICROSTATION);
-  if (id == wxART_MICROSTRATEGY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MICROSTRATEGY))  
       return wxString(SVG_SIMPLE_ICONS_MICROSTRATEGY);
-  if (id == wxART_MIDI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MIDI))  
       return wxString(SVG_SIMPLE_ICONS_MIDI);
-  if (id == wxART_MIKROTIK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MIKROTIK))  
       return wxString(SVG_SIMPLE_ICONS_MIKROTIK);
-  if (id == wxART_MILVUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MILVUS))  
       return wxString(SVG_SIMPLE_ICONS_MILVUS);
-  if (id == wxART_MINDS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MINDS))  
       return wxString(SVG_SIMPLE_ICONS_MINDS);
-  if (id == wxART_MINECRAFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MINECRAFT))  
       return wxString(SVG_SIMPLE_ICONS_MINECRAFT);
-  if (id == wxART_MINETEST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MINETEST))  
       return wxString(SVG_SIMPLE_ICONS_MINETEST);
-  if (id == wxART_MINI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MINI))  
       return wxString(SVG_SIMPLE_ICONS_MINI);
-  if (id == wxART_MINIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MINIO))  
       return wxString(SVG_SIMPLE_ICONS_MINIO);
-  if (id == wxART_MINUTEMAILER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MINUTEMAILER))  
       return wxString(SVG_SIMPLE_ICONS_MINUTEMAILER);
-  if (id == wxART_MIRAHEZE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MIRAHEZE))  
       return wxString(SVG_SIMPLE_ICONS_MIRAHEZE);
-  if (id == wxART_MIRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MIRO))  
       return wxString(SVG_SIMPLE_ICONS_MIRO);
-  if (id == wxART_MISSKEY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MISSKEY))  
       return wxString(SVG_SIMPLE_ICONS_MISSKEY);
-  if (id == wxART_MITSUBISHI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MITSUBISHI))  
       return wxString(SVG_SIMPLE_ICONS_MITSUBISHI);
-  if (id == wxART_MIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MIX))  
       return wxString(SVG_SIMPLE_ICONS_MIX);
-  if (id == wxART_MIXCLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MIXCLOUD))  
       return wxString(SVG_SIMPLE_ICONS_MIXCLOUD);
-  if (id == wxART_MIXPANEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MIXPANEL))  
       return wxString(SVG_SIMPLE_ICONS_MIXPANEL);
-  if (id == wxART_MLB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MLB))  
       return wxString(SVG_SIMPLE_ICONS_MLB);
-  if (id == wxART_MLFLOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MLFLOW))  
       return wxString(SVG_SIMPLE_ICONS_MLFLOW);
-  if (id == wxART_MOBX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOBX))  
       return wxString(SVG_SIMPLE_ICONS_MOBX);
-  if (id == wxART_MOBXSTATETREE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOBXSTATETREE))  
       return wxString(SVG_SIMPLE_ICONS_MOBXSTATETREE);
-  if (id == wxART_MOCHA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOCHA))  
       return wxString(SVG_SIMPLE_ICONS_MOCHA);
-  if (id == wxART_MOCKSERVICEWORKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOCKSERVICEWORKER))  
       return wxString(SVG_SIMPLE_ICONS_MOCKSERVICEWORKER);
-  if (id == wxART_MODIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MODIN))  
       return wxString(SVG_SIMPLE_ICONS_MODIN);
-  if (id == wxART_MODRINTH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MODRINTH))  
       return wxString(SVG_SIMPLE_ICONS_MODRINTH);
-  if (id == wxART_MODX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MODX))  
       return wxString(SVG_SIMPLE_ICONS_MODX);
-  if (id == wxART_MOJANGSTUDIOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOJANGSTUDIOS))  
       return wxString(SVG_SIMPLE_ICONS_MOJANGSTUDIOS);
-  if (id == wxART_MOLECULER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOLECULER))  
       return wxString(SVG_SIMPLE_ICONS_MOLECULER);
-  if (id == wxART_MOMENTEO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOMENTEO))  
       return wxString(SVG_SIMPLE_ICONS_MOMENTEO);
-  if (id == wxART_MONERO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONERO))  
       return wxString(SVG_SIMPLE_ICONS_MONERO);
-  if (id == wxART_MONEYGRAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONEYGRAM))  
       return wxString(SVG_SIMPLE_ICONS_MONEYGRAM);
-  if (id == wxART_MONGODB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONGODB))  
       return wxString(SVG_SIMPLE_ICONS_MONGODB);
-  if (id == wxART_MONGOOSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONGOOSE))  
       return wxString(SVG_SIMPLE_ICONS_MONGOOSE);
-  if (id == wxART_MONGOOSEDOTWS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONGOOSEDOTWS))  
       return wxString(SVG_SIMPLE_ICONS_MONGOOSEDOTWS);
-  if (id == wxART_MONICA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONICA))  
       return wxString(SVG_SIMPLE_ICONS_MONICA);
-  if (id == wxART_MONKEYTIE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONKEYTIE))  
       return wxString(SVG_SIMPLE_ICONS_MONKEYTIE);
-  if (id == wxART_MONKEYTYPE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONKEYTYPE))  
       return wxString(SVG_SIMPLE_ICONS_MONKEYTYPE);
-  if (id == wxART_MONOGAME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONOGAME))  
       return wxString(SVG_SIMPLE_ICONS_MONOGAME);
-  if (id == wxART_MONOPRIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONOPRIX))  
       return wxString(SVG_SIMPLE_ICONS_MONOPRIX);
-  if (id == wxART_MONSTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONSTER))  
       return wxString(SVG_SIMPLE_ICONS_MONSTER);
-  if (id == wxART_MONZO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MONZO))  
       return wxString(SVG_SIMPLE_ICONS_MONZO);
-  if (id == wxART_MOO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOO))  
       return wxString(SVG_SIMPLE_ICONS_MOO);
-  if (id == wxART_MOONREPO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOONREPO))  
       return wxString(SVG_SIMPLE_ICONS_MOONREPO);
-  if (id == wxART_MORRISONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MORRISONS))  
       return wxString(SVG_SIMPLE_ICONS_MORRISONS);
-  if (id == wxART_MOSCOWMETRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOSCOWMETRO))  
       return wxString(SVG_SIMPLE_ICONS_MOSCOWMETRO);
-  if (id == wxART_MOTOROLA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOTOROLA))  
       return wxString(SVG_SIMPLE_ICONS_MOTOROLA);
-  if (id == wxART_MOZILLA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MOZILLA))  
       return wxString(SVG_SIMPLE_ICONS_MOZILLA);
-  if (id == wxART_MQTT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MQTT))  
       return wxString(SVG_SIMPLE_ICONS_MQTT);
-  if (id == wxART_MSI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MSI))  
       return wxString(SVG_SIMPLE_ICONS_MSI);
-  if (id == wxART_MSIBUSINESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MSIBUSINESS))  
       return wxString(SVG_SIMPLE_ICONS_MSIBUSINESS);
-  if (id == wxART_MTA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MTA))  
       return wxString(SVG_SIMPLE_ICONS_MTA);
-  if (id == wxART_MTR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MTR))  
       return wxString(SVG_SIMPLE_ICONS_MTR);
-  if (id == wxART_MUBI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MUBI))  
       return wxString(SVG_SIMPLE_ICONS_MUBI);
-  if (id == wxART_MUI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MUI))  
       return wxString(SVG_SIMPLE_ICONS_MUI);
-  if (id == wxART_MULESOFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MULESOFT))  
       return wxString(SVG_SIMPLE_ICONS_MULESOFT);
-  if (id == wxART_MULLER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MULLER))  
       return wxString(SVG_SIMPLE_ICONS_MULLER);
-  if (id == wxART_MULTISIM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MULTISIM))  
       return wxString(SVG_SIMPLE_ICONS_MULTISIM);
-  if (id == wxART_MUMBLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MUMBLE))  
       return wxString(SVG_SIMPLE_ICONS_MUMBLE);
-  if (id == wxART_MURAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MURAL))  
       return wxString(SVG_SIMPLE_ICONS_MURAL);
-  if (id == wxART_MUSESCORE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MUSESCORE))  
       return wxString(SVG_SIMPLE_ICONS_MUSESCORE);
-  if (id == wxART_MUSICBRAINZ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MUSICBRAINZ))  
       return wxString(SVG_SIMPLE_ICONS_MUSICBRAINZ);
-  if (id == wxART_MXLINUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MXLINUX))  
       return wxString(SVG_SIMPLE_ICONS_MXLINUX);
-  if (id == wxART_MYANIMELIST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MYANIMELIST))  
       return wxString(SVG_SIMPLE_ICONS_MYANIMELIST);
-  if (id == wxART_MYOB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MYOB))  
       return wxString(SVG_SIMPLE_ICONS_MYOB);
-  if (id == wxART_MYSPACE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MYSPACE))  
       return wxString(SVG_SIMPLE_ICONS_MYSPACE);
-  if (id == wxART_MYSQL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_MYSQL))  
       return wxString(SVG_SIMPLE_ICONS_MYSQL);
-  if (id == wxART_N26)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_N26))  
       return wxString(SVG_SIMPLE_ICONS_N26);
-  if (id == wxART_NAMEBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NAMEBASE))  
       return wxString(SVG_SIMPLE_ICONS_NAMEBASE);
-  if (id == wxART_NAMECHEAP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NAMECHEAP))  
       return wxString(SVG_SIMPLE_ICONS_NAMECHEAP);
-  if (id == wxART_NANO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NANO))  
       return wxString(SVG_SIMPLE_ICONS_NANO);
-  if (id == wxART_NASA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NASA))  
       return wxString(SVG_SIMPLE_ICONS_NASA);
-  if (id == wxART_NATIONALGRID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NATIONALGRID))  
       return wxString(SVG_SIMPLE_ICONS_NATIONALGRID);
-  if (id == wxART_NATIVESCRIPT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NATIVESCRIPT))  
       return wxString(SVG_SIMPLE_ICONS_NATIVESCRIPT);
-  if (id == wxART_NATSDOTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NATSDOTIO))  
       return wxString(SVG_SIMPLE_ICONS_NATSDOTIO);
-  if (id == wxART_NAVER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NAVER))  
       return wxString(SVG_SIMPLE_ICONS_NAVER);
-  if (id == wxART_NBA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NBA))  
       return wxString(SVG_SIMPLE_ICONS_NBA);
-  if (id == wxART_NBB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NBB))  
       return wxString(SVG_SIMPLE_ICONS_NBB);
-  if (id == wxART_NBC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NBC))  
       return wxString(SVG_SIMPLE_ICONS_NBC);
-  if (id == wxART_NDR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NDR))  
       return wxString(SVG_SIMPLE_ICONS_NDR);
-  if (id == wxART_NEAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEAR))  
       return wxString(SVG_SIMPLE_ICONS_NEAR);
-  if (id == wxART_NEC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEC))  
       return wxString(SVG_SIMPLE_ICONS_NEC);
-  if (id == wxART_NEO4J)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEO4J))  
       return wxString(SVG_SIMPLE_ICONS_NEO4J);
-  if (id == wxART_NEOVIM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEOVIM))  
       return wxString(SVG_SIMPLE_ICONS_NEOVIM);
-  if (id == wxART_NESTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NESTJS))  
       return wxString(SVG_SIMPLE_ICONS_NESTJS);
-  if (id == wxART_NETAPP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NETAPP))  
       return wxString(SVG_SIMPLE_ICONS_NETAPP);
-  if (id == wxART_NETBSD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NETBSD))  
       return wxString(SVG_SIMPLE_ICONS_NETBSD);
-  if (id == wxART_NETFLIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NETFLIX))  
       return wxString(SVG_SIMPLE_ICONS_NETFLIX);
-  if (id == wxART_NETLIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NETLIFY))  
       return wxString(SVG_SIMPLE_ICONS_NETLIFY);
-  if (id == wxART_NETTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NETTE))  
       return wxString(SVG_SIMPLE_ICONS_NETTE);
-  if (id == wxART_NETTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NETTO))  
       return wxString(SVG_SIMPLE_ICONS_NETTO);
-  if (id == wxART_NEUTRALINOJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEUTRALINOJS))  
       return wxString(SVG_SIMPLE_ICONS_NEUTRALINOJS);
-  if (id == wxART_NEWBALANCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEWBALANCE))  
       return wxString(SVG_SIMPLE_ICONS_NEWBALANCE);
-  if (id == wxART_NEWEGG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEWEGG))  
       return wxString(SVG_SIMPLE_ICONS_NEWEGG);
-  if (id == wxART_NEWJAPANPROWRESTLING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEWJAPANPROWRESTLING))  
       return wxString(SVG_SIMPLE_ICONS_NEWJAPANPROWRESTLING);
-  if (id == wxART_NEWRELIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEWRELIC))  
       return wxString(SVG_SIMPLE_ICONS_NEWRELIC);
-  if (id == wxART_NEWYORKTIMES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEWYORKTIMES))  
       return wxString(SVG_SIMPLE_ICONS_NEWYORKTIMES);
-  if (id == wxART_NEXTBILLIONDOTAI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEXTBILLIONDOTAI))  
       return wxString(SVG_SIMPLE_ICONS_NEXTBILLIONDOTAI);
-  if (id == wxART_NEXTCLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEXTCLOUD))  
       return wxString(SVG_SIMPLE_ICONS_NEXTCLOUD);
-  if (id == wxART_NEXTDOOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEXTDOOR))  
       return wxString(SVG_SIMPLE_ICONS_NEXTDOOR);
-  if (id == wxART_NEXTDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEXTDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_NEXTDOTJS);
-  if (id == wxART_NEXTRA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEXTRA))  
       return wxString(SVG_SIMPLE_ICONS_NEXTRA);
-  if (id == wxART_NEXTUI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NEXTUI))  
       return wxString(SVG_SIMPLE_ICONS_NEXTUI);
-  if (id == wxART_NFC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NFC))  
       return wxString(SVG_SIMPLE_ICONS_NFC);
-  if (id == wxART_NGINX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NGINX))  
       return wxString(SVG_SIMPLE_ICONS_NGINX);
-  if (id == wxART_NGINXPROXYMANAGER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NGINXPROXYMANAGER))  
       return wxString(SVG_SIMPLE_ICONS_NGINXPROXYMANAGER);
-  if (id == wxART_NGROK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NGROK))  
       return wxString(SVG_SIMPLE_ICONS_NGROK);
-  if (id == wxART_NGRX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NGRX))  
       return wxString(SVG_SIMPLE_ICONS_NGRX);
-  if (id == wxART_NICONICO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NICONICO))  
       return wxString(SVG_SIMPLE_ICONS_NICONICO);
-  if (id == wxART_NIKE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NIKE))  
       return wxString(SVG_SIMPLE_ICONS_NIKE);
-  if (id == wxART_NIKON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NIKON))  
       return wxString(SVG_SIMPLE_ICONS_NIKON);
-  if (id == wxART_NIM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NIM))  
       return wxString(SVG_SIMPLE_ICONS_NIM);
-  if (id == wxART_NINTENDO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NINTENDO))  
       return wxString(SVG_SIMPLE_ICONS_NINTENDO);
-  if (id == wxART_NINTENDO3DS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NINTENDO3DS))  
       return wxString(SVG_SIMPLE_ICONS_NINTENDO3DS);
-  if (id == wxART_NINTENDOGAMECUBE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NINTENDOGAMECUBE))  
       return wxString(SVG_SIMPLE_ICONS_NINTENDOGAMECUBE);
-  if (id == wxART_NINTENDONETWORK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NINTENDONETWORK))  
       return wxString(SVG_SIMPLE_ICONS_NINTENDONETWORK);
-  if (id == wxART_NINTENDOSWITCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NINTENDOSWITCH))  
       return wxString(SVG_SIMPLE_ICONS_NINTENDOSWITCH);
-  if (id == wxART_NISSAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NISSAN))  
       return wxString(SVG_SIMPLE_ICONS_NISSAN);
-  if (id == wxART_NIXOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NIXOS))  
       return wxString(SVG_SIMPLE_ICONS_NIXOS);
-  if (id == wxART_NODEDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NODEDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_NODEDOTJS);
-  if (id == wxART_NODEMON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NODEMON))  
       return wxString(SVG_SIMPLE_ICONS_NODEMON);
-  if (id == wxART_NODERED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NODERED))  
       return wxString(SVG_SIMPLE_ICONS_NODERED);
-  if (id == wxART_NOKIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NOKIA))  
       return wxString(SVG_SIMPLE_ICONS_NOKIA);
-  if (id == wxART_NORCO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NORCO))  
       return wxString(SVG_SIMPLE_ICONS_NORCO);
-  if (id == wxART_NORDVPN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NORDVPN))  
       return wxString(SVG_SIMPLE_ICONS_NORDVPN);
-  if (id == wxART_NORMALIZEDOTCSS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NORMALIZEDOTCSS))  
       return wxString(SVG_SIMPLE_ICONS_NORMALIZEDOTCSS);
-  if (id == wxART_NORTON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NORTON))  
       return wxString(SVG_SIMPLE_ICONS_NORTON);
-  if (id == wxART_NORWEGIAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NORWEGIAN))  
       return wxString(SVG_SIMPLE_ICONS_NORWEGIAN);
-  if (id == wxART_NOTEPADPLUSPLUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NOTEPADPLUSPLUS))  
       return wxString(SVG_SIMPLE_ICONS_NOTEPADPLUSPLUS);
-  if (id == wxART_NOTION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NOTION))  
       return wxString(SVG_SIMPLE_ICONS_NOTION);
-  if (id == wxART_NOTIST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NOTIST))  
       return wxString(SVG_SIMPLE_ICONS_NOTIST);
-  if (id == wxART_NOUNPROJECT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NOUNPROJECT))  
       return wxString(SVG_SIMPLE_ICONS_NOUNPROJECT);
-  if (id == wxART_NOVU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NOVU))  
       return wxString(SVG_SIMPLE_ICONS_NOVU);
-  if (id == wxART_NOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NOW))  
       return wxString(SVG_SIMPLE_ICONS_NOW);
-  if (id == wxART_NPM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NPM))  
       return wxString(SVG_SIMPLE_ICONS_NPM);
-  if (id == wxART_NRWL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NRWL))  
       return wxString(SVG_SIMPLE_ICONS_NRWL);
-  if (id == wxART_NUBANK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NUBANK))  
       return wxString(SVG_SIMPLE_ICONS_NUBANK);
-  if (id == wxART_NUCLEO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NUCLEO))  
       return wxString(SVG_SIMPLE_ICONS_NUCLEO);
-  if (id == wxART_NUGET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NUGET))  
       return wxString(SVG_SIMPLE_ICONS_NUGET);
-  if (id == wxART_NUKE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NUKE))  
       return wxString(SVG_SIMPLE_ICONS_NUKE);
-  if (id == wxART_NUMBA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NUMBA))  
       return wxString(SVG_SIMPLE_ICONS_NUMBA);
-  if (id == wxART_NUMPY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NUMPY))  
       return wxString(SVG_SIMPLE_ICONS_NUMPY);
-  if (id == wxART_NUNJUCKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NUNJUCKS))  
       return wxString(SVG_SIMPLE_ICONS_NUNJUCKS);
-  if (id == wxART_NUTANIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NUTANIX))  
       return wxString(SVG_SIMPLE_ICONS_NUTANIX);
-  if (id == wxART_NUXTDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NUXTDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_NUXTDOTJS);
-  if (id == wxART_NVIDIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NVIDIA))  
       return wxString(SVG_SIMPLE_ICONS_NVIDIA);
-  if (id == wxART_NX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NX))  
       return wxString(SVG_SIMPLE_ICONS_NX);
-  if (id == wxART_NXP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NXP))  
       return wxString(SVG_SIMPLE_ICONS_NXP);
-  if (id == wxART_NZXT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_NZXT))  
       return wxString(SVG_SIMPLE_ICONS_NZXT);
-  if (id == wxART_OBSERVABLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OBSERVABLE))  
       return wxString(SVG_SIMPLE_ICONS_OBSERVABLE);
-  if (id == wxART_OBSIDIAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OBSIDIAN))  
       return wxString(SVG_SIMPLE_ICONS_OBSIDIAN);
-  if (id == wxART_OBSSTUDIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OBSSTUDIO))  
       return wxString(SVG_SIMPLE_ICONS_OBSSTUDIO);
-  if (id == wxART_OCAML)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OCAML))  
       return wxString(SVG_SIMPLE_ICONS_OCAML);
-  if (id == wxART_OCTANERENDER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OCTANERENDER))  
       return wxString(SVG_SIMPLE_ICONS_OCTANERENDER);
-  if (id == wxART_OCTAVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OCTAVE))  
       return wxString(SVG_SIMPLE_ICONS_OCTAVE);
-  if (id == wxART_OCTOBERCMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OCTOBERCMS))  
       return wxString(SVG_SIMPLE_ICONS_OCTOBERCMS);
-  if (id == wxART_OCTOPRINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OCTOPRINT))  
       return wxString(SVG_SIMPLE_ICONS_OCTOPRINT);
-  if (id == wxART_OCTOPUSDEPLOY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OCTOPUSDEPLOY))  
       return wxString(SVG_SIMPLE_ICONS_OCTOPUSDEPLOY);
-  if (id == wxART_OCULUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OCULUS))  
       return wxString(SVG_SIMPLE_ICONS_OCULUS);
-  if (id == wxART_ODNOKLASSNIKI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ODNOKLASSNIKI))  
       return wxString(SVG_SIMPLE_ICONS_ODNOKLASSNIKI);
-  if (id == wxART_ODYSEE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ODYSEE))  
       return wxString(SVG_SIMPLE_ICONS_ODYSEE);
-  if (id == wxART_OHDEAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OHDEAR))  
       return wxString(SVG_SIMPLE_ICONS_OHDEAR);
-  if (id == wxART_OKCUPID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OKCUPID))  
       return wxString(SVG_SIMPLE_ICONS_OKCUPID);
-  if (id == wxART_OKTA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OKTA))  
       return wxString(SVG_SIMPLE_ICONS_OKTA);
-  if (id == wxART_ONEPLUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ONEPLUS))  
       return wxString(SVG_SIMPLE_ICONS_ONEPLUS);
-  if (id == wxART_ONLYFANS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ONLYFANS))  
       return wxString(SVG_SIMPLE_ICONS_ONLYFANS);
-  if (id == wxART_ONLYOFFICE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ONLYOFFICE))  
       return wxString(SVG_SIMPLE_ICONS_ONLYOFFICE);
-  if (id == wxART_ONNX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ONNX))  
       return wxString(SVG_SIMPLE_ICONS_ONNX);
-  if (id == wxART_ONSTAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ONSTAR))  
       return wxString(SVG_SIMPLE_ICONS_ONSTAR);
-  if (id == wxART_OPEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPEL))  
       return wxString(SVG_SIMPLE_ICONS_OPEL);
-  if (id == wxART_OPENACCESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENACCESS))  
       return wxString(SVG_SIMPLE_ICONS_OPENACCESS);
-  if (id == wxART_OPENAI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENAI))  
       return wxString(SVG_SIMPLE_ICONS_OPENAI);
-  if (id == wxART_OPENAIGYM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENAIGYM))  
       return wxString(SVG_SIMPLE_ICONS_OPENAIGYM);
-  if (id == wxART_OPENAPIINITIATIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENAPIINITIATIVE))  
       return wxString(SVG_SIMPLE_ICONS_OPENAPIINITIATIVE);
-  if (id == wxART_OPENBADGES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENBADGES))  
       return wxString(SVG_SIMPLE_ICONS_OPENBADGES);
-  if (id == wxART_OPENBSD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENBSD))  
       return wxString(SVG_SIMPLE_ICONS_OPENBSD);
-  if (id == wxART_OPENBUGBOUNTY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENBUGBOUNTY))  
       return wxString(SVG_SIMPLE_ICONS_OPENBUGBOUNTY);
-  if (id == wxART_OPENCOLLECTIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENCOLLECTIVE))  
       return wxString(SVG_SIMPLE_ICONS_OPENCOLLECTIVE);
-  if (id == wxART_OPENCONTAINERSINITIATIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENCONTAINERSINITIATIVE))  
       return wxString(SVG_SIMPLE_ICONS_OPENCONTAINERSINITIATIVE);
-  if (id == wxART_OPENCV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENCV))  
       return wxString(SVG_SIMPLE_ICONS_OPENCV);
-  if (id == wxART_OPENFAAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENFAAS))  
       return wxString(SVG_SIMPLE_ICONS_OPENFAAS);
-  if (id == wxART_OPENGL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENGL))  
       return wxString(SVG_SIMPLE_ICONS_OPENGL);
-  if (id == wxART_OPENID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENID))  
       return wxString(SVG_SIMPLE_ICONS_OPENID);
-  if (id == wxART_OPENJDK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENJDK))  
       return wxString(SVG_SIMPLE_ICONS_OPENJDK);
-  if (id == wxART_OPENLAYERS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENLAYERS))  
       return wxString(SVG_SIMPLE_ICONS_OPENLAYERS);
-  if (id == wxART_OPENMINED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENMINED))  
       return wxString(SVG_SIMPLE_ICONS_OPENMINED);
-  if (id == wxART_OPENNEBULA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENNEBULA))  
       return wxString(SVG_SIMPLE_ICONS_OPENNEBULA);
-  if (id == wxART_OPENPROJECT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENPROJECT))  
       return wxString(SVG_SIMPLE_ICONS_OPENPROJECT);
-  if (id == wxART_OPENSCAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENSCAD))  
       return wxString(SVG_SIMPLE_ICONS_OPENSCAD);
-  if (id == wxART_OPENSEA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENSEA))  
       return wxString(SVG_SIMPLE_ICONS_OPENSEA);
-  if (id == wxART_OPENSEARCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENSEARCH))  
       return wxString(SVG_SIMPLE_ICONS_OPENSEARCH);
-  if (id == wxART_OPENSOURCEHARDWARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENSOURCEHARDWARE))  
       return wxString(SVG_SIMPLE_ICONS_OPENSOURCEHARDWARE);
-  if (id == wxART_OPENSOURCEINITIATIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENSOURCEINITIATIVE))  
       return wxString(SVG_SIMPLE_ICONS_OPENSOURCEINITIATIVE);
-  if (id == wxART_OPENSSL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENSSL))  
       return wxString(SVG_SIMPLE_ICONS_OPENSSL);
-  if (id == wxART_OPENSTACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENSTACK))  
       return wxString(SVG_SIMPLE_ICONS_OPENSTACK);
-  if (id == wxART_OPENSTREETMAP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENSTREETMAP))  
       return wxString(SVG_SIMPLE_ICONS_OPENSTREETMAP);
-  if (id == wxART_OPENSUSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENSUSE))  
       return wxString(SVG_SIMPLE_ICONS_OPENSUSE);
-  if (id == wxART_OPENTELEMETRY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENTELEMETRY))  
       return wxString(SVG_SIMPLE_ICONS_OPENTELEMETRY);
-  if (id == wxART_OPENTEXT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENTEXT))  
       return wxString(SVG_SIMPLE_ICONS_OPENTEXT);
-  if (id == wxART_OPENTF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENTF))  
       return wxString(SVG_SIMPLE_ICONS_OPENTF);
-  if (id == wxART_OPENVERSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENVERSE))  
       return wxString(SVG_SIMPLE_ICONS_OPENVERSE);
-  if (id == wxART_OPENVPN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENVPN))  
       return wxString(SVG_SIMPLE_ICONS_OPENVPN);
-  if (id == wxART_OPENWRT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENWRT))  
       return wxString(SVG_SIMPLE_ICONS_OPENWRT);
-  if (id == wxART_OPENZEPPELIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENZEPPELIN))  
       return wxString(SVG_SIMPLE_ICONS_OPENZEPPELIN);
-  if (id == wxART_OPENZFS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPENZFS))  
       return wxString(SVG_SIMPLE_ICONS_OPENZFS);
-  if (id == wxART_OPERA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPERA))  
       return wxString(SVG_SIMPLE_ICONS_OPERA);
-  if (id == wxART_OPERAGX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPERAGX))  
       return wxString(SVG_SIMPLE_ICONS_OPERAGX);
-  if (id == wxART_OPNSENSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPNSENSE))  
       return wxString(SVG_SIMPLE_ICONS_OPNSENSE);
-  if (id == wxART_OPSGENIE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPSGENIE))  
       return wxString(SVG_SIMPLE_ICONS_OPSGENIE);
-  if (id == wxART_OPSLEVEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OPSLEVEL))  
       return wxString(SVG_SIMPLE_ICONS_OPSLEVEL);
-  if (id == wxART_ORACLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ORACLE))  
       return wxString(SVG_SIMPLE_ICONS_ORACLE);
-  if (id == wxART_ORCID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ORCID))  
       return wxString(SVG_SIMPLE_ICONS_ORCID);
-  if (id == wxART_OREILLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OREILLY))  
       return wxString(SVG_SIMPLE_ICONS_OREILLY);
-  if (id == wxART_ORG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ORG))  
       return wxString(SVG_SIMPLE_ICONS_ORG);
-  if (id == wxART_ORIGIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ORIGIN))  
       return wxString(SVG_SIMPLE_ICONS_ORIGIN);
-  if (id == wxART_OSANO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OSANO))  
       return wxString(SVG_SIMPLE_ICONS_OSANO);
-  if (id == wxART_OSGEO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OSGEO))  
       return wxString(SVG_SIMPLE_ICONS_OSGEO);
-  if (id == wxART_OSHKOSH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OSHKOSH))  
       return wxString(SVG_SIMPLE_ICONS_OSHKOSH);
-  if (id == wxART_OSMC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OSMC))  
       return wxString(SVG_SIMPLE_ICONS_OSMC);
-  if (id == wxART_OSU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OSU))  
       return wxString(SVG_SIMPLE_ICONS_OSU);
-  if (id == wxART_OTTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OTTO))  
       return wxString(SVG_SIMPLE_ICONS_OTTO);
-  if (id == wxART_OVERCAST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OVERCAST))  
       return wxString(SVG_SIMPLE_ICONS_OVERCAST);
-  if (id == wxART_OVERLEAF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OVERLEAF))  
       return wxString(SVG_SIMPLE_ICONS_OVERLEAF);
-  if (id == wxART_OVH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OVH))  
       return wxString(SVG_SIMPLE_ICONS_OVH);
-  if (id == wxART_OWASP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OWASP))  
       return wxString(SVG_SIMPLE_ICONS_OWASP);
-  if (id == wxART_OWNCLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OWNCLOUD))  
       return wxString(SVG_SIMPLE_ICONS_OWNCLOUD);
-  if (id == wxART_OXYGEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OXYGEN))  
       return wxString(SVG_SIMPLE_ICONS_OXYGEN);
-  if (id == wxART_OYO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_OYO))  
       return wxString(SVG_SIMPLE_ICONS_OYO);
-  if (id == wxART_P5DOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_P5DOTJS))  
       return wxString(SVG_SIMPLE_ICONS_P5DOTJS);
-  if (id == wxART_PACKAGIST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PACKAGIST))  
       return wxString(SVG_SIMPLE_ICONS_PACKAGIST);
-  if (id == wxART_PACKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PACKER))  
       return wxString(SVG_SIMPLE_ICONS_PACKER);
-  if (id == wxART_PADDLEPADDLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PADDLEPADDLE))  
       return wxString(SVG_SIMPLE_ICONS_PADDLEPADDLE);
-  if (id == wxART_PADDYPOWER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PADDYPOWER))  
       return wxString(SVG_SIMPLE_ICONS_PADDYPOWER);
-  if (id == wxART_PAGEKIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PAGEKIT))  
       return wxString(SVG_SIMPLE_ICONS_PAGEKIT);
-  if (id == wxART_PAGERDUTY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PAGERDUTY))  
       return wxString(SVG_SIMPLE_ICONS_PAGERDUTY);
-  if (id == wxART_PAGESPEEDINSIGHTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PAGESPEEDINSIGHTS))  
       return wxString(SVG_SIMPLE_ICONS_PAGESPEEDINSIGHTS);
-  if (id == wxART_PAGSEGURO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PAGSEGURO))  
       return wxString(SVG_SIMPLE_ICONS_PAGSEGURO);
-  if (id == wxART_PALANTIR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PALANTIR))  
       return wxString(SVG_SIMPLE_ICONS_PALANTIR);
-  if (id == wxART_PALOALTONETWORKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PALOALTONETWORKS))  
       return wxString(SVG_SIMPLE_ICONS_PALOALTONETWORKS);
-  if (id == wxART_PALOALTOSOFTWARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PALOALTOSOFTWARE))  
       return wxString(SVG_SIMPLE_ICONS_PALOALTOSOFTWARE);
-  if (id == wxART_PANASONIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PANASONIC))  
       return wxString(SVG_SIMPLE_ICONS_PANASONIC);
-  if (id == wxART_PANDAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PANDAS))  
       return wxString(SVG_SIMPLE_ICONS_PANDAS);
-  if (id == wxART_PANDORA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PANDORA))  
       return wxString(SVG_SIMPLE_ICONS_PANDORA);
-  if (id == wxART_PANTHEON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PANTHEON))  
       return wxString(SVG_SIMPLE_ICONS_PANTHEON);
-  if (id == wxART_PAPERSPACE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PAPERSPACE))  
       return wxString(SVG_SIMPLE_ICONS_PAPERSPACE);
-  if (id == wxART_PARITYSUBSTRATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PARITYSUBSTRATE))  
       return wxString(SVG_SIMPLE_ICONS_PARITYSUBSTRATE);
-  if (id == wxART_PARSEDOTLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PARSEDOTLY))  
       return wxString(SVG_SIMPLE_ICONS_PARSEDOTLY);
-  if (id == wxART_PASSPORT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PASSPORT))  
       return wxString(SVG_SIMPLE_ICONS_PASSPORT);
-  if (id == wxART_PASTEBIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PASTEBIN))  
       return wxString(SVG_SIMPLE_ICONS_PASTEBIN);
-  if (id == wxART_PATREON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PATREON))  
       return wxString(SVG_SIMPLE_ICONS_PATREON);
-  if (id == wxART_PAYCHEX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PAYCHEX))  
       return wxString(SVG_SIMPLE_ICONS_PAYCHEX);
-  if (id == wxART_PAYLOADCMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PAYLOADCMS))  
       return wxString(SVG_SIMPLE_ICONS_PAYLOADCMS);
-  if (id == wxART_PAYONEER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PAYONEER))  
       return wxString(SVG_SIMPLE_ICONS_PAYONEER);
-  if (id == wxART_PAYPAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PAYPAL))  
       return wxString(SVG_SIMPLE_ICONS_PAYPAL);
-  if (id == wxART_PAYTM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PAYTM))  
       return wxString(SVG_SIMPLE_ICONS_PAYTM);
-  if (id == wxART_PCGAMINGWIKI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PCGAMINGWIKI))  
       return wxString(SVG_SIMPLE_ICONS_PCGAMINGWIKI);
-  if (id == wxART_PEAKDESIGN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PEAKDESIGN))  
       return wxString(SVG_SIMPLE_ICONS_PEAKDESIGN);
-  if (id == wxART_PEARSON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PEARSON))  
       return wxString(SVG_SIMPLE_ICONS_PEARSON);
-  if (id == wxART_PEERLIST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PEERLIST))  
       return wxString(SVG_SIMPLE_ICONS_PEERLIST);
-  if (id == wxART_PEERTUBE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PEERTUBE))  
       return wxString(SVG_SIMPLE_ICONS_PEERTUBE);
-  if (id == wxART_PEGASUSAIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PEGASUSAIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_PEGASUSAIRLINES);
-  if (id == wxART_PELICAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PELICAN))  
       return wxString(SVG_SIMPLE_ICONS_PELICAN);
-  if (id == wxART_PELOTON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PELOTON))  
       return wxString(SVG_SIMPLE_ICONS_PELOTON);
-  if (id == wxART_PENNY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PENNY))  
       return wxString(SVG_SIMPLE_ICONS_PENNY);
-  if (id == wxART_PENPOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PENPOT))  
       return wxString(SVG_SIMPLE_ICONS_PENPOT);
-  if (id == wxART_PEPSI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PEPSI))  
       return wxString(SVG_SIMPLE_ICONS_PEPSI);
-  if (id == wxART_PERCY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PERCY))  
       return wxString(SVG_SIMPLE_ICONS_PERCY);
-  if (id == wxART_PERFORCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PERFORCE))  
       return wxString(SVG_SIMPLE_ICONS_PERFORCE);
-  if (id == wxART_PERL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PERL))  
       return wxString(SVG_SIMPLE_ICONS_PERL);
-  if (id == wxART_PERSISTENT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PERSISTENT))  
       return wxString(SVG_SIMPLE_ICONS_PERSISTENT);
-  if (id == wxART_PERSONIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PERSONIO))  
       return wxString(SVG_SIMPLE_ICONS_PERSONIO);
-  if (id == wxART_PETSATHOME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PETSATHOME))  
       return wxString(SVG_SIMPLE_ICONS_PETSATHOME);
-  if (id == wxART_PEUGEOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PEUGEOT))  
       return wxString(SVG_SIMPLE_ICONS_PEUGEOT);
-  if (id == wxART_PEXELS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PEXELS))  
       return wxString(SVG_SIMPLE_ICONS_PEXELS);
-  if (id == wxART_PFSENSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PFSENSE))  
       return wxString(SVG_SIMPLE_ICONS_PFSENSE);
-  if (id == wxART_PHABRICATOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PHABRICATOR))  
       return wxString(SVG_SIMPLE_ICONS_PHABRICATOR);
-  if (id == wxART_PHILIPSHUE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PHILIPSHUE))  
       return wxString(SVG_SIMPLE_ICONS_PHILIPSHUE);
-  if (id == wxART_PHOENIXFRAMEWORK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PHOENIXFRAMEWORK))  
       return wxString(SVG_SIMPLE_ICONS_PHOENIXFRAMEWORK);
-  if (id == wxART_PHONEPE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PHONEPE))  
       return wxString(SVG_SIMPLE_ICONS_PHONEPE);
-  if (id == wxART_PHOTOBUCKET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PHOTOBUCKET))  
       return wxString(SVG_SIMPLE_ICONS_PHOTOBUCKET);
-  if (id == wxART_PHOTOCROWD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PHOTOCROWD))  
       return wxString(SVG_SIMPLE_ICONS_PHOTOCROWD);
-  if (id == wxART_PHOTOPEA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PHOTOPEA))  
       return wxString(SVG_SIMPLE_ICONS_PHOTOPEA);
-  if (id == wxART_PHP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PHP))  
       return wxString(SVG_SIMPLE_ICONS_PHP);
-  if (id == wxART_PHPMYADMIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PHPMYADMIN))  
       return wxString(SVG_SIMPLE_ICONS_PHPMYADMIN);
-  if (id == wxART_PHPSTORM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PHPSTORM))  
       return wxString(SVG_SIMPLE_ICONS_PHPSTORM);
-  if (id == wxART_PIAGGIOGROUP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PIAGGIOGROUP))  
       return wxString(SVG_SIMPLE_ICONS_PIAGGIOGROUP);
-  if (id == wxART_PICARDSURGELES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PICARDSURGELES))  
       return wxString(SVG_SIMPLE_ICONS_PICARDSURGELES);
-  if (id == wxART_PICARTODOTTV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PICARTODOTTV))  
       return wxString(SVG_SIMPLE_ICONS_PICARTODOTTV);
-  if (id == wxART_PICNIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PICNIC))  
       return wxString(SVG_SIMPLE_ICONS_PICNIC);
-  if (id == wxART_PICPAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PICPAY))  
       return wxString(SVG_SIMPLE_ICONS_PICPAY);
-  if (id == wxART_PIHOLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PIHOLE))  
       return wxString(SVG_SIMPLE_ICONS_PIHOLE);
-  if (id == wxART_PIMCORE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PIMCORE))  
       return wxString(SVG_SIMPLE_ICONS_PIMCORE);
-  if (id == wxART_PINBOARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PINBOARD))  
       return wxString(SVG_SIMPLE_ICONS_PINBOARD);
-  if (id == wxART_PINGDOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PINGDOM))  
       return wxString(SVG_SIMPLE_ICONS_PINGDOM);
-  if (id == wxART_PINTEREST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PINTEREST))  
       return wxString(SVG_SIMPLE_ICONS_PINTEREST);
-  if (id == wxART_PIONEERDJ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PIONEERDJ))  
       return wxString(SVG_SIMPLE_ICONS_PIONEERDJ);
-  if (id == wxART_PIVOTALTRACKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PIVOTALTRACKER))  
       return wxString(SVG_SIMPLE_ICONS_PIVOTALTRACKER);
-  if (id == wxART_PIWIGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PIWIGO))  
       return wxString(SVG_SIMPLE_ICONS_PIWIGO);
-  if (id == wxART_PIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PIX))  
       return wxString(SVG_SIMPLE_ICONS_PIX);
-  if (id == wxART_PIXABAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PIXABAY))  
       return wxString(SVG_SIMPLE_ICONS_PIXABAY);
-  if (id == wxART_PIXIV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PIXIV))  
       return wxString(SVG_SIMPLE_ICONS_PIXIV);
-  if (id == wxART_PKGSRC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PKGSRC))  
       return wxString(SVG_SIMPLE_ICONS_PKGSRC);
-  if (id == wxART_PLANET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLANET))  
       return wxString(SVG_SIMPLE_ICONS_PLANET);
-  if (id == wxART_PLANETSCALE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLANETSCALE))  
       return wxString(SVG_SIMPLE_ICONS_PLANETSCALE);
-  if (id == wxART_PLANGRID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLANGRID))  
       return wxString(SVG_SIMPLE_ICONS_PLANGRID);
-  if (id == wxART_PLATFORMDOTSH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLATFORMDOTSH))  
       return wxString(SVG_SIMPLE_ICONS_PLATFORMDOTSH);
-  if (id == wxART_PLATZI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLATZI))  
       return wxString(SVG_SIMPLE_ICONS_PLATZI);
-  if (id == wxART_PLAUSIBLEANALYTICS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAUSIBLEANALYTICS))  
       return wxString(SVG_SIMPLE_ICONS_PLAUSIBLEANALYTICS);
-  if (id == wxART_PLAYCANVAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAYCANVAS))  
       return wxString(SVG_SIMPLE_ICONS_PLAYCANVAS);
-  if (id == wxART_PLAYERDOTME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAYERDOTME))  
       return wxString(SVG_SIMPLE_ICONS_PLAYERDOTME);
-  if (id == wxART_PLAYERFM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAYERFM))  
       return wxString(SVG_SIMPLE_ICONS_PLAYERFM);
-  if (id == wxART_PLAYSTATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAYSTATION))  
       return wxString(SVG_SIMPLE_ICONS_PLAYSTATION);
-  if (id == wxART_PLAYSTATION2)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAYSTATION2))  
       return wxString(SVG_SIMPLE_ICONS_PLAYSTATION2);
-  if (id == wxART_PLAYSTATION3)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAYSTATION3))  
       return wxString(SVG_SIMPLE_ICONS_PLAYSTATION3);
-  if (id == wxART_PLAYSTATION4)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAYSTATION4))  
       return wxString(SVG_SIMPLE_ICONS_PLAYSTATION4);
-  if (id == wxART_PLAYSTATION5)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAYSTATION5))  
       return wxString(SVG_SIMPLE_ICONS_PLAYSTATION5);
-  if (id == wxART_PLAYSTATIONVITA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAYSTATIONVITA))  
       return wxString(SVG_SIMPLE_ICONS_PLAYSTATIONVITA);
-  if (id == wxART_PLAYWRIGHT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLAYWRIGHT))  
       return wxString(SVG_SIMPLE_ICONS_PLAYWRIGHT);
-  if (id == wxART_PLEROMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLEROMA))  
       return wxString(SVG_SIMPLE_ICONS_PLEROMA);
-  if (id == wxART_PLESK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLESK))  
       return wxString(SVG_SIMPLE_ICONS_PLESK);
-  if (id == wxART_PLEX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLEX))  
       return wxString(SVG_SIMPLE_ICONS_PLEX);
-  if (id == wxART_PLOTLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLOTLY))  
       return wxString(SVG_SIMPLE_ICONS_PLOTLY);
-  if (id == wxART_PLURALSIGHT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLURALSIGHT))  
       return wxString(SVG_SIMPLE_ICONS_PLURALSIGHT);
-  if (id == wxART_PLURK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLURK))  
       return wxString(SVG_SIMPLE_ICONS_PLURK);
-  if (id == wxART_PLUSCODES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PLUSCODES))  
       return wxString(SVG_SIMPLE_ICONS_PLUSCODES);
-  if (id == wxART_PM2)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PM2))  
       return wxString(SVG_SIMPLE_ICONS_PM2);
-  if (id == wxART_PNPM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PNPM))  
       return wxString(SVG_SIMPLE_ICONS_PNPM);
-  if (id == wxART_POCKET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POCKET))  
       return wxString(SVG_SIMPLE_ICONS_POCKET);
-  if (id == wxART_POCKETBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POCKETBASE))  
       return wxString(SVG_SIMPLE_ICONS_POCKETBASE);
-  if (id == wxART_POCKETCASTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POCKETCASTS))  
       return wxString(SVG_SIMPLE_ICONS_POCKETCASTS);
-  if (id == wxART_PODCASTADDICT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PODCASTADDICT))  
       return wxString(SVG_SIMPLE_ICONS_PODCASTADDICT);
-  if (id == wxART_PODCASTINDEX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PODCASTINDEX))  
       return wxString(SVG_SIMPLE_ICONS_PODCASTINDEX);
-  if (id == wxART_PODMAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PODMAN))  
       return wxString(SVG_SIMPLE_ICONS_PODMAN);
-  if (id == wxART_POE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POE))  
       return wxString(SVG_SIMPLE_ICONS_POE);
-  if (id == wxART_POETRY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POETRY))  
       return wxString(SVG_SIMPLE_ICONS_POETRY);
-  if (id == wxART_POINTY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POINTY))  
       return wxString(SVG_SIMPLE_ICONS_POINTY);
-  if (id == wxART_POKEMON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POKEMON))  
       return wxString(SVG_SIMPLE_ICONS_POKEMON);
-  if (id == wxART_POLARS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POLARS))  
       return wxString(SVG_SIMPLE_ICONS_POLARS);
-  if (id == wxART_POLKADOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POLKADOT))  
       return wxString(SVG_SIMPLE_ICONS_POLKADOT);
-  if (id == wxART_POLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POLY))  
       return wxString(SVG_SIMPLE_ICONS_POLY);
-  if (id == wxART_POLYMERPROJECT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POLYMERPROJECT))  
       return wxString(SVG_SIMPLE_ICONS_POLYMERPROJECT);
-  if (id == wxART_POLYWORK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POLYWORK))  
       return wxString(SVG_SIMPLE_ICONS_POLYWORK);
-  if (id == wxART_POPOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POPOS))  
       return wxString(SVG_SIMPLE_ICONS_POPOS);
-  if (id == wxART_PORSCHE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PORSCHE))  
       return wxString(SVG_SIMPLE_ICONS_PORSCHE);
-  if (id == wxART_PORTAINER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PORTAINER))  
       return wxString(SVG_SIMPLE_ICONS_PORTAINER);
-  if (id == wxART_POSTCSS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POSTCSS))  
       return wxString(SVG_SIMPLE_ICONS_POSTCSS);
-  if (id == wxART_POSTGRESQL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POSTGRESQL))  
       return wxString(SVG_SIMPLE_ICONS_POSTGRESQL);
-  if (id == wxART_POSTHOG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POSTHOG))  
       return wxString(SVG_SIMPLE_ICONS_POSTHOG);
-  if (id == wxART_POSTMAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POSTMAN))  
       return wxString(SVG_SIMPLE_ICONS_POSTMAN);
-  if (id == wxART_POSTMATES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POSTMATES))  
       return wxString(SVG_SIMPLE_ICONS_POSTMATES);
-  if (id == wxART_POWERAPPS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POWERAPPS))  
       return wxString(SVG_SIMPLE_ICONS_POWERAPPS);
-  if (id == wxART_POWERAUTOMATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POWERAUTOMATE))  
       return wxString(SVG_SIMPLE_ICONS_POWERAUTOMATE);
-  if (id == wxART_POWERBI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POWERBI))  
       return wxString(SVG_SIMPLE_ICONS_POWERBI);
-  if (id == wxART_POWERFX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POWERFX))  
       return wxString(SVG_SIMPLE_ICONS_POWERFX);
-  if (id == wxART_POWERPAGES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POWERPAGES))  
       return wxString(SVG_SIMPLE_ICONS_POWERPAGES);
-  if (id == wxART_POWERS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POWERS))  
       return wxString(SVG_SIMPLE_ICONS_POWERS);
-  if (id == wxART_POWERSHELL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POWERSHELL))  
       return wxString(SVG_SIMPLE_ICONS_POWERSHELL);
-  if (id == wxART_POWERVIRTUALAGENTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_POWERVIRTUALAGENTS))  
       return wxString(SVG_SIMPLE_ICONS_POWERVIRTUALAGENTS);
-  if (id == wxART_PRDOTCO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRDOTCO))  
       return wxString(SVG_SIMPLE_ICONS_PRDOTCO);
-  if (id == wxART_PREACT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PREACT))  
       return wxString(SVG_SIMPLE_ICONS_PREACT);
-  if (id == wxART_PRECOMMIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRECOMMIT))  
       return wxString(SVG_SIMPLE_ICONS_PRECOMMIT);
-  if (id == wxART_PREFECT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PREFECT))  
       return wxString(SVG_SIMPLE_ICONS_PREFECT);
-  if (id == wxART_PREMIERLEAGUE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PREMIERLEAGUE))  
       return wxString(SVG_SIMPLE_ICONS_PREMIERLEAGUE);
-  if (id == wxART_PRESTASHOP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRESTASHOP))  
       return wxString(SVG_SIMPLE_ICONS_PRESTASHOP);
-  if (id == wxART_PRESTO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRESTO))  
       return wxString(SVG_SIMPLE_ICONS_PRESTO);
-  if (id == wxART_PRETTIER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRETTIER))  
       return wxString(SVG_SIMPLE_ICONS_PRETTIER);
-  if (id == wxART_PRETZEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRETZEL))  
       return wxString(SVG_SIMPLE_ICONS_PRETZEL);
-  if (id == wxART_PREVENTION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PREVENTION))  
       return wxString(SVG_SIMPLE_ICONS_PREVENTION);
-  if (id == wxART_PREZI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PREZI))  
       return wxString(SVG_SIMPLE_ICONS_PREZI);
-  if (id == wxART_PRIME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRIME))  
       return wxString(SVG_SIMPLE_ICONS_PRIME);
-  if (id == wxART_PRIMEVIDEO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRIMEVIDEO))  
       return wxString(SVG_SIMPLE_ICONS_PRIMEVIDEO);
-  if (id == wxART_PRINTABLES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRINTABLES))  
       return wxString(SVG_SIMPLE_ICONS_PRINTABLES);
-  if (id == wxART_PRISMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRISMA))  
       return wxString(SVG_SIMPLE_ICONS_PRISMA);
-  if (id == wxART_PRISMIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRISMIC))  
       return wxString(SVG_SIMPLE_ICONS_PRISMIC);
-  if (id == wxART_PRIVATEINTERNETACCESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRIVATEINTERNETACCESS))  
       return wxString(SVG_SIMPLE_ICONS_PRIVATEINTERNETACCESS);
-  if (id == wxART_PROBOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROBOT))  
       return wxString(SVG_SIMPLE_ICONS_PROBOT);
-  if (id == wxART_PROCESSINGFOUNDATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROCESSINGFOUNDATION))  
       return wxString(SVG_SIMPLE_ICONS_PROCESSINGFOUNDATION);
-  if (id == wxART_PROCESSWIRE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROCESSWIRE))  
       return wxString(SVG_SIMPLE_ICONS_PROCESSWIRE);
-  if (id == wxART_PRODUCTHUNT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PRODUCTHUNT))  
       return wxString(SVG_SIMPLE_ICONS_PRODUCTHUNT);
-  if (id == wxART_PROGATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROGATE))  
       return wxString(SVG_SIMPLE_ICONS_PROGATE);
-  if (id == wxART_PROGRESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROGRESS))  
       return wxString(SVG_SIMPLE_ICONS_PROGRESS);
-  if (id == wxART_PROMETHEUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROMETHEUS))  
       return wxString(SVG_SIMPLE_ICONS_PROMETHEUS);
-  if (id == wxART_PROSIEBEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROSIEBEN))  
       return wxString(SVG_SIMPLE_ICONS_PROSIEBEN);
-  if (id == wxART_PROTOCOLSDOTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROTOCOLSDOTIO))  
       return wxString(SVG_SIMPLE_ICONS_PROTOCOLSDOTIO);
-  if (id == wxART_PROTODOTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROTODOTIO))  
       return wxString(SVG_SIMPLE_ICONS_PROTODOTIO);
-  if (id == wxART_PROTON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROTON))  
       return wxString(SVG_SIMPLE_ICONS_PROTON);
-  if (id == wxART_PROTONCALENDAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROTONCALENDAR))  
       return wxString(SVG_SIMPLE_ICONS_PROTONCALENDAR);
-  if (id == wxART_PROTONDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROTONDB))  
       return wxString(SVG_SIMPLE_ICONS_PROTONDB);
-  if (id == wxART_PROTONDRIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROTONDRIVE))  
       return wxString(SVG_SIMPLE_ICONS_PROTONDRIVE);
-  if (id == wxART_PROTONMAIL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROTONMAIL))  
       return wxString(SVG_SIMPLE_ICONS_PROTONMAIL);
-  if (id == wxART_PROTONVPN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROTONVPN))  
       return wxString(SVG_SIMPLE_ICONS_PROTONVPN);
-  if (id == wxART_PROTOOLS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROTOOLS))  
       return wxString(SVG_SIMPLE_ICONS_PROTOOLS);
-  if (id == wxART_PROTRACTOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROTRACTOR))  
       return wxString(SVG_SIMPLE_ICONS_PROTRACTOR);
-  if (id == wxART_PROXMOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PROXMOX))  
       return wxString(SVG_SIMPLE_ICONS_PROXMOX);
-  if (id == wxART_PTERODACTYL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PTERODACTYL))  
       return wxString(SVG_SIMPLE_ICONS_PTERODACTYL);
-  if (id == wxART_PUBG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PUBG))  
       return wxString(SVG_SIMPLE_ICONS_PUBG);
-  if (id == wxART_PUBLONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PUBLONS))  
       return wxString(SVG_SIMPLE_ICONS_PUBLONS);
-  if (id == wxART_PUBMED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PUBMED))  
       return wxString(SVG_SIMPLE_ICONS_PUBMED);
-  if (id == wxART_PUG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PUG))  
       return wxString(SVG_SIMPLE_ICONS_PUG);
-  if (id == wxART_PULUMI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PULUMI))  
       return wxString(SVG_SIMPLE_ICONS_PULUMI);
-  if (id == wxART_PUMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PUMA))  
       return wxString(SVG_SIMPLE_ICONS_PUMA);
-  if (id == wxART_PUPPET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PUPPET))  
       return wxString(SVG_SIMPLE_ICONS_PUPPET);
-  if (id == wxART_PUPPETEER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PUPPETEER))  
       return wxString(SVG_SIMPLE_ICONS_PUPPETEER);
-  if (id == wxART_PURESCRIPT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PURESCRIPT))  
       return wxString(SVG_SIMPLE_ICONS_PURESCRIPT);
-  if (id == wxART_PURGECSS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PURGECSS))  
       return wxString(SVG_SIMPLE_ICONS_PURGECSS);
-  if (id == wxART_PURISM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PURISM))  
       return wxString(SVG_SIMPLE_ICONS_PURISM);
-  if (id == wxART_PUSHER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PUSHER))  
       return wxString(SVG_SIMPLE_ICONS_PUSHER);
-  if (id == wxART_PWA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PWA))  
       return wxString(SVG_SIMPLE_ICONS_PWA);
-  if (id == wxART_PYCHARM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYCHARM))  
       return wxString(SVG_SIMPLE_ICONS_PYCHARM);
-  if (id == wxART_PYDANTIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYDANTIC))  
       return wxString(SVG_SIMPLE_ICONS_PYDANTIC);
-  if (id == wxART_PYG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYG))  
       return wxString(SVG_SIMPLE_ICONS_PYG);
-  if (id == wxART_PYPI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYPI))  
       return wxString(SVG_SIMPLE_ICONS_PYPI);
-  if (id == wxART_PYPY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYPY))  
       return wxString(SVG_SIMPLE_ICONS_PYPY);
-  if (id == wxART_PYSCAFFOLD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYSCAFFOLD))  
       return wxString(SVG_SIMPLE_ICONS_PYSCAFFOLD);
-  if (id == wxART_PYSYFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYSYFT))  
       return wxString(SVG_SIMPLE_ICONS_PYSYFT);
-  if (id == wxART_PYTEST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYTEST))  
       return wxString(SVG_SIMPLE_ICONS_PYTEST);
-  if (id == wxART_PYTHON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYTHON))  
       return wxString(SVG_SIMPLE_ICONS_PYTHON);
-  if (id == wxART_PYTHONANYWHERE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYTHONANYWHERE))  
       return wxString(SVG_SIMPLE_ICONS_PYTHONANYWHERE);
-  if (id == wxART_PYTORCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYTORCH))  
       return wxString(SVG_SIMPLE_ICONS_PYTORCH);
-  if (id == wxART_PYUP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_PYUP))  
       return wxString(SVG_SIMPLE_ICONS_PYUP);
-  if (id == wxART_QANTAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QANTAS))  
       return wxString(SVG_SIMPLE_ICONS_QANTAS);
-  if (id == wxART_QATARAIRWAYS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QATARAIRWAYS))  
       return wxString(SVG_SIMPLE_ICONS_QATARAIRWAYS);
-  if (id == wxART_QEMU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QEMU))  
       return wxString(SVG_SIMPLE_ICONS_QEMU);
-  if (id == wxART_QGIS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QGIS))  
       return wxString(SVG_SIMPLE_ICONS_QGIS);
-  if (id == wxART_QI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QI))  
       return wxString(SVG_SIMPLE_ICONS_QI);
-  if (id == wxART_QIITA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QIITA))  
       return wxString(SVG_SIMPLE_ICONS_QIITA);
-  if (id == wxART_QISKIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QISKIT))  
       return wxString(SVG_SIMPLE_ICONS_QISKIT);
-  if (id == wxART_QIWI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QIWI))  
       return wxString(SVG_SIMPLE_ICONS_QIWI);
-  if (id == wxART_QLIK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QLIK))  
       return wxString(SVG_SIMPLE_ICONS_QLIK);
-  if (id == wxART_QMK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QMK))  
       return wxString(SVG_SIMPLE_ICONS_QMK);
-  if (id == wxART_QT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QT))  
       return wxString(SVG_SIMPLE_ICONS_QT);
-  if (id == wxART_QUALCOMM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUALCOMM))  
       return wxString(SVG_SIMPLE_ICONS_QUALCOMM);
-  if (id == wxART_QUALTRICS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUALTRICS))  
       return wxString(SVG_SIMPLE_ICONS_QUALTRICS);
-  if (id == wxART_QUALYS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUALYS))  
       return wxString(SVG_SIMPLE_ICONS_QUALYS);
-  if (id == wxART_QUANTCAST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUANTCAST))  
       return wxString(SVG_SIMPLE_ICONS_QUANTCAST);
-  if (id == wxART_QUANTCONNECT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUANTCONNECT))  
       return wxString(SVG_SIMPLE_ICONS_QUANTCONNECT);
-  if (id == wxART_QUARKUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUARKUS))  
       return wxString(SVG_SIMPLE_ICONS_QUARKUS);
-  if (id == wxART_QUASAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUASAR))  
       return wxString(SVG_SIMPLE_ICONS_QUASAR);
-  if (id == wxART_QUBESOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUBESOS))  
       return wxString(SVG_SIMPLE_ICONS_QUBESOS);
-  if (id == wxART_QUEST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUEST))  
       return wxString(SVG_SIMPLE_ICONS_QUEST);
-  if (id == wxART_QUICKBOOKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUICKBOOKS))  
       return wxString(SVG_SIMPLE_ICONS_QUICKBOOKS);
-  if (id == wxART_QUICKLOOK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUICKLOOK))  
       return wxString(SVG_SIMPLE_ICONS_QUICKLOOK);
-  if (id == wxART_QUICKTIME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUICKTIME))  
       return wxString(SVG_SIMPLE_ICONS_QUICKTIME);
-  if (id == wxART_QUIP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUIP))  
       return wxString(SVG_SIMPLE_ICONS_QUIP);
-  if (id == wxART_QUORA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QUORA))  
       return wxString(SVG_SIMPLE_ICONS_QUORA);
-  if (id == wxART_QWANT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QWANT))  
       return wxString(SVG_SIMPLE_ICONS_QWANT);
-  if (id == wxART_QWIKLABS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QWIKLABS))  
       return wxString(SVG_SIMPLE_ICONS_QWIKLABS);
-  if (id == wxART_QZONE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_QZONE))  
       return wxString(SVG_SIMPLE_ICONS_QZONE);
-  if (id == wxART_R)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_R))  
       return wxString(SVG_SIMPLE_ICONS_R);
-  if (id == wxART_R3)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_R3))  
       return wxString(SVG_SIMPLE_ICONS_R3);
-  if (id == wxART_RABBITMQ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RABBITMQ))  
       return wxString(SVG_SIMPLE_ICONS_RABBITMQ);
-  if (id == wxART_RACKET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RACKET))  
       return wxString(SVG_SIMPLE_ICONS_RACKET);
-  if (id == wxART_RADAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RADAR))  
       return wxString(SVG_SIMPLE_ICONS_RADAR);
-  if (id == wxART_RADIOPUBLIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RADIOPUBLIC))  
       return wxString(SVG_SIMPLE_ICONS_RADIOPUBLIC);
-  if (id == wxART_RADIXUI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RADIXUI))  
       return wxString(SVG_SIMPLE_ICONS_RADIXUI);
-  if (id == wxART_RADSTUDIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RADSTUDIO))  
       return wxString(SVG_SIMPLE_ICONS_RADSTUDIO);
-  if (id == wxART_RAILWAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RAILWAY))  
       return wxString(SVG_SIMPLE_ICONS_RAILWAY);
-  if (id == wxART_RAINMETER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RAINMETER))  
       return wxString(SVG_SIMPLE_ICONS_RAINMETER);
-  if (id == wxART_RAKUTEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RAKUTEN))  
       return wxString(SVG_SIMPLE_ICONS_RAKUTEN);
-  if (id == wxART_RAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RAM))  
       return wxString(SVG_SIMPLE_ICONS_RAM);
-  if (id == wxART_RANCHER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RANCHER))  
       return wxString(SVG_SIMPLE_ICONS_RANCHER);
-  if (id == wxART_RARIBLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RARIBLE))  
       return wxString(SVG_SIMPLE_ICONS_RARIBLE);
-  if (id == wxART_RASA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RASA))  
       return wxString(SVG_SIMPLE_ICONS_RASA);
-  if (id == wxART_RASPBERRYPI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RASPBERRYPI))  
       return wxString(SVG_SIMPLE_ICONS_RASPBERRYPI);
-  if (id == wxART_RAVELRY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RAVELRY))  
       return wxString(SVG_SIMPLE_ICONS_RAVELRY);
-  if (id == wxART_RAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RAY))  
       return wxString(SVG_SIMPLE_ICONS_RAY);
-  if (id == wxART_RAZER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RAZER))  
       return wxString(SVG_SIMPLE_ICONS_RAZER);
-  if (id == wxART_RAZORPAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RAZORPAY))  
       return wxString(SVG_SIMPLE_ICONS_RAZORPAY);
-  if (id == wxART_REACT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REACT))  
       return wxString(SVG_SIMPLE_ICONS_REACT);
-  if (id == wxART_REACTHOOKFORM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REACTHOOKFORM))  
       return wxString(SVG_SIMPLE_ICONS_REACTHOOKFORM);
-  if (id == wxART_REACTIVEX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REACTIVEX))  
       return wxString(SVG_SIMPLE_ICONS_REACTIVEX);
-  if (id == wxART_REACTOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REACTOS))  
       return wxString(SVG_SIMPLE_ICONS_REACTOS);
-  if (id == wxART_REACTQUERY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REACTQUERY))  
       return wxString(SVG_SIMPLE_ICONS_REACTQUERY);
-  if (id == wxART_REACTROUTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REACTROUTER))  
       return wxString(SVG_SIMPLE_ICONS_REACTROUTER);
-  if (id == wxART_REACTTABLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REACTTABLE))  
       return wxString(SVG_SIMPLE_ICONS_REACTTABLE);
-  if (id == wxART_READDOTCV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_READDOTCV))  
       return wxString(SVG_SIMPLE_ICONS_READDOTCV);
-  if (id == wxART_README)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_README))  
       return wxString(SVG_SIMPLE_ICONS_README);
-  if (id == wxART_READTHEDOCS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_READTHEDOCS))  
       return wxString(SVG_SIMPLE_ICONS_READTHEDOCS);
-  if (id == wxART_REALM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REALM))  
       return wxString(SVG_SIMPLE_ICONS_REALM);
-  if (id == wxART_REASON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REASON))  
       return wxString(SVG_SIMPLE_ICONS_REASON);
-  if (id == wxART_REASONSTUDIOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REASONSTUDIOS))  
       return wxString(SVG_SIMPLE_ICONS_REASONSTUDIOS);
-  if (id == wxART_RECOIL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RECOIL))  
       return wxString(SVG_SIMPLE_ICONS_RECOIL);
-  if (id == wxART_RED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RED))  
       return wxString(SVG_SIMPLE_ICONS_RED);
-  if (id == wxART_REDBUBBLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REDBUBBLE))  
       return wxString(SVG_SIMPLE_ICONS_REDBUBBLE);
-  if (id == wxART_REDDIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REDDIT))  
       return wxString(SVG_SIMPLE_ICONS_REDDIT);
-  if (id == wxART_REDHAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REDHAT))  
       return wxString(SVG_SIMPLE_ICONS_REDHAT);
-  if (id == wxART_REDHATOPENSHIFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REDHATOPENSHIFT))  
       return wxString(SVG_SIMPLE_ICONS_REDHATOPENSHIFT);
-  if (id == wxART_REDIS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REDIS))  
       return wxString(SVG_SIMPLE_ICONS_REDIS);
-  if (id == wxART_REDMINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REDMINE))  
       return wxString(SVG_SIMPLE_ICONS_REDMINE);
-  if (id == wxART_REDOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REDOX))  
       return wxString(SVG_SIMPLE_ICONS_REDOX);
-  if (id == wxART_REDUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REDUX))  
       return wxString(SVG_SIMPLE_ICONS_REDUX);
-  if (id == wxART_REDUXSAGA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REDUXSAGA))  
       return wxString(SVG_SIMPLE_ICONS_REDUXSAGA);
-  if (id == wxART_REDWOODJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REDWOODJS))  
       return wxString(SVG_SIMPLE_ICONS_REDWOODJS);
-  if (id == wxART_REEBOK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REEBOK))  
       return wxString(SVG_SIMPLE_ICONS_REEBOK);
-  if (id == wxART_RELAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RELAY))  
       return wxString(SVG_SIMPLE_ICONS_RELAY);
-  if (id == wxART_RELIANCEINDUSTRIESLIMITED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RELIANCEINDUSTRIESLIMITED))  
       return wxString(SVG_SIMPLE_ICONS_RELIANCEINDUSTRIESLIMITED);
-  if (id == wxART_REMARK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REMARK))  
       return wxString(SVG_SIMPLE_ICONS_REMARK);
-  if (id == wxART_REMIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REMIX))  
       return wxString(SVG_SIMPLE_ICONS_REMIX);
-  if (id == wxART_RENAULT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RENAULT))  
       return wxString(SVG_SIMPLE_ICONS_RENAULT);
-  if (id == wxART_RENDER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RENDER))  
       return wxString(SVG_SIMPLE_ICONS_RENDER);
-  if (id == wxART_RENOVATEBOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RENOVATEBOT))  
       return wxString(SVG_SIMPLE_ICONS_RENOVATEBOT);
-  if (id == wxART_RENPY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RENPY))  
       return wxString(SVG_SIMPLE_ICONS_RENPY);
-  if (id == wxART_RENREN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RENREN))  
       return wxString(SVG_SIMPLE_ICONS_RENREN);
-  if (id == wxART_REPLIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REPLIT))  
       return wxString(SVG_SIMPLE_ICONS_REPLIT);
-  if (id == wxART_REPUBLICOFGAMERS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REPUBLICOFGAMERS))  
       return wxString(SVG_SIMPLE_ICONS_REPUBLICOFGAMERS);
-  if (id == wxART_RESCRIPT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RESCRIPT))  
       return wxString(SVG_SIMPLE_ICONS_RESCRIPT);
-  if (id == wxART_RESCUETIME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RESCUETIME))  
       return wxString(SVG_SIMPLE_ICONS_RESCUETIME);
-  if (id == wxART_RESEARCHGATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RESEARCHGATE))  
       return wxString(SVG_SIMPLE_ICONS_RESEARCHGATE);
-  if (id == wxART_RESHARPER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RESHARPER))  
       return wxString(SVG_SIMPLE_ICONS_RESHARPER);
-  if (id == wxART_RESURRECTIONREMIXOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RESURRECTIONREMIXOS))  
       return wxString(SVG_SIMPLE_ICONS_RESURRECTIONREMIXOS);
-  if (id == wxART_RETOOL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RETOOL))  
       return wxString(SVG_SIMPLE_ICONS_RETOOL);
-  if (id == wxART_RETROARCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RETROARCH))  
       return wxString(SVG_SIMPLE_ICONS_RETROARCH);
-  if (id == wxART_RETROPIE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RETROPIE))  
       return wxString(SVG_SIMPLE_ICONS_RETROPIE);
-  if (id == wxART_REVANCED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REVANCED))  
       return wxString(SVG_SIMPLE_ICONS_REVANCED);
-  if (id == wxART_REVEALDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REVEALDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_REVEALDOTJS);
-  if (id == wxART_REVERBNATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REVERBNATION))  
       return wxString(SVG_SIMPLE_ICONS_REVERBNATION);
-  if (id == wxART_REVOLTDOTCHAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REVOLTDOTCHAT))  
       return wxString(SVG_SIMPLE_ICONS_REVOLTDOTCHAT);
-  if (id == wxART_REVOLUT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REVOLUT))  
       return wxString(SVG_SIMPLE_ICONS_REVOLUT);
-  if (id == wxART_REVUE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REVUE))  
       return wxString(SVG_SIMPLE_ICONS_REVUE);
-  if (id == wxART_REWE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REWE))  
       return wxString(SVG_SIMPLE_ICONS_REWE);
-  if (id == wxART_REZGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_REZGO))  
       return wxString(SVG_SIMPLE_ICONS_REZGO);
-  if (id == wxART_RHINOCEROS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RHINOCEROS))  
       return wxString(SVG_SIMPLE_ICONS_RHINOCEROS);
-  if (id == wxART_RIDER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RIDER))  
       return wxString(SVG_SIMPLE_ICONS_RIDER);
-  if (id == wxART_RIMACAUTOMOBILI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RIMACAUTOMOBILI))  
       return wxString(SVG_SIMPLE_ICONS_RIMACAUTOMOBILI);
-  if (id == wxART_RING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RING))  
       return wxString(SVG_SIMPLE_ICONS_RING);
-  if (id == wxART_RIOTGAMES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RIOTGAMES))  
       return wxString(SVG_SIMPLE_ICONS_RIOTGAMES);
-  if (id == wxART_RIPPLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RIPPLE))  
       return wxString(SVG_SIMPLE_ICONS_RIPPLE);
-  if (id == wxART_RISCV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RISCV))  
       return wxString(SVG_SIMPLE_ICONS_RISCV);
-  if (id == wxART_RISEUP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RISEUP))  
       return wxString(SVG_SIMPLE_ICONS_RISEUP);
-  if (id == wxART_ROADMAPDOTSH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROADMAPDOTSH))  
       return wxString(SVG_SIMPLE_ICONS_ROADMAPDOTSH);
-  if (id == wxART_ROAMRESEARCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROAMRESEARCH))  
       return wxString(SVG_SIMPLE_ICONS_ROAMRESEARCH);
-  if (id == wxART_ROBINHOOD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROBINHOOD))  
       return wxString(SVG_SIMPLE_ICONS_ROBINHOOD);
-  if (id == wxART_ROBLOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROBLOX))  
       return wxString(SVG_SIMPLE_ICONS_ROBLOX);
-  if (id == wxART_ROBLOXSTUDIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROBLOXSTUDIO))  
       return wxString(SVG_SIMPLE_ICONS_ROBLOXSTUDIO);
-  if (id == wxART_ROBOTFRAMEWORK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROBOTFRAMEWORK))  
       return wxString(SVG_SIMPLE_ICONS_ROBOTFRAMEWORK);
-  if (id == wxART_ROCKETDOTCHAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROCKETDOTCHAT))  
       return wxString(SVG_SIMPLE_ICONS_ROCKETDOTCHAT);
-  if (id == wxART_ROCKSDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROCKSDB))  
       return wxString(SVG_SIMPLE_ICONS_ROCKSDB);
-  if (id == wxART_ROCKYLINUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROCKYLINUX))  
       return wxString(SVG_SIMPLE_ICONS_ROCKYLINUX);
-  if (id == wxART_ROKU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROKU))  
       return wxString(SVG_SIMPLE_ICONS_ROKU);
-  if (id == wxART_ROLLSROYCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROLLSROYCE))  
       return wxString(SVG_SIMPLE_ICONS_ROLLSROYCE);
-  if (id == wxART_ROLLUPDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROLLUPDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_ROLLUPDOTJS);
-  if (id == wxART_ROME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROME))  
       return wxString(SVG_SIMPLE_ICONS_ROME);
-  if (id == wxART_ROOTME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROOTME))  
       return wxString(SVG_SIMPLE_ICONS_ROOTME);
-  if (id == wxART_ROOTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROOTS))  
       return wxString(SVG_SIMPLE_ICONS_ROOTS);
-  if (id == wxART_ROOTSBEDROCK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROOTSBEDROCK))  
       return wxString(SVG_SIMPLE_ICONS_ROOTSBEDROCK);
-  if (id == wxART_ROOTSSAGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROOTSSAGE))  
       return wxString(SVG_SIMPLE_ICONS_ROOTSSAGE);
-  if (id == wxART_ROS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROS))  
       return wxString(SVG_SIMPLE_ICONS_ROS);
-  if (id == wxART_ROSSMANN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROSSMANN))  
       return wxString(SVG_SIMPLE_ICONS_ROSSMANN);
-  if (id == wxART_ROTARYINTERNATIONAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROTARYINTERNATIONAL))  
       return wxString(SVG_SIMPLE_ICONS_ROTARYINTERNATIONAL);
-  if (id == wxART_ROTTENTOMATOES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROTTENTOMATOES))  
       return wxString(SVG_SIMPLE_ICONS_ROTTENTOMATOES);
-  if (id == wxART_ROUNDCUBE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ROUNDCUBE))  
       return wxString(SVG_SIMPLE_ICONS_ROUNDCUBE);
-  if (id == wxART_RSOCKET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RSOCKET))  
       return wxString(SVG_SIMPLE_ICONS_RSOCKET);
-  if (id == wxART_RSS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RSS))  
       return wxString(SVG_SIMPLE_ICONS_RSS);
-  if (id == wxART_RSTUDIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RSTUDIO))  
       return wxString(SVG_SIMPLE_ICONS_RSTUDIO);
-  if (id == wxART_RTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RTE))  
       return wxString(SVG_SIMPLE_ICONS_RTE);
-  if (id == wxART_RTL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RTL))  
       return wxString(SVG_SIMPLE_ICONS_RTL);
-  if (id == wxART_RTLZWEI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RTLZWEI))  
       return wxString(SVG_SIMPLE_ICONS_RTLZWEI);
-  if (id == wxART_RUBOCOP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUBOCOP))  
       return wxString(SVG_SIMPLE_ICONS_RUBOCOP);
-  if (id == wxART_RUBY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUBY))  
       return wxString(SVG_SIMPLE_ICONS_RUBY);
-  if (id == wxART_RUBYGEMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUBYGEMS))  
       return wxString(SVG_SIMPLE_ICONS_RUBYGEMS);
-  if (id == wxART_RUBYONRAILS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUBYONRAILS))  
       return wxString(SVG_SIMPLE_ICONS_RUBYONRAILS);
-  if (id == wxART_RUBYSINATRA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUBYSINATRA))  
       return wxString(SVG_SIMPLE_ICONS_RUBYSINATRA);
-  if (id == wxART_RUFF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUFF))  
       return wxString(SVG_SIMPLE_ICONS_RUFF);
-  if (id == wxART_RUMBLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUMBLE))  
       return wxString(SVG_SIMPLE_ICONS_RUMBLE);
-  if (id == wxART_RUNDECK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUNDECK))  
       return wxString(SVG_SIMPLE_ICONS_RUNDECK);
-  if (id == wxART_RUNKEEPER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUNKEEPER))  
       return wxString(SVG_SIMPLE_ICONS_RUNKEEPER);
-  if (id == wxART_RUNKIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUNKIT))  
       return wxString(SVG_SIMPLE_ICONS_RUNKIT);
-  if (id == wxART_RUST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RUST))  
       return wxString(SVG_SIMPLE_ICONS_RUST);
-  if (id == wxART_RXDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RXDB))  
       return wxString(SVG_SIMPLE_ICONS_RXDB);
-  if (id == wxART_RYANAIR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_RYANAIR))  
       return wxString(SVG_SIMPLE_ICONS_RYANAIR);
-  if (id == wxART_S7AIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_S7AIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_S7AIRLINES);
-  if (id == wxART_SABANCI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SABANCI))  
       return wxString(SVG_SIMPLE_ICONS_SABANCI);
-  if (id == wxART_SAFARI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAFARI))  
       return wxString(SVG_SIMPLE_ICONS_SAFARI);
-  if (id == wxART_SAGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAGE))  
       return wxString(SVG_SIMPLE_ICONS_SAGE);
-  if (id == wxART_SAHIBINDEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAHIBINDEN))  
       return wxString(SVG_SIMPLE_ICONS_SAHIBINDEN);
-  if (id == wxART_SAILFISHOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAILFISHOS))  
       return wxString(SVG_SIMPLE_ICONS_SAILFISHOS);
-  if (id == wxART_SAILSDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAILSDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_SAILSDOTJS);
-  if (id == wxART_SALESFORCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SALESFORCE))  
       return wxString(SVG_SIMPLE_ICONS_SALESFORCE);
-  if (id == wxART_SALTPROJECT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SALTPROJECT))  
       return wxString(SVG_SIMPLE_ICONS_SALTPROJECT);
-  if (id == wxART_SAMSUNG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAMSUNG))  
       return wxString(SVG_SIMPLE_ICONS_SAMSUNG);
-  if (id == wxART_SAMSUNGPAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAMSUNGPAY))  
       return wxString(SVG_SIMPLE_ICONS_SAMSUNGPAY);
-  if (id == wxART_SANDISK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SANDISK))  
       return wxString(SVG_SIMPLE_ICONS_SANDISK);
-  if (id == wxART_SANFRANCISCOMUNICIPALRAILWAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SANFRANCISCOMUNICIPALRAILWAY))  
       return wxString(SVG_SIMPLE_ICONS_SANFRANCISCOMUNICIPALRAILWAY);
-  if (id == wxART_SANIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SANIC))  
       return wxString(SVG_SIMPLE_ICONS_SANIC);
-  if (id == wxART_SANITY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SANITY))  
       return wxString(SVG_SIMPLE_ICONS_SANITY);
-  if (id == wxART_SAOPAULOMETRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAOPAULOMETRO))  
       return wxString(SVG_SIMPLE_ICONS_SAOPAULOMETRO);
-  if (id == wxART_SAP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAP))  
       return wxString(SVG_SIMPLE_ICONS_SAP);
-  if (id == wxART_SASS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SASS))  
       return wxString(SVG_SIMPLE_ICONS_SASS);
-  if (id == wxART_SAT1)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAT1))  
       return wxString(SVG_SIMPLE_ICONS_SAT1);
-  if (id == wxART_SATURN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SATURN))  
       return wxString(SVG_SIMPLE_ICONS_SATURN);
-  if (id == wxART_SAUCELABS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SAUCELABS))  
       return wxString(SVG_SIMPLE_ICONS_SAUCELABS);
-  if (id == wxART_SCALA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCALA))  
       return wxString(SVG_SIMPLE_ICONS_SCALA);
-  if (id == wxART_SCALEWAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCALEWAY))  
       return wxString(SVG_SIMPLE_ICONS_SCALEWAY);
-  if (id == wxART_SCANIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCANIA))  
       return wxString(SVG_SIMPLE_ICONS_SCANIA);
-  if (id == wxART_SCHNEIDERELECTRIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCHNEIDERELECTRIC))  
       return wxString(SVG_SIMPLE_ICONS_SCHNEIDERELECTRIC);
-  if (id == wxART_SCIKITLEARN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCIKITLEARN))  
       return wxString(SVG_SIMPLE_ICONS_SCIKITLEARN);
-  if (id == wxART_SCIPY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCIPY))  
       return wxString(SVG_SIMPLE_ICONS_SCIPY);
-  if (id == wxART_SCOPUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCOPUS))  
       return wxString(SVG_SIMPLE_ICONS_SCOPUS);
-  if (id == wxART_SCPFOUNDATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCPFOUNDATION))  
       return wxString(SVG_SIMPLE_ICONS_SCPFOUNDATION);
-  if (id == wxART_SCRAPBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCRAPBOX))  
       return wxString(SVG_SIMPLE_ICONS_SCRAPBOX);
-  if (id == wxART_SCRATCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCRATCH))  
       return wxString(SVG_SIMPLE_ICONS_SCRATCH);
-  if (id == wxART_SCREENCASTIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCREENCASTIFY))  
       return wxString(SVG_SIMPLE_ICONS_SCREENCASTIFY);
-  if (id == wxART_SCRIBD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCRIBD))  
       return wxString(SVG_SIMPLE_ICONS_SCRIBD);
-  if (id == wxART_SCRIMBA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCRIMBA))  
       return wxString(SVG_SIMPLE_ICONS_SCRIMBA);
-  if (id == wxART_SCROLLREVEAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCROLLREVEAL))  
       return wxString(SVG_SIMPLE_ICONS_SCROLLREVEAL);
-  if (id == wxART_SCRUMALLIANCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCRUMALLIANCE))  
       return wxString(SVG_SIMPLE_ICONS_SCRUMALLIANCE);
-  if (id == wxART_SCRUTINIZERCI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCRUTINIZERCI))  
       return wxString(SVG_SIMPLE_ICONS_SCRUTINIZERCI);
-  if (id == wxART_SCYLLADB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SCYLLADB))  
       return wxString(SVG_SIMPLE_ICONS_SCYLLADB);
-  if (id == wxART_SEAGATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEAGATE))  
       return wxString(SVG_SIMPLE_ICONS_SEAGATE);
-  if (id == wxART_SEARXNG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEARXNG))  
       return wxString(SVG_SIMPLE_ICONS_SEARXNG);
-  if (id == wxART_SEAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEAT))  
       return wxString(SVG_SIMPLE_ICONS_SEAT);
-  if (id == wxART_SECURITYSCORECARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SECURITYSCORECARD))  
       return wxString(SVG_SIMPLE_ICONS_SECURITYSCORECARD);
-  if (id == wxART_SEFARIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEFARIA))  
       return wxString(SVG_SIMPLE_ICONS_SEFARIA);
-  if (id == wxART_SEGA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEGA))  
       return wxString(SVG_SIMPLE_ICONS_SEGA);
-  if (id == wxART_SELENIUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SELENIUM))  
       return wxString(SVG_SIMPLE_ICONS_SELENIUM);
-  if (id == wxART_SELLFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SELLFY))  
       return wxString(SVG_SIMPLE_ICONS_SELLFY);
-  if (id == wxART_SEMANTICRELEASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEMANTICRELEASE))  
       return wxString(SVG_SIMPLE_ICONS_SEMANTICRELEASE);
-  if (id == wxART_SEMANTICSCHOLAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEMANTICSCHOLAR))  
       return wxString(SVG_SIMPLE_ICONS_SEMANTICSCHOLAR);
-  if (id == wxART_SEMANTICUIREACT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEMANTICUIREACT))  
       return wxString(SVG_SIMPLE_ICONS_SEMANTICUIREACT);
-  if (id == wxART_SEMANTICWEB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEMANTICWEB))  
       return wxString(SVG_SIMPLE_ICONS_SEMANTICWEB);
-  if (id == wxART_SEMAPHORECI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEMAPHORECI))  
       return wxString(SVG_SIMPLE_ICONS_SEMAPHORECI);
-  if (id == wxART_SEMRUSH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEMRUSH))  
       return wxString(SVG_SIMPLE_ICONS_SEMRUSH);
-  if (id == wxART_SEMVER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEMVER))  
       return wxString(SVG_SIMPLE_ICONS_SEMVER);
-  if (id == wxART_SENCHA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SENCHA))  
       return wxString(SVG_SIMPLE_ICONS_SENCHA);
-  if (id == wxART_SENDINBLUE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SENDINBLUE))  
       return wxString(SVG_SIMPLE_ICONS_SENDINBLUE);
-  if (id == wxART_SENNHEISER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SENNHEISER))  
       return wxString(SVG_SIMPLE_ICONS_SENNHEISER);
-  if (id == wxART_SENSU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SENSU))  
       return wxString(SVG_SIMPLE_ICONS_SENSU);
-  if (id == wxART_SENTRY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SENTRY))  
       return wxString(SVG_SIMPLE_ICONS_SENTRY);
-  if (id == wxART_SEPA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEPA))  
       return wxString(SVG_SIMPLE_ICONS_SEPA);
-  if (id == wxART_SEQUELIZE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SEQUELIZE))  
       return wxString(SVG_SIMPLE_ICONS_SEQUELIZE);
-  if (id == wxART_SERVERFAULT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SERVERFAULT))  
       return wxString(SVG_SIMPLE_ICONS_SERVERFAULT);
-  if (id == wxART_SERVERLESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SERVERLESS))  
       return wxString(SVG_SIMPLE_ICONS_SERVERLESS);
-  if (id == wxART_SESSIONIZE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SESSIONIZE))  
       return wxString(SVG_SIMPLE_ICONS_SESSIONIZE);
-  if (id == wxART_SETAPP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SETAPP))  
       return wxString(SVG_SIMPLE_ICONS_SETAPP);
-  if (id == wxART_SFML)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SFML))  
       return wxString(SVG_SIMPLE_ICONS_SFML);
-  if (id == wxART_SHADOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHADOW))  
       return wxString(SVG_SIMPLE_ICONS_SHADOW);
-  if (id == wxART_SHANGHAIMETRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHANGHAIMETRO))  
       return wxString(SVG_SIMPLE_ICONS_SHANGHAIMETRO);
-  if (id == wxART_SHAREX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHAREX))  
       return wxString(SVG_SIMPLE_ICONS_SHAREX);
-  if (id == wxART_SHARP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHARP))  
       return wxString(SVG_SIMPLE_ICONS_SHARP);
-  if (id == wxART_SHAZAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHAZAM))  
       return wxString(SVG_SIMPLE_ICONS_SHAZAM);
-  if (id == wxART_SHELL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHELL))  
       return wxString(SVG_SIMPLE_ICONS_SHELL);
-  if (id == wxART_SHELLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHELLY))  
       return wxString(SVG_SIMPLE_ICONS_SHELLY);
-  if (id == wxART_SHENZHENMETRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHENZHENMETRO))  
       return wxString(SVG_SIMPLE_ICONS_SHENZHENMETRO);
-  if (id == wxART_SHIELDSDOTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHIELDSDOTIO))  
       return wxString(SVG_SIMPLE_ICONS_SHIELDSDOTIO);
-  if (id == wxART_SHIKIMORI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHIKIMORI))  
       return wxString(SVG_SIMPLE_ICONS_SHIKIMORI);
-  if (id == wxART_SHOPEE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHOPEE))  
       return wxString(SVG_SIMPLE_ICONS_SHOPEE);
-  if (id == wxART_SHOPIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHOPIFY))  
       return wxString(SVG_SIMPLE_ICONS_SHOPIFY);
-  if (id == wxART_SHOPWARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHOPWARE))  
       return wxString(SVG_SIMPLE_ICONS_SHOPWARE);
-  if (id == wxART_SHORTCUT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHORTCUT))  
       return wxString(SVG_SIMPLE_ICONS_SHORTCUT);
-  if (id == wxART_SHOTCUT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHOTCUT))  
       return wxString(SVG_SIMPLE_ICONS_SHOTCUT);
-  if (id == wxART_SHOWPAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHOWPAD))  
       return wxString(SVG_SIMPLE_ICONS_SHOWPAD);
-  if (id == wxART_SHOWTIME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHOWTIME))  
       return wxString(SVG_SIMPLE_ICONS_SHOWTIME);
-  if (id == wxART_SHUTTERSTOCK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SHUTTERSTOCK))  
       return wxString(SVG_SIMPLE_ICONS_SHUTTERSTOCK);
-  if (id == wxART_SIEMENS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SIEMENS))  
       return wxString(SVG_SIMPLE_ICONS_SIEMENS);
-  if (id == wxART_SIFIVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SIFIVE))  
       return wxString(SVG_SIMPLE_ICONS_SIFIVE);
-  if (id == wxART_SIGNAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SIGNAL))  
       return wxString(SVG_SIMPLE_ICONS_SIGNAL);
-  if (id == wxART_SIMILARWEB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SIMILARWEB))  
       return wxString(SVG_SIMPLE_ICONS_SIMILARWEB);
-  if (id == wxART_SIMKL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SIMKL))  
       return wxString(SVG_SIMPLE_ICONS_SIMKL);
-  if (id == wxART_SIMPLEANALYTICS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SIMPLEANALYTICS))  
       return wxString(SVG_SIMPLE_ICONS_SIMPLEANALYTICS);
-  if (id == wxART_SIMPLEICONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SIMPLEICONS))  
       return wxString(SVG_SIMPLE_ICONS_SIMPLEICONS);
-  if (id == wxART_SIMPLENOTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SIMPLENOTE))  
       return wxString(SVG_SIMPLE_ICONS_SIMPLENOTE);
-  if (id == wxART_SINAWEIBO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SINAWEIBO))  
       return wxString(SVG_SIMPLE_ICONS_SINAWEIBO);
-  if (id == wxART_SINGAPOREAIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SINGAPOREAIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_SINGAPOREAIRLINES);
-  if (id == wxART_SINGLESTORE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SINGLESTORE))  
       return wxString(SVG_SIMPLE_ICONS_SINGLESTORE);
-  if (id == wxART_SITECORE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SITECORE))  
       return wxString(SVG_SIMPLE_ICONS_SITECORE);
-  if (id == wxART_SITEPOINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SITEPOINT))  
       return wxString(SVG_SIMPLE_ICONS_SITEPOINT);
-  if (id == wxART_SKETCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKETCH))  
       return wxString(SVG_SIMPLE_ICONS_SKETCH);
-  if (id == wxART_SKETCHFAB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKETCHFAB))  
       return wxString(SVG_SIMPLE_ICONS_SKETCHFAB);
-  if (id == wxART_SKETCHUP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKETCHUP))  
       return wxString(SVG_SIMPLE_ICONS_SKETCHUP);
-  if (id == wxART_SKILLSHARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKILLSHARE))  
       return wxString(SVG_SIMPLE_ICONS_SKILLSHARE);
-  if (id == wxART_SKODA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKODA))  
       return wxString(SVG_SIMPLE_ICONS_SKODA);
-  if (id == wxART_SKY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKY))  
       return wxString(SVG_SIMPLE_ICONS_SKY);
-  if (id == wxART_SKYNET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKYNET))  
       return wxString(SVG_SIMPLE_ICONS_SKYNET);
-  if (id == wxART_SKYPACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKYPACK))  
       return wxString(SVG_SIMPLE_ICONS_SKYPACK);
-  if (id == wxART_SKYPE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKYPE))  
       return wxString(SVG_SIMPLE_ICONS_SKYPE);
-  if (id == wxART_SKYPEFORBUSINESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKYPEFORBUSINESS))  
       return wxString(SVG_SIMPLE_ICONS_SKYPEFORBUSINESS);
-  if (id == wxART_SKYROCK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SKYROCK))  
       return wxString(SVG_SIMPLE_ICONS_SKYROCK);
-  if (id == wxART_SLACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SLACK))  
       return wxString(SVG_SIMPLE_ICONS_SLACK);
-  if (id == wxART_SLACKWARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SLACKWARE))  
       return wxString(SVG_SIMPLE_ICONS_SLACKWARE);
-  if (id == wxART_SLASHDOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SLASHDOT))  
       return wxString(SVG_SIMPLE_ICONS_SLASHDOT);
-  if (id == wxART_SLICKPIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SLICKPIC))  
       return wxString(SVG_SIMPLE_ICONS_SLICKPIC);
-  if (id == wxART_SLIDES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SLIDES))  
       return wxString(SVG_SIMPLE_ICONS_SLIDES);
-  if (id == wxART_SLIDESHARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SLIDESHARE))  
       return wxString(SVG_SIMPLE_ICONS_SLIDESHARE);
-  if (id == wxART_SMART)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SMART))  
       return wxString(SVG_SIMPLE_ICONS_SMART);
-  if (id == wxART_SMARTTHINGS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SMARTTHINGS))  
       return wxString(SVG_SIMPLE_ICONS_SMARTTHINGS);
-  if (id == wxART_SMASHDOTGG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SMASHDOTGG))  
       return wxString(SVG_SIMPLE_ICONS_SMASHDOTGG);
-  if (id == wxART_SMASHINGMAGAZINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SMASHINGMAGAZINE))  
       return wxString(SVG_SIMPLE_ICONS_SMASHINGMAGAZINE);
-  if (id == wxART_SMRT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SMRT))  
       return wxString(SVG_SIMPLE_ICONS_SMRT);
-  if (id == wxART_SMUGMUG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SMUGMUG))  
       return wxString(SVG_SIMPLE_ICONS_SMUGMUG);
-  if (id == wxART_SNAPCHAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SNAPCHAT))  
       return wxString(SVG_SIMPLE_ICONS_SNAPCHAT);
-  if (id == wxART_SNAPCRAFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SNAPCRAFT))  
       return wxString(SVG_SIMPLE_ICONS_SNAPCRAFT);
-  if (id == wxART_SNCF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SNCF))  
       return wxString(SVG_SIMPLE_ICONS_SNCF);
-  if (id == wxART_SNOWFLAKE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SNOWFLAKE))  
       return wxString(SVG_SIMPLE_ICONS_SNOWFLAKE);
-  if (id == wxART_SNOWPACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SNOWPACK))  
       return wxString(SVG_SIMPLE_ICONS_SNOWPACK);
-  if (id == wxART_SNYK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SNYK))  
       return wxString(SVG_SIMPLE_ICONS_SNYK);
-  if (id == wxART_SOCIALBLADE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOCIALBLADE))  
       return wxString(SVG_SIMPLE_ICONS_SOCIALBLADE);
-  if (id == wxART_SOCIETY6)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOCIETY6))  
       return wxString(SVG_SIMPLE_ICONS_SOCIETY6);
-  if (id == wxART_SOCKETDOTIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOCKETDOTIO))  
       return wxString(SVG_SIMPLE_ICONS_SOCKETDOTIO);
-  if (id == wxART_SOGOU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOGOU))  
       return wxString(SVG_SIMPLE_ICONS_SOGOU);
-  if (id == wxART_SOLID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOLID))  
       return wxString(SVG_SIMPLE_ICONS_SOLID);
-  if (id == wxART_SOLIDITY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOLIDITY))  
       return wxString(SVG_SIMPLE_ICONS_SOLIDITY);
-  if (id == wxART_SOLOLEARN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOLOLEARN))  
       return wxString(SVG_SIMPLE_ICONS_SOLOLEARN);
-  if (id == wxART_SOLUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOLUS))  
       return wxString(SVG_SIMPLE_ICONS_SOLUS);
-  if (id == wxART_SONAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONAR))  
       return wxString(SVG_SIMPLE_ICONS_SONAR);
-  if (id == wxART_SONARCLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONARCLOUD))  
       return wxString(SVG_SIMPLE_ICONS_SONARCLOUD);
-  if (id == wxART_SONARLINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONARLINT))  
       return wxString(SVG_SIMPLE_ICONS_SONARLINT);
-  if (id == wxART_SONARQUBE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONARQUBE))  
       return wxString(SVG_SIMPLE_ICONS_SONARQUBE);
-  if (id == wxART_SONARSOURCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONARSOURCE))  
       return wxString(SVG_SIMPLE_ICONS_SONARSOURCE);
-  if (id == wxART_SONATYPE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONATYPE))  
       return wxString(SVG_SIMPLE_ICONS_SONATYPE);
-  if (id == wxART_SONGKICK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONGKICK))  
       return wxString(SVG_SIMPLE_ICONS_SONGKICK);
-  if (id == wxART_SONGODA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONGODA))  
       return wxString(SVG_SIMPLE_ICONS_SONGODA);
-  if (id == wxART_SONICWALL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONICWALL))  
       return wxString(SVG_SIMPLE_ICONS_SONICWALL);
-  if (id == wxART_SONOS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONOS))  
       return wxString(SVG_SIMPLE_ICONS_SONOS);
-  if (id == wxART_SONY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SONY))  
       return wxString(SVG_SIMPLE_ICONS_SONY);
-  if (id == wxART_SOUNDCHARTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOUNDCHARTS))  
       return wxString(SVG_SIMPLE_ICONS_SOUNDCHARTS);
-  if (id == wxART_SOUNDCLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOUNDCLOUD))  
       return wxString(SVG_SIMPLE_ICONS_SOUNDCLOUD);
-  if (id == wxART_SOURCEENGINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOURCEENGINE))  
       return wxString(SVG_SIMPLE_ICONS_SOURCEENGINE);
-  if (id == wxART_SOURCEFORGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOURCEFORGE))  
       return wxString(SVG_SIMPLE_ICONS_SOURCEFORGE);
-  if (id == wxART_SOURCEGRAPH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOURCEGRAPH))  
       return wxString(SVG_SIMPLE_ICONS_SOURCEGRAPH);
-  if (id == wxART_SOURCEHUT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOURCEHUT))  
       return wxString(SVG_SIMPLE_ICONS_SOURCEHUT);
-  if (id == wxART_SOURCETREE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOURCETREE))  
       return wxString(SVG_SIMPLE_ICONS_SOURCETREE);
-  if (id == wxART_SOUTHWESTAIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SOUTHWESTAIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_SOUTHWESTAIRLINES);
-  if (id == wxART_SPACEMACS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPACEMACS))  
       return wxString(SVG_SIMPLE_ICONS_SPACEMACS);
-  if (id == wxART_SPACEX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPACEX))  
       return wxString(SVG_SIMPLE_ICONS_SPACEX);
-  if (id == wxART_SPACY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPACY))  
       return wxString(SVG_SIMPLE_ICONS_SPACY);
-  if (id == wxART_SPARKAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPARKAR))  
       return wxString(SVG_SIMPLE_ICONS_SPARKAR);
-  if (id == wxART_SPARKASSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPARKASSE))  
       return wxString(SVG_SIMPLE_ICONS_SPARKASSE);
-  if (id == wxART_SPARKFUN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPARKFUN))  
       return wxString(SVG_SIMPLE_ICONS_SPARKFUN);
-  if (id == wxART_SPARKPOST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPARKPOST))  
       return wxString(SVG_SIMPLE_ICONS_SPARKPOST);
-  if (id == wxART_SPDX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPDX))  
       return wxString(SVG_SIMPLE_ICONS_SPDX);
-  if (id == wxART_SPEAKERDECK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPEAKERDECK))  
       return wxString(SVG_SIMPLE_ICONS_SPEAKERDECK);
-  if (id == wxART_SPECTRUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPECTRUM))  
       return wxString(SVG_SIMPLE_ICONS_SPECTRUM);
-  if (id == wxART_SPEEDTEST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPEEDTEST))  
       return wxString(SVG_SIMPLE_ICONS_SPEEDTEST);
-  if (id == wxART_SPEEDYPAGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPEEDYPAGE))  
       return wxString(SVG_SIMPLE_ICONS_SPEEDYPAGE);
-  if (id == wxART_SPHINX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPHINX))  
       return wxString(SVG_SIMPLE_ICONS_SPHINX);
-  if (id == wxART_SPIGOTMC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPIGOTMC))  
       return wxString(SVG_SIMPLE_ICONS_SPIGOTMC);
-  if (id == wxART_SPINNAKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPINNAKER))  
       return wxString(SVG_SIMPLE_ICONS_SPINNAKER);
-  if (id == wxART_SPINRILLA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPINRILLA))  
       return wxString(SVG_SIMPLE_ICONS_SPINRILLA);
-  if (id == wxART_SPLUNK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPLUNK))  
       return wxString(SVG_SIMPLE_ICONS_SPLUNK);
-  if (id == wxART_SPOJ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPOJ))  
       return wxString(SVG_SIMPLE_ICONS_SPOJ);
-  if (id == wxART_SPOND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPOND))  
       return wxString(SVG_SIMPLE_ICONS_SPOND);
-  if (id == wxART_SPOTIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPOTIFY))  
       return wxString(SVG_SIMPLE_ICONS_SPOTIFY);
-  if (id == wxART_SPOTLIGHT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPOTLIGHT))  
       return wxString(SVG_SIMPLE_ICONS_SPOTLIGHT);
-  if (id == wxART_SPREADSHIRT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPREADSHIRT))  
       return wxString(SVG_SIMPLE_ICONS_SPREADSHIRT);
-  if (id == wxART_SPREAKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPREAKER))  
       return wxString(SVG_SIMPLE_ICONS_SPREAKER);
-  if (id == wxART_SPRING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPRING))  
       return wxString(SVG_SIMPLE_ICONS_SPRING);
-  if (id == wxART_SPRING_CREATORS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPRING_CREATORS))  
       return wxString(SVG_SIMPLE_ICONS_SPRING_CREATORS);
-  if (id == wxART_SPRINGBOOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPRINGBOOT))  
       return wxString(SVG_SIMPLE_ICONS_SPRINGBOOT);
-  if (id == wxART_SPRINGSECURITY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPRINGSECURITY))  
       return wxString(SVG_SIMPLE_ICONS_SPRINGSECURITY);
-  if (id == wxART_SPYDERIDE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SPYDERIDE))  
       return wxString(SVG_SIMPLE_ICONS_SPYDERIDE);
-  if (id == wxART_SQLALCHEMY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SQLALCHEMY))  
       return wxString(SVG_SIMPLE_ICONS_SQLALCHEMY);
-  if (id == wxART_SQLITE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SQLITE))  
       return wxString(SVG_SIMPLE_ICONS_SQLITE);
-  if (id == wxART_SQUARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SQUARE))  
       return wxString(SVG_SIMPLE_ICONS_SQUARE);
-  if (id == wxART_SQUAREENIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SQUAREENIX))  
       return wxString(SVG_SIMPLE_ICONS_SQUAREENIX);
-  if (id == wxART_SQUARESPACE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SQUARESPACE))  
       return wxString(SVG_SIMPLE_ICONS_SQUARESPACE);
-  if (id == wxART_SSRN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SSRN))  
       return wxString(SVG_SIMPLE_ICONS_SSRN);
-  if (id == wxART_SST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SST))  
       return wxString(SVG_SIMPLE_ICONS_SST);
-  if (id == wxART_STACKBIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STACKBIT))  
       return wxString(SVG_SIMPLE_ICONS_STACKBIT);
-  if (id == wxART_STACKBLITZ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STACKBLITZ))  
       return wxString(SVG_SIMPLE_ICONS_STACKBLITZ);
-  if (id == wxART_STACKEDIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STACKEDIT))  
       return wxString(SVG_SIMPLE_ICONS_STACKEDIT);
-  if (id == wxART_STACKEXCHANGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STACKEXCHANGE))  
       return wxString(SVG_SIMPLE_ICONS_STACKEXCHANGE);
-  if (id == wxART_STACKHAWK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STACKHAWK))  
       return wxString(SVG_SIMPLE_ICONS_STACKHAWK);
-  if (id == wxART_STACKOVERFLOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STACKOVERFLOW))  
       return wxString(SVG_SIMPLE_ICONS_STACKOVERFLOW);
-  if (id == wxART_STACKPATH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STACKPATH))  
       return wxString(SVG_SIMPLE_ICONS_STACKPATH);
-  if (id == wxART_STACKSHARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STACKSHARE))  
       return wxString(SVG_SIMPLE_ICONS_STACKSHARE);
-  if (id == wxART_STADIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STADIA))  
       return wxString(SVG_SIMPLE_ICONS_STADIA);
-  if (id == wxART_STAFFBASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STAFFBASE))  
       return wxString(SVG_SIMPLE_ICONS_STAFFBASE);
-  if (id == wxART_STANDARDJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STANDARDJS))  
       return wxString(SVG_SIMPLE_ICONS_STANDARDJS);
-  if (id == wxART_STANDARDRESUME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STANDARDRESUME))  
       return wxString(SVG_SIMPLE_ICONS_STANDARDRESUME);
-  if (id == wxART_STARBUCKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STARBUCKS))  
       return wxString(SVG_SIMPLE_ICONS_STARBUCKS);
-  if (id == wxART_STARDOCK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STARDOCK))  
       return wxString(SVG_SIMPLE_ICONS_STARDOCK);
-  if (id == wxART_STARLINGBANK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STARLINGBANK))  
       return wxString(SVG_SIMPLE_ICONS_STARLINGBANK);
-  if (id == wxART_STARSHIP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STARSHIP))  
       return wxString(SVG_SIMPLE_ICONS_STARSHIP);
-  if (id == wxART_STARTREK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STARTREK))  
       return wxString(SVG_SIMPLE_ICONS_STARTREK);
-  if (id == wxART_STARZ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STARZ))  
       return wxString(SVG_SIMPLE_ICONS_STARZ);
-  if (id == wxART_STATAMIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STATAMIC))  
       return wxString(SVG_SIMPLE_ICONS_STATAMIC);
-  if (id == wxART_STATUSPAGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STATUSPAGE))  
       return wxString(SVG_SIMPLE_ICONS_STATUSPAGE);
-  if (id == wxART_STATUSPAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STATUSPAL))  
       return wxString(SVG_SIMPLE_ICONS_STATUSPAL);
-  if (id == wxART_STEAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STEAM))  
       return wxString(SVG_SIMPLE_ICONS_STEAM);
-  if (id == wxART_STEAMDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STEAMDB))  
       return wxString(SVG_SIMPLE_ICONS_STEAMDB);
-  if (id == wxART_STEAMDECK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STEAMDECK))  
       return wxString(SVG_SIMPLE_ICONS_STEAMDECK);
-  if (id == wxART_STEAMWORKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STEAMWORKS))  
       return wxString(SVG_SIMPLE_ICONS_STEAMWORKS);
-  if (id == wxART_STEELSERIES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STEELSERIES))  
       return wxString(SVG_SIMPLE_ICONS_STEELSERIES);
-  if (id == wxART_STEEM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STEEM))  
       return wxString(SVG_SIMPLE_ICONS_STEEM);
-  if (id == wxART_STEEMIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STEEMIT))  
       return wxString(SVG_SIMPLE_ICONS_STEEMIT);
-  if (id == wxART_STEINBERG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STEINBERG))  
       return wxString(SVG_SIMPLE_ICONS_STEINBERG);
-  if (id == wxART_STELLAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STELLAR))  
       return wxString(SVG_SIMPLE_ICONS_STELLAR);
-  if (id == wxART_STENCYL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STENCYL))  
       return wxString(SVG_SIMPLE_ICONS_STENCYL);
-  if (id == wxART_STIMULUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STIMULUS))  
       return wxString(SVG_SIMPLE_ICONS_STIMULUS);
-  if (id == wxART_STITCHER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STITCHER))  
       return wxString(SVG_SIMPLE_ICONS_STITCHER);
-  if (id == wxART_STMICROELECTRONICS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STMICROELECTRONICS))  
       return wxString(SVG_SIMPLE_ICONS_STMICROELECTRONICS);
-  if (id == wxART_STOPSTALK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STOPSTALK))  
       return wxString(SVG_SIMPLE_ICONS_STOPSTALK);
-  if (id == wxART_STORYBLOK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STORYBLOK))  
       return wxString(SVG_SIMPLE_ICONS_STORYBLOK);
-  if (id == wxART_STORYBOOK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STORYBOOK))  
       return wxString(SVG_SIMPLE_ICONS_STORYBOOK);
-  if (id == wxART_STRAPI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STRAPI))  
       return wxString(SVG_SIMPLE_ICONS_STRAPI);
-  if (id == wxART_STRAVA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STRAVA))  
       return wxString(SVG_SIMPLE_ICONS_STRAVA);
-  if (id == wxART_STREAMLIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STREAMLIT))  
       return wxString(SVG_SIMPLE_ICONS_STREAMLIT);
-  if (id == wxART_STRIPE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STRIPE))  
       return wxString(SVG_SIMPLE_ICONS_STRIPE);
-  if (id == wxART_STRONGSWAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STRONGSWAN))  
       return wxString(SVG_SIMPLE_ICONS_STRONGSWAN);
-  if (id == wxART_STRYKER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STRYKER))  
       return wxString(SVG_SIMPLE_ICONS_STRYKER);
-  if (id == wxART_STUBHUB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STUBHUB))  
       return wxString(SVG_SIMPLE_ICONS_STUBHUB);
-  if (id == wxART_STUDIO3T)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STUDIO3T))  
       return wxString(SVG_SIMPLE_ICONS_STUDIO3T);
-  if (id == wxART_STUDYVERSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STUDYVERSE))  
       return wxString(SVG_SIMPLE_ICONS_STUDYVERSE);
-  if (id == wxART_STYLEDCOMPONENTS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STYLEDCOMPONENTS))  
       return wxString(SVG_SIMPLE_ICONS_STYLEDCOMPONENTS);
-  if (id == wxART_STYLELINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STYLELINT))  
       return wxString(SVG_SIMPLE_ICONS_STYLELINT);
-  if (id == wxART_STYLESHARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STYLESHARE))  
       return wxString(SVG_SIMPLE_ICONS_STYLESHARE);
-  if (id == wxART_STYLUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_STYLUS))  
       return wxString(SVG_SIMPLE_ICONS_STYLUS);
-  if (id == wxART_SUBARU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUBARU))  
       return wxString(SVG_SIMPLE_ICONS_SUBARU);
-  if (id == wxART_SUBLIMETEXT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUBLIMETEXT))  
       return wxString(SVG_SIMPLE_ICONS_SUBLIMETEXT);
-  if (id == wxART_SUBSTACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUBSTACK))  
       return wxString(SVG_SIMPLE_ICONS_SUBSTACK);
-  if (id == wxART_SUBTITLEEDIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUBTITLEEDIT))  
       return wxString(SVG_SIMPLE_ICONS_SUBTITLEEDIT);
-  if (id == wxART_SUBVERSION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUBVERSION))  
       return wxString(SVG_SIMPLE_ICONS_SUBVERSION);
-  if (id == wxART_SUCKLESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUCKLESS))  
       return wxString(SVG_SIMPLE_ICONS_SUCKLESS);
-  if (id == wxART_SUMOLOGIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUMOLOGIC))  
       return wxString(SVG_SIMPLE_ICONS_SUMOLOGIC);
-  if (id == wxART_SUPABASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUPABASE))  
       return wxString(SVG_SIMPLE_ICONS_SUPABASE);
-  if (id == wxART_SUPERCREASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUPERCREASE))  
       return wxString(SVG_SIMPLE_ICONS_SUPERCREASE);
-  if (id == wxART_SUPERMICRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUPERMICRO))  
       return wxString(SVG_SIMPLE_ICONS_SUPERMICRO);
-  if (id == wxART_SUPERUSER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUPERUSER))  
       return wxString(SVG_SIMPLE_ICONS_SUPERUSER);
-  if (id == wxART_SURREALDB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SURREALDB))  
       return wxString(SVG_SIMPLE_ICONS_SURREALDB);
-  if (id == wxART_SURVEYMONKEY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SURVEYMONKEY))  
       return wxString(SVG_SIMPLE_ICONS_SURVEYMONKEY);
-  if (id == wxART_SUSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUSE))  
       return wxString(SVG_SIMPLE_ICONS_SUSE);
-  if (id == wxART_SUZUKI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SUZUKI))  
       return wxString(SVG_SIMPLE_ICONS_SUZUKI);
-  if (id == wxART_SVELTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SVELTE))  
       return wxString(SVG_SIMPLE_ICONS_SVELTE);
-  if (id == wxART_SVG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SVG))  
       return wxString(SVG_SIMPLE_ICONS_SVG);
-  if (id == wxART_SVGDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SVGDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_SVGDOTJS);
-  if (id == wxART_SVGO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SVGO))  
       return wxString(SVG_SIMPLE_ICONS_SVGO);
-  if (id == wxART_SWAGGER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SWAGGER))  
       return wxString(SVG_SIMPLE_ICONS_SWAGGER);
-  if (id == wxART_SWARM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SWARM))  
       return wxString(SVG_SIMPLE_ICONS_SWARM);
-  if (id == wxART_SWC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SWC))  
       return wxString(SVG_SIMPLE_ICONS_SWC);
-  if (id == wxART_SWIFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SWIFT))  
       return wxString(SVG_SIMPLE_ICONS_SWIFT);
-  if (id == wxART_SWIGGY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SWIGGY))  
       return wxString(SVG_SIMPLE_ICONS_SWIGGY);
-  if (id == wxART_SWIPER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SWIPER))  
       return wxString(SVG_SIMPLE_ICONS_SWIPER);
-  if (id == wxART_SWR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SWR))  
       return wxString(SVG_SIMPLE_ICONS_SWR);
-  if (id == wxART_SYMANTEC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SYMANTEC))  
       return wxString(SVG_SIMPLE_ICONS_SYMANTEC);
-  if (id == wxART_SYMBOLAB)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SYMBOLAB))  
       return wxString(SVG_SIMPLE_ICONS_SYMBOLAB);
-  if (id == wxART_SYMFONY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SYMFONY))  
       return wxString(SVG_SIMPLE_ICONS_SYMFONY);
-  if (id == wxART_SYMPHONY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SYMPHONY))  
       return wxString(SVG_SIMPLE_ICONS_SYMPHONY);
-  if (id == wxART_SYMPY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SYMPY))  
       return wxString(SVG_SIMPLE_ICONS_SYMPY);
-  if (id == wxART_SYNOLOGY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SYNOLOGY))  
       return wxString(SVG_SIMPLE_ICONS_SYNOLOGY);
-  if (id == wxART_SYSTEM76)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_SYSTEM76))  
       return wxString(SVG_SIMPLE_ICONS_SYSTEM76);
-  if (id == wxART_TABLEAU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TABLEAU))  
       return wxString(SVG_SIMPLE_ICONS_TABLEAU);
-  if (id == wxART_TABLECHECK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TABLECHECK))  
       return wxString(SVG_SIMPLE_ICONS_TABLECHECK);
-  if (id == wxART_TACOBELL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TACOBELL))  
       return wxString(SVG_SIMPLE_ICONS_TACOBELL);
-  if (id == wxART_TADO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TADO))  
       return wxString(SVG_SIMPLE_ICONS_TADO);
-  if (id == wxART_TAICHIGRAPHICS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TAICHIGRAPHICS))  
       return wxString(SVG_SIMPLE_ICONS_TAICHIGRAPHICS);
-  if (id == wxART_TAICHILANG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TAICHILANG))  
       return wxString(SVG_SIMPLE_ICONS_TAICHILANG);
-  if (id == wxART_TAILS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TAILS))  
       return wxString(SVG_SIMPLE_ICONS_TAILS);
-  if (id == wxART_TAILWINDCSS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TAILWINDCSS))  
       return wxString(SVG_SIMPLE_ICONS_TAILWINDCSS);
-  if (id == wxART_TALEND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TALEND))  
       return wxString(SVG_SIMPLE_ICONS_TALEND);
-  if (id == wxART_TALENTHOUSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TALENTHOUSE))  
       return wxString(SVG_SIMPLE_ICONS_TALENTHOUSE);
-  if (id == wxART_TAMIYA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TAMIYA))  
       return wxString(SVG_SIMPLE_ICONS_TAMIYA);
-  if (id == wxART_TAMPERMONKEY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TAMPERMONKEY))  
       return wxString(SVG_SIMPLE_ICONS_TAMPERMONKEY);
-  if (id == wxART_TAOBAO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TAOBAO))  
       return wxString(SVG_SIMPLE_ICONS_TAOBAO);
-  if (id == wxART_TAPAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TAPAS))  
       return wxString(SVG_SIMPLE_ICONS_TAPAS);
-  if (id == wxART_TARGET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TARGET))  
       return wxString(SVG_SIMPLE_ICONS_TARGET);
-  if (id == wxART_TASK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TASK))  
       return wxString(SVG_SIMPLE_ICONS_TASK);
-  if (id == wxART_TASMOTA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TASMOTA))  
       return wxString(SVG_SIMPLE_ICONS_TASMOTA);
-  if (id == wxART_TATA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TATA))  
       return wxString(SVG_SIMPLE_ICONS_TATA);
-  if (id == wxART_TAURI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TAURI))  
       return wxString(SVG_SIMPLE_ICONS_TAURI);
-  if (id == wxART_TAXBUZZ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TAXBUZZ))  
       return wxString(SVG_SIMPLE_ICONS_TAXBUZZ);
-  if (id == wxART_TCS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TCS))  
       return wxString(SVG_SIMPLE_ICONS_TCS);
-  if (id == wxART_TEAMCITY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TEAMCITY))  
       return wxString(SVG_SIMPLE_ICONS_TEAMCITY);
-  if (id == wxART_TEAMSPEAK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TEAMSPEAK))  
       return wxString(SVG_SIMPLE_ICONS_TEAMSPEAK);
-  if (id == wxART_TEAMVIEWER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TEAMVIEWER))  
       return wxString(SVG_SIMPLE_ICONS_TEAMVIEWER);
-  if (id == wxART_TED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TED))  
       return wxString(SVG_SIMPLE_ICONS_TED);
-  if (id == wxART_TEESPRING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TEESPRING))  
       return wxString(SVG_SIMPLE_ICONS_TEESPRING);
-  if (id == wxART_TEKTON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TEKTON))  
       return wxString(SVG_SIMPLE_ICONS_TEKTON);
-  if (id == wxART_TELE5)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TELE5))  
       return wxString(SVG_SIMPLE_ICONS_TELE5);
-  if (id == wxART_TELEGRAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TELEGRAM))  
       return wxString(SVG_SIMPLE_ICONS_TELEGRAM);
-  if (id == wxART_TELEGRAPH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TELEGRAPH))  
       return wxString(SVG_SIMPLE_ICONS_TELEGRAPH);
-  if (id == wxART_TEMPORAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TEMPORAL))  
       return wxString(SVG_SIMPLE_ICONS_TEMPORAL);
-  if (id == wxART_TENCENTQQ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TENCENTQQ))  
       return wxString(SVG_SIMPLE_ICONS_TENCENTQQ);
-  if (id == wxART_TENSORFLOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TENSORFLOW))  
       return wxString(SVG_SIMPLE_ICONS_TENSORFLOW);
-  if (id == wxART_TERADATA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TERADATA))  
       return wxString(SVG_SIMPLE_ICONS_TERADATA);
-  if (id == wxART_TERATAIL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TERATAIL))  
       return wxString(SVG_SIMPLE_ICONS_TERATAIL);
-  if (id == wxART_TERMIUS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TERMIUS))  
       return wxString(SVG_SIMPLE_ICONS_TERMIUS);
-  if (id == wxART_TERRAFORM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TERRAFORM))  
       return wxString(SVG_SIMPLE_ICONS_TERRAFORM);
-  if (id == wxART_TESCO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TESCO))  
       return wxString(SVG_SIMPLE_ICONS_TESCO);
-  if (id == wxART_TESLA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TESLA))  
       return wxString(SVG_SIMPLE_ICONS_TESLA);
-  if (id == wxART_TESTCAFE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TESTCAFE))  
       return wxString(SVG_SIMPLE_ICONS_TESTCAFE);
-  if (id == wxART_TESTIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TESTIN))  
       return wxString(SVG_SIMPLE_ICONS_TESTIN);
-  if (id == wxART_TESTINGLIBRARY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TESTINGLIBRARY))  
       return wxString(SVG_SIMPLE_ICONS_TESTINGLIBRARY);
-  if (id == wxART_TESTRAIL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TESTRAIL))  
       return wxString(SVG_SIMPLE_ICONS_TESTRAIL);
-  if (id == wxART_TETHER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TETHER))  
       return wxString(SVG_SIMPLE_ICONS_TETHER);
-  if (id == wxART_TEXTPATTERN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TEXTPATTERN))  
       return wxString(SVG_SIMPLE_ICONS_TEXTPATTERN);
-  if (id == wxART_TGA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TGA))  
       return wxString(SVG_SIMPLE_ICONS_TGA);
-  if (id == wxART_THANGS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THANGS))  
       return wxString(SVG_SIMPLE_ICONS_THANGS);
-  if (id == wxART_THEALGORITHMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THEALGORITHMS))  
       return wxString(SVG_SIMPLE_ICONS_THEALGORITHMS);
-  if (id == wxART_THECONVERSATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THECONVERSATION))  
       return wxString(SVG_SIMPLE_ICONS_THECONVERSATION);
-  if (id == wxART_THEIRISHTIMES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THEIRISHTIMES))  
       return wxString(SVG_SIMPLE_ICONS_THEIRISHTIMES);
-  if (id == wxART_THEMIGHTY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THEMIGHTY))  
       return wxString(SVG_SIMPLE_ICONS_THEMIGHTY);
-  if (id == wxART_THEMODELSRESOURCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THEMODELSRESOURCE))  
       return wxString(SVG_SIMPLE_ICONS_THEMODELSRESOURCE);
-  if (id == wxART_THEMOVIEDATABASE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THEMOVIEDATABASE))  
       return wxString(SVG_SIMPLE_ICONS_THEMOVIEDATABASE);
-  if (id == wxART_THENORTHFACE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THENORTHFACE))  
       return wxString(SVG_SIMPLE_ICONS_THENORTHFACE);
-  if (id == wxART_THEREGISTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THEREGISTER))  
       return wxString(SVG_SIMPLE_ICONS_THEREGISTER);
-  if (id == wxART_THESOUNDSRESOURCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THESOUNDSRESOURCE))  
       return wxString(SVG_SIMPLE_ICONS_THESOUNDSRESOURCE);
-  if (id == wxART_THESPRITERSRESOURCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THESPRITERSRESOURCE))  
       return wxString(SVG_SIMPLE_ICONS_THESPRITERSRESOURCE);
-  if (id == wxART_THEWASHINGTONPOST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THEWASHINGTONPOST))  
       return wxString(SVG_SIMPLE_ICONS_THEWASHINGTONPOST);
-  if (id == wxART_THINGIVERSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THINGIVERSE))  
       return wxString(SVG_SIMPLE_ICONS_THINGIVERSE);
-  if (id == wxART_THINKPAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THINKPAD))  
       return wxString(SVG_SIMPLE_ICONS_THINKPAD);
-  if (id == wxART_THREADLESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THREADLESS))  
       return wxString(SVG_SIMPLE_ICONS_THREADLESS);
-  if (id == wxART_THREADS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THREADS))  
       return wxString(SVG_SIMPLE_ICONS_THREADS);
-  if (id == wxART_THREEDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THREEDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_THREEDOTJS);
-  if (id == wxART_THREEMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THREEMA))  
       return wxString(SVG_SIMPLE_ICONS_THREEMA);
-  if (id == wxART_THUMBTACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THUMBTACK))  
       return wxString(SVG_SIMPLE_ICONS_THUMBTACK);
-  if (id == wxART_THUNDERBIRD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THUNDERBIRD))  
       return wxString(SVG_SIMPLE_ICONS_THUNDERBIRD);
-  if (id == wxART_THURGAUERKANTONALBANK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THURGAUERKANTONALBANK))  
       return wxString(SVG_SIMPLE_ICONS_THURGAUERKANTONALBANK);
-  if (id == wxART_THYMELEAF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_THYMELEAF))  
       return wxString(SVG_SIMPLE_ICONS_THYMELEAF);
-  if (id == wxART_TICKETMASTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TICKETMASTER))  
       return wxString(SVG_SIMPLE_ICONS_TICKETMASTER);
-  if (id == wxART_TIDAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TIDAL))  
       return wxString(SVG_SIMPLE_ICONS_TIDAL);
-  if (id == wxART_TIDDLYWIKI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TIDDLYWIKI))  
       return wxString(SVG_SIMPLE_ICONS_TIDDLYWIKI);
-  if (id == wxART_TIDE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TIDE))  
       return wxString(SVG_SIMPLE_ICONS_TIDE);
-  if (id == wxART_TIDYVERSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TIDYVERSE))  
       return wxString(SVG_SIMPLE_ICONS_TIDYVERSE);
-  if (id == wxART_TIETOEVRY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TIETOEVRY))  
       return wxString(SVG_SIMPLE_ICONS_TIETOEVRY);
-  if (id == wxART_TIKTOK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TIKTOK))  
       return wxString(SVG_SIMPLE_ICONS_TIKTOK);
-  if (id == wxART_TILE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TILE))  
       return wxString(SVG_SIMPLE_ICONS_TILE);
-  if (id == wxART_TIMESCALE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TIMESCALE))  
       return wxString(SVG_SIMPLE_ICONS_TIMESCALE);
-  if (id == wxART_TINA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TINA))  
       return wxString(SVG_SIMPLE_ICONS_TINA);
-  if (id == wxART_TINDER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TINDER))  
       return wxString(SVG_SIMPLE_ICONS_TINDER);
-  if (id == wxART_TINYLETTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TINYLETTER))  
       return wxString(SVG_SIMPLE_ICONS_TINYLETTER);
-  if (id == wxART_TISTORY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TISTORY))  
       return wxString(SVG_SIMPLE_ICONS_TISTORY);
-  if (id == wxART_TMOBILE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TMOBILE))  
       return wxString(SVG_SIMPLE_ICONS_TMOBILE);
-  if (id == wxART_TMUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TMUX))  
       return wxString(SVG_SIMPLE_ICONS_TMUX);
-  if (id == wxART_TNT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TNT))  
       return wxString(SVG_SIMPLE_ICONS_TNT);
-  if (id == wxART_TODOIST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TODOIST))  
       return wxString(SVG_SIMPLE_ICONS_TODOIST);
-  if (id == wxART_TOGGL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TOGGL))  
       return wxString(SVG_SIMPLE_ICONS_TOGGL);
-  if (id == wxART_TOGGLTRACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TOGGLTRACK))  
       return wxString(SVG_SIMPLE_ICONS_TOGGLTRACK);
-  if (id == wxART_TOKYOMETRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TOKYOMETRO))  
       return wxString(SVG_SIMPLE_ICONS_TOKYOMETRO);
-  if (id == wxART_TOML)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TOML))  
       return wxString(SVG_SIMPLE_ICONS_TOML);
-  if (id == wxART_TOMORROWLAND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TOMORROWLAND))  
       return wxString(SVG_SIMPLE_ICONS_TOMORROWLAND);
-  if (id == wxART_TOPCODER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TOPCODER))  
       return wxString(SVG_SIMPLE_ICONS_TOPCODER);
-  if (id == wxART_TOPTAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TOPTAL))  
       return wxString(SVG_SIMPLE_ICONS_TOPTAL);
-  if (id == wxART_TORBROWSER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TORBROWSER))  
       return wxString(SVG_SIMPLE_ICONS_TORBROWSER);
-  if (id == wxART_TORPROJECT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TORPROJECT))  
       return wxString(SVG_SIMPLE_ICONS_TORPROJECT);
-  if (id == wxART_TOSHIBA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TOSHIBA))  
       return wxString(SVG_SIMPLE_ICONS_TOSHIBA);
-  if (id == wxART_TOURBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TOURBOX))  
       return wxString(SVG_SIMPLE_ICONS_TOURBOX);
-  if (id == wxART_TOYOTA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TOYOTA))  
       return wxString(SVG_SIMPLE_ICONS_TOYOTA);
-  if (id == wxART_TPLINK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TPLINK))  
       return wxString(SVG_SIMPLE_ICONS_TPLINK);
-  if (id == wxART_TQDM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TQDM))  
       return wxString(SVG_SIMPLE_ICONS_TQDM);
-  if (id == wxART_TRAEFIKMESH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRAEFIKMESH))  
       return wxString(SVG_SIMPLE_ICONS_TRAEFIKMESH);
-  if (id == wxART_TRAEFIKPROXY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRAEFIKPROXY))  
       return wxString(SVG_SIMPLE_ICONS_TRAEFIKPROXY);
-  if (id == wxART_TRAILFORKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRAILFORKS))  
       return wxString(SVG_SIMPLE_ICONS_TRAILFORKS);
-  if (id == wxART_TRAINERROAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRAINERROAD))  
       return wxString(SVG_SIMPLE_ICONS_TRAINERROAD);
-  if (id == wxART_TRAKT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRAKT))  
       return wxString(SVG_SIMPLE_ICONS_TRAKT);
-  if (id == wxART_TRANSPORTFORIRELAND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRANSPORTFORIRELAND))  
       return wxString(SVG_SIMPLE_ICONS_TRANSPORTFORIRELAND);
-  if (id == wxART_TRANSPORTFORLONDON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRANSPORTFORLONDON))  
       return wxString(SVG_SIMPLE_ICONS_TRANSPORTFORLONDON);
-  if (id == wxART_TRAVISCI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRAVISCI))  
       return wxString(SVG_SIMPLE_ICONS_TRAVISCI);
-  if (id == wxART_TREEHOUSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TREEHOUSE))  
       return wxString(SVG_SIMPLE_ICONS_TREEHOUSE);
-  if (id == wxART_TRELLO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRELLO))  
       return wxString(SVG_SIMPLE_ICONS_TRELLO);
-  if (id == wxART_TRENDMICRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRENDMICRO))  
       return wxString(SVG_SIMPLE_ICONS_TRENDMICRO);
-  if (id == wxART_TREYARCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TREYARCH))  
       return wxString(SVG_SIMPLE_ICONS_TREYARCH);
-  if (id == wxART_TRILIUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRILIUM))  
       return wxString(SVG_SIMPLE_ICONS_TRILIUM);
-  if (id == wxART_TRILLER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRILLER))  
       return wxString(SVG_SIMPLE_ICONS_TRILLER);
-  if (id == wxART_TRINO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRINO))  
       return wxString(SVG_SIMPLE_ICONS_TRINO);
-  if (id == wxART_TRIPADVISOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRIPADVISOR))  
       return wxString(SVG_SIMPLE_ICONS_TRIPADVISOR);
-  if (id == wxART_TRIPDOTCOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRIPDOTCOM))  
       return wxString(SVG_SIMPLE_ICONS_TRIPDOTCOM);
-  if (id == wxART_TRIVY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRIVY))  
       return wxString(SVG_SIMPLE_ICONS_TRIVY);
-  if (id == wxART_TROVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TROVE))  
       return wxString(SVG_SIMPLE_ICONS_TROVE);
-  if (id == wxART_TRPC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRPC))  
       return wxString(SVG_SIMPLE_ICONS_TRPC);
-  if (id == wxART_TRUENAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRUENAS))  
       return wxString(SVG_SIMPLE_ICONS_TRUENAS);
-  if (id == wxART_TRULIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRULIA))  
       return wxString(SVG_SIMPLE_ICONS_TRULIA);
-  if (id == wxART_TRUSTEDSHOPS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRUSTEDSHOPS))  
       return wxString(SVG_SIMPLE_ICONS_TRUSTEDSHOPS);
-  if (id == wxART_TRUSTPILOT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRUSTPILOT))  
       return wxString(SVG_SIMPLE_ICONS_TRUSTPILOT);
-  if (id == wxART_TRYHACKME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRYHACKME))  
       return wxString(SVG_SIMPLE_ICONS_TRYHACKME);
-  if (id == wxART_TRYITONLINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TRYITONLINE))  
       return wxString(SVG_SIMPLE_ICONS_TRYITONLINE);
-  if (id == wxART_TSNODE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TSNODE))  
       return wxString(SVG_SIMPLE_ICONS_TSNODE);
-  if (id == wxART_TUBI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TUBI))  
       return wxString(SVG_SIMPLE_ICONS_TUBI);
-  if (id == wxART_TUI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TUI))  
       return wxString(SVG_SIMPLE_ICONS_TUI);
-  if (id == wxART_TUMBLR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TUMBLR))  
       return wxString(SVG_SIMPLE_ICONS_TUMBLR);
-  if (id == wxART_TUNEIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TUNEIN))  
       return wxString(SVG_SIMPLE_ICONS_TUNEIN);
-  if (id == wxART_TURBO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TURBO))  
       return wxString(SVG_SIMPLE_ICONS_TURBO);
-  if (id == wxART_TURBOREPO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TURBOREPO))  
       return wxString(SVG_SIMPLE_ICONS_TURBOREPO);
-  if (id == wxART_TURBOSQUID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TURBOSQUID))  
       return wxString(SVG_SIMPLE_ICONS_TURBOSQUID);
-  if (id == wxART_TURKISHAIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TURKISHAIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_TURKISHAIRLINES);
-  if (id == wxART_TURSO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TURSO))  
       return wxString(SVG_SIMPLE_ICONS_TURSO);
-  if (id == wxART_TUTANOTA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TUTANOTA))  
       return wxString(SVG_SIMPLE_ICONS_TUTANOTA);
-  if (id == wxART_TVTIME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TVTIME))  
       return wxString(SVG_SIMPLE_ICONS_TVTIME);
-  if (id == wxART_TWILIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TWILIO))  
       return wxString(SVG_SIMPLE_ICONS_TWILIO);
-  if (id == wxART_TWITCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TWITCH))  
       return wxString(SVG_SIMPLE_ICONS_TWITCH);
-  if (id == wxART_TWITTER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TWITTER))  
       return wxString(SVG_SIMPLE_ICONS_TWITTER);
-  if (id == wxART_TWOO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TWOO))  
       return wxString(SVG_SIMPLE_ICONS_TWOO);
-  if (id == wxART_TYPEFORM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TYPEFORM))  
       return wxString(SVG_SIMPLE_ICONS_TYPEFORM);
-  if (id == wxART_TYPESCRIPT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TYPESCRIPT))  
       return wxString(SVG_SIMPLE_ICONS_TYPESCRIPT);
-  if (id == wxART_TYPO3)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_TYPO3))  
       return wxString(SVG_SIMPLE_ICONS_TYPO3);
-  if (id == wxART_UBER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UBER))  
       return wxString(SVG_SIMPLE_ICONS_UBER);
-  if (id == wxART_UBEREATS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UBEREATS))  
       return wxString(SVG_SIMPLE_ICONS_UBEREATS);
-  if (id == wxART_UBIQUITI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UBIQUITI))  
       return wxString(SVG_SIMPLE_ICONS_UBIQUITI);
-  if (id == wxART_UBISOFT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UBISOFT))  
       return wxString(SVG_SIMPLE_ICONS_UBISOFT);
-  if (id == wxART_UBLOCKORIGIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UBLOCKORIGIN))  
       return wxString(SVG_SIMPLE_ICONS_UBLOCKORIGIN);
-  if (id == wxART_UBUNTU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UBUNTU))  
       return wxString(SVG_SIMPLE_ICONS_UBUNTU);
-  if (id == wxART_UBUNTUMATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UBUNTUMATE))  
       return wxString(SVG_SIMPLE_ICONS_UBUNTUMATE);
-  if (id == wxART_UDACITY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UDACITY))  
       return wxString(SVG_SIMPLE_ICONS_UDACITY);
-  if (id == wxART_UDEMY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UDEMY))  
       return wxString(SVG_SIMPLE_ICONS_UDEMY);
-  if (id == wxART_UFC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UFC))  
       return wxString(SVG_SIMPLE_ICONS_UFC);
-  if (id == wxART_UIKIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UIKIT))  
       return wxString(SVG_SIMPLE_ICONS_UIKIT);
-  if (id == wxART_ULULE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ULULE))  
       return wxString(SVG_SIMPLE_ICONS_ULULE);
-  if (id == wxART_UMAMI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UMAMI))  
       return wxString(SVG_SIMPLE_ICONS_UMAMI);
-  if (id == wxART_UMBRACO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UMBRACO))  
       return wxString(SVG_SIMPLE_ICONS_UMBRACO);
-  if (id == wxART_UML)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UML))  
       return wxString(SVG_SIMPLE_ICONS_UML);
-  if (id == wxART_UNACADEMY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNACADEMY))  
       return wxString(SVG_SIMPLE_ICONS_UNACADEMY);
-  if (id == wxART_UNDERARMOUR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNDERARMOUR))  
       return wxString(SVG_SIMPLE_ICONS_UNDERARMOUR);
-  if (id == wxART_UNDERSCOREDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNDERSCOREDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_UNDERSCOREDOTJS);
-  if (id == wxART_UNDERTALE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNDERTALE))  
       return wxString(SVG_SIMPLE_ICONS_UNDERTALE);
-  if (id == wxART_UNICODE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNICODE))  
       return wxString(SVG_SIMPLE_ICONS_UNICODE);
-  if (id == wxART_UNILEVER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNILEVER))  
       return wxString(SVG_SIMPLE_ICONS_UNILEVER);
-  if (id == wxART_UNITEDAIRLINES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNITEDAIRLINES))  
       return wxString(SVG_SIMPLE_ICONS_UNITEDAIRLINES);
-  if (id == wxART_UNITEDNATIONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNITEDNATIONS))  
       return wxString(SVG_SIMPLE_ICONS_UNITEDNATIONS);
-  if (id == wxART_UNITY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNITY))  
       return wxString(SVG_SIMPLE_ICONS_UNITY);
-  if (id == wxART_UNLICENSE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNLICENSE))  
       return wxString(SVG_SIMPLE_ICONS_UNLICENSE);
-  if (id == wxART_UNO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNO))  
       return wxString(SVG_SIMPLE_ICONS_UNO);
-  if (id == wxART_UNOCSS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNOCSS))  
       return wxString(SVG_SIMPLE_ICONS_UNOCSS);
-  if (id == wxART_UNRAID)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNRAID))  
       return wxString(SVG_SIMPLE_ICONS_UNRAID);
-  if (id == wxART_UNREALENGINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNREALENGINE))  
       return wxString(SVG_SIMPLE_ICONS_UNREALENGINE);
-  if (id == wxART_UNSPLASH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNSPLASH))  
       return wxString(SVG_SIMPLE_ICONS_UNSPLASH);
-  if (id == wxART_UNTANGLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNTANGLE))  
       return wxString(SVG_SIMPLE_ICONS_UNTANGLE);
-  if (id == wxART_UNTAPPD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UNTAPPD))  
       return wxString(SVG_SIMPLE_ICONS_UNTAPPD);
-  if (id == wxART_UPCLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UPCLOUD))  
       return wxString(SVG_SIMPLE_ICONS_UPCLOUD);
-  if (id == wxART_UPLABS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UPLABS))  
       return wxString(SVG_SIMPLE_ICONS_UPLABS);
-  if (id == wxART_UPLOADED)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UPLOADED))  
       return wxString(SVG_SIMPLE_ICONS_UPLOADED);
-  if (id == wxART_UPS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UPS))  
       return wxString(SVG_SIMPLE_ICONS_UPS);
-  if (id == wxART_UPSTASH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UPSTASH))  
       return wxString(SVG_SIMPLE_ICONS_UPSTASH);
-  if (id == wxART_UPTIMEKUMA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UPTIMEKUMA))  
       return wxString(SVG_SIMPLE_ICONS_UPTIMEKUMA);
-  if (id == wxART_UPTOBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UPTOBOX))  
       return wxString(SVG_SIMPLE_ICONS_UPTOBOX);
-  if (id == wxART_UPWORK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UPWORK))  
       return wxString(SVG_SIMPLE_ICONS_UPWORK);
-  if (id == wxART_USPS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_USPS))  
       return wxString(SVG_SIMPLE_ICONS_USPS);
-  if (id == wxART_UTORRENT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_UTORRENT))  
       return wxString(SVG_SIMPLE_ICONS_UTORRENT);
-  if (id == wxART_V)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_V))  
       return wxString(SVG_SIMPLE_ICONS_V);
-  if (id == wxART_V2EX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_V2EX))  
       return wxString(SVG_SIMPLE_ICONS_V2EX);
-  if (id == wxART_V8)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_V8))  
       return wxString(SVG_SIMPLE_ICONS_V8);
-  if (id == wxART_VAADIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VAADIN))  
       return wxString(SVG_SIMPLE_ICONS_VAADIN);
-  if (id == wxART_VAGRANT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VAGRANT))  
       return wxString(SVG_SIMPLE_ICONS_VAGRANT);
-  if (id == wxART_VALA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VALA))  
       return wxString(SVG_SIMPLE_ICONS_VALA);
-  if (id == wxART_VALORANT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VALORANT))  
       return wxString(SVG_SIMPLE_ICONS_VALORANT);
-  if (id == wxART_VALVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VALVE))  
       return wxString(SVG_SIMPLE_ICONS_VALVE);
-  if (id == wxART_VAPOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VAPOR))  
       return wxString(SVG_SIMPLE_ICONS_VAPOR);
-  if (id == wxART_VAULT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VAULT))  
       return wxString(SVG_SIMPLE_ICONS_VAULT);
-  if (id == wxART_VAULTWARDEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VAULTWARDEN))  
       return wxString(SVG_SIMPLE_ICONS_VAULTWARDEN);
-  if (id == wxART_VAUXHALL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VAUXHALL))  
       return wxString(SVG_SIMPLE_ICONS_VAUXHALL);
-  if (id == wxART_VBULLETIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VBULLETIN))  
       return wxString(SVG_SIMPLE_ICONS_VBULLETIN);
-  if (id == wxART_VECTORLOGOZONE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VECTORLOGOZONE))  
       return wxString(SVG_SIMPLE_ICONS_VECTORLOGOZONE);
-  if (id == wxART_VECTORWORKS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VECTORWORKS))  
       return wxString(SVG_SIMPLE_ICONS_VECTORWORKS);
-  if (id == wxART_VEEAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VEEAM))  
       return wxString(SVG_SIMPLE_ICONS_VEEAM);
-  if (id == wxART_VEEPEE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VEEPEE))  
       return wxString(SVG_SIMPLE_ICONS_VEEPEE);
-  if (id == wxART_VEGA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VEGA))  
       return wxString(SVG_SIMPLE_ICONS_VEGA);
-  if (id == wxART_VELOG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VELOG))  
       return wxString(SVG_SIMPLE_ICONS_VELOG);
-  if (id == wxART_VENMO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VENMO))  
       return wxString(SVG_SIMPLE_ICONS_VENMO);
-  if (id == wxART_VERCEL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VERCEL))  
       return wxString(SVG_SIMPLE_ICONS_VERCEL);
-  if (id == wxART_VERDACCIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VERDACCIO))  
       return wxString(SVG_SIMPLE_ICONS_VERDACCIO);
-  if (id == wxART_VERITAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VERITAS))  
       return wxString(SVG_SIMPLE_ICONS_VERITAS);
-  if (id == wxART_VERIZON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VERIZON))  
       return wxString(SVG_SIMPLE_ICONS_VERIZON);
-  if (id == wxART_VESPA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VESPA))  
       return wxString(SVG_SIMPLE_ICONS_VESPA);
-  if (id == wxART_VEXXHOST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VEXXHOST))  
       return wxString(SVG_SIMPLE_ICONS_VEXXHOST);
-  if (id == wxART_VFAIRS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VFAIRS))  
       return wxString(SVG_SIMPLE_ICONS_VFAIRS);
-  if (id == wxART_VIADEO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIADEO))  
       return wxString(SVG_SIMPLE_ICONS_VIADEO);
-  if (id == wxART_VIAPLAY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIAPLAY))  
       return wxString(SVG_SIMPLE_ICONS_VIAPLAY);
-  if (id == wxART_VIBER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIBER))  
       return wxString(SVG_SIMPLE_ICONS_VIBER);
-  if (id == wxART_VIM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIM))  
       return wxString(SVG_SIMPLE_ICONS_VIM);
-  if (id == wxART_VIMEO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIMEO))  
       return wxString(SVG_SIMPLE_ICONS_VIMEO);
-  if (id == wxART_VIMEOLIVESTREAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIMEOLIVESTREAM))  
       return wxString(SVG_SIMPLE_ICONS_VIMEOLIVESTREAM);
-  if (id == wxART_VIRGIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIRGIN))  
       return wxString(SVG_SIMPLE_ICONS_VIRGIN);
-  if (id == wxART_VIRGINMEDIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIRGINMEDIA))  
       return wxString(SVG_SIMPLE_ICONS_VIRGINMEDIA);
-  if (id == wxART_VIRTUALBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIRTUALBOX))  
       return wxString(SVG_SIMPLE_ICONS_VIRTUALBOX);
-  if (id == wxART_VIRUSTOTAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIRUSTOTAL))  
       return wxString(SVG_SIMPLE_ICONS_VIRUSTOTAL);
-  if (id == wxART_VISA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VISA))  
       return wxString(SVG_SIMPLE_ICONS_VISA);
-  if (id == wxART_VISUALBASIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VISUALBASIC))  
       return wxString(SVG_SIMPLE_ICONS_VISUALBASIC);
-  if (id == wxART_VISUALSTUDIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VISUALSTUDIO))  
       return wxString(SVG_SIMPLE_ICONS_VISUALSTUDIO);
-  if (id == wxART_VISUALSTUDIOCODE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VISUALSTUDIOCODE))  
       return wxString(SVG_SIMPLE_ICONS_VISUALSTUDIOCODE);
-  if (id == wxART_VITE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VITE))  
       return wxString(SVG_SIMPLE_ICONS_VITE);
-  if (id == wxART_VITESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VITESS))  
       return wxString(SVG_SIMPLE_ICONS_VITESS);
-  if (id == wxART_VITEST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VITEST))  
       return wxString(SVG_SIMPLE_ICONS_VITEST);
-  if (id == wxART_VIVALDI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIVALDI))  
       return wxString(SVG_SIMPLE_ICONS_VIVALDI);
-  if (id == wxART_VIVAWALLET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIVAWALLET))  
       return wxString(SVG_SIMPLE_ICONS_VIVAWALLET);
-  if (id == wxART_VIVINO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VIVINO))  
       return wxString(SVG_SIMPLE_ICONS_VIVINO);
-  if (id == wxART_VK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VK))  
       return wxString(SVG_SIMPLE_ICONS_VK);
-  if (id == wxART_VLCMEDIAPLAYER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VLCMEDIAPLAYER))  
       return wxString(SVG_SIMPLE_ICONS_VLCMEDIAPLAYER);
-  if (id == wxART_VMWARE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VMWARE))  
       return wxString(SVG_SIMPLE_ICONS_VMWARE);
-  if (id == wxART_VODAFONE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VODAFONE))  
       return wxString(SVG_SIMPLE_ICONS_VODAFONE);
-  if (id == wxART_VOIDLINUX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VOIDLINUX))  
       return wxString(SVG_SIMPLE_ICONS_VOIDLINUX);
-  if (id == wxART_VOIPDOTMS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VOIPDOTMS))  
       return wxString(SVG_SIMPLE_ICONS_VOIPDOTMS);
-  if (id == wxART_VOLKSWAGEN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VOLKSWAGEN))  
       return wxString(SVG_SIMPLE_ICONS_VOLKSWAGEN);
-  if (id == wxART_VOLVO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VOLVO))  
       return wxString(SVG_SIMPLE_ICONS_VOLVO);
-  if (id == wxART_VONAGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VONAGE))  
       return wxString(SVG_SIMPLE_ICONS_VONAGE);
-  if (id == wxART_VORONDESIGN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VORONDESIGN))  
       return wxString(SVG_SIMPLE_ICONS_VORONDESIGN);
-  if (id == wxART_VOWPALWABBIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VOWPALWABBIT))  
       return wxString(SVG_SIMPLE_ICONS_VOWPALWABBIT);
-  if (id == wxART_VOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VOX))  
       return wxString(SVG_SIMPLE_ICONS_VOX);
-  if (id == wxART_VSCO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VSCO))  
       return wxString(SVG_SIMPLE_ICONS_VSCO);
-  if (id == wxART_VSCODIUM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VSCODIUM))  
       return wxString(SVG_SIMPLE_ICONS_VSCODIUM);
-  if (id == wxART_VTEX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VTEX))  
       return wxString(SVG_SIMPLE_ICONS_VTEX);
-  if (id == wxART_VUEDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VUEDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_VUEDOTJS);
-  if (id == wxART_VUETIFY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VUETIFY))  
       return wxString(SVG_SIMPLE_ICONS_VUETIFY);
-  if (id == wxART_VULKAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VULKAN))  
       return wxString(SVG_SIMPLE_ICONS_VULKAN);
-  if (id == wxART_VULTR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VULTR))  
       return wxString(SVG_SIMPLE_ICONS_VULTR);
-  if (id == wxART_VYOND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_VYOND))  
       return wxString(SVG_SIMPLE_ICONS_VYOND);
-  if (id == wxART_W3C)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_W3C))  
       return wxString(SVG_SIMPLE_ICONS_W3C);
-  if (id == wxART_WACOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WACOM))  
       return wxString(SVG_SIMPLE_ICONS_WACOM);
-  if (id == wxART_WAGTAIL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WAGTAIL))  
       return wxString(SVG_SIMPLE_ICONS_WAGTAIL);
-  if (id == wxART_WAILS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WAILS))  
       return wxString(SVG_SIMPLE_ICONS_WAILS);
-  if (id == wxART_WAKATIME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WAKATIME))  
       return wxString(SVG_SIMPLE_ICONS_WAKATIME);
-  if (id == wxART_WALKMAN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WALKMAN))  
       return wxString(SVG_SIMPLE_ICONS_WALKMAN);
-  if (id == wxART_WALLABAG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WALLABAG))  
       return wxString(SVG_SIMPLE_ICONS_WALLABAG);
-  if (id == wxART_WALLETCONNECT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WALLETCONNECT))  
       return wxString(SVG_SIMPLE_ICONS_WALLETCONNECT);
-  if (id == wxART_WALMART)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WALMART))  
       return wxString(SVG_SIMPLE_ICONS_WALMART);
-  if (id == wxART_WANTEDLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WANTEDLY))  
       return wxString(SVG_SIMPLE_ICONS_WANTEDLY);
-  if (id == wxART_WAPPALYZER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WAPPALYZER))  
       return wxString(SVG_SIMPLE_ICONS_WAPPALYZER);
-  if (id == wxART_WARNERBROS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WARNERBROS))  
       return wxString(SVG_SIMPLE_ICONS_WARNERBROS);
-  if (id == wxART_WARP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WARP))  
       return wxString(SVG_SIMPLE_ICONS_WARP);
-  if (id == wxART_WASABI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WASABI))  
       return wxString(SVG_SIMPLE_ICONS_WASABI);
-  if (id == wxART_WASMCLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WASMCLOUD))  
       return wxString(SVG_SIMPLE_ICONS_WASMCLOUD);
-  if (id == wxART_WASMER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WASMER))  
       return wxString(SVG_SIMPLE_ICONS_WASMER);
-  if (id == wxART_WATTPAD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WATTPAD))  
       return wxString(SVG_SIMPLE_ICONS_WATTPAD);
-  if (id == wxART_WAYLAND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WAYLAND))  
       return wxString(SVG_SIMPLE_ICONS_WAYLAND);
-  if (id == wxART_WAZE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WAZE))  
       return wxString(SVG_SIMPLE_ICONS_WAZE);
-  if (id == wxART_WEAROS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEAROS))  
       return wxString(SVG_SIMPLE_ICONS_WEAROS);
-  if (id == wxART_WEASYL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEASYL))  
       return wxString(SVG_SIMPLE_ICONS_WEASYL);
-  if (id == wxART_WEB3DOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEB3DOTJS))  
       return wxString(SVG_SIMPLE_ICONS_WEB3DOTJS);
-  if (id == wxART_WEBASSEMBLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBASSEMBLY))  
       return wxString(SVG_SIMPLE_ICONS_WEBASSEMBLY);
-  if (id == wxART_WEBAUTHN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBAUTHN))  
       return wxString(SVG_SIMPLE_ICONS_WEBAUTHN);
-  if (id == wxART_WEBCOMPONENTSDOTORG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBCOMPONENTSDOTORG))  
       return wxString(SVG_SIMPLE_ICONS_WEBCOMPONENTSDOTORG);
-  if (id == wxART_WEBDRIVERIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBDRIVERIO))  
       return wxString(SVG_SIMPLE_ICONS_WEBDRIVERIO);
-  if (id == wxART_WEBFLOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBFLOW))  
       return wxString(SVG_SIMPLE_ICONS_WEBFLOW);
-  if (id == wxART_WEBGL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBGL))  
       return wxString(SVG_SIMPLE_ICONS_WEBGL);
-  if (id == wxART_WEBHINT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBHINT))  
       return wxString(SVG_SIMPLE_ICONS_WEBHINT);
-  if (id == wxART_WEBLATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBLATE))  
       return wxString(SVG_SIMPLE_ICONS_WEBLATE);
-  if (id == wxART_WEBMIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBMIN))  
       return wxString(SVG_SIMPLE_ICONS_WEBMIN);
-  if (id == wxART_WEBMONEY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBMONEY))  
       return wxString(SVG_SIMPLE_ICONS_WEBMONEY);
-  if (id == wxART_WEBPACK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBPACK))  
       return wxString(SVG_SIMPLE_ICONS_WEBPACK);
-  if (id == wxART_WEBRTC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBRTC))  
       return wxString(SVG_SIMPLE_ICONS_WEBRTC);
-  if (id == wxART_WEBSTORM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBSTORM))  
       return wxString(SVG_SIMPLE_ICONS_WEBSTORM);
-  if (id == wxART_WEBTOON)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBTOON))  
       return wxString(SVG_SIMPLE_ICONS_WEBTOON);
-  if (id == wxART_WEBTREES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEBTREES))  
       return wxString(SVG_SIMPLE_ICONS_WEBTREES);
-  if (id == wxART_WECHAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WECHAT))  
       return wxString(SVG_SIMPLE_ICONS_WECHAT);
-  if (id == wxART_WEGAME)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEGAME))  
       return wxString(SVG_SIMPLE_ICONS_WEGAME);
-  if (id == wxART_WEIGHTSANDBIASES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEIGHTSANDBIASES))  
       return wxString(SVG_SIMPLE_ICONS_WEIGHTSANDBIASES);
-  if (id == wxART_WELCOMETOTHEJUNGLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WELCOMETOTHEJUNGLE))  
       return wxString(SVG_SIMPLE_ICONS_WELCOMETOTHEJUNGLE);
-  if (id == wxART_WELLFOUND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WELLFOUND))  
       return wxString(SVG_SIMPLE_ICONS_WELLFOUND);
-  if (id == wxART_WEMO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WEMO))  
       return wxString(SVG_SIMPLE_ICONS_WEMO);
-  if (id == wxART_WESTERNDIGITAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WESTERNDIGITAL))  
       return wxString(SVG_SIMPLE_ICONS_WESTERNDIGITAL);
-  if (id == wxART_WETRANSFER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WETRANSFER))  
       return wxString(SVG_SIMPLE_ICONS_WETRANSFER);
-  if (id == wxART_WHATSAPP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WHATSAPP))  
       return wxString(SVG_SIMPLE_ICONS_WHATSAPP);
-  if (id == wxART_WHENIWORK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WHENIWORK))  
       return wxString(SVG_SIMPLE_ICONS_WHENIWORK);
-  if (id == wxART_WHITESOURCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WHITESOURCE))  
       return wxString(SVG_SIMPLE_ICONS_WHITESOURCE);
-  if (id == wxART_WII)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WII))  
       return wxString(SVG_SIMPLE_ICONS_WII);
-  if (id == wxART_WIIU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIIU))  
       return wxString(SVG_SIMPLE_ICONS_WIIU);
-  if (id == wxART_WIKIDATA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIKIDATA))  
       return wxString(SVG_SIMPLE_ICONS_WIKIDATA);
-  if (id == wxART_WIKIDOTGG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIKIDOTGG))  
       return wxString(SVG_SIMPLE_ICONS_WIKIDOTGG);
-  if (id == wxART_WIKIDOTJS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIKIDOTJS))  
       return wxString(SVG_SIMPLE_ICONS_WIKIDOTJS);
-  if (id == wxART_WIKIMEDIACOMMONS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIKIMEDIACOMMONS))  
       return wxString(SVG_SIMPLE_ICONS_WIKIMEDIACOMMONS);
-  if (id == wxART_WIKIPEDIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIKIPEDIA))  
       return wxString(SVG_SIMPLE_ICONS_WIKIPEDIA);
-  if (id == wxART_WIKIQUOTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIKIQUOTE))  
       return wxString(SVG_SIMPLE_ICONS_WIKIQUOTE);
-  if (id == wxART_WIKIVOYAGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIKIVOYAGE))  
       return wxString(SVG_SIMPLE_ICONS_WIKIVOYAGE);
-  if (id == wxART_WINAMP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WINAMP))  
       return wxString(SVG_SIMPLE_ICONS_WINAMP);
-  if (id == wxART_WINDICSS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WINDICSS))  
       return wxString(SVG_SIMPLE_ICONS_WINDICSS);
-  if (id == wxART_WINDOWS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WINDOWS))  
       return wxString(SVG_SIMPLE_ICONS_WINDOWS);
-  if (id == wxART_WINDOWS10)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WINDOWS10))  
       return wxString(SVG_SIMPLE_ICONS_WINDOWS10);
-  if (id == wxART_WINDOWS11)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WINDOWS11))  
       return wxString(SVG_SIMPLE_ICONS_WINDOWS11);
-  if (id == wxART_WINDOWS95)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WINDOWS95))  
       return wxString(SVG_SIMPLE_ICONS_WINDOWS95);
-  if (id == wxART_WINDOWSTERMINAL)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WINDOWSTERMINAL))  
       return wxString(SVG_SIMPLE_ICONS_WINDOWSTERMINAL);
-  if (id == wxART_WINDOWSXP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WINDOWSXP))  
       return wxString(SVG_SIMPLE_ICONS_WINDOWSXP);
-  if (id == wxART_WINMATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WINMATE))  
       return wxString(SVG_SIMPLE_ICONS_WINMATE);
-  if (id == wxART_WIPRO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIPRO))  
       return wxString(SVG_SIMPLE_ICONS_WIPRO);
-  if (id == wxART_WIRE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIRE))  
       return wxString(SVG_SIMPLE_ICONS_WIRE);
-  if (id == wxART_WIREGUARD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIREGUARD))  
       return wxString(SVG_SIMPLE_ICONS_WIREGUARD);
-  if (id == wxART_WIRESHARK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIRESHARK))  
       return wxString(SVG_SIMPLE_ICONS_WIRESHARK);
-  if (id == wxART_WISE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WISE))  
       return wxString(SVG_SIMPLE_ICONS_WISE);
-  if (id == wxART_WISH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WISH))  
       return wxString(SVG_SIMPLE_ICONS_WISH);
-  if (id == wxART_WISTIA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WISTIA))  
       return wxString(SVG_SIMPLE_ICONS_WISTIA);
-  if (id == wxART_WIX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIX))  
       return wxString(SVG_SIMPLE_ICONS_WIX);
-  if (id == wxART_WIZZAIR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WIZZAIR))  
       return wxString(SVG_SIMPLE_ICONS_WIZZAIR);
-  if (id == wxART_WOLFRAM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WOLFRAM))  
       return wxString(SVG_SIMPLE_ICONS_WOLFRAM);
-  if (id == wxART_WOLFRAMLANGUAGE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WOLFRAMLANGUAGE))  
       return wxString(SVG_SIMPLE_ICONS_WOLFRAMLANGUAGE);
-  if (id == wxART_WOLFRAMMATHEMATICA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WOLFRAMMATHEMATICA))  
       return wxString(SVG_SIMPLE_ICONS_WOLFRAMMATHEMATICA);
-  if (id == wxART_WOO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WOO))  
       return wxString(SVG_SIMPLE_ICONS_WOO);
-  if (id == wxART_WOOCOMMERCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WOOCOMMERCE))  
       return wxString(SVG_SIMPLE_ICONS_WOOCOMMERCE);
-  if (id == wxART_WORDPRESS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WORDPRESS))  
       return wxString(SVG_SIMPLE_ICONS_WORDPRESS);
-  if (id == wxART_WORKPLACE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WORKPLACE))  
       return wxString(SVG_SIMPLE_ICONS_WORKPLACE);
-  if (id == wxART_WORLDHEALTHORGANIZATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WORLDHEALTHORGANIZATION))  
       return wxString(SVG_SIMPLE_ICONS_WORLDHEALTHORGANIZATION);
-  if (id == wxART_WPENGINE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WPENGINE))  
       return wxString(SVG_SIMPLE_ICONS_WPENGINE);
-  if (id == wxART_WPEXPLORER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WPEXPLORER))  
       return wxString(SVG_SIMPLE_ICONS_WPEXPLORER);
-  if (id == wxART_WPROCKET)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WPROCKET))  
       return wxString(SVG_SIMPLE_ICONS_WPROCKET);
-  if (id == wxART_WRITEDOTAS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WRITEDOTAS))  
       return wxString(SVG_SIMPLE_ICONS_WRITEDOTAS);
-  if (id == wxART_WWE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WWE))  
       return wxString(SVG_SIMPLE_ICONS_WWE);
-  if (id == wxART_WWISE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_WWISE))  
       return wxString(SVG_SIMPLE_ICONS_WWISE);
-  if (id == wxART_X)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_X))  
       return wxString(SVG_SIMPLE_ICONS_X);
-  if (id == wxART_XAMARIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XAMARIN))  
       return wxString(SVG_SIMPLE_ICONS_XAMARIN);
-  if (id == wxART_XAML)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XAML))  
       return wxString(SVG_SIMPLE_ICONS_XAML);
-  if (id == wxART_XAMPP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XAMPP))  
       return wxString(SVG_SIMPLE_ICONS_XAMPP);
-  if (id == wxART_XBOX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XBOX))  
       return wxString(SVG_SIMPLE_ICONS_XBOX);
-  if (id == wxART_XCODE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XCODE))  
       return wxString(SVG_SIMPLE_ICONS_XCODE);
-  if (id == wxART_XDADEVELOPERS)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XDADEVELOPERS))  
       return wxString(SVG_SIMPLE_ICONS_XDADEVELOPERS);
-  if (id == wxART_XDOTORG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XDOTORG))  
       return wxString(SVG_SIMPLE_ICONS_XDOTORG);
-  if (id == wxART_XERO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XERO))  
       return wxString(SVG_SIMPLE_ICONS_XERO);
-  if (id == wxART_XFCE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XFCE))  
       return wxString(SVG_SIMPLE_ICONS_XFCE);
-  if (id == wxART_XIAOMI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XIAOMI))  
       return wxString(SVG_SIMPLE_ICONS_XIAOMI);
-  if (id == wxART_XILINX)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XILINX))  
       return wxString(SVG_SIMPLE_ICONS_XILINX);
-  if (id == wxART_XING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XING))  
       return wxString(SVG_SIMPLE_ICONS_XING);
-  if (id == wxART_XMPP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XMPP))  
       return wxString(SVG_SIMPLE_ICONS_XMPP);
-  if (id == wxART_XO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XO))  
       return wxString(SVG_SIMPLE_ICONS_XO);
-  if (id == wxART_XRP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XRP))  
       return wxString(SVG_SIMPLE_ICONS_XRP);
-  if (id == wxART_XSPLIT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XSPLIT))  
       return wxString(SVG_SIMPLE_ICONS_XSPLIT);
-  if (id == wxART_XSTATE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_XSTATE))  
       return wxString(SVG_SIMPLE_ICONS_XSTATE);
-  if (id == wxART_YAHOO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YAHOO))  
       return wxString(SVG_SIMPLE_ICONS_YAHOO);
-  if (id == wxART_YALE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YALE))  
       return wxString(SVG_SIMPLE_ICONS_YALE);
-  if (id == wxART_YAMAHACORPORATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YAMAHACORPORATION))  
       return wxString(SVG_SIMPLE_ICONS_YAMAHACORPORATION);
-  if (id == wxART_YAMAHAMOTORCORPORATION)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YAMAHAMOTORCORPORATION))  
       return wxString(SVG_SIMPLE_ICONS_YAMAHAMOTORCORPORATION);
-  if (id == wxART_YAML)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YAML))  
       return wxString(SVG_SIMPLE_ICONS_YAML);
-  if (id == wxART_YAMMER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YAMMER))  
       return wxString(SVG_SIMPLE_ICONS_YAMMER);
-  if (id == wxART_YANDEXCLOUD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YANDEXCLOUD))  
       return wxString(SVG_SIMPLE_ICONS_YANDEXCLOUD);
-  if (id == wxART_YARN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YARN))  
       return wxString(SVG_SIMPLE_ICONS_YARN);
-  if (id == wxART_YCOMBINATOR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YCOMBINATOR))  
       return wxString(SVG_SIMPLE_ICONS_YCOMBINATOR);
-  if (id == wxART_YELP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YELP))  
       return wxString(SVG_SIMPLE_ICONS_YELP);
-  if (id == wxART_YETI)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YETI))  
       return wxString(SVG_SIMPLE_ICONS_YETI);
-  if (id == wxART_YOAST)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YOAST))  
       return wxString(SVG_SIMPLE_ICONS_YOAST);
-  if (id == wxART_YOLO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YOLO))  
       return wxString(SVG_SIMPLE_ICONS_YOLO);
-  if (id == wxART_YOURTRAVELDOTTV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YOURTRAVELDOTTV))  
       return wxString(SVG_SIMPLE_ICONS_YOURTRAVELDOTTV);
-  if (id == wxART_YOUTUBE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YOUTUBE))  
       return wxString(SVG_SIMPLE_ICONS_YOUTUBE);
-  if (id == wxART_YOUTUBEGAMING)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YOUTUBEGAMING))  
       return wxString(SVG_SIMPLE_ICONS_YOUTUBEGAMING);
-  if (id == wxART_YOUTUBEMUSIC)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YOUTUBEMUSIC))  
       return wxString(SVG_SIMPLE_ICONS_YOUTUBEMUSIC);
-  if (id == wxART_YOUTUBESTUDIO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YOUTUBESTUDIO))  
       return wxString(SVG_SIMPLE_ICONS_YOUTUBESTUDIO);
-  if (id == wxART_YOUTUBETV)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YOUTUBETV))  
       return wxString(SVG_SIMPLE_ICONS_YOUTUBETV);
-  if (id == wxART_YUBICO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_YUBICO))  
       return wxString(SVG_SIMPLE_ICONS_YUBICO);
-  if (id == wxART_ZABKA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZABKA))  
       return wxString(SVG_SIMPLE_ICONS_ZABKA);
-  if (id == wxART_ZALANDO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZALANDO))  
       return wxString(SVG_SIMPLE_ICONS_ZALANDO);
-  if (id == wxART_ZALO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZALO))  
       return wxString(SVG_SIMPLE_ICONS_ZALO);
-  if (id == wxART_ZAPIER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZAPIER))  
       return wxString(SVG_SIMPLE_ICONS_ZAPIER);
-  if (id == wxART_ZARA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZARA))  
       return wxString(SVG_SIMPLE_ICONS_ZARA);
-  if (id == wxART_ZAZZLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZAZZLE))  
       return wxString(SVG_SIMPLE_ICONS_ZAZZLE);
-  if (id == wxART_ZCASH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZCASH))  
       return wxString(SVG_SIMPLE_ICONS_ZCASH);
-  if (id == wxART_ZDF)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZDF))  
       return wxString(SVG_SIMPLE_ICONS_ZDF);
-  if (id == wxART_ZEBRATECHNOLOGIES)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZEBRATECHNOLOGIES))  
       return wxString(SVG_SIMPLE_ICONS_ZEBRATECHNOLOGIES);
-  if (id == wxART_ZELLE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZELLE))  
       return wxString(SVG_SIMPLE_ICONS_ZELLE);
-  if (id == wxART_ZEND)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZEND))  
       return wxString(SVG_SIMPLE_ICONS_ZEND);
-  if (id == wxART_ZENDESK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZENDESK))  
       return wxString(SVG_SIMPLE_ICONS_ZENDESK);
-  if (id == wxART_ZENDFRAMEWORK)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZENDFRAMEWORK))  
       return wxString(SVG_SIMPLE_ICONS_ZENDFRAMEWORK);
-  if (id == wxART_ZENN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZENN))  
       return wxString(SVG_SIMPLE_ICONS_ZENN);
-  if (id == wxART_ZENODO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZENODO))  
       return wxString(SVG_SIMPLE_ICONS_ZENODO);
-  if (id == wxART_ZENSAR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZENSAR))  
       return wxString(SVG_SIMPLE_ICONS_ZENSAR);
-  if (id == wxART_ZERODHA)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZERODHA))  
       return wxString(SVG_SIMPLE_ICONS_ZERODHA);
-  if (id == wxART_ZEROMQ)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZEROMQ))  
       return wxString(SVG_SIMPLE_ICONS_ZEROMQ);
-  if (id == wxART_ZERPLY)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZERPLY))  
       return wxString(SVG_SIMPLE_ICONS_ZERPLY);
-  if (id == wxART_ZETTLR)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZETTLR))  
       return wxString(SVG_SIMPLE_ICONS_ZETTLR);
-  if (id == wxART_ZHIHU)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZHIHU))  
       return wxString(SVG_SIMPLE_ICONS_ZHIHU);
-  if (id == wxART_ZIG)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZIG))  
       return wxString(SVG_SIMPLE_ICONS_ZIG);
-  if (id == wxART_ZIGBEE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZIGBEE))  
       return wxString(SVG_SIMPLE_ICONS_ZIGBEE);
-  if (id == wxART_ZILCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZILCH))  
       return wxString(SVG_SIMPLE_ICONS_ZILCH);
-  if (id == wxART_ZILLOW)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZILLOW))  
       return wxString(SVG_SIMPLE_ICONS_ZILLOW);
-  if (id == wxART_ZINCSEARCH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZINCSEARCH))  
       return wxString(SVG_SIMPLE_ICONS_ZINCSEARCH);
-  if (id == wxART_ZINGAT)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZINGAT))  
       return wxString(SVG_SIMPLE_ICONS_ZINGAT);
-  if (id == wxART_ZOD)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZOD))  
       return wxString(SVG_SIMPLE_ICONS_ZOD);
-  if (id == wxART_ZOHO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZOHO))  
       return wxString(SVG_SIMPLE_ICONS_ZOHO);
-  if (id == wxART_ZOIPER)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZOIPER))  
       return wxString(SVG_SIMPLE_ICONS_ZOIPER);
-  if (id == wxART_ZOMATO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZOMATO))  
       return wxString(SVG_SIMPLE_ICONS_ZOMATO);
-  if (id == wxART_ZOOM)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZOOM))  
       return wxString(SVG_SIMPLE_ICONS_ZOOM);
-  if (id == wxART_ZORIN)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZORIN))  
       return wxString(SVG_SIMPLE_ICONS_ZORIN);
-  if (id == wxART_ZOTERO)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZOTERO))  
       return wxString(SVG_SIMPLE_ICONS_ZOTERO);
-  if (id == wxART_ZSH)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZSH))  
       return wxString(SVG_SIMPLE_ICONS_ZSH);
-  if (id == wxART_ZULIP)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZULIP))  
       return wxString(SVG_SIMPLE_ICONS_ZULIP);
-  if (id == wxART_ZWAVE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZWAVE))  
       return wxString(SVG_SIMPLE_ICONS_ZWAVE);
-  if (id == wxART_ZYTE)  
+  if (wxASCII_STR(id) == wxASCII_STR(wxART_ZYTE))  
       return wxString(SVG_SIMPLE_ICONS_ZYTE);
 
 
