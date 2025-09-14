@@ -1,15 +1,36 @@
 # Material Design icons Art Provider for wxWidgets
 
 This project contains a custom Art Provider for the wxWidgets containing all Material Design icons. 
-The original icons were taken from the [SVG Material Design](https://github.com/marella/material-design-icons) icons, the [SimpleIcons](https://github.com/simple-icons/simple-icons/tree/develop), the [FontAwesome 6.4](https://github.com/FortAwesome/Font-Awesome) and the [FluentUI icons](https://github.com/microsoft/fluentui-system-icons) repositories. 
-Generation of the wxWidgets core header files is fully automated, hopefully in the future it will be integrated with the CI for updates to the base repo.
 
-All SVG icons are hardcoded into headers such that no external files are needed to build the art provider class beyond those in `MaterialDesign/`. 
-So it should be relatively easy to add Material Design icon functionality to existing wxwidgets projects.
+Icons were originally taken from:
+* [SVG Material Design](https://github.com/marella/material-design-icons)
+* [SimpleIcons](https://github.com/simple-icons/simple-icons/tree/develop)
+* [FontAwesome 6.4](https://github.com/FortAwesome/Font-Awesome)
+* [FluentUI icons](https://github.com/microsoft/fluentui-system-icons)
+
+Headers are generated with the help of this IMCOMPLETE [script](scripts/create_folder_headers.py).
 
 # Building, Using
 
-A simple CodeBlocks project is provided to build the example on Windows (MSYS2) and MacOS (clang + homebrew). To add the `wxMaterialDesignArtProvider` class to your project, 
+Install CMake.
+
+Inside this repository, use this command SYNTAX:
+
+```bash
+$ cmake -B <any build folder you want, no need to be precreated>
+        -D<option>=<value>
+```
+
+Each icon types (Material Design, Simple Icons etc) are **only** available if you tell CMake to do so.
+
+Use these `boolean` options - set to `ON` - they are all turned off by default:
+
+* `ADD_AWESOME_ART`: Add FontAwesome.
+* `ADD_MDESIGN_ART`: Add Material Design.
+* `ADD_SIMPLE_ART`: Add Simple Icons.
+* `ADD_FLUENTUI_ART`: Add FluentUI.
+
+To add the `wxMaterialDesignArtProvider` class to your project, 
 just register it with the default art provider as: 
 
 ```c++
@@ -62,9 +83,9 @@ The color is provided as a `wxColour` additional input to the standard APIs, and
 
 The attached project contains a sample icon browser, modelled on wxWidget's standard one, and can be used to navigate all art names and styles: 
 
-![Art browser example on Windows](https://github.com/perazz/wxMaterialDesignArtProvider/blob/main/assets/art_browser_windows.PNG?raw=true)
+![Art browser example on Windows](assets/art_browser_windows.PNG)
 
-![Art browser example on MacOS](https://github.com/perazz/wxMaterialDesignArtProvider/blob/main/assets/art_browser_macos.PNG?raw=true)
+![Art browser example on MacOS](assets/art_browser_macos.PNG)
 
 ### License
 
